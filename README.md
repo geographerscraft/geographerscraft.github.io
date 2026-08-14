@@ -4,6 +4,7 @@
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=flat-square)](LICENSE.md)
 [![NSF Funded](https://img.shields.io/badge/NSF-Grant%20Supported-orange.svg?style=flat-square)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=9354476)
 [![GitHub Organization](https://img.shields.io/badge/GitHub-geographerscraft-black.svg?style=flat-square)](https://github.com/geographerscraft)
+[![Wikidata: Q141069817](https://img.shields.io/badge/Wikidata-Q141069817-006699.svg?style=flat-square&logo=wikidata)](https://www.wikidata.org/wiki/Q141069817)
 
 > **Preserving one of the world's first web-based electronic textbooks and laboratory curricula in Geographic Information Science (GIScience), GPS, and spatial techniques.**
 
