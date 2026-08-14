@@ -70,7 +70,7 @@ All legacy hypermedia modules are preserved with exact 1:1 fidelity:
 - **1990s (Inception & Active Development):** Initiated by Ken Foote and Peter Dana at the Department of Geography, University of Texas at Austin (`www.utexas.edu`).
 - **1999–2002 (CU Boulder Era):** Project relocated to the University of Colorado Boulder (`www.colorado.edu`) under Ken Foote's leadership.
 - **2013–2024 (UConn Era):** Hosted at the University of Connecticut (`uconn.edu`).
-- **2026 (Open Access Preservation):** Dr. Moulay Anwar Sounny-Slitine (former TA under Peter Dana for the project) coordinated with Ken Foote and Peter Dana to migrate and preserve the complete archive on GitHub Pages as a permanent Open Educational Resource for the international GIScience community.
+- **2026 (Open Access Preservation):** [Dr. Moulay Anwar Sounny-Slitine](https://sounny.com/) (former TA under Peter Dana for the project) coordinated with Ken Foote and Peter Dana to migrate and preserve the complete archive on GitHub Pages as a permanent Open Educational Resource for the international GIScience community.
 
 ---
 
@@ -85,7 +85,7 @@ All legacy hypermedia modules are preserved with exact 1:1 fidelity:
 | **Shannon Crum** | Contributor | Project lifecycle and implementation planning |
 | **Larry Daniel** | Contributor | GIS in the Workplace series |
 | **Lance Christian** | Technical Contributor | Relative link restructuring and archive preservation |
-| **Dr. Moulay Anwar Sounny-Slitine** | Preservation Lead | 2026 GitHub Pages re-hosting, repository governance, and archive maintenance |
+| **[Dr. Moulay Anwar Sounny-Slitine](https://sounny.com/)** | Preservation Lead | 2026 GitHub Pages re-hosting, repository governance, and archive maintenance ([sounny.com](https://sounny.com/)) |
 
 ---
 
