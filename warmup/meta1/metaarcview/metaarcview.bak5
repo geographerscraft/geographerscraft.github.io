@@ -1,0 +1,743 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="C:\Program Files\Microsoft Office\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; U) [Netscape]">
+   <title>meta1</title>
+</head>
+<body link="#0000FF" vlink="#800080">
+<img SRC="gif/x_cover.gif" height=235 width=570>
+<br>&nbsp;
+<h1>
+AN INTRODUCTION TO METAPONTO</h1>
+
+<h4>
+AND THE LAGO DEL LUPO DATA</h4>
+<i>The materials were developed by Shannon Crum and Kenneth Foote, Department
+of Geography, University of Texas at Austin, 1999. You may use these materials
+for education and research, but please cite the Geographer's Craft Project,
+Department of Geography, University of Colorado at Boulder and the author.
+If you have comments or suggestions, please contact: <a href="mailto:k.foote@colorado.edu">k.foote@colorado.edu</a>.&nbsp;
+All commercial rights reserved.</i>
+<p>
+<hr WIDTH="100%">
+<br>This page is available in a <a href="../meta1_f.html" target="_top">framed
+version</a>.&nbsp; For convenience, a <a href="../meta1_ftoc.html" target="_top">Full
+Table of Contents</a> is provided.
+<p><a href="../meta1.html">Instructions</a> for this exercise using Atlas
+GIS
+<br>
+<hr WIDTH="100%">
+<p><a NAME="about"></a>The data set, provided by Joseph C. Carter of the
+UT Classics Department, consists of sites in a defined area of the <a href="gif/x_area.gif">Metaponto
+<i>chora</i></a>
+(territory). The Metaponto <i>chora</i> (named for the ancient urban center
+of Metaponto within its boundaries) is roughly defined as the area extending
+10-12 Km northwest from the coastline, and contained by the Bradano and
+Basento Rivers, in the Basilicata region of southern Italy. Lago del Lupo
+is a modern regional designation comprising a large portion of the ancient
+<i>chora</i>,
+and it provides a convenient base map from which the data set can be organized.
+Thus, all Lago del Lupo sites are from the Metaponto
+<i>chora</i>,<i> </i>but
+not all of the <i>chora
+</i>sites are in the Lago del Lupo data set. In
+addition, the Lago del Lupo data set should not be confused with the Lago
+del Lupo site which was excavated as part of the Metaponto Project. The
+Lago del Lupo data was digitized by Naomi Cleghorn, now a graduate student
+in the UT Anthropology Department, as part of her undergraduate honors
+thesis.
+<h3>
+1. About this Exercise</h3>
+From around 600 BC. to 300 BC., colonists from Greece spread out through
+the Mediterranean and Black Sea. They brought with them their distinctive
+culture and all it encompassed--their agricultural economy, pottery, architectural
+styles, land tenure system, political systems, and religion. This Greek
+influence can be seen in the cultural landscape created by the Greeks in
+southern Italy. The more than 300- year span of their occupation in Italy
+is more than a colonial intrusion; consider that the European colonization
+of North American has not gone on much longer, and North Americans consider
+themselves to be quite different from European forebears. This exercise
+is first an introduction to GIS; second, it allows us to examine aspects
+of how the Greeks colonized the southern Italian landscape.
+<p>You will be creating a shape file of the region colonized by Greeks
+in southern Italy, importing a database to create an "event theme", then
+using the themes you've created to analyze the settlement pattern through
+time. This exercise does not have a fieldwork component (don't we wish
+we could go to Italy…).
+<h3>
+<a NAME="early"></a>2. Early Greek Colonization.</h3>
+Chronicling Greek colonization is a complex and confusing task. This is
+primarily due to the constant state of flux which characterized early Greek
+civilization. Classic Greek civilization, frequently referred to as a single
+entity by historians, was in reality, a group of individually governed
+city-states that shared similar cultural attributes. These self- governed
+municipalities were actually colonies themselves. From the time of their
+formation sometime after 1200 BC, until Roman conquest in 146 BC, these
+independent municipalities competed with each other, as well as with their
+Persian neighbors for control of the Aegean Sea and its associated territories.
+Thus, <i>Greek</i> refers to a culture rather than a specific governing
+body.
+<p>What may seem as a trivial point is actually a very important concept.
+Ancient Greek colonies were, in many respects, independent polities. There
+most definitely were political and economic ties with their founding territories,
+but the idea that these were far reaching extensions of an imperialistically
+motivated, unified Greek regime is erroneous. Greek colonization, therefore,
+should be thought of as an introduction of Greek culture into a new area
+by any one of a number of contemporaneous Greek civilizations.
+<p>With this in mind, it is not surprising that Greek colonization persisted,
+almost continuously, throughout ancient Greek history. Nevertheless, certain
+periods witnessed a greater degree of colonization than others. The period
+between 750 and 550 BC, for example, marked the first large-scale exodus
+of Greek culture from the Aegean, and was mainly targeted towards the Crimea
+and Marseilles. This expansion was motivated by an increased demand for
+trade goods by the flourishing and rapidly growing Aegean city- states.
+Another important period of colonization began around 440 BC, and was largely
+a consequence of peace (the war between Athenian allies and Persia ended
+in 448 BC, and the war between Athens and Sparta ended in 445 BC). Establishing
+colonies in Italy, Sicily, and the Black Sea territories were the main
+objectives this time.
+<p>Although these periods of colonization are well documented, they are
+typically generalized. New colonies are usually only referred to as Greek,
+even though a particular Greek territory was most likely responsible for
+the colonizing effort. Linking a colony to a particular Greek territory
+requires an extensive study of both the colony and any potential region
+of origin. Only relatively recently, have such detailed studies become
+commonplace.
+<h3>
+<a NAME="greek"></a>3. Greek Settlement of Metaponto.</h3>
+Sometime between 800 and 700 BC, adventurous Greek merchants began scouring
+the Mediterranean in search of tradewares for their home territories. As
+a consequence, several <a href="gif/x_coloni.gif">Greek colonies</a> began
+to form along the southern coastlines of Italy and Sicily. This trend continued
+through the seventh century BC, as some of these new polities began to
+establish colonies themselves. The indigenous populations initially resisted,
+but they soon either fled inland or were acculturated. The Greeks brought
+with them a highly organized agricultural system which enabled the colonies
+to flourish. Metaponto was one such colony. Fueled by Athenian prosperity,
+the late Classical and early Hellenistic periods (350-275 BC) saw in influx
+of new settlements into southern Italy, and Metaponto continued to grow.
+<p>&nbsp;Though the city of Metaponto was successful in its own right,
+it was the Metaponto <i>chora</i> that enabled the system to work. This
+symbiotic complex between the rural <i>chora</i> and urban center characterized
+the majority of Greek colonies, not just Metaponto. What makes Metaponto
+unique is that it is one of the few places where this relationship is directly
+observable in the archaeological record.
+<h3>
+<a NAME="ut"></a>4. UT Archaeology at Metaponto.</h3>
+Archaeologists were first attracted to the Metaponto <i>chora</i> in 1959,
+when a series of ancient land division lines showed up in aerial photographs.
+Subsequent surveys of rural sites by an international crew in 1965 directly
+led to UT's involvement, beginning in 1974.
+<p>The Metaponto <i>chora</i>, provides an appealing archaeological opportunity
+for several reasons. First, the preservation of land division lines is
+rare. Very few sites still exhibit these ancient clues to rural land organization,
+and the potential information that they offer is immense. A second consideration
+is that, like most parts of the world, good land is a prime commodity in
+southern Italy, and archaeological sites continue to lose out to agricultural
+expansion. A final factor is that few studies have concentrated solely
+on rural settlements. Urban sites tend to receive the majority of archaeological
+attention and resources (the ancient urban center of Metaponto, for example,
+has been undergoing excavation for decades). An opportunity to shed light
+on unexplored areas is a goal of every archaeologist.
+<p>&nbsp;The goals of the UT Metaponto project, since its inception, have
+been to chronicle the changes in livelihood of the rural populations that
+inhabited the Metaponto <i>chora</i>, throughout Greek and Roman occupation
+(about 700 BC - 400 AD). Over the years, the project has evolved into a
+international multi-disciplinary collaboration, where specialists in the
+various sub-fields of archaeology could pool the resources and work towards
+a common goal. Accomplishments include the <a href="gif/x_survey.gif">survey</a>
+of a 42 square kilometer area (revealing over 500 sites), extensive excavation
+and study of ancient crops and fauna, as well as the excavation of almost
+a dozen rural sites, including several <a href="gif/x_tomb.gif">burials</a>
+. Thousands of artifacts have been collected to aid in the analysis (including
+several hand- painted <a href="gif/x_vase.gif">vases</a> and other ceramic
+<a href="gif/x_urn.gif">vessels</a>
+). In addition to Metaponto, the field crew has been working in the <i>chora</i>
+of Croton since 1983, conducting similar investigations.
+<p>&nbsp;Though analysis and interpretation phases of the study are still
+ongoing, much has been learned about the <i>chora's</i> inhabitants. Thanks
+to multi-disciplinary efforts, we now know intimate details about the health
+and nutrition, working conditions, eating habits, agricultural techniques,
+burial practices, <a href="gif/x_goods.gif">material goods</a> , and many
+other aspects of the everyday lives of the rural population of the Metaponto
+<i>chora</i>.
+To learn more about Metapontine history and archaeology, please refer to
+the <a href="#references">References</a> section of this introduction.
+<p>
+<hr>
+<h3>
+<a NAME="references"></a>5. References</h3>
+<b>Carter, J. C. </b><i>Excavation in the Territory of Metaponto 1976</i>.
+Institute of Classical Archaeology, The University of Texas at Austin,
+1977.
+<p>&nbsp;<b>Carter, J. C. </b><i>Excavations at Metaponto, 1978</i>. Institute
+of Classical Archaeology, The University of Texas at Austin, 1978.
+<p>&nbsp;<b>Carter, J. C. </b><i>Excavations at Metaponto, 1979</i>. Institute
+of Classical Archaeology, The University of Texas at Austin, 1979.
+<p>&nbsp;<b>Carter, J. C. </b><i>Excavations in the Territory, Metaponto,
+1980</i>. Institute of Classical Archaeology, The University of Texas at
+Austin, 1980.
+<p>&nbsp;<b>Carter, J. C. (editor). </b><i>The Territory of Metaponto 1981-1982</i>.
+Institute of Classical Archaeology, The University of Texas at Austin,
+1977.
+<p>&nbsp;<b>Carter, J. C. (editor).</b> <i>The Pantanello Necropolis 1982-1989:
+An Interim Report</i>. Institute of Classical Archaeology, The University
+of Texas at Austin, 1990.
+<p>&nbsp;<b>Henneberg, Maciej, Renata Henneberg, and Joseph Coleman Carter.</b>
+Health in Colonial Metaponto. <i>National Geographic Research &amp; Exploration,
+</i>8(4):446-459,
+1992.
+<p>&nbsp;<b>Uden, Grant (editor).</b> Greece (Ancient). <i>Longman Illustrated
+Encyclopedia of World History</i>: 375-378, Ivy Leaf, London, 1989.
+<p>
+<hr>
+<p><a NAME="Atlas_GIS"></a>
+<p>
+<hr>
+<h3>
+<a NAME="Introduction"></a>6. Project Instructions</h3>
+ArcView has a number of analytic and graphic capabilities:
+<p>&nbsp;1. You can digitize maps, combining a number of sources, and edit
+these on the computer. The resulting electronic maps can contain up to
+250 separate layers. You can think of these layers as overlays. On a metropolitan
+area map, for example, you might have separate layers for roads, soils,
+hydrology (rivers, lakes, streams, etc.), land use, census tracts, public
+buildings, and utilities. These layers can be turned off and on. If you
+only need to look at roads and utilities, you can turn off the other layers
+so that they don't get in the way.
+<p>&nbsp;2. Using a built-in database system, you may enter, edit, display,
+and query data concerning these features. This data, called attribute data,
+is kept in spreadsheet form in separate files linked to the maps. The user
+creates the structure of these spreadsheets, and can edit them at any time.
+<p>&nbsp;3. You can select certain spatial or attribute features for display,
+query, and analysis.
+<p>&nbsp;4. Using built-in analytical tools, you can combine features and
+aggregate their data
+<p>&nbsp;using several different statistical methods, split features and
+disaggregate their data, create buffer regions around features, and perform
+point-in-polygon and similar operations.
+<p>&nbsp;5. You may assign geographic coordinates to address records in
+your database using an address-matching operation. This allows these records
+to be displayed, queried, and analyzed like any other feature.
+<p>&nbsp;6. You may produce thematic maps to graphically display information
+based on attribute data. Thematic map possibilities in ArcView include
+dot-density, proportional, ranged, and bi-variate maps. The system calculates
+the statistics necessary for creating these maps, and includes several
+ranging methods. The user controls all graphic aspects (e.g., color, shading,
+and fill pattern).
+<p>&nbsp;7. The program contains tools for setting various presentation
+parameters (e.g., page size, legends, and layout design) and freehand drawing
+tools. Paper copies of the maps can be made on printers or plotters.
+<p>&nbsp;8. Attribute data may be imported from or exported to some other
+programs.
+<br>&nbsp;
+<h3>
+<a NAME="File_Types"></a>7. ArcView File Types</h3>
+To understand ArcView, you must be familiar with our basic kinds of files.
+<p>&nbsp;1. <b>Shape (.shp) files </b>contain the map features of your
+workspace, i.e., the locational information. These map features consist
+of points, lines, and regions (the latter are also referred to as polygons
+or areas). These map features are assigned to various layers which the
+user defines, so that features of one type (e.g., roads) can be kept distinct
+from other types (e.g., census tract boundaries). This allows map features
+to be displayed, edited, and manipulated more easily. The Geo file keeps
+the x-y coordinates of each of these features on a separate spreadsheet,
+along with some very basic information, including the layer in which each
+feature is found, and its name. Each feature is also assigned a unique
+ID by which it is identified.
+<p>&nbsp;2. <b>Attribute tables (.dbf) </b>contain non-graphic information
+about each layer of your workspace. You define the types of attribute information
+to include. In a city GIS, for example, you might have census tract and
+census block pictures as geographic features on the map. The Attribute
+table might then contain information on population by tract and block,
+and the number of houses, businesses, schools, churches, etc. within each
+tract and block. None of this information appears on the map itself, but
+can be brought onto the computer screen in spreadsheet form. Each row of
+an Attribute table is linked to its corresponding geographic feature by
+the column of your choice.
+<p>&nbsp;3. <b>Point tables </b>are a combination of Geo files and Attribute
+tables, and are most useful for features that change with time. A Point
+table contains a row for one point (or location) on the map and its attribute
+information. The table also has the x-y coordinates for that point. You
+can think of Point tables like pins on a wall map marking the location
+of significant places or events. For example a city transportation office
+might want to keep a record of where traffic collisions occur, or monitor
+commuter flow. In the first case it would want a "pin" at the site of each
+traffic collision, and corresponding attribute information concerning causes,
+injuries, damage, etc. In the second case, it might want a "pin" for every
+place of business employing over 50 people, and information about type
+of business, parking, hours of operation, etc. The information in Point
+tables <i>could </i>be subdivided up between Geo files and Attribute tables,
+just as you <b>could </b>continually redraft paper maps to include new
+information. As with using pins on a wall map, however, a Point table allows
+you to create an overlay which requires fewer steps to update as the need
+arises.
+<p>&nbsp;4. <b>Project files (.apr) </b>contain complete <i>descriptions
+</i>of
+the workspaces, including the names of the Geo files, Attribute tables
+and Point tables used in the workspace, plus the program settings (e.g.,
+scale, title, page layout, symbols, etc.). Although the Project file won't
+actually contain any of your geographic, attribute, or datapoint data,
+it does keep a list of where all these files are stored. The Project file
+is useful because it saves time. By loading the Project file, you load
+your complete workspace, rather than having to load the separately. But
+remember, if you have moved some of your Geo files, Attribute tables and
+Point tables since you created a Project file, the Project file won't be
+able to recreate your workspace because its list of previous file locations
+will be incorrect.
+<p>
+<hr>
+<br>&nbsp;
+<p><img SRC="gif/flats.gif" height=138 width=361>
+<p><i>Archaeologists at Metaponto, Italy</i>
+<p>
+<hr>
+<h3>
+&nbsp;8. About this Exercise</h3>
+From around 600 BC. to 300 BC., colonists from Greece spread out through
+the Mediterranean and Black Sea. They brought with them their distinctive
+culture and all it encompassed--their agricultural economy, pottery, architectural
+styles, land tenure system, political systems, and religion. This Greek
+influence can be seen in the cultural landscape created by the Greeks in
+southern Italy. The more than 300- year span of their occupation in Italy
+is more than a colonial intrusion; consider that the European colonization
+of North American has not gone on much longer, and North Americans consider
+themselves to be quite different from European forebears. This exercise
+is first an introduction to GIS; second, it allows us to examine aspects
+of how the Greeks colonized the southern Italian landscape.
+<br>&nbsp;
+<h3>
+9. Downloading the Data</h3>
+To begin, you need to ftp to <b>austin.grg.utexas.edu</b> using the anonymous
+login. Open the METAPONT/Arcview directory and download the metaponto.zip
+file. Make sure the the transfer format is set to binary. You must use
+<b>WinZip</b>
+to <b>Open</b> the metaponto.zip file in your directory. Highlight all
+of the files, then select <b>Extract</b>. This will unzip all the <b>Lago</b>
+files.
+<p>Alternatively, the files can be obtained from the <a href="../downloadarc">download</a>
+directory by clicking on each file while holding down the shift key.
+<p><a NAME="About_Exercise"></a><u>Note:</u> Please take a look at the
+last page of this exercise first. The "What to hand in" section may influence
+your approach to it.
+<h3>
+<a NAME="Starting"></a>10. Starting ArcView</h3>
+To run ArcView, click on the START button, then follow the path to PROGRAMS,
+ESRI, ArcView.
+<p>&nbsp;The program takes time to load. Once loaded, the ArcView Window
+appears. Automatically opening within this window is a window named "Untitled
+". This is your working area or page.
+<h3>
+<a NAME="Loading_Geo"></a>11. Creating a Project File</h3>
+Put your diskette containing the LAGO files in the A:drive of the computer.
+This is the diskette you formatted previously and the one to which you
+copied the LAGO files during class.
+<p>&nbsp;On the ArcView main menu, highlight the <b>File </b>command so
+that its pull-down menu appears, then select <b>New Project</b>. You will
+have to create a VIEW in which to load the ArcView themes containing the
+data for this project. Once the VIEW is created (VIEW1), add your first
+theme. This will be the <b>LAGO</b> theme. Remember it's on your floppy
+disk.
+<h3>
+<a NAME="Loading_Attribute"></a>12. Adding Event Themes</h3>
+<a NAME="View"></a>The LAGO theme contains the outline and "division lines"
+of the Metaponto dig, but no information about specific sites. This information
+is contained in a database that has not yet been converted into a geographic
+theme. You must use the database to create an EVENT THEME (Chapter 25 of
+GTKAV).
+<h3>
+13. The View Commands</h3>
+Now that you have files loaded, you can begin experimenting with your workspace.
+To enlarge the map so that it fills the working area, choose <b>View |
+Full Extent</b>.
+<p>&nbsp;Next, from the Tool Box, choose <b>Zoom In</b>. This is the button
+with the magnifying glass and the + sign. This allows you to zoom in on
+a certain area by creating a "zoom box" which defines the area to be enlarged.
+Position the cursor where you would like the first corner of the zoom box
+to be set (notice that on the bottom of the screen, the status line for
+X and Y show the changing longitude and latitude coordinates of the cursor.
+When the cursor is where you want it, press the left button down and hold
+it. While holding the button down, move the cursor and you will see a dynamic
+zoom box grow. To set the opposite corner, position the box where you want
+it and release the button. The screen is automatically redrawn to the new
+scale (the new scale is shown in the status area).
+<p>&nbsp;From the Tool Box, choose <b>Zoom Out</b>, which is the button
+with a magnifying glass and a - sign. This is a trickier process. When
+you set the zoom box under this command, the currently displayed map area
+shrinks to fit within the new zoom box, thereby bringing a wider portion
+of the map into view. You may have to experiment with this operation a
+few times to get the hang of it, but it can be very useful when you find
+that you've zoomed in too close on a feature and want to pull back a bit.
+<p>&nbsp; To pan across the map in any direction by locating a new center
+for display, choose the <b>Pan </b>button on the Tool Box, which looks
+like a hand. Try it. When you move the cursor back into the map frame,
+it will appear as a hand. To move the map, press and hold the left button
+of the mouse. Note that you are simultaneously moving a box representing
+the map area. Release the button when the outline box is positioned where
+you want it.
+<h3>
+<a NAME="Layer"></a>14. Layer Display</h3>
+<img SRC="gif/tomb1.gif" height=233 width=500>
+<p>&nbsp;<i>tomb site, Metaponto, Italy</i>
+<p>&nbsp;There are four Themes in the METAPONTO ZIP file: Steams, Transect,
+Division, and Allsites.&nbsp;&nbsp;&nbsp; In addition to the three themes,
+there is one database file containing the latitude, longitude, and attribute
+information for all the sites found in the Metaponto transect. This database
+is called LAGO.DBF. The Allsites theme contains points showing where the
+sites are in the transect but contains no information about the individual
+sites' characteristics. This is all found in LAGO.DBF. As a first step
+you should convert LAGO.DBF into a shape file by ADDING an EVENT THEME.
+Refer to your <i>Getting to Know ArcView</i> book or the ArcView manual
+for instructions.
+<h3>
+<a NAME="Selecting"></a><a NAME="Exploring"></a>15. Exploring the Metaponto
+Data Using Thematic Mapping</h3>
+In this section you will explore the type and ages of sites in the study
+area by mapping them several times. You are probably familiar with maps
+that use color coding, variable shading, dot- density, and proportional
+symbols to display data.&nbsp; Thematic mapping in ArcView allows you to
+choose one or two variables from the attribute files for display in ranged
+maps, proportional maps, or dot-density maps. The program will calculate
+the necessary statistics for you, but also allows you to adjust these yourself
+to fine-tune your display.
+<p>&nbsp;Click on the check boxes in the View Table of Contents<b> </b>and
+make sure that the Division and layer is off, as you will be working with
+Lago and Streams.
+<p>&nbsp;Now, highlight the Lago layer in the table of contents, then double
+click on it to bring up the legend dialogue box.. You want to create <b>a
+GRADUATED COLOR</b> map displaying the different <b>TYPE</b>S of site.
+<p>Now, click on the <b>Classify</b> button. Take a minute to examine the
+graduated color dialog box. In the top pulldown menu are classification
+options you can change. Pick <b>Equal Interval </b>as the ranging method,
+and type in the number 5 as the <b>Number of Classes</b>. Click on the
+<b>OK</b>
+button and watch the modifications made to accommodate the 5 ranges. Now,
+select the first row in the column Values and type <b>0</b>, then hit <b>Enter</b>.
+Now, using the arrow keys, move down this column and insert the values
+1,2,3,4, respectively, for ranges 2 through 5. <b>Apply</b>, again, to
+have ArcView divide the data according to your list.
+<p>&nbsp;After ArcView has re-divided the data, study the distribution
+of the site types. <b><i>The codes for this variable are: 0 is for unknown;
+1 is for farms; 2 is for tombs; 3 is for "scatter"; and 4 is for other.</i></b>
+<p>&nbsp;The result of this operation is a map, but a cartographically
+unacceptable map because it doesn't contain all the map elements needed
+to communicate its message effectively and because these elements have
+not been effectively arranged on the map--all issues of cartographic content
+and composition. Fortunately, ArcView provides you with the tools you need
+to produce an effective map, and these will be discussed in the subsequent
+steps of this exercise as well as in class.
+<p>&nbsp;The best way to learn about the other thematic mapping methods
+is to play with them and experiment with different ranges, values, symbols,
+and colors. Remember that you can use the mouse to explore the options
+presented by the various menus (look especially for fill style, and color).
+Feel free to do this, you can't hurt anything: Detailed explanations of
+thematic types and ranging methods are found in the ArcView manual.
+<h3>
+<a NAME="Mapping_by_Age"></a><a NAME="Laying_out"></a>16. Mapping Sites
+By Age</h3>
+Now we would like to map the sites by their age. This data has been coded
+into the variable named AGE. <b><i>The codes for AGE are: 0 is unknown;
+1 is pre-Greek; 2 is 600-575 BC; 3 is 575-550 BC; 4 is 550-525 BC; 5 is
+525-500 BC; 6 is 500-475 BC; 7 is 475-450 BC; 8 is 450-425 BC; 9 is 425-400
+BC; 10 is 400-375 BC; 11 is 375-350 BC; 12 is 350-325 BC; 13 is 325-300
+BC; 14 is 300-275 BC; and 15 is post-Greek.</i></b>
+<p>&nbsp;Make sure <b>LAGO</b> is highlighted in the Table of Contents.
+Create a legend with a graduated symbol using <b>AGE </b>as the variable
+to be mapped.<b> </b>Pick <b>Unique Values </b>as the Method. Move to the
+Value column for Range 1 and click the mouse. Move down through the column
+and type in the numbers 1 to 15 for the respective 15 ranges<b>. </b>These
+values (1-15) correspond to the 15 age classes into which the various sites
+are subdivided. Each subdivision corresponds to an approximately 50-year
+period. This level of chronological accuracy is pretty spectacular for
+archaeological research, but since many aren't confident that ceramic types
+can be dated quite so accurately, we are lumping the datings into these
+larger classes.
+<p>&nbsp;ArcView is dividing the data according to these ranges. Study
+the distribution of settlement age.
+<p>&nbsp;Now that you have looked at the overall distribution of sites
+by age, let's make a map that divides the sites into five age groups: pre-
+Greek; 600-475 BC sites; 475-375 BC sites; 375-275 BC sites; and post-
+Greek sites. To do this move up and change the Classifiction Method to
+<b>Equal
+Interval </b>with five as the number of ranges. In the spreadsheet below,
+there are now columns for minimum and maximum values. For the five Ranges,
+fill in the following values: 1 1; 2 6; 7 10; 11 14; 15 15. <b>Calculate</b>.
+<p>&nbsp;For pre-Greek settlements (Range=1) choose a black filled circle
+of size 6. For post-Greek settlements (Range=5) choose a blue open box
+of size 6. For the Greek settlements of the three time periods, choose
+a green open + (plus) of size 8 for the earliest period (Range=2), a red
+open circle of size 8 for intermediate period (Range=3), and a red filled
+circle of size 10 for the most recent period (Range=4). Click on <b>Apply
+</b>when
+you are finished.
+<p>In the right side of the LEGEND EDIT window, edit the descriptions for
+each range:
+<ul>
+<li>
+1 to 1 = Pre-Greek</li>
+
+<li>
+2 to 6 = 600-475 BC</li>
+
+<li>
+7 to 10 = 475-375 BC</li>
+
+<li>
+11 to 14 = 375-275 BC</li>
+
+<li>
+15 to 15 = Post-Greek</li>
+</ul>
+
+<h3>
+17. Create an acceptable layout for your map (title, north arrow, legent).</h3>
+Save your work with the command <b>File | Save As</b>. Make sure you are
+in the A:drive, then type in the file name <b>LAGOMAP1. </b>This creates
+a Project file.<b> </b>The Project file keeps a record of all ArcView<b>
+settings </b>in effect when you create the Project file (but it does not
+contain your actual boundary and data files--only a record of the ones
+you used and where they are located on the disk). The Project file serves
+as a sort of folder containing a record of where you left off in your work
+and allows you to return to this place when you begin your next session.
+Warning: Once you create a Project file, it can only be used again if the
+files you were using at the time of its creation (in this case the LAGO
+files) are in exactly the same disk location (in this case the floppy in
+the A:drive). Click on <b>OK.</b>
+<p>&nbsp;Study this map carefully keeping in mind the larger archaeological
+questions about the ways the Greeks colonized this landscape. Where, for
+instance, did the Greeks colonize first? If you cannot see patterns, experiment
+with changing symbols, sizes, and colors to make it clearer.
+<h3>
+<a NAME="Printing"></a>18. Printing a Map</h3>
+When everything is satisfactory, you can print your map. The printers are
+Hewlett-Packard Deskjet printers, which use 8 1/2" x 11" paper.
+<h3>
+<a NAME="Hand_In"></a><a NAME="Additional_Attribute_Data"></a>19. Creating
+Additional Attribute Data Fields</h3>
+Let's say you would like to create a new variable so that you can recode
+some of the information in the Attribute table. In this case, you would
+like to create a variable called PHASE that will recode the fifteen AGE
+codes to five PHASE codes for further analysis.
+<p>Choose <b>Table | Start Editing. </b>You will know the table is available
+for editing when the Column Headings change from Italic to Roman fonts.
+Now choose <b>Edit | Add Field</b>. The Field Definition box pops up. Now,
+to define a column for PHASE, fill in the fields as follows:
+<ul>
+<li>
+Name = <b>PHASE</b></li>
+
+<li>
+Type = <b>Number</b></li>
+
+<li>
+Width = <b>1</b></li>
+
+<li>
+Decimal Places = <b>0</b></li>
+</ul>
+The above settings create a new column in the Attribute table named PHASE,
+which will contain a single one-digit number. No decimal points will be
+included. The width specifies the number of columns ArcView will use to
+display the variable in the table.
+<p>Click on <b>OK </b>when finished with this form. Your new field appears
+as a column without any data below it.
+<h3>
+<a NAME="Recoding_by_Expression"></a>20. Recoding Data by Expression</h3>
+After creating a column in the spreadsheet for a new variable, you will
+wish to fill it with new values, by row, for each site. In this case, ArcView
+can do most of the dirty work for you by querying and using the calculate
+tool. Go to <b>Table | Query</b>. A Calculate Column dialog box appears.
+Fill this in as follows:
+<ul>
+<li>
+Fields = <b>AGE</b></li>
+
+<li>
+Value = <b>1</b></li>
+</ul>
+Make a new set selecting all the records where AGE = 1. Click <b>New Set</b>
+when you are finished. All the records with an age of 1 are selected. Now
+make sure phase is the highlighted column in the table and click on the
+Calculate button (or <b>Field | Calculate</b>). <b>Phase =</b> appears
+just above the empty dialogue box. Type in <b>1</b> and click on <b>OK</b>.
+All the records you selected with your <b>age=1</b> query now have a value
+of 1 in the Phase column.
+<p>You have recoded only one value of AGE. Now you must repeat the previous
+step four more times, each time with a different query statement. Again,
+go to <b>Table | Query. </b>This time, fill this in as follows:
+<p><b>( [Age] > 1) and ([Age] &lt; 7 )</b>
+<p>This expression can be read as follows: "if the value of AGE is greater
+than 1 and less than 7 (i.e. 2-6) then select it. Now use the calculate
+button, assigning a value of <b>2</b> for the phase.
+<p>Now, repeat this step for each of the following expressions to complete
+the remainder of the recoding: <b>6-11 (phase=3), 10-15 (phase=4), 15 (phase=5)</b>.
+<h3>
+<a NAME="Map_of_PHASE"></a>21. Creating a Thematic Map of PHASE</h3>
+Now you will create a thematic map of PHASE using the steps outlined in
+the previous Metaponto exercise. Indeed, this new map should be identical
+to the one you plotted for the last exercise. Choose PHASE as the variable
+expression. Pick symbol styles so that pre-Greek and post-Greek settlements
+use the same color by different symbols, and so the three phases of Greek
+settlement use the same symbol, but in three different colors.
+<h3>
+<a NAME="Tombs_by_PHASE"></a>22. Examining Tombs by PHASE</h3>
+Now that we have recoded AGE into the PHASE variable, let's consider the
+number and distribution of <b>tombs</b> by this new variable. Let's go
+about this analysis in three steps, one for each phase of Greek settlement.
+We'll ignore pre- Greek and post-Greek periods.
+<p>First, make sure LAGO.DBF is your active theme. Then you will want to
+<b>Query.
+</b>In
+the dialog box that appears, specify: <b>PHASE = 2 AND TYPE = 2.</b> This
+condition will search for tombs (TYPE=2) in the first period of Greek settlement
+(PHASE=2). Click on <b>New Set</b>, to see the highlighted results.
+<p>Once you have examined this map, click the <b>clear selected features</b>
+button to clear your selections. (You don't want these selections to interfere
+with your subsequent searches.)
+<p>Second, <b>Query </b>and use<b> PHASE = 3 AND TYPE = 2</b>. Examine
+the results.
+<p>Once you have examined this map, deselect the features<b>.</b>
+<p>Third, <b>Query </b>and select <b>PHASE = 4 AND TYPE = 2</b>. Examine
+the results.
+<p><b><i><font size=+1>Is there a trend in the number of tombs by settlement
+phase? After you have considered this issue, deselect the features.</font></i></b>
+<h3>
+<a NAME="PHASE_and_TYPE"></a><a NAME="PHASE_and_ELEV"></a>23. PHASE and
+ELEV (Elevation): Another Bivariate Relationship</h3>
+Now consider the relationship between PHASE and site elevation (ELEV) in
+the same way. We are interested with whether the farms moved up-slope or
+downslope during the three phases of Greek settlement.. In ArcView the
+easiest way to map a bivariate relationship is to first isolate part of
+the dataset using the THEME-PROPERTIES window. Inside that dialogue box
+For the Ranging Method of the ELEV variable, use Graduated Color and 2
+Number of Ranges. Set 0 and 88 as the Min and Max values for Range 1. Set
+89 and 122 as the Min and Max values for Range 2. These values are taken
+from the Statistics subpanel. The Maximum Elevation of a site in the Allsites
+layer is 122 and the Average Elevation is 87.69, which we are using as
+a breakpoint between the two ranges.
+<p>Remember, you'll have to edit the map elements to produce an acceptable
+map. Remember the steps you used in Exercise 1 to move, resize, and edit
+map elements.
+<p>Create a Project file here so that you can return to this step later
+for further work and for plotting the map.
+<h3>
+<a NAME="Layers_by_PHASE"></a>24. Creating New Layers by PHASE</h3>
+Now let's create separate map layers for sites of each PHASE. That is,
+let's divide the sites recorded in the LAgo layer by PHASE and then copy
+them into three separate layers for further independent analysis. In this
+procedure, a separate database table will also be created and attached
+their respective layers for following steps in this exercise.
+<p>First, <b>Query . </b>Select <b>PHASE</b> as the Column and <b>2</b>
+as the Value. When you are finished, highlighted on the map are all the
+sites of PHASE=2. <b>Now Theme | Convert to Shapefile. </b>In the dialogue
+box, point the computer to the directory where you are keeping the metaponto
+files (otherwise you'll lose track of the file) and name the new layer
+PHASE2. When asked if you want to add the theme, say yes. You'll have to
+check the new theme on to make it visible.
+<p>Second, repeat the procedure for PHASE 3 sites.
+<p>Third, repeat the procedure for PHASE 4 sites.
+<p>You have now created three new themes in your project, each with their
+own separate database tables. You can't see them well since they overlay
+the LAGO.DBF features. Turn "Off' Lago and turn "On" each of the new layers
+one at the time if you haven't already done so.
+<h3>
+<a NAME="Streams_by_PHASE"></a>25. Proximity to Streams by PHASE</h3>
+Now that we have separated the sites by PHASE, we wish to consider their
+proximity to streams in the three periods of Greek settlement. That is,
+through time, were the sites established closer or further away from the
+streams? There may or may not be any significant relationship between streams
+and settlement locations at the time when these settlements were occupied.
+The tools used in this part of the exercise, however, could be used to
+examine all sorts of proximity relationships, such as the numbers of sites
+within some distance of sites presumed to be economically, politically,
+or religiously important. Again, we will move through this analysis in
+three identical steps, one step for each phase.
+<p>First, let's consider this proximity relationship for PHASE=2. Turn
+off Lago, PHASE3, and PHASE4. Make sure PHASE2 is visible and that it is
+the active theme.<b> </b>Then go to <b>Theme | Select by Theme</b>. You
+will be selecting features in the PHASE2 layer that are within 100 meters
+of streams. You want to select features of the active theme (that would
+be PHASE2) that <b>are within distance of</b> the selected features of
+Streams. <b>IF METERS IS NOT GIVEN AS THE UNIT OF MEASUREMENT IN THE DIALOGUE
+BOX YOU MUST CHANGE THE MAP UNITS AND DISTANCE UNITS IN THE <i>VIEW | PROPERTIES</i>
+DIALOGUE BOX.</b>
+<p>Second, consider proximity in relationship to PHASE=3.
+<p>Finally, consider proximity in relationship to PHASE=4.
+<p>For each of these queries, it may be helpful to examine the table statistics
+to determine what portion of the sites in each phase lie within 100 meters
+of a stream.
+<h3>
+<a NAME="Using_Buffers"></a>26. Using Buffers to Measure Proximity to Division
+Lines</h3>
+The division lines in your file may be the remains of a very early land
+survey system that may have been used by the settlers to align roads and
+plat farms. It would be interesting to investigate the association of division
+lines with the archeological finds by PHASE. This time we will use <b>Select
+by Theme</b> to assess the relationship between site location and division
+lines. We want to use these zones to pick out sites that are close to division
+lines in each of the PHASE layers.
+<p>To accomplish this task for PHASE2, make sure it is the active theme
+and then go to <b>THEME | SELECT BY THEME. </b>This allows you to select
+features that lie within a prescribed distance of other features, in this
+case sites falling within a division line buffer zones. The settings in
+the dialog box should be set as follows:
+<p><b>Select features of active themes that are within distance of the
+selected features of division.shp. Selection distance = 50 m.</b>
+<p>Click on<b> New Set. </b>How many sites were selected?
+<p>Now look at the theme table and click<b> EDIT | SWITCH SELECTION. </b>Just
+below the toolbar is a box telling you what number of the records are selected.What
+is the proportion of PHASE2 sites falling inside the stream buffer zone?.
+<p>Do the same thing for PHASE3 and PHASE4.
+<p>Does there appear to be a clear relationships between division lines
+and sites in any of the three periods of Greek settlement?
+<h3>
+<a NAME="Division_Lines"></a>27. Tombs and Division Lines</h3>
+Perhaps it would be better to refine the previous analysis. Considering
+the relationship of division lines to all archeological remains in the
+study area may be too coarse a method of analysis. Any possible relationship
+between, say, farms and division lines or tombs and division lines might
+be lost by including all TYPES of site in analysis.
+<p>Refine your analysis to consider the relationship between division lines
+and farms and division lines and tombs in the Lago, PHASE2, PHASE3, and
+PHASE4 layers. Use the techniques previously introduced to develop your
+own analytical strategy.
+<h3>
+<a NAME="Clean_up"></a>28. Clean-up</h3>
+Before you leave ArcView, always make sure you have created project views
+as needed so you can return to the different parts of your work.&nbsp;
+Also, make sure ALL the files you created and used for the project are
+saved on your floppy disk. The PROJECT file is NOT the only file you need
+to make this assignment work. All the SHAPE, DATABASE, and PROJECT files
+must be on the diskette together.
+<h3>
+29. What to Hand In (This is the GROUP part of the assignment)</h3>
+For this exercise, please hand in:
+<ol>
+<li>
+One 3.5" diskette containing ALL the LAGO files, plus:</li>
+
+<li>
+A Project file containing a map of allsites by TYPE,</li>
+
+<li>
+A plotted map of allsites by AGE.</li>
+
+<li>
+A complete, plotted map of the relationship between PHASE and TYPE.</li>
+
+<li>
+A complete, plotted map of the relationship between ELEVATION and PHASE.</li>
+
+<li>
+A brief written analysis (which may include maps) of the relationships
+of PHASEand TYPE, ELEV and PHASE, and of the relationship of division lines
+to farms and tombs.</li>
+</ol>
+
+<hr>
+<p>Last Revised 2.1.2000. LNC.
+</body>
+</html>

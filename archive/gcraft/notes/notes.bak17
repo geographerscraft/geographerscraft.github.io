@@ -1,0 +1,153 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en]C-DIAL  (Win95; U) [Netscape]">
+   <TITLE>Notes for GIS and The Geographer's Craft</TITLE>
+</HEAD>
+<BODY TEXT="#663300" BGCOLOR="#FFFFCC" LINK="#0000FF" VLINK="#FF0000">
+
+<CENTER><IMG SRC="gif/notes1.gif" ALT="Lecture" and Discussion Notes ></CENTER>
+&nbsp;
+
+<P>
+<HR>
+<H4>
+<A HREF="../exam/exam.html">Sample
+Examination and Study Questions</A></H4>
+
+<HR><I><A HREF="remote/remote_f.html">Aerial Photography and Remote Sensing</A></I>
+by Shannon Crum -- An introduction to the basic concepts of remote sensing,
+with emphasis on air photograph interpretation. Also includes background
+on common satellite imaging systems.
+<H4>
+Application Areas</H4>
+
+<UL>
+<LI>
+<I><A HREF="gisapps/reengr.html">GIS Helping to Re-engineer Real Estate</A></I>
+by Larry Daniel</LI>
+
+<UL>This article, which appeared in the November 1994 issue of <I>Earth
+Observation Magazine</I>, outlines the growing use of GIS in the private
+sector.</UL>
+
+<LI>
+<I><A HREF="gisloran/gisloran.html">Geographic Information System Loran-C
+Coverage Modeling</A></I> by Peter H. Dana</LI>
+
+<UL>This paper, originally published in <I>The Proceedings of the Twenty-Second
+Annual Technical Symposium</I> discusses the advantages GIS technologies
+offer over traditional Loran-C coverage prediction programs.</UL>
+
+<LI>
+<I><A HREF="gisapps/sdss.html">Spatial Decision Support Systems for Location
+Planning</A></I> by Larry Daniel</LI>
+</UL>
+<I><A HREF="cartocom/cartocom_f.html">Cartographic
+Communication</A></I> by Kenneth E. Foote and Shannon Crum -- These notes
+include discussions of map elements, effective typography and symbolization,
+statistical generalization, and trends in computer-aided cartography. This
+unit contains over 60 graphics illustrating key points.
+
+<P><I><A HREF="coordsys/coordsys_f.html">Coordinate Systems</A></I> by
+Peter H. Dana -- this overview of coordinate systems for georeferencing
+provides a brief description of local and global systems for use in precise
+positioning, navigation, and geographic information systerms for the location
+of points in space.
+
+<P><I><A HREF="sources/sources_f.html">Data Sources</A></I> by Kenneth
+E. Foote and Margaret Lynch
+
+<P><I><A HREF="datacon/datacon_f.html">Database
+Concepts: Issues of Modeling and Representation</A></I> by Kenneth E. Foote
+and Donald J. Huebner. Discusses raster and vector methods, database file
+structure, and topological relationships.
+
+<P><I><A HREF="error/error_f.html">Error, Accuracy, and Precision</A></I>
+by Kenneth E. Foote and Donald J. Huebner -- Lecture notes developed for
+the Geographer's Craft project. Defines accuracy, precision, and error,
+discusses types and sources of inaccuracy and imprecision, describes problems
+of error propagation and cascading error.
+
+<P><I><A HREF="ethics/ethics_f.html">Ethical Issues in Electronic Information
+Systems</A></I> by Margaret Lynch -- What challenges have technical advances
+in Electronic Information Systems presented for professional ethics? This
+module discusses the role of ethincs in the rapidly evolving world of Electronic
+Information Systems, outlines emerging standards of conduct ("netiquette"),
+acceptable use policies, network-related copyright law, privacy issues,
+and ethical issues directly related to the use and management of GIS data.
+
+<P><I><A HREF="datum/datum_f.html">Geodetic Datums</A></I> by Peter H.
+Dana -- Discusses the datums which define various reference systems. Includes
+discussions of geometric models of the earth, global coordinate systems,
+types of datums, and datum conversions.
+
+<P><I><A HREF="intro/intro_f.html">GIS: Context, Concepts, and Definitions</A></I>
+by Kenneth E. Foote and Margaret Lynch -- An introduction to the use of
+information technologies in geography. This module includes definitions
+of cartography, computer-aided drafting, photogrammetry and remote sensing,
+spatial statistics, and geographic information systems. It also outlines
+the course of technological innovation, and examines GIS as an integrating
+technology.
+<BR>&nbsp;
+<H4>
+GIS in the Workplace</H4>
+
+<UL>
+<LI>
+<I><A HREF="atwork/connect.html">Well-Connected Geographics</A></I> by
+Larry Daniel</LI>
+
+<LI>
+<I><A HREF="atwork/evolving.html">The Evolving GIS Workplace</A></I> by
+Larry Daniel</LI>
+
+<LI>
+<I><A HREF="atwork/identify.html">Identifying GIS for What Its Worth</A></I>
+by Larry Daniel</LI>
+
+<LI>
+<I><A HREF="atwork/looking.html">Looking and Thinking Beyond the Department</A></I>
+by Larry Daniel</LI>
+</UL>
+<I><A HREF="gps/gps_f.html">The Global Positioning System (GPS)</A></I>
+by Peter H. Dana -- A widely-used overview of GPS. Includes everything
+from a beginner's overview to rather advanced calculations, and links to
+related sites.
+
+<P><I><A HREF="legal/legal_f.html">Legal Issues Relating to GIS</A></I>
+by Margaret Lynch and Kenneth E. Foote -- Legal perspectives on the goal
+of public access and the right to privacy. This module includes sections
+on the Freedom of Information Act, the Open Records Act, product (GIS data)
+liability, and copyright law.
+
+<P><I><A HREF="manerror/manerror_f.html">Managing Error</A></I> by Kenneth
+E. Foote and Donald J. Huebner--Lecture notes developed for the Geographer's
+Craft project. Information and techniques for controlling and managing
+error in GIS projects. Examples of attribute accuracy, calculating Cohen's
+Kappa, and sensitivity analysis.
+
+<P><I><A HREF="mapproj/mapproj_f.html">Map Projections</A></I> by Peter
+H. Dana -- Introduction to map projections with <U>lots</U> of illustrations
+and links to related sites.
+
+<P><I><A HREF="lifecycle/lifecycl_f.html">Project
+Lifecycle and Project Planning</A></I> by Kenneth E. Foote and Shannon
+Crum
+
+<P>&nbsp;
+<HR>
+<CENTER><A HREF="http://www.utexas.edu/depts/grg/forms/comments.html"><FONT SIZE=+1>C</FONT>omments</A>
+| <A HREF="http://www.utexas.edu/depts/grg/main.html"><FONT SIZE=+1>D</FONT>epartment
+of Geography</A> | <A HREF="../contents.html"><FONT SIZE=+1>T</FONT>he
+Geographer's Craft</A></CENTER>
+
+<CENTER>&nbsp;
+<HR>Menu last revised 18 October 1999. LNC.</CENTER>
+
+<CENTER>&nbsp;Send questions or comments to <A HREF="mailto: k.foote@mail.utexas.edu">Kenneth Foote </A> 
+ Department of Geography, The University of Texas at Austin</CENTER>
+
+</BODY>
+</HTML>
+

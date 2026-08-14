@@ -1,0 +1,481 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="AUTHOR" content="Peter H. Dana">
+   <meta name="OPERATOR" content="Peter H. Dana">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>Geodetic Datum Overview</title>
+</head>
+<body text="#000000" bgcolor="#80FFFF" link="#0000FF" vlink="#800080" alink="#800080">
+<img SRC="gif/gd.gif" >
+<h1>
+Geodetic Datum Overview</h1>
+
+<address>
+<a href="http://www.pdana.com">Peter H. Dana</a></address>
+
+<p><i>These materials were developed by Peter H. Dana, Department of
+Geography, University of Texas at Austin, 1995.&nbsp; These materials may
+be used for study, research, and education in not-for-profit applications.&nbsp;
+If you link to or cite these materials, please credit the author, Peter
+H. Dana, The Geographer's Craft Project, Department of Geography, The University
+of Colorado at Boulder.&nbsp; These materials may not be copied to or issued
+from another Web server without the author's express permission.&nbsp;
+Copyright &copy; 1999 Peter H. Dana. All commercial rights are reserved.&nbsp;
+If you have comments or suggestions, please contact the author or Kenneth
+E. Foote at <a href="mailto:k.foote@colorado.edu">k.foote@colorado.edu</a>.</i>
+<p>This page is available in a <a href="datum_f.html" target="_top">framed
+version</a>.&nbsp; For convenience, a <a href="datum_ftoc.html">Full Table
+of Contents</a> is provided.
+<p>
+<hr>Revised: 12/15/99
+<br>
+<hr>
+<h2>
+Associated Overviews</h2>
+<a href="../mapproj/mapproj.html"><img SRC="gif/mpmini.gif"  align=CENTER></a><a href="../coordsys/coordsys.html"><img SRC="gif/csmini.gif"  align=CENTER></a><a href="../gps/gps.html"><img SRC="gif/gpsmini.gif"  align=CENTER></a>
+<hr>
+<h1>
+<a NAME="Intro"></a>Introduction to Geodetic Datums</h1>
+
+<ul>
+<li>
+Geodetic datums define the size and shape of the earth and the origin and
+orientation of the coordinate systems used to map the earth. Hundreds of
+different datums have been used to frame position descriptions since the
+first estimates of the earth's size were made by Aristotle. Datums have
+evolved from those describing a spherical earth to ellipsoidal models derived
+from years of satellite measurements.</li>
+
+<li>
+Modern geodetic datums range from flat-earth models used for plane surveying
+to complex models used for international applications which completely
+describe the size, shape, orientation, gravity field, and angular velocity
+of the earth. While cartography, surveying, navigation, and astronomy all
+make use of geodetic datums, the science of geodesy is the central discipline
+for the topic.</li>
+
+<li>
+Referencing geodetic coordinates to the wrong datum can result in position
+errors of hundreds of meters. Different nations and agencies use different
+datums as the basis for coordinate systems used to identify positions in
+geographic information systems, precise positioning systems, and navigation
+systems. The diversity of datums in use today and the technological advancements
+that have made possible global positioning measurements with sub-meter
+accuracies requires careful datum selection and careful conversion between
+coordinates in different datums.</li>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<h1>
+<a NAME="FigEarth"></a>The Figure of the Earth</h1>
+
+<ul>
+<li>
+Geodetic datums and the coordinate reference systems based on them were
+developed to describe geographic positions for surveying, mapping, and
+navigation. Through a long history, the "figure of the earth" was refined
+from flat-earth models to spherical models of sufficient accuracy to allow
+global exploration, navigation and mapping. True geodetic datums were employed
+only after the late 1700s when measurements showed that the earth was ellipsoidal
+in shape.</li>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="GeoMods"></a>Geometric Earth Models</h2>
+
+<ul>
+<li>
+Early ideas of the figure of the earth resulted in descriptions of the
+earth as an oyster (The Babylonians before 3000 B.C.), a rectangular box,
+a circular disk, a cylindrical column, a spherical ball, and a very round
+pear (Columbus in the last years of his life).</li>
+
+<li>
+Flat earth models are still used for plane surveying, over distances short
+enough so that earth curvature is insignificant (less than 10 kms).</li>
+
+<li>
+Spherical earth models represent the shape of the earth with a sphere of
+a specified radius. Spherical earth models are often used for short range
+navigation (VOR-DME) and for global distance approximations. Spherical
+models fail to model the actual shape of the earth. The slight flattening
+of the earth at the poles results in about a twenty kilometer difference
+at the poles between an average spherical radius and the measured polar
+radius of the earth.</li>
+
+<li>
+Ellipsoidal earth models are required for accurate range and bearing calculations
+over long distances. Loran-C, and GPS navigation receivers use ellipsoidal
+earth models to compute position and waypoint information. Ellipsoidal
+models define an ellipsoid with an equatorial radius and a polar radius.
+The best of these models can represent the shape of the earth over the
+smoothed, averaged sea-surface to within about one-hundred meters.</li>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="RefEll"></a>Reference Ellipsoids</h2>
+
+<ul>
+<li>
+Reference ellipsoids are usually defined by semi-major (equatorial radius)
+and flattening (the relationship between equatorial and polar radii).</li>
+
+<li>
+Other reference ellipsoid parameters such as semi-minor axis (polar radius)
+and eccentricity can computed from these terms.</li>
+
+<ul>
+<li>
+<a href="gif/ellipse.gif"><img SRC="gif/gif.gif" ></a><a href="gif/ellipse.gif">Reference
+Ellipsoid Parameters</a></li>
+</ul>
+
+<li>
+Many reference ellipsoids are in use by different nations and agencies.</li>
+
+<ul>
+<li>
+<a href="gif/refellip.gif"><img SRC="gif/gif.gif" ></a><a href="gif/refellip.gif">Selected
+Reference Ellipsoids</a></li>
+
+<li>
+<a href="elist.html"><img SRC="gif/list.gif" ></a><a href="elist.html">A
+More Complete List of Reference Ellipsoids</a></li>
+</ul>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="ESurfs"></a>Earth Surfaces</h2>
+
+<ul>
+<li>
+The earth has a highly irregular and constantly changing surface. Models
+of the surface of the earth are used in navigation, surveying, and mapping.
+Topographic and sea-level models attempt to model the physical variations
+of the surface, while gravity models and geoids are used to represent local
+variations in gravity that change the local definition of a level surface.</li>
+
+<ul>
+<li>
+<a href="gif/surfaces.gif"><img SRC="gif/gif.gif" ></a><a href="gif/surfaces.gif">Earth
+Surfaces</a></li>
+
+<li>
+The topographical surface of the earth is the actual surface of the land
+and sea at some moment in time. Aircraft navigators have a special interest
+in maintaining a positive height vector above this surface.</li>
+
+<li>
+Sea level is the average (methods and temporal spans vary) surface of the
+oceans. Tidal forces and gravity differences from location to location
+cause even this smoothed surface to vary over the globe by hundreds of
+meters.</li>
+
+<li>
+Gravity models attempt to describe in detail the variations in the gravity
+field. The importance of this effort is related to the idea of leveling.
+Plane and geodetic surveying uses the idea of a plane perpendicular to
+the gravity surface of the earth, the direction perpendicular to a plumb
+bob pointing toward the center of mass of the earth. Local variations in
+gravity, caused by variations in the earth's core and surface materials,
+cause this gravity surface to be irregular.</li>
+
+<ul>
+<li>
+<a href="http://www.ngs.noaa.gov/images/ngs/g96us.jpg"><img SRC="gif/gif.gif" ></a><a href="http://www.ngs.noaa.gov/images/ngs/g96us.jpg">National
+Geodetic Survey Geoid-96 (135 kbytes)</a></li>
+</ul>
+
+<li>
+Geoid models attempt to represent the surface of the entire earth over
+both land and ocean as though the surface resulted from gravity alone.
+Bomford described this surface as the surface that would exist if the sea
+was admitted under the land portion of the earth by small frictionless
+channels.</li>
+
+<li>
+The WGS-84 Geoid defines geoid heights for the entire earth.</li>
+
+<li>
+The U. S. National Imagery and Mapping Agency (formerly the Defense Mapping
+Agency) publishes a ten by ten degree grid of geoid heights for the WGS-84
+geoid.</li>
+
+<ul>
+<li>
+By using a four point linear interpolation algorithm at the four closest
+grid points, the geoid height for any location can be determined.</li>
+
+<li>
+<a href="geoid84.html"><img SRC="gif/list.gif" ></a><a href="geoid84.html">A
+Ten by Ten Degree WGS-84 Geoid Height Model.</a></li>
+
+<li>
+The same grid can be used to produce a contour map of geoid heights for
+the globe.</li>
+
+<li>
+<a href="gif/geoid2.gif"><img SRC="gif/gif.gif" ></a><a href="gif/geoid2.gif">WGS-84
+Geoid Heights</a></li>
+
+<li>
+The National Imagery and Mapping Agency publishes a 0.25 degree model of
+the WGS-84 Geoid (1441 by 721 grid points).</li>
+
+<li>
+<a href="gif/geopt25.gif"><img SRC="gif/gif.gif" ></a><a href="gif/geopt25.gif">Shaded
+Relief of NIMA 0.25&deg; WGS-84 Geoid Height Model (240k .gif)</a></li>
+
+<li>
+<a href="gif/geopt25.jpg"><img SRC="gif/gif.gif" ></a><a href="gif/geopt25.jpg">Shaded
+Relief of NIMA 0.25&deg; WGS-84 Geoid Height Model (140k .jpg)</a></li>
+</ul>
+</ul>
+
+<li>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="GCoords"></a><b><font size=+3>Global Coordinate Systems</font></b></li>
+
+<ul>
+<li>
+Coordinate systems to specify locations on the surface of the earth have
+been used for centuries. In western geodesy the equator, the tropics of
+Cancer and Capricorn, and then lines of latitude and longitude were used
+to locate positions on the earth. Eastern cartographers like Phei Hsiu
+used other rectangular grid systems as early as 270 A. D.</li>
+
+<li>
+Various units of length and angular distance have been used over history.
+The meter is related to both linear and angular distance, having been defined
+in the late 18th century as one ten-millionth of the distance from the
+pole to the equator.</li>
+</ul>
+
+<li>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="LatLonHgt"></a><b><font size=+2>Latitude, Longitude, and Height</font></b></li>
+
+<ul>
+<li>
+The most commonly used coordinate system today is the latitude, longitude,
+and height system.</li>
+
+<li>
+The Prime Meridian and the Equator are the reference planes used to define
+latitude and longitude.</li>
+
+<ul>
+<li>
+<a href="gif/primem.gif"><img SRC="gif/gif.gif" ></a><a href="gif/primem.gif">Equator
+and Prime Meridian</a></li>
+</ul>
+
+<li>
+The geodetic latitude (there are many other defined latitudes) of a point
+is the angle from the equatorial plane to the vertical direction of a line
+normal to the reference ellipsoid.</li>
+
+<li>
+The geodetic longitude of a point is the angle between a reference plane
+and a plane passing through the point, both planes being perpendicular
+to the equatorial plane.</li>
+
+<li>
+The geodetic height at a point is the distance from the reference ellipsoid
+to the point in a direction normal to the ellipsoid.</li>
+
+<ul>
+<li>
+<a href="gif/latlon2.gif"><img SRC="gif/gif.gif" ></a><a href="gif/latlon2.gif">Geodetic
+Latitude, Longitude, and Height</a></li>
+</ul>
+</ul>
+
+<li>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="ECEFXYZ"></a><b><font size=+2>Earth Centered, Earth Fixed X, Y,
+and Z</font></b></li>
+
+<ul>
+<li>
+Earth Centered, Earth Fixed Cartesian coordinates are also used to define
+three dimensional positions.</li>
+
+<ul>
+<li>
+Earth centered, earth-fixed, X, Y, and Z, Cartesian coordinates (XYZ) define
+three dimensional positions with respect to the center of mass of the reference
+ellipsoid.</li>
+
+<li>
+The Z-axis points toward the North Pole.</li>
+
+<li>
+The X-axis is defined by the intersection of the plane define by the prime
+meridian and the equatorial plane.</li>
+
+<li>
+The Y-axis completes a right handed orthogonal system by a plane 90&deg;
+east of the X-axis and its intersection with the equator.</li>
+
+<li>
+<a href="gif/ecefxyz.gif"><img SRC="gif/gif.gif" ></a><a href="gif/ecefxyz.gif">ECEF
+X, Y, and Z</a></li>
+</ul>
+</ul>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<h1>
+<a NAME="GeoDat"></a>Geodetic Datums</h1>
+
+<h2>
+<a NAME="DTypes"></a>Datum Types</h2>
+
+<ul>
+<li>
+Datum types include horizontal, vertical and complete datums.</li>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="DUse"></a>Datums in Use</h2>
+
+<ul>
+<li>
+Hundreds of geodetic datums are in use around the world.</li>
+
+<li>
+The Global Positioning system is based on the World Geodetic System 1984
+(WGS-84).</li>
+
+<li>
+Parameters for simple XYZ conversion between many datums and WGS-84 are
+published by the Defense mapping Agency.</li>
+
+<ul>
+<li>
+<a href="edlist.html"><img SRC="gif/list.gif" ></a><a href="edlist.html">An
+Updated (4/21/98) List of Geodetic Datums</a></li>
+
+<li>
+<a href="dlist.html"><img SRC="gif/list.gif" ></a><a href="dlist.html">An
+Older List of Geodetic Datums</a></li>
+</ul>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="DShifts"></a>Datum Shifts</h2>
+
+<ul>
+<li>
+Coordinate values resulting from interpreting latitude, longitude, and
+height values based on one datum as though they were based in another datum
+can cause position errors in three dimensions of up to one kilometer.</li>
+
+<ul>
+<li>
+<a href="gif/shift.gif"><img SRC="gif/gif.gif" ></a><a href="gif/shift.gif">Horizontal
+Position Shifts from Datum Differences</a></li>
+</ul>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="DConv"></a>Datum Conversions</h2>
+
+<ul>
+<li>
+Datum conversions are accomplished by various methods.</li>
+
+<li>
+Complete datum conversion is based on seven parameter transformations that
+include three translation parameters, three rotation parameters and a scale
+parameter.</li>
+
+<li>
+Simple three parameter conversion between latitude, longitude, and height
+in different datums can be accomplished by conversion through Earth-Centered,
+Earth Fixed XYZ Cartesian coordinates in one reference datum and three
+origin offsets that approximate differences in rotation, translation and
+scale.</li>
+
+<ul>
+<li>
+<a href="gif/xyzllh.gif"><img SRC="gif/gif.gif" ></a><a href="gif/xyzllh.gif">Conversion
+from ECEF XYZ to Latitude, Longitude, and Height</a></li>
+
+<li>
+<a href="gif/llhxyz.gif"><img SRC="gif/gif.gif" ></a><a href="gif/llhxyz.gif">Conversion
+from Latitude, Longitude, and Height to ECEF XYZ.</a></li>
+
+<li>
+<a href="gif/geoconv.gif"><img SRC="gif/gif.gif" ></a><a href="gif/geoconv.gif">XYZ
+Three Parameter Datum Conversion</a></li>
+</ul>
+
+<li>
+The Standard Molodensky formulas can be used to convert latitude, longitude,
+and ellipsoid height in one datum to another datum if the Delta XYZ constants
+for that conversion are available and ECEF XYZ coordinates are not required.</li>
+
+<ul>
+<li>
+<a href="gif/molodens.gif"><img SRC="gif/gif.gif" ></a><a href="gif/molodens.gif">Standard
+Molodensky Datum Conversion</a></li>
+</ul>
+</ul>
+<a href="datum_ftoc.html#Contents"><img SRC="gif/uparrow.gif" ></a><a href="datum_ftoc.html#Contents">Table
+of Contents</a>
+<hr>
+<br><b><font size=+1>References</font></b>
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Bomford, G. 1980. Geodesy. Oxford: Clarendon
+Press.
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Burkard, Richard K. 1983. Geodesy for the Layman.
+Washington, DC: NOAA.
+<p>&nbsp;&nbsp;&nbsp;&nbsp; National Imagery and Mapping Agency. 1997.
+Department of Defense World Geodetic System 1984: Its Definition and Relationships
+with Local Geodetic Systems. NIMA TR8350.2 Third Edition 4 July 1997. Bethesda,
+MD: National Imagery and Mapping Agency.
+<p>&nbsp;&nbsp;&nbsp;&nbsp; National Oceanic and Atmospheric Administration.
+1986. Geodetic Glossary. Rockville, MD: National Geodetic Information Center.
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Schwarz, Charles R. 1989. North American Datum
+of 1893. Rockville, MD: National Geodetic Survey.
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Torge, Wolfgang. 1991 Geodesy, 2nd Edition,
+New York: deGruyter.
+<br>
+<hr>
+</body>
+</html>

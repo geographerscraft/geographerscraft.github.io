@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="AUTHOR" CONTENT="Peter H. Dana">
+   <META NAME="OPERATOR" CONTENT="Peter H. Dana">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Geodetic Datum Overview</TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#80FFFF" LINK="#0000FF" VLINK="#800080" ALINK="#800080">
+<IMG SRC="gif/gd.gif" >
+<BR>
+<HR WIDTH="100%">
+<H3>
+<A NAME="Contents"></A>Table of Contents</H3>
+
+<UL>
+<LI>
+<A HREF="datum.html#Intro">Introduction to Geodetic Datums</A></LI>
+
+<LI>
+<A HREF="datum.html#FigEarth">The Figure of the Earth</A></LI>
+
+<UL>
+<LI>
+<A HREF="datum.html#GeoMods">Geometric Models</A></LI>
+
+<LI>
+<A HREF="datum.html#RefEll">Reference Ellipsoids</A></LI>
+
+<LI>
+<A HREF="datum.html#GCoords">Global Coordinate Systems</A></LI>
+
+<UL>
+<LI>
+<A HREF="datum.html#LatLonHgt">Latitude, Longitude, and Height</A></LI>
+
+<LI>
+<A HREF="datum.html#ECEFXYZ">Earth Centered, Earth Fixed X, Y, Z</A></LI>
+</UL>
+
+<LI>
+<A HREF="datum.html#ESurfs">Earth Surfaces</A></LI>
+</UL>
+
+<LI>
+<A HREF="datum.html#GeoDat">Geodetic Datums</A></LI>
+
+<UL>
+<LI>
+<A HREF="datum.html#DTypes">Datum Types</A></LI>
+
+<LI>
+<A HREF="datum.html#DUse">Datums in Use</A></LI>
+
+<LI>
+<A HREF="datum.html#DShifts">Datum Shifts</A></LI>
+
+<LI>
+<A HREF="datum.html#DConv">Datum Conversions</A></LI>
+</UL>
+
+<LI>
+<A NAME="Links"></A>Links to other related information</LI>
+
+<UL>
+<LI>
+<A HREF="http://164.214.2.59/nimahome.html"><IMG SRC="gif/html.gif" ></A><A HREF="http://164.214.2.59/nimahome.html">National
+Imagery and Mapping Agency</A></LI>
+
+<LI>
+<A HREF="http://www.ngs.noaa.gov/GEOID/geoid.html"><IMG SRC="gif/html.gif" ></A><A HREF="http://www.ngs.noaa.gov/GEOID/geoid.html">National
+Geodetic Survey Geoid-96 Page</A></LI>
+
+<LI>
+<A HREF="../gps/gps.html"><IMG SRC="gif/html.gif" ></A><A HREF="../gps/gps.html">GPS
+Overview, Department of Geography, University of Texas at Austin</A></LI>
+
+<LI>
+<A HREF="../coordsys/coordsys.html"><IMG SRC="gif/html.gif" ></A><A HREF="../coordsys/coordsys.html">Coordinate
+Systems Overview, Department of Geography, University of Texas at Austin</A></LI>
+
+<LI>
+<A HREF="../mapproj/mapproj.html"><IMG SRC="gif/html.gif" ></A><A HREF="../mapproj/mapproj.html">Map
+Projection Overview, Department of Geography, University of Texas at Austin</A></LI>
+
+<LI>
+<A HREF="http://www.utexas.edu/depts/grg/main.html"><IMG SRC="gif/html.gif" ></A><A HREF="http://www.utexas.edu/depts/grg/main.html">Home
+Page, Department of Geography, University of Texas at Austin</A></LI>
+</UL>
+</UL>
+
+<HR>
+<BR>Last Revised October 12, 1999. LNC.
+</BODY>
+</HTML>
+

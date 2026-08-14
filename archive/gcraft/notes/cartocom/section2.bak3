@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Cartography as Communication</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<IMG SRC="gif/blueball_line.gif" >
+<H2>
+2. Cartography as Communication</H2>
+One of the most useful approaches to the study of cartography is to view
+maps as a form of visual communication--a special-purpose language for
+describing spatial relationships. Although it is perhaps unwise to draw
+a direct analogy between cartography and language, concepts such as "grammar"
+and "syntax" help to explain, at least metaphorically, the sorts of decisions
+cartographers make as they compose maps. Cartographers seek to make use
+of visual resources such as color, shape and pattern to communicate information
+about spatial relationships. The analogy with language also helps explain
+why training in principles of effective cartography is so important--it
+allows us to communicate more effectively. Without a knowledge of some
+of these basic principles, the beginning cartographer is likely to be misunderstood
+or cause confusion.
+
+<P><A NAME="2_2.1"></A><B>2.1 Cartography is closely related to graphical
+communication</B>
+
+<P><B>&nbsp;</B>
+<UL>Cartography is related to, but different from other forms of visual
+communication. Cartographers must pay special attention to coordinate systems,
+map projections, and issues of scale and direction that are in most cases
+of relatively little concern to other graphic designers or artists. But,
+because cartography is a type of graphical communication, some insights
+to the demands of cartography can be gleaned from the literature of graphical
+communication and statistical graphics. Often cartographers are faced with
+some of the same challenges faced by graphical designers and can learn
+much from their insights. As you begin to study cartographic design, you
+may find it useful to consult some of the standard works on graphical communication.
+You will find the following books particularly interesting, and maps are
+often the focus of discussion.
+<LI>
+Cleveland, William S. 1985. <I>The Elements of Graphing Data. </I>Monterey,
+CA: Wadsworth.</LI>
+
+<LI>
+Schmid, Calvin F. 1983. <I>Statistical Graphics: Design Principles and
+Practices. </I>New York: John Wiley and Sons.</LI>
+
+<LI>
+Schmid, Calvin F. and Schmid, Stanton E. 1979. <I>Handbook of Graphic Presentation,
+2nd ed. </I>New York: John Wiley and Sons.</LI>
+
+<LI>
+Tufte, Edward R. 1983. <I>The Visual Display of Quantitative Information.
+</I>Cheshire, CT: Graphics Press.</LI>
+
+<LI>
+Tufte, Edward R. 1990. <I>Envisioning Information. </I>Cheshire, CT: Graphics
+Press.</LI>
+</UL>
+<A NAME="2_2.2"></A><B>2.2 Maps are symbolic abstractions--"generalizations"
+or "representations"--of reality</B>
+
+<P>&nbsp;
+<UL>
+<UL><IMG SRC="gif/smoky.gif" ></UL>
+</UL>
+
+<UL>By stressing cartography as a form of communication, it is easier to
+make the point that maps are really symbolic abstractions--or representations--of
+real world phenomena. In most cases, this means that the world represented
+on a map has been greatly simplified, or generalized, with symbols being
+used like words to stand for real things. Some of the most important decisions
+cartographers make in the process of cartographic design revolve around:
+1) how much to simplify the situation being depicted; and 2) how to symbolize
+the relationships being represented.</UL>
+For further discussion of these issues, you may wish to consult:
+
+<P>&nbsp;
+<UL>
+<LI>
+Guelke, Leonard, Ed. 1977. <I>The Nature of Cartographic Communication.
+</I>Cartographica Monograph No. 19.</LI>
+
+<LI>
+Robinson, Arthur H. and Petchenik, Barbara B. 1976. <I>The Nature of Maps:
+Essays toward Understanding Maps and Mapping. </I>Chicago: University of
+Chicago Press.</LI>
+
+<LI>
+Taylor, D.R.F., Ed. 1983. <I>Progress in Contemporary Cartography. Volume
+2: Graphic Communication and Design in Contemporary Cartography.</I> New
+York: John Wiley.</LI>
+</UL>
+<IMG SRC="gif/bar2.gif" >
+
+<P>&nbsp;<A HREF="section3.html">Go
+on to <I>What is a Good Map?</I></A>
+
+<P>&nbsp;<A HREF="cartocom_ftoc.html#3.0"><IMG SRC="gif/uparrow.gif" ></A><I><A HREF="cartocom_ftoc.html#3.0">Return
+to Table of Contents</A></I>
+</BODY>
+</HTML>
+

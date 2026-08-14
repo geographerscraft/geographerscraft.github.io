@@ -1,0 +1,706 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="AUTHOR" content="Peter H. Dana">
+   <meta name="OPERATOR" content="Peter H. Dana">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>Map Projection Overview</title>
+</head>
+<body text="#000000" bgcolor="#80FFFF" link="#0000FF" vlink="#800080" alink="#800080">
+<img SRC="gif/mp.gif" height=152 width=314>
+<h1>
+Map Projection Overview</h1>
+
+<address>
+<a href="http://www.pdana.com">Peter H. Dana</a></address>
+<i></i>
+<p><i>These materials were developed by Peter H. Dana, Department of
+Geography, University of Texas at Austin, 1995.&nbsp; These materials may
+be used for study, research, and education in not-for-profit applications.&nbsp;
+If you link to or cite these materials, please credit the author, Peter
+H. Dana, The Geographer's Craft Project, Department of Geography, The University
+of Colorado at Boulder.&nbsp; These materials may not be copied to or issued
+from another Web server without the author's express permission.&nbsp;
+Copyright &copy; 1999 Peter H. Dana. All commercial rights are reserved.&nbsp;
+If you have comments or suggestions, please contact the author or Kenneth
+E. Foote at <a href="mailto:k.foote@colorado.edu">k.foote@colorado.edu</a>.</i>
+<p>This page is available in a <a href="mapproj_f.html" target="_top">framed
+version</a>.&nbsp; For convenience, a <a href="mapproj_ftoc.html">Full
+Table of Contents</a> is provided.
+<p>
+<hr>Revised: 12/15/99
+<hr>
+<h2>
+Associated Overviews</h2>
+<a href="../gps/gps.html"><img SRC="gif/gpsmini.gif" height=76 width=157 align=CENTER></a><a href="../datum/datum.html"><img SRC="gif/gdmini.gif" height=76 width=157 align=CENTER></a><a href="../coordsys/coordsys.html"><img SRC="gif/csmini.gif" height=76 width=157 align=CENTER></a>
+<hr>
+<h1>
+<a NAME="Intro"></a>Introduction</h1>
+
+<ul>
+<li>
+Map projections are attempts to portray the surface of the earth or a portion
+of the earth on a flat surface. Some distortions of conformality, distance,
+direction, scale, and area always result from this process. Some projections
+minimize distortions in some of these properties at the expense of maximizing
+errors in others. Some projection are attempts to only moderately distort
+all of these properties.</li>
+
+<ul>
+<li>
+Conformality</li>
+
+<ul>
+<li>
+When the scale of a map at any point on the map is the same in any direction,
+the projection is conformal. Meridians (lines of longitude) and parallels
+(lines of latitude) intersect at right angles. Shape is preserved locally
+on conformal maps.</li>
+</ul>
+
+<li>
+Distance</li>
+
+<ul>
+<li>
+A map is equidistant when it portrays distances from the center of the
+projection to any other place on the map.</li>
+</ul>
+
+<li>
+Direction</li>
+
+<ul>
+<li>
+A map preserves direction when azimuths (angles from a point on a line
+to another point) are portrayed correctly in all directions.</li>
+</ul>
+
+<li>
+Scale</li>
+
+<ul>
+<li>
+Scale is the relationship between a distance portrayed on a map and the
+same distance on the Earth.</li>
+</ul>
+
+<li>
+Area</li>
+
+<ul>
+<li>
+When a map portrays areas over the entire map so that all mapped areas
+have the same proportional relationship to the areas on the Earth that
+they represent, the map is an equal-area map.</li>
+</ul>
+</ul>
+
+<li>
+Different map projections result in different spatial relationships between
+regions.</li>
+
+<ul>
+<li>
+<a href="gif/threepro.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/threepro.gif">Three
+Different Map Projections of the United States</a></li>
+
+<li>
+<a href="gif/twoproj.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/twoproj.gif">Albers
+Equal Area and Lambert Conformal Conic Projections of North America</a></li>
+</ul>
+
+<li>
+Map projections fall into four general classes.</li>
+
+<ul>
+<li>
+Cylindrical projections result from projecting a spherical surface onto
+a cylinder.</li>
+
+<ul>
+<li>
+When the cylinder is tangent to the sphere contact is along a great circle
+(the circle formed on the surface of the Earth by a plane passing through
+the center of the Earth)..</li>
+
+<ul>
+<li>
+<a href="gif/cylinder.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/cylinder.gif">Projection
+of a Sphere onto a Cylinder (Tangent Case)</a></li>
+</ul>
+
+<li>
+In the secant case, the cylinder touches the sphere along two lines, both
+small circles (a circle formed on the surface of the Earth by a plane not
+passing through the center of the Earth).</li>
+
+<ul>
+<li>
+<a href="gif/scylind.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/scylind.gif">Projection
+of a Sphere onto a Cylinder (Secant Case)</a></li>
+</ul>
+
+<li>
+When the cylinder upon which the sphere is projected is at right angles
+to the poles, the cylinder and resulting projection are transverse.</li>
+
+<ul>
+<li>
+<a href="gif/transcyl.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/transcyl.gif">Transverse
+Projection of a Sphere onto a Cylinder (Tangent Case)</a></li>
+</ul>
+
+<li>
+When the cylinder is at some other, non-orthogonal, angle with respect
+to the poles, the cylinder and resulting projection is oblique.</li>
+
+<ul>
+<li>
+<a href="gif/obliqcyl.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/obliqcyl.gif">Oblique
+Projection of a Sphere onto a Cylinder (Tangent Case)</a></li>
+</ul>
+</ul>
+
+<li>
+Conic projections result from projecting a spherical surface onto a cone.</li>
+
+<ul>
+<li>
+When the cone is tangent to the sphere contact is along a small circle.</li>
+
+<ul>
+<li>
+<a href="gif/cone.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/cone.gif">Projection
+of a Sphere onto a Cone (Tangent Case)</a></li>
+</ul>
+
+<li>
+In the secant case, the cone touches the sphere along two lines, one a
+great circle, the other a small circle.</li>
+
+<ul>
+<li>
+<a href="gif/scone.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/scone.gif">Projection
+of a Sphere onto a Cone (Secant Case)</a></li>
+</ul>
+</ul>
+
+<li>
+Azimuthal projections result from projecting a spherical surface onto a
+plane.</li>
+
+<ul>
+<li>
+When the plane is tangent to the sphere contact is at a single point on
+the surface of the Earth.</li>
+
+<ul>
+<li>
+<a href="gif/plane.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/plane.gif">Projection
+of a Sphere onto a Plane (Tangent Case)</a></li>
+</ul>
+
+<li>
+In the secant case, the plane touches the sphere along a small circle if
+the plane does not pass through the center of the earth, when it will touch
+along a great circle.</li>
+
+<ul>
+<li>
+<a href="gif/splane.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/splane.gif">Projection
+of a Sphere onto a Plane (Secant Case)</a></li>
+</ul>
+</ul>
+
+<li>
+Miscellaneous projections include unprojected ones such as rectangular
+latitude and longitude grids and other examples of that do not fall into
+the cylindrical, conic, or azimuthal categories</li>
+</ul>
+</ul>
+<a href="mapproj_ftoc.html#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="mapproj_ftoc.html#TOC">Table
+of Contents</a>
+<hr>
+<h1>
+<a NAME="MapPro"></a>Selected Map Projections</h1>
+
+<h2>
+<a NAME="Cylin"></a>Cylindrical Projections</h2>
+
+<ul>
+<li>
+<a NAME="CEA"></a>Cylindrical Equal Area</li>
+
+<ul>
+<li>
+Cylindrical Equal-Area projections have straight meridians and parallels,
+the meridians are equally spaced, the parallels unequally spaced. There
+are normal, transverse, and oblique cylindrical equal-area projections.
+Scale is true along the central line (the equator for normal, the central
+meridian for transverse, and a selected line for oblique) and along two
+lines equidistant from the central line. Shape and scale distortions increase
+near points 90 degrees from the central line.</li>
+
+<li>
+<a NAME="Behr"></a>Behrmann Cylindrical Equal-Area</li>
+
+<ul>
+<li>
+Behrmann's cylindrical equal-area projection uses 30:00 North as the parallel
+of no distortion.</li>
+
+<li>
+<a href="gif/behcylea.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/behcylea.gif">Behrmann
+Cylindrical Equal-Area</a></li>
+</ul>
+
+<li>
+<a NAME="Gall"></a>Gall's Stereographic Cylindrical</li>
+
+<ul>
+<li>
+Gall's stereographic cylindrical projection results from projecting the
+earth's surface from the equator onto a secant cylinder intersected by
+the globe at 45 degrees north and 45 degrees south. This projection moderately
+distorts distance, shape, direction, and area.</li>
+
+<li>
+<a href="gif/gall.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/gall.gif">Gall's
+Sterographic Cylindrical</a></li>
+</ul>
+
+<li>
+<a NAME="Peters"></a>Peters</li>
+
+<ul>
+<li>
+The Peters projection is a cylindrical equal-area projection that de-emphasizes
+area exaggerations in high latitudes by shifting the standard parallels
+to 45 or 47 degrees.</li>
+
+<li>
+<a href="gif/peters.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/peters.gif">Peters</a></li>
+</ul>
+</ul>
+
+<li>
+<a NAME="Mercator"></a>Mercator</li>
+
+<ul>
+<li>
+The Mercator projection has straight meridians and parallels that intersect
+at right angles. Scale is true at the equator or at two standard parallels
+equidistant from the equator. The projection is often used for marine navigation
+because all straight lines on the map are lines of constant azimuth.</li>
+
+<li>
+<a href="gif/mercator.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/mercator.gif">Mercator</a></li>
+</ul>
+
+<li>
+<a NAME="Miller"></a>Miller Cylindrical</li>
+
+<ul>
+<li>
+The Miller projection has straight meridians and parallels that meet at
+right angles, but straight lines are not of constant azimuth. Shapes and
+areas are distorted. Directions are true only along the equator. The projection
+avoids the scale exaggerations of the Mercator map.</li>
+
+<li>
+<a href="gif/millerc.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/millerc.gif">Miller
+Cylindrical</a></li>
+</ul>
+
+<li>
+<a NAME="OM"></a>Oblique Mercator</li>
+
+<ul>
+<li>
+Oblique Mercator projections are used to portray regions along great circles.
+Distances are true along a great circle defined by the tangent line formed
+by the sphere and the oblique cylinder, elsewhere distance, shape, and
+areas are distorted. Once used to map Landsat images (now replaced by the
+Space Oblique Mercator), this projection is used for areas that are long,
+thin zones at a diagonal with respect to north, such as Alaska State Plane
+Zone 5001.</li>
+
+<li>
+<a href="gif/ak5001om.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/ak5001om.gif">Oblique
+Mercator (Alaska State Plane Zone 5001)</a></li>
+</ul>
+
+<li>
+<a NAME="TM"></a>Transverse Mercator</li>
+
+<ul>
+<li>
+Transverse Mercator projections result from projecting the sphere onto
+a cylinder tangent to a central meridian. Transverse Mercator maps are
+often used to portray areas with larger north-south than east-west extent.
+Distortion of scale, distance, direction and area increase away from the
+central meridian.</li>
+
+<li>
+Many national grid systems are based on the Transverse Mercator projection</li>
+
+<ul>
+<li>
+The British National Grid (BNG) is based on the National Grid System of
+England, administered by the British Ordnance Survey. The true origin of
+the system is at 49 degrees north latitude and 2 degrees west longitude.
+The false origin is 400 km west and 100 km north. Scale at the central
+meridian is 0.9996. The first BNG designator defines a 500 km square. The
+second designator defines a 100 km square. The remaining numeric characters
+define 10 km, 1 km, 100 m, 10 m, or 1 m eastings and northings.</li>
+
+<li>
+<a href="gif/bng100km.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/bng100km.gif">British
+National Grid 100 km Squares</a></li>
+</ul>
+
+<li>
+The Universal Transverse Mercator (UTM) projection is used to define horizontal,
+positions world-wide by dividing the surface of the Earth into 6 degree
+zones, each mapped by the Transverse Mercator projection with a central
+meridian in the center of the zone. UTM zone numbers designate 6 degree
+longitudinal strips extending from 80 degrees South latitude to 84 degrees
+North latitude. UTM zone characters designate 8 degree zones extending
+north and south from the equator.</li>
+
+<ul>
+<li>
+<a href="gif/utmzones.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/utmzones.gif">UTM
+Zones</a></li>
+
+<li>
+Eastings are measured from the central meridian (with a 500km false easting
+to insure positive coordinates). Northings are measured from the equator
+(with a 10,000km false northing for positions south of the equator).</li>
+
+<li>
+<a href="gif/utm14.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/utm14.gif">UTM
+Zone 14</a></li>
+</ul>
+</ul>
+</ul>
+<a href="mapproj_ftoc.html#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="mapproj_ftoc.html#TOC">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="PseCylin"></a>Pseudocylindrical Projections</h2>
+
+<ul>
+<li>
+Pseudocylindrical projections resemble cylindrical projections, with straight
+and parallel latitude lines and equally spaced meridians, but the other
+meridians are curves.</li>
+
+<li>
+<a NAME="Mollweide"></a>Mollweide</li>
+
+<ul>
+<li>
+The Mollweide projection, used for world maps, is pseudocylindrical and
+equal-area. The central meridian is straight. The 90th meridians are circular
+arcs. Parallels are straight, but unequally spaced. Scale is true only
+along the standard parallels of 40:44 N and 40:44 S.</li>
+
+<li>
+<a href="gif/mollweid.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/mollweid.gif">Mollweide
+Projection</a></li>
+</ul>
+
+<li>
+<a NAME="Eckert"></a>Eckert Projections</li>
+
+<ul>
+<li>
+Eckert IV Equal Area</li>
+
+<ul>
+<li>
+The Eckert IV projection, used for world maps, is a pseudocylindrical and
+equal-area. The central meridian is straight, the 180th meridians are semi-circles,
+other meridians are elliptical. Scale is true along the parallel at 40:30
+North and South.</li>
+
+<li>
+<a href="gif/eckertiv.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/eckertiv.gif">Eckert
+IV Equal Area</a></li>
+</ul>
+
+<li>
+Eckert VI Equal Area</li>
+
+<ul>
+<li>
+The Eckert VI projection , used for maps of the world, is pseudocylindrical
+and equal area. The central meridian and all parallels are at right angles,
+all other meridians are sinusoidal curves. Shape distortion increases at
+the poles. Scale is correct at standard parallels of 49:16 North and South.</li>
+
+<li>
+<a href="gif/eckertvi.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/eckertvi.gif">Eckert
+VI Equal Area</a></li>
+</ul>
+</ul>
+
+<li>
+<a NAME="Rob"></a>Robinson</li>
+
+<ul>
+<li>
+The Robinson projection is based on tables of coordinates, not mathematical
+formulas. The projection distorts shape, area, scale, and distance in an
+attempt to balance the errors of projection properties.</li>
+
+<li>
+<a href="gif/robinson.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/robinson.gif">Robinson</a></li>
+</ul>
+
+<li>
+<a NAME="Sinu"></a>Sinusoidal Equal Area</li>
+
+<ul>
+<li>
+Sinusoidal equal-area maps have straight parallels at right angles to a
+central meridian. Other meridians are sinusoidal curves. Scale is true
+only on the central meridian and the parallels. Often used in countries
+with a larger north-south than east-west extent.</li>
+
+<li>
+<a href="gif/sinusoid.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/sinusoid.gif">Sinusoidal
+Equal Area</a></li>
+</ul>
+</ul>
+<a href="mapproj_ftoc.html#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="mapproj_ftoc.html#TOC">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="Conic"></a>Conic Projections</h2>
+
+<ul>
+<li>
+<a NAME="AlbersConic"></a>Albers Equal Area Conic</li>
+
+<ul>
+<li>
+A conic projection that distorts scale and distance except along standard
+parallels. Areas are proportional and directions are true in limited areas.
+Used in the United States and other large countries with a larger east-west
+than north-south extent.</li>
+
+<li>
+<a href="gif/naaeana.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/naaeana.gif">Albers
+Equal-Area Conic</a></li>
+</ul>
+
+<li>
+<a NAME="EConic"></a>Equidistant Conic</li>
+
+<ul>
+<li>
+Direction, area, and shape are distorted away from standard parallels.
+Used for portrayals of areas near to, but on one side of, the equator.</li>
+
+<li>
+<a href="gif/naedcna.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/naedcna.gif">Equidistant
+Conic</a></li>
+</ul>
+
+<li>
+<a NAME="LambertConic"></a>Lambert Conformal Conic</li>
+
+<ul>
+<li>
+Area, and shape are distorted away from standard parallels. Directions
+are true in limited areas. Used for maps of North America.</li>
+
+<li>
+<a href="gif/nalccna.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/nalccna.gif">Lambert
+Conformal Conic (North America)</a></li>
+</ul>
+
+<li>
+<a NAME="Polycon"></a>Polyconic</li>
+
+<ul>
+<li>
+The polyconic projection was used for most of the earlier USGS topographic
+quadrangles. The projection is based on an infinite number of cones tangent
+to an infinite number of parallels. The central meridian is straight. Other
+meridians are complex curves. The parallels are non-concentric circles.
+Scale is true along each parallel and along the central meridian.</li>
+
+<li>
+<a href="gif/polycon.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/polycon.gif">Polyconic
+(North America)</a></li>
+</ul>
+</ul>
+<a href="mapproj_ftoc.html#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="mapproj_ftoc.html#TOC">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="Azimuth"></a>Azimuthal Projections</h2>
+
+<ul>
+<li>
+<a NAME="AzmEqui"></a>Azimuthal Equidistant</li>
+
+<ul>
+<li>
+Azimuthal equidistant projections are sometimes used to show air-route
+distances. Distances measured from the center are true. Distortion of other
+properties increases away from the center point.</li>
+
+<li>
+<a href="gif/azmequid.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/azmequid.gif">Azimuthal
+Equidistant</a></li>
+</ul>
+
+<li>
+<a NAME="LambertAzm"></a>Lambert Azimuthal Equal Area</li>
+
+<ul>
+<li>
+The Lambert azimuthal equal-area projection is sometimes used to map large
+ocean areas. The central meridian is a straight line, others are curved.
+A straight line drawn through the center point is on a great circle.</li>
+
+<li>
+<a href="gif/lamazmeq.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/lamazmeq.gif">Lambert
+Azimuthal Equal Area</a></li>
+</ul>
+
+<li>
+<a NAME="Ortho"></a>Orthographic</li>
+
+<ul>
+<li>
+Orthographic projections are used for perspective views of hemispheres.
+Area and shape are distorted. Distances are true along the equator and
+other parallels.</li>
+
+<li>
+<a href="gif/ortho.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/ortho.gif">Oblique
+Aspect Orthographic Projection</a></li>
+</ul>
+
+<li>
+<a NAME="Stereo"></a>Stereographic</li>
+
+<ul>
+<li>
+Stereographic projections are used for navigation in polar regions. Directions
+are true from the center point and scale increases away from the center
+point as does distortion in area and shape.</li>
+
+<li>
+<a href="gif/nstereo.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/nstereo.gif">North
+Polar Stereographic</a></li>
+</ul>
+</ul>
+<a href="mapproj_ftoc.html#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="mapproj_ftoc.html#TOC">Table
+of Contents</a>
+<hr>
+<h2>
+<a NAME="Misc"></a>Miscellaneous Projections</h2>
+
+<ul>
+<li>
+<a NAME="Unproj"></a>Unprojected Maps</li>
+
+<ul>
+<li>
+Unprojected maps include those that are formed by considering longitude
+and latitude as a simple rectangular coordinate system. Scale, distance,
+area, and shape are all distorted with the distortion increasing toward
+the poles.</li>
+
+<li>
+<a href="gif/unproj.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/unproj.gif">World:
+Unprojected Latitude and Longitude</a></li>
+
+<li>
+<a href="gif/naunproj.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/naunproj.gif">North
+America: Unprojected Latitude and Longitude</a></li>
+
+<li>
+<a href="gif/txunproj.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/txunproj.gif">Texas:
+Unprojected Latitude and Longitude</a></li>
+</ul>
+
+<li>
+<a NAME="Texas"></a>Texas State-Wide Projection</li>
+
+<ul>
+<li>
+In 1992, the Cartographic Standards Working Group proposed a Texas State-Wide
+Map Projection Standard for the GIS Standards Committee of the GIS Planning
+Council for the Department of Information Sciences.</li>
+
+<li>
+Earlier maps had often used projections designed for the continental United
+States</li>
+
+<ul>
+<li>
+<a href="gif/txlccus.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/txlccus.gif">Texas:
+Lambert Conformal Conic designed for the Continental United States</a></li>
+</ul>
+
+<li>
+The new projection was designed to allow state-wide mapping with a minimum
+of scale distortion. A Lambert Conformal Conic Projection was proposed
+with an origin at 31:10 North, 100:00 West and with standard parallels
+at 27:25 North and 34:55 North. For plane coordinate use a false Easting
+and Northing of 1,000,000 meters were defined for the origin.</li>
+
+<ul>
+<li>
+<a href="gif/txswmp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/txswmp.gif">Texas:
+Texas State-Wide Map Projection</a></li>
+</ul>
+</ul>
+
+<li>
+<a NAME="Space"></a>Space Oblique Mercator</li>
+
+<ul>
+<li>
+The Space Oblique Mercator is a projection designed to show the curved
+ground-track of Landsat images. There is little distortion along the ground-track
+but only within the narrow band (about 15 degrees) of the Landsat image.</li>
+
+<li>
+<a href="gif/spaceom.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/spaceom.gif">Space
+Oblique Mercator</a></li>
+</ul>
+</ul>
+<a href="mapproj_ftoc.html#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="mapproj_ftoc.html#TOC">Table
+of Contents</a>
+<hr>
+<h1>
+<a NAME="Refs"></a>References</h1>
+
+<ul>
+<li>
+Muehrcke, Phillip C. 1986. <i>Map use: reading, analysis, interpretation.</i>
+Madison, WI: JP Publications.</li>
+
+<li>
+Snyder, John P. 1987. <i>Map projections: a working manual.</i>USGS Professional
+Paper 1395. Washington, DC: United States Government Printing Office.</li>
+
+<li>
+Many of the maps on this page were produced using MapInfo's <i>MapInfo</i>
+and Golden Software's <i>MapViewer</i> and <i>Surfer for Windows</i>.</li>
+</ul>
+<a href="mapproj_ftoc.html#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="mapproj_ftoc.html#TOC">Table
+of Contents</a>
+<hr>
+</body>
+</html>

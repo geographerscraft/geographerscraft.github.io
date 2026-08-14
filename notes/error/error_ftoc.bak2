@@ -1,0 +1,169 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Error, Accuracy, and Precision</TITLE>
+</HEAD>
+<BODY>
+
+<H1>
+<IMG SRC="gif/accurate.gif" > Error, Accuracy, and Precision</H1>
+<I>These materials may be used for study, research, and education, but
+please credit the authors and source: Kenneth E. Foote and Donald J. Huebner,
+The Geographer's Craft Project, Department of Geography, University of
+Texas at Austin. All commercial rights reserved. Copyright 1995 Kenneth
+E. Foote and Donald J. Huebner. To make suggestions and corrections please
+contact k.foote@mail.utexas.edu or djhuebner@mail.utexas.edu.</I>
+<P> 
+<HR>
+<H2>
+Table of Contents</H2>
+
+<H3>
+1. <A HREF="error.html#Importance">The Importance of Error, Accuracy, and
+Precision</A></H3>
+
+<H3>
+2. <A HREF="error.html#Definitions">Some Basic Definitions</A></H3>
+
+<H3>
+3. <A HREF="error.html#Types">Types of Error</A></H3>
+
+<UL>
+<LI>
+3.1. <A HREF="error.html#Positional">Positional Accuracy and Precision</A></LI>
+
+<LI>
+3.2. <A HREF="error.html#Attribute">Attribute Accuracy and Precision</A></LI>
+
+<LI>
+3.3. <A HREF="error.html#Conceptual">Conceptual Accuracy and Precision</A></LI>
+
+<LI>
+3.4. <A HREF="error.html#Logical">Logical Accuracy and Precision</A></LI>
+</UL>
+
+<H3>
+4. <A HREF="error.html#Sources1">Sources of Inaccuracy and Imprecision</A></H3>
+
+<UL>
+<LI>
+4.1. <A HREF="error.html#Obvious">Obvious Sources of Error</A></LI>
+
+
+<P>&nbsp;
+<UL>
+<LI>
+4.1.1. <A HREF="error.html#Age">Age of Data</A></LI>
+
+<LI>
+4.1.2. <A HREF="error.html#Areal">Areal Cover</A></LI>
+
+<LI>
+4.1.3. <A HREF="error.html#Map">Map Scale</A></LI>
+
+<LI>
+4.1.4. <A HREF="error.html#Density">Density of Observations</A></LI>
+
+<LI>
+4.1.5. <A HREF="error.html#Relevance">Relevance</A></LI>
+
+<LI>
+4.1.6. <A HREF="error.html#Format">Format</A></LI>
+
+<LI>
+4.1.7. <A HREF="error.html#Accessibility">Accessibility</A></LI>
+
+<LI>
+4.1.8. <A HREF="error.html#Cost">Cost</A></LI>
+
+
+<P>&nbsp;</UL>
+
+<LI>
+4.2. <A HREF="error.html#Natvariation">Errors Resulting From Natural Variation
+or From Original Measurements</A></LI>
+
+
+<P>&nbsp;
+<UL>
+<LI>
+4.2.1. <A HREF="error.html#Posaccuracy">Positional Accuracy</A></LI>
+
+<LI>
+4.2.2. <A HREF="error.html#Acontent">Accuracy of Content</A></LI>
+
+<LI>
+4.2.3. <A HREF="error.html#Sources2">Sources of Variation in Data</A></LI>
+
+
+<P>&nbsp;</UL>
+
+<LI>
+4.3. <A HREF="error.html#Processing">Errors Arising Through Processing</A></LI>
+
+
+<P>&nbsp;
+<UL>
+<LI>
+4.3.1. <A HREF="error.html#Numerical">Numerical Errors</A></LI>
+
+<LI>
+4.3.2. <A HREF="error.html#Topological">Errors in Topological Analysis</A></LI>
+
+<LI>
+4.3.3. <A HREF="error.html#Classification">Classification and Generalization
+Problems</A></LI>
+
+<LI>
+4.3.4. <A HREF="error.html#Digitizing">Digitizing and Geocoding Errors</A></LI>
+</UL>
+</UL>
+
+<H3>
+5. <A HREF="error.html#Propagation">The Problems of Propagation and Cascading</A></H3>
+
+<UL>
+<LI>
+5.1. <A HREF="error.html#Prop">Propagation</A></LI>
+
+<LI>
+5.2. <A HREF="error.html#Cascade">Cascading</A></LI>
+</UL>
+
+<H3>
+6. <A HREF="error.html#False">Beware of False Precision and False Accuracy</A></H3>
+
+<H3>
+7. <A HREF="error.html#Danger">The Dangers of Undocumented Data</A></H3>
+
+<UL>
+<LI>
+7.1. <A HREF="error.html#Ask">Ask for a Data Quality Report</A></LI>
+
+<LI>
+7.2. <A HREF="error.html#Prepare">Prepare a Data Quality Report</A></LI>
+
+<LI>
+7.3. <A HREF="error.html#Questions">Ask Questions abour Undocumented Data</A></LI>
+</UL>
+
+<H3>
+8. <A HREF="error.html#Managing">Principles of Managing Error</A></H3>
+
+<H3>
+9. <A HREF="error.html#Readings">Required Readings</A></H3>
+
+<H3>
+10. <A HREF="error.html#References">References and Further Readings</A></H3>
+
+<H3>
+11. <A HREF="../../exam/error/error.html">Examination
+and Study Questions</A></H3>
+<P>
+<HR><IMG SRC="gif/txblut00.gif" >
+Created on 14 Oct 95. DJH. Last revised on 9 October 1999. LNC.
+
+</BODY>
+</HTML>
+

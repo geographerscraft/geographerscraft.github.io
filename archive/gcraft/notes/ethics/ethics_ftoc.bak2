@@ -1,0 +1,259 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Ethical Issues in Electronic Information Systems</TITLE>
+</HEAD>
+<BODY>
+
+<H1>
+Ethical Issues in Electronic Information Systems</H1>
+<I>These materials are under development. You may use them, but please
+acknowledge their source and author: Margaret Lynch, The Geographer's Craft
+Project, Department of Geography, University of Texas, Austin, Texas. All
+commercial rights reserved. Please send comments and suggestions to Ken
+Foote at k.foote@mail.utexas.edu.</I>
+
+<P>
+<HR><B>Table of Contents</B>
+
+<P>&nbsp;<B>1. <A HREF="ethics.html#Introduction">Introduction</A></B>
+
+<P>&nbsp; <A HREF="ethics.html#newnew">A New Technology Creates New Ethical
+Dilemmas</A>
+
+<P>
+<UL>
+<LI>
+<A HREF="ethics.html#import">The Importance of Ethics in Information Systems</A></LI>
+
+
+<LI>
+<A HREF="ethics.html#fill">Ethics Fill the Gap as Legal Decisions Lag Behind
+Technology</A></LI>
+
+
+<LI>
+<A HREF="ethics.html#specif">Ethical Issues Specific to Electronic Systems</A></LI>
+</UL>
+<B>2. <A HREF="ethics.html#Elec_Nets">Electronic Networks</A></B>
+
+<P>&nbsp; <A HREF="ethics.html#intro2">Introduction: A Network Defined</A>
+<UL>
+<LI>
+<A HREF="ethics.html#netpow">Networks as Sources of Power</A></LI>
+
+
+<LI>
+<A HREF="ethics.html#netsoc">Networks as Social Places</A></LI>
+
+
+<LI>
+<A HREF="ethics.html#newfund">New Funding Sources Mean New Ethical Issues</A></LI>
+
+
+
+<LI>
+<A HREF="ethics.html#essays2">Some Essays About the Internet</A></LI>
+</UL>
+<B>3. <A HREF="ethics.html#A_Behave">Acceptable Behavior on the Networks:
+New Standards of Conduct</A></B>
+
+<P>&nbsp; Netiquette
+<UL>
+<LI>
+<A HREF="ethics.html#Netiquette">How to Behave on the Networks: Remember
+Where You Are</A></LI>
+
+<LI>
+<A HREF="ethics.html#some2">Some Activities That Will Offend</A></LI>
+
+<LI>
+<A HREF="ethics.html#simple2">Some Simple Guidelines</A></LI>
+
+<LI>
+<A HREF="ethics.html#netsos">Some Sources on Netiquette</A></LI>
+</UL>
+&nbsp;Acceptable Use Policies
+<UL>
+<LI>
+<A HREF="ethics.html#AUP">Different Networks Have Different Policies</A></LI>
+
+<LI>
+<A HREF="ethics.html#writ2">Written Policies Outline Permissions and Restrictions</A></LI>
+
+<LI>
+<A HREF="ethics.html#pol2">Policies from NSFNET and Others</A></LI>
+</UL>
+&nbsp;Exporting Through the Networks
+<UL>
+<LI>
+<A HREF="ethics.html#Net_Export">Export Restrictions Apply But Clear Guidelines
+Are Lacking</A></LI>
+
+<LI>
+<A HREF="ethics.html#fol2">Some General Principles to Follow</A></LI>
+
+<LI>
+<A HREF="ethics.html#exec">Example: Encryption Codes</A></LI>
+
+<LI>
+<A HREF="ethics.html#exnet">Example: Network Access to Hardware</A></LI>
+</UL>
+&nbsp;Copyrights
+<UL>
+<LI>
+<A HREF="ethics.html#CRight">Existing Law is Challenged by Electronic Information
+Systems</A></LI>
+
+<LI>
+<A HREF="ethics.html#guide2">Existing U.S. Copyright Law Provides Some
+Guidance</A></LI>
+
+<LI>
+<A HREF="ethics.html#respons2">Who Is Responsible for Copyright Protection?:
+Carriers vs. Providers</A></LI>
+
+<LI>
+<A HREF="ethics.html#create2">How is Work <I>Created</I> on a Network Protected?</A></LI>
+
+<UL>
+<LI>
+<A HREF="ethics.html#email">E-mail</A></LI>
+
+<LI>
+<A HREF="ethics.html#usenet">Usenet Postings</A></LI>
+
+<LI>
+<A HREF="ethics.html#cp2">Computer programs</A></LI>
+</UL>
+
+<LI>
+<A HREF="ethics.html#fur2">For Further Information on Copyright Laws</A></LI>
+</UL>
+<B>4. <A HREF="ethics.html#Access">Access to Electronic Networks</A></B>
+
+<P>&nbsp; <A HREF="ethics.html#Access">Why is Access Important?</A>
+
+<P>&nbsp; <A HREF="ethics.html#three2">Three Key Issues in Debate</A>
+<UL>
+<LI>
+<A HREF="ethics.html#prin2">What principle will guide access?:</A> Private
+initiative vs. universal service</LI>
+
+<LI>
+<A HREF="ethics.html#struc2">How will the networks be structured?:</A>
+Controlled vs. open infrastructure</LI>
+
+<LI>
+<A HREF="ethics.html#allow2">What will be allowed on the networks?:</A>
+Free speech vs. decency standards</LI>
+
+<UL>
+<LI>
+<A HREF="ethics.html#borders2">Communities without borders: Whose standards
+apply?</A></LI>
+
+<LI>
+<A HREF="ethics.html#ii">International issues</A></LI>
+</UL>
+</UL>
+&nbsp;<A HREF="ethics.html#ffe">For Further Exploration</A>
+
+
+<P><B>5. <A HREF="ethics.html#Privacy">Privacy and Electronic Networks</A></B>
+
+<P>&nbsp; <A HREF="ethics.html#Privacy">A Counterpoint to Open Access:
+What Others Know About You</A>
+
+<P>&nbsp; <A HREF="ethics.html#chalin">Challenges to Privacy by Individuals</A>
+
+<P>&nbsp; Challenges to Privacy by Companies
+<UL>
+<LI>
+<A HREF="ethics.html#chalco">Selling Information</A></LI>
+
+<LI>
+<A HREF="ethics.html#chalmon">Monitoring Employees</A></LI>
+</UL>
+&nbsp;Challenges to Privacy by Government
+<UL>
+<LI>
+<A HREF="ethics.html#chalgov">Governmental databases</A></LI>
+
+<LI>
+<A HREF="ethics.html#chalss">Search and seizure law threatens privacy</A></LI>
+</UL>
+&nbsp;<A HREF="ethics.html#formore2">For Further Information on Privacy</A>
+
+
+<P><B>6. <A HREF="ethics.html#ED">Electronic Databases</A></B>
+
+<P>&nbsp; <A HREF="ethics.html#ED">Electronic Format Changes the Way Information
+is Used</A>
+
+<P>&nbsp; <A HREF="ethics.html#Mosaic">Data Mosaics</A>
+
+<P>&nbsp; <A HREF="ethics.html#Sharing">Inadvertent Consequences of Data
+Sharing</A>
+
+<P>
+<UL>
+<LI>
+<A HREF="ethics.html#pe3">Example: Propagating errors with data sharing</A></LI>
+
+<LI>
+<A HREF="ethics.html#pp3">Example: Propensity profiles</A></LI>
+</UL>
+<B>7. <A HREF="ethics.html#GIS">Geographic Information Systems</A></B>
+
+<P>&nbsp; <A HREF="ethics.html#also">GIS Also Create New Sets of Data</A>
+
+<P>&nbsp; Conflicting Responsibilities: Serve and Protect
+
+<P>
+<UL>
+<LI>
+<A HREF="ethics.html#costs">GIS Information is Often Public Information
+and Agencies Like to Share Costs</A></LI>
+
+<LI>
+<A HREF="ethics.html#apip">Access to Public Information vs. Privacy</A></LI>
+
+<LI>
+<A HREF="ethics.html#apindpa">Access to Public Information vs. New Demands
+on Public Agencies</A></LI>
+
+<UL>
+<LI>
+<A HREF="ethics.html#what1">What's a public record? What are agencies required
+to provide?</A></LI>
+
+<LI>
+<A HREF="ethics.html#what2">What's a reasonable search?</A></LI>
+
+<LI>
+<A HREF="ethics.html#what3">May user fees be charged?</A></LI>
+
+<LI>
+<A HREF="ethics.html#what4">Must agencies provide records on paper or in
+digital format?</A></LI>
+</UL>
+</UL>
+&nbsp; <A HREF="ethics.html#Taking">International Data: Taking and Sharing</A>
+
+<P>&nbsp; <A HREF="ethics.html#Knowing">Knowing is Destroying</A>
+
+<P>&nbsp; <A HREF="ethics.html#edsos">Some Sources on Electronic Databases
+and GIS (Ethical Issues)</A>
+
+<P>&nbsp;<B>8. <A HREF="../../exam/legal/legal.html">Examination
+and Study Questions</A></B>
+
+<P>
+<HR>
+
+<P>Last revised 11 October 1999. LNC.
+</BODY>
+</HTML>
+

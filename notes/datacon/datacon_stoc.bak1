@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <META NAME="Author" CONTENT="Trey Rhodes">
+   <TITLE>Short TOC</TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000EE" VLINK="#551A8B" ALINK="#0000EE">
+<A HREF="http://www.utexas.edu/depts/grg/gcraft/contents.html" target="_top"><IMG SRC="gif/title1.gif" ></A>
+
+<P><FONT SIZE=+2>Database Concepts</FONT>
+
+<P><FONT SIZE=-1><A HREF="datacon_ftoc.html" TARGET="pages">Full Table
+of Contents</A></FONT>
+
+<P><FONT SIZE=-1><A HREF="datacon.html" TARGET="pages">Top of Module</A></FONT>
+<BR><FONT SIZE=-1>&nbsp;</FONT>
+<BR><FONT SIZE=-1>&nbsp;</FONT><FONT SIZE=-2> 1&nbsp; <A HREF="datacon.html#GIS" TARGET="pages">GIS
+as Representations of Reality</A></FONT>
+<BR><FONT SIZE=-2>&nbsp;</FONT>
+<BR><FONT SIZE=-2>&nbsp; 2&nbsp; <A HREF="datacon.html#Basic" TARGET="pages">Basic
+Types of Representation: Raster and Vector Reality</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 3&nbsp; <A HREF="datacon.html#Attribute" TARGET="pages">Organizing
+Attribute Data</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 4&nbsp; <A HREF="datacon.html#Represent" TARGET="pages">Representing
+Relationships</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 5&nbsp; <A HREF="datacon.html#Topological" TARGET="pages">The
+Example of Topological Relationships</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 6&nbsp; <A HREF="datacon.html#Object" TARGET="pages">Object
+Oriented Databases</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 7&nbsp; <A HREF="datacon.html#Expert" TARGET="pages">Idea
+of Expert Systems</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 8&nbsp; <A HREF="datacon.html#Required" TARGET="pages">Required
+Reading</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 9&nbsp; <A HREF="datacon.html#References" TARGET="pages">References
+and Supplemental Reading</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp;10&nbsp; <A HREF="http://www.utexas.edu/depts/grg/gcraft/exam/database/database.html" TARGET="pages">Examination
+and Study Questions</A></FONT>
+</BODY>
+</HTML>

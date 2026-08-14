@@ -1,0 +1,628 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="EISLab">
+   <meta name="GENERATOR" content="Mozilla/4.6 [en] (Win95; I) [Netscape]">
+   <title>Collin County Aquifer Project</title>
+</head>
+<body>
+
+<h3>
+<a NAME="top"></a></h3>
+
+<h3>
+<font color="#000099"><font size=+1>Creating the Basemap: .lgo format in
+<i>Mapviewer</i></font></font></h3>
+<font size=-1>The first step is to create a simple basemap of Collin County.
+This file, though a simple line file, is very important in establishing
+a frame of reference when plotting your well data. It is obviously necessary
+for the well data to be spatially located in order to create any maps from
+it. The basemap is a simple county outline map in the .<b>lgo</b> format
+that is referenced to the latitude/longitude coordinate system.</font>
+<p><font size=-1>The .lgo format stands for <b>line graph optional </b>and
+is a derivation of the older <b>USGS </b>digital line graph (.dlg) format.
+".DLG files are digital vector representations of cartographic information.
+Data files of topographic and planimetric map features are derived from
+either aerial photographs or from cartographic source materials using manual
+and automated digitizing methods." (<font color="#FF0000">http://edcwww.cr.usgs.gov/glis/hyper/guide/usgs_dlg</font>)
+For more information, take a&nbsp; look at the <a href="http://edcwww.cr.usgs.gov/glis/hyper/guide/usgs_dlg" target="_top">USGS
+.dlg format</a> page . The standard .dlg format is no longer obtainable
+from the USGS, but the optional format will continue to be in service while
+the newer Spatial Data Transfer Standard (<b>SDTS</b>) format becomes more
+available.</font>
+<p><font size=-1>Begin by downloading a sectional base map from <a href="ftp://spectrum.xerox.com/pub/map/dlg/1%3A2%2C000%2C000/usa/optnl/" target="_top">Xerox</a>
+which will be edited for the study area, Collin County. Be sure to read
+the directory information file cleverly labeled as <b>readme.fil</b> .
+This file will provide which section of the US you will need and more importantly,
+will explain the file naming convention.&nbsp; You will need the <b>Southern
+Plains States</b> section and the <b>Political Boundary</b> file. The files
+have been compressed in Unix using the Lempel-Ziv-Welch (LZW) encoding
+method and will have the extension (.Z) (<font color="#FF0000">ftp://spectrum.xerox.com/pub/map/README-MAP</font>).
+Save the file to your network account.</font>
+<br><img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/name_lgo.jpg" height=176 width=418 align=RIGHT>
+<br><font size=-1>To decompress, open <b><i>WinZip</i></b> (Microhelp Zip
+will not open them), and click on the Open icon (or go to <b>File | Open
+Archive...</b>) and select the zipped file&nbsp; (.Z extension). At the
+<i>WinZip
+</i>file
+renaming window add the extension <b>.lgo</b>. If you do not add it there,
+rename it in <i>Windows Explorer</i> <b>after</b> extraction otherwise
+<i>Mapviewer</i>
+will not recognize the file format. Once the archive file has been opened,
+click on Extract (or go to <b>Actions | Extract...</b>) and save it into
+your network directory.</font>
+<p><font size=-1>Open <i>Mapviewer</i> from the Golden Software directory
+and import the .lgo file (<b>File | Import...</b>). The <b>Import</b> window
+will open; check that the <b>Boundary gsb; bna; lgo</b> option is highlighted,
+and click OK. In the <b>Import Files</b> window, select the .lgo file and
+click OK again. The <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/lgo_impo.html">DLG
+Import Options</a> window will appear; be sure the projection is set to
+<b>Lat/Long</b>
+and All Nodes, All Areas, All Lines are checked on. Once opened, there
+should be a political boundary file of North Texas, including the Panhandle,
+and all of Oklahoma. Now the boundary file must be edited; you want just
+the <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/dlg_cut.html" target="_top">Collin
+County</a> boundary lines so everything else must be deleted. Large scale
+deletions can be accomplished by a marquee selection using the fence tool&nbsp;<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/fence.jpg" height=20 width=20>.
+A polygon, or a county in this case, will not be selected by the fence
+unless it is completely enclosed. Individual selections can be done with
+the pointer&nbsp;<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/arrow.jpg" height=20 width=20>.
+Do not forget to delete the outside boundary around the entire section.
+Once the other polygons are gone (except Collin County), it may be necessary
+to zoom in and clean up individual line segments left behind. You may notice
+that some of the Collin County lines appear to be bold. These are duplicate
+lines on top of one another, left behind by the deletion of the adjacent
+counties. One of the two lines can be selected and deleted to return the
+county line to the original weight. The final base map boundary file should
+look something like <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/boundary.html">this</a>...boring
+but useful.</font>
+<p><font size=-1><b>Export</b> the file as a <b>.GSB</b> format. This file
+will be your base map. Keep it safe.</font>
+<p><a NAME="well"></a>
+<hr SIZE=3 WIDTH="90%">
+<h3>
+<b><font color="#000099"><font size=+1>Well Data Acquisition</font></font></b></h3>
+<font size=-1>The next step is collecting the well water level data. The
+<b>Water
+Level Publication Report</b> for Collin County has already been acquired
+from the Texas Water Development Board and will be available to you. This
+report (or dataset) contains all the <i>recorded</i> well data for Collin
+County. The data is also available online at the TWDB groundwater <a href="ftp://rio.twdb.state.tx.us/gwdata/">database</a>
+but is a little more difficult to decipher in that format. There is one
+other file that will be needed from the <b><a href="ftp://rio.twdb.state.tx.us/gwdata/Database%20in%20ASCII/Collin/">Collin</a></b>
+directory at the online database. This file, <b>weldta.txt</b>, contains
+information about each well such as name, owner, aquifer specification,
+and most importantly, the location (latitude and longitude). Weldta.txt
+will provide the X (longitude) and Y (latitude) coordinates while the Water
+Level Publication Report will provide the Z coordinates (water level elevation),
+as well as,&nbsp; the reference to time (sampling dates), adding the third
+and fourth dimensions to the mapping exercise.</font>
+<p><font size=-1>The next step is taking the actual well data and creating
+a spreadsheet. This spreadsheet(s) will become the brains of your map(s).
+As mentioned before, the time periods that will be examined will be 1977
+and 1997. A sample spreadsheet for 1977 will be provided, but the 1997
+sheet, you will need to construct. Like most real world data sets, this
+data is not in an ideal condition. For example, for the 1977 set of data
+there are 3 generalized "zones" of collection dates: the middle of February
+(10, 14), early March (8-9), and the middle of November (14, 18). Due to
+this range in sampling dates, there may be some variations in water elevations
+(over the ranges of time) at any given well location. This introduces temporal
+error into the elevation readings, but these are accepted sources of error
+due to the nature of the data collection process. Sometimes these errors
+are unavoidable. A certain amount of judgement will be required to sort
+through extraneous versus useful data. This dataset has already been analyzed,
+and the unnecessary wells will be excluded from the well ID list that will
+be provided. It is important to be aware though, of the need for data editing.</font>
+<p><a NAME="spreadsheet"></a>
+<hr SIZE=3 WIDTH="90%">
+<h3>
+<font color="#000099">Spreadsheet Construction</font></h3>
+<font size=-1>Some of the wells that were eliminated from the <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/1977ss.html">1977
+data spreadsheet</a> were excluded due to attributes in the data report
+such as "P's" and "Q's". These variables are designated for water level
+elevations that may have been "affected by pumpage or recharge at that
+location or a nearby well" and "accuracy of measurement is questionable",
+respectively. This spreadsheet is available for download <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/download/collin_77.dat">here</a>.
+To save the spreadsheet, hold the shift key and click on the link, and
+save it to your directory.</font>
+<p><font size=-1>You will notice the structure of <b>collin_77d.dat</b>
+consists of six columns: "Longitude","Latitude", "Elevation of Water Level",
+"Well ID", "Date of Sample", "Rock Unit", and "Attributes". The first four
+columns are critical. "Longitude" and "Latitude" obviously establish a
+location, "Elevation..." sets the Z variable or third dimension, and the
+fourth is "Well ID" which is not necessary in the mapping stage but will
+be needed to keep track of the data. The "Date of Sample" is important
+in determining which wells have the lowest sampling date range. This reduces
+the error from variations of well elevation over time. The last two columns
+are more supplemental than necessity. "Rock Unit" refers to which geologic
+unit the aquifer exists in, which in a single aquifer study is not that
+important, but would be in the event of a multiple aquifer study. Lastly,
+is the "Attribute" column which holds the P's and Q's mentioned before;
+this may help crop out unwanted data later, in one's study. This has already
+been completed for the 1977 spreadsheet so the attribute column is empty.
+You will need to emulate this database structure when creating the spreadsheet
+for 1997.</font>
+<p><font size=-1>To begin creating the 1997 spreadsheet, open <i>Surfer32</i>
+under the Golden Software directory. <b>Open File | Worksheet</b> or click
+on the Worksheet icon&nbsp;<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/iconwkst.jpg" height=22 width=24>
+and in columns A through G duplicate the 1977 spreadsheet headings (Column
+F "Rock Unit" optional). The following wells are to be included into the
+1997 spreadsheet; enter them into column D.</font>
+<center><table BORDER=0 COLS=2 WIDTH="300" HEIGHT="100" >
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td ALIGN=CENTER VALIGN=CENTER><font size=-1>18-36-803</font>
+<br><font size=-1>18-43-204</font>
+<br><font size=-1>18-44-601</font>
+<br><font size=-1>18-44-702</font>
+<br><font size=-1>18-44-803</font></td>
+
+<td><font size=-1>18-45-604</font>
+<br><font size=-1>18-50-202</font>
+<br><font size=-1>18-50-301</font>
+<br><font size=-1>18-51-902</font></td>
+</tr>
+</table></center>
+<font size=-1>Columns "Elevation of Water Level", "Date of Sample", and
+"Attributes" will be filled with data from the Water Level Publication
+Report, and the "Latitude" and "Longitude" columns will come from <b>weldta</b>
+text file. At this point, the spreadsheet should look something like <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/1997ss.html">this</a>.</font>
+<p><font size=-1>The next step is to input the latitude and longitude.
+The lat./long.data in the <b><a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/weldta.html">weldta.txt</a></b>
+file is in degrees- minutes-seconds; these will need to be converted to
+decimal degrees. A second spreadsheet is needed for this purpose with an
+ID column and four columns for both latitude and longitude: "Well ID" in
+column A, "Degrees" in column B, "Minutes" in column C, "Seconds" in column
+D, and "Conversion" (the formula is used for the title in the graphic example)
+in column E. The degree, minute, second, and conversion column sequence
+will need to be repeated for the latitude calculation. A graphic example
+of the conversion <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/conver77.html" target="_top">spreadsheet</a>
+for 1977. The formula for the conversion:</font>
+<center><font size=-1>conversion&nbsp; = ((((seconds / 60) + minutes) /
+60) + degrees) * -1</font>
+<p><font size=-1>or</font>
+<br><font size=-1>E = ((((D / 60) + C) / 60) + B) * -1</font></center>
+
+<p><font size=-1>To calculate column E, in the <i>Surfer</i> spreadsheet
+choose <b>Compute | Transform... </b>, and enter the bottom version of
+the formula. This should convert columns B, C, and D (providing the same
+spreadsheet structure was used). The two conversion columns&nbsp; (longitude
+and latitude) can now be added to Columns A and B respectively, to the
+1997 spreadsheet.</font>
+<p><font size=-1>Its necessary to convert the longitude in the Western
+hemisphere to a negative number . The latitude/longitude cartographic scheme
+divides the earth into four quadrants similar to the cartesian coordinate
+system in basic geometry. In order to avoid east versus west longitude
+mapping problems, the cartesian coordinate system scheme was superimposed
+onto the latitude/longitude system thereby assigning positive and negative
+values versus the east - west nomenclature. The same is true for north
+- south latitude. A graphic <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/world.html">example</a>.
+<b>Do
+not multiply by negative one when converting latitude</b>.</font>
+<p><font size=-1>The last step is adding the values and text to the "Elevation
+of Water Level" and "Date of Sample" columns; "Rock Unit" is optional since
+this is a study of only one aquifer. These values can be obtained from
+the Water Level Publication Report. A graphic <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/watrepo.html" target="_top">example</a>
+of data extraction from the report. Once these values have been input,
+the spreadsheet should be complete. It should emulate the 1977 spreadsheet
+but with only nine wells.</font>
+<p><font size=-1>Save the spreadsheet file in the .dat format to your directory.</font>
+<p><a NAME="contour"></a>
+<hr SIZE=3 WIDTH="90%">
+<h3>
+<font color="#000099">Contour Mapping of Aquifer Surface</font></h3>
+<font size=-1>Now you are ready to begin mapping using the base map (.gsb)
+and the spreadsheets (.dat) which you have created. Open <i>Surfer</i>
+and become familiar with the menu structure (a brief summary of the default
+<a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/menubar.html">menu-bar</a>).The
+two pull-down menus that will be used most are the Grid and Map menus.</font>
+<p><font size=-1>First, load the base map that you edited in <i>Mapviewer</i>.
+From the <b>Map</b> menu choose <b>Load Base Map...</b> The Import File
+window will appear; select your .gsb file from your network directory.
+If the U:\\Dewey drive does not appear in the <b>Drives:</b> box click
+on Network... and then cancel from the Map Network Drive window. The U:\
+drive should now appear in the Drives: box. Open the .gsb file. A boundary
+file of Collin County with latitude and longitude should appear. Note the
+longitude is in <b>negative</b> decimal degrees.</font>
+<p><font size=-1>Next, you must create grid files from your spreadsheets.
+Grids (.GRD) are the format <i>Surfer</i> actually maps not the raw data
+file itself, so grid files are, <i>in a sense</i>, a transformation of
+empirical data to a graphical format. From the <b>Grid</b> menu choose
+<b>Data...</b>
+and select your 1977 <b>.dat</b> file that you downloaded. In the <b>Scattered
+Data Interpolation</b> <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/scatter.html">window</a>
+check that <b>X:</b> is Longitude, <b>Y:</b> is Latitude, and <b>Z:</b>
+is the Elevation of Water Level. Set the <b>Gridding Method</b> to Kriging.
+The gridding method controls the interpolation procedure of the data file,
+or in other words, how it represents the data. Different methods can produce
+distinctly different maps. The following <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/methods.html">examples</a>
+were created from the same 1977 grid. Lastly, change the <b>Output Grid
+File </b>directory to your network directory.</font>
+<p><img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/editcom.jpg" height=215 width=294 align=LEFT><font size=-1>Now
+the .grd files can be opened, contoured,&nbsp; and combined with the base
+map. Open the <b>Map</b> menu and choose <b>Contour</b> and the <b>Open
+Grid</b> window will appear. Select the 1977 <b>.grd</b> file and click
+OK. The <b>Contour Map</b> <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/conmap.html">window</a>
+should appear. There are a number of options that can be experimented with
+later (i.e. contour line labels), but for now, make sure the <b>Fill Contours</b>
+box is clicked off and just click on OK. Select both the contour and base
+maps by selecting one and then holding the shift key down while selecting
+the other or by choosing Select All from the Edit menu (if there is more
+than one map present on the page, the latter option will not work). Once
+they are both selected, open the <b>Map</b> menu and choose <b>Overlay
+Maps</b>. Now the files are referenced to the same x-y coordinate system
+and provide a look at real space. To edit maps that have been overlain,
+select the map and open <b>Map | Edit Overlays...</b> In the <b>Edit Components</b>
+window, you can choose the axes of the maps and each individual map in
+the overlay. Then click on Edit. A graphic <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/con77.html">example</a>
+of the 1977 set of data... with <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/con77fil.html">filled
+contours</a>.</font>
+<p><font size=-1>You will notice the contour map does not cover the entire
+county. <i>Surfer</i> can only extrapolate a given distance within the
+well distribution grid. In other words, the distribution of the wells is
+too small for <i>Surfer</i> to extrapolate across the entire county. All
+of the contouring outside of the distribution grid or box would be merely
+conjecture. Unfortunately, little to no data exists in the southeastern
+area of the county due to the Fresh to Slightly Saline Line. This data
+gap will become a little more evident after the completion of the next
+step.</font>
+<p><font size=-1>Wells and elevation labels can be added by opening the
+<b>Map
+| Post...</b> The&nbsp; <b>X Coord</b> should be Longitude, <b>Y Coord</b>
+be Latitude, and <b>Label</b> be Elevation of Water Level. Other attributes
+can be changed, but for now use the defaults. Once again, select the two
+maps (1. the base map plus contour <i>and</i> 2. the label post map) and
+overlay them. A graphic <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/conpos77.html">example</a>.</font>
+<p><font size=-1>Now repeat the same procedure with the 1997 spreadsheet
+you created.</font>
+<p><a NAME="volume"></a>
+<hr SIZE=3 WIDTH="90%">
+<h3>
+<font color="#000099">Volume Calculation between 2 Aquifer Surfaces</font></h3>
+<font size=-1>The final step is to produce a volumetric comparison using
+the two grid files from the 1977 and 1997 datasets.&nbsp; The volume function
+uses two grids and estimates the volume between them by subtracting the
+lower surface from the upper. In this case, the upper surface is the grid
+created from the 1977 data because it has higher z-axis values (water level
+elevations); the 1997 grid becomes the lower surface. An <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/volcomp.html">example</a></font>
+<p><font size=-1>The two grid files used to produce the 1977 and 1997 contour
+maps have the same X coordinates or longitude, but they differ in latitude.
+This results from how <i>Surfer</i> creates the well distribution grid
+which in turn depends upon&nbsp; the sampled well locations (discussed
+in contour section). Both map grids will have to be trimmed of the edges
+that do <b>not</b> overlap with the other grid for the volumetric calculation.
+A graphic <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/areatrim.html" target="_top">example</a>.
+You will need to know the grid dimensions. These can be obtained from the
+<b>Grid
+Info...</b> buttons in the Grid Volume window. From the <b>Grid</b> pull-down
+menu, open <b>Volume...</b> Open your 1977 grid file and the
+<b>Grid Volume</b>
+window should appear with the 1977 grid in the Upper Surface section. Click
+on <b>Grid File</b> in the<b> Lower Surface</b> section and browse to the
+1997 grid file. Open both Grid Info... windows and compare the sets of
+values. An <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/gridvolu.html">example</a>.
+Notice the Y values differ. The grids will need to be trimmed so that they
+share common values of latitude. Record the Y-Minimum and Y-Maximums for
+each grid, and close the grid volume window.</font>
+<p><font size=-1>Now you need to choose the common boundaries from the
+two the grid dimensions. An <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/areatri2.html">example</a>
+from the previous Grid Info... graphic. Choose the <b><i><font color="#000099">highest</font></i></b>
+latitude of the two grid <b><i>lower</i></b> boundaries and the <b><i><font color="#990000">lowest</font></i></b>
+latitude of the two <b>upper</b> boundaries, or in other words, the <font color="#000099">1997</font>
+lower boundary and the <font color="#660000">1977</font> upper boundary.
+The common boundaries will cut down the area of the two contour plots,
+but it is necessary to eliminate any loose edges. It is important to note
+that the volume calculation does not represent the entire area of the the
+two contour maps, which in turn, do not represent the entire area of the
+county. Due to the data available or the lack of wells in the Woodbine
+aquifer in the southern and the eastern regions of the county, it is the
+best that can be done. Using the Grid | Data... option open the 1977 .dat
+file created from the spreadsheet. You have already done this when creating
+the first grid file used in the contour mapping section of the exercise.
+In the <b>Grid Line Geometry</b> section, the grid dimensions can be adjusted.
+From the previous example diagram, when clipping the 1977 grid, you will
+want to use the 1977 upper latitude for the upper boundary and the 1997
+lower latitude for the lower boundary. The Gridding Method should be <b>Kriging</b>,
+and don't forget to change the output name and directory to your own. An
+<a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/areatri3.html">example</a>.
+Trim the 1997 grid the same way; it will require the inverse input into
+the Grid Line Geometry section.</font>
+<p><font size=-1>Both grids have now been trimmed and are ready to be used
+with the volume function. Open <b>Grid | Volume...</b> and choose your
+trimmed 1977 grid file. Once again, in the <b>Lower Surface</b> section
+click on <b>Grid File</b> and browse to your trimmed 1997 .grd file. You
+may want to check both Grid Info...' windows again. The X and Y minimum
+and maximums should be identical. If so, click on OK and a text file report
+(.txt) should be created in the <i>Surfer<b> Editor</b></i> window. To
+save this go to
+<b>File | Save As...</b> on the regular <i>Surfer</i> menu-bar.
+An <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/volume.html">example</a>
+of the volume report with the volume figures altered considerably, of course.</font>
+<p>
+<hr SIZE=3 WIDTH="50%">
+<h4>
+<font color="#993366">Calculating the Average Volume from 3 Different Volume
+Estimating Methods</font></h4>
+
+<ul><font size=-1>You will notice the volume was estimated using three
+different methods: Trapezoidal Rule, Simpson's Rule, Simpson's 3/8 Rule.
+Calculating by three different methods provides a measure of the accuracy
+of the volume calculations (<font color="#FF0000">Surfer manual, p.15-4</font>)&nbsp;
+To report the Net Volume including the error, use the following formula:</font>
+<center>
+<p><b><font size=-1>Relative Error = (Largest Volume - Smallest Volume)
+* 100 / <font color="#CC6600">Average of all three Volumes</font></font></b></center>
+
+<p><font size=-1>in the Volume report example:</font>
+<center><font size=-1>Rel. Error = (<font color="#000000">3.53931</font>
+- 3.5390) * 100 / <b><font color="#CC6600">3.53917</font></b></font>
+<br><b><font size=-1>Rel. Error = 0.009%</font></b></center>
+
+<p><font size=-1>The Volume would be reported as <b><font color="#CC6600">3.53917</font></b>
+(average) <b>&plusmn; 0.009% </b>, but 3.53917 what?</font>
+<br>&nbsp;
+<p><i><font size=-1>You will need to calculate your average volume from
+the volume calculation report produced from your files using this method.</font></i></ul>
+
+<hr SIZE=3 WIDTH="50%">
+<p><b><font color="#993366">Volume Conversion from Cubic Degrees to a Consistent
+Unit (cubic feet)</font></b>
+<blockquote><font size=-1>The last step is to determine what these volume
+values represent. As you may be wondering, the numbers are unitless in
+the report. The reported figures depend on what units you use in each of
+your grids that you input into the volume function. In this case, the three
+dimensions are degrees longitude (X value) by degrees latitude (Y value)
+by feet in elevation of water level (Z value). This produces rather useless
+volume values unless they are converted to a common unit, feet cubed for
+example. This is a little easier said than done because the number of feet
+per degree longitude as well as latitude varies across the earth. For an
+overview, peruse the <font color="#FF0000"><a href="http://www.ncgia.ucsb.edu:80/education/curricula/giscc/cc_outline.html">NCGIA
+Core Curriculum in GIScience</a> </font><a href="http://www.ncgia.ucsb.edu/education/curricula/giscc/units/u014/u014_f.html" target="_top">Latitude
+and Longitude</a> module, especially 3.1.1 and 3.2.1. For simplicity, the
+longitudinal distance was calculated along the bottom latitude of the contour
+map.</font>
+<p><font size=-1>The distance (feet) represented by the study area boundaries
+(latitude and longitude) has already been calculated and is illustrated
+on the <a href="html/distance.html">distance calculation page</a>. The
+distance represented by the study area longitude equals <b>131,239</b>
+feet and <b>77,136</b> feet for latitude.</font>
+<p><font size=-1>Example Calculation:</font>
+<center>
+<p><font size=-1>Since Volume&nbsp;&nbsp; =&nbsp;&nbsp; X axis * Y axis
+* Z axis&nbsp;&nbsp; =&nbsp;&nbsp; <b><font color="#CC6600">3.53917</font></b>&nbsp;
+&plusmn; 0.009% degrees longitude <b>&middot; </b>degrees latitude <b>&middot;
+</b>feet</font>
+<p><font size=-1>&nbsp;Volume = (<b><font color="#CC6600">3.53917</font></b>&nbsp;
+&deg; longitude <b>&middot;</b> &deg; latitude <b>&middot;</b> feet) *
+(<b><font color="#990000">131239</font></b> feet<b> &middot;</b> &deg;
+longitude<sup>-1 </sup>) * ( <b><font color="#990000">77136</font></b>
+feet<b> &middot;</b> &deg; latitude<sup>-1
+</sup>) =</font>
+<br><font size=-1>= 35,827,908,025 ft<sup>3</sup></font>
+<p><font size=-1>This is the average volume with a consistent unit = <b>35,827,908,025
+ft<sup>3</sup></b></font> <b><font size=-1>&plusmn; 0.009%</font></b></center>
+
+<p><i><font size=-1>You will need to covert your average volume to cubic
+feet using this method.</font></i></blockquote>
+
+<hr SIZE=3 WIDTH="50%">
+<h4>
+<font color="#993366">Volume Conversion to Acre-feet</font></h4>
+
+<blockquote><font size=-1>A more common English system volume unit used
+in hydrogeology is <b>acre&middot;ft</b> which is defined as the volume
+of water necessary to cover one acre, one foot deep. The final volume will
+need to be converted to acre<b>&middot;</b>ft.</font>
+<p><font size=-1>Example Calculation:</font>
+<center><font size=-1>Volume = 35,827,908,025 ft<sup>3</sup><b> * </b>acre
+<b>&middot;
+</b>43560<b>&nbsp;</b>
+ft<sup>-2</sup> = 822,496 acre<b>&middot;</b>ft</font></center>
+
+<p><font size=-1>This is the total volume with a correct unit of measure
+=
+<b>822,496 &plusmn; 0.009% acre&middot;ft</b></font>
+<p><i><font size=-1>You will need to covert your average volume to acre-feet
+using this method.</font></i></blockquote>
+
+<hr SIZE=3 WIDTH="50%">
+<h4>
+<font color="#993366">Total Volume to Net Volume</font></h4>
+
+<blockquote><font size=-1>You now have a volume estimation in one unit
+of measure, but referring back to the <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/volcomp.html">diagram</a>
+, is the current volume figure accurately representative of the <i>volume
+of water </i>calculated from the difference between the 1977 and 1997 equipotential
+surfaces? The&nbsp; volume calculated between the two surfaces is a <b>total
+volume</b> of <b><i>both</i></b> rock and water (assuming: all voids are
+saturated). To obtain the volume of water, the volume of the rock must
+be subtracted from the total volume, or since water can only be contained
+in the pore spaces of the Woodbine rock unit, the total volume can be multiplied
+by the <i>porosity</i> to obtain the pore space volume, which if saturated,
+is also the total volume of water between the 1977 and 1997 surfaces. A
+typical porosity for the Woodbine sandstone is 5 percent.</font>
+<p><font size=-1>Example Calculation:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Net Volume of Water&nbsp; =&nbsp; <font color="#000000">acre&middot;ft</font>&nbsp;
+*&nbsp; <font color="#000000">porosity</font></font>
+<center><font size=-1>&nbsp;&nbsp;&nbsp;&nbsp; =&nbsp; 822,496 acre&middot;ft&nbsp;
+*&nbsp; 0.05</font></center>
+
+<p><font size=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Net Volume of Water&nbsp; =&nbsp; 41,125 acre&middot;ft</font>
+<p><font size=-1>This is the final net volume of water removed from the
+aquifer between 1977 and 1997 =&nbsp;&nbsp; <b>41,125 &plusmn; 0.009% acre&middot;ft</b></font>
+<p><i><font size=-1>You will need to calculate your final net volume of
+water using this procedure.</font></i></blockquote>
+<a NAME="legend"></a>
+<hr SIZE=3 WIDTH="90%">
+<h3>
+<font color="#000099">Creating a Legend</font></h3>
+<font size=-1>The capability of creating map legends in&nbsp; Surfer is
+probably the weakest feature of an otherwise powerful program. Legends
+must be created from scratch. Fortunately, there is not much information
+in this project that needs to be included in a legend. Once symbols and
+text have been added to the key, they can be edited by clicking on them
+with the right mouse button. After a number of legend elements are in place,
+you can group them as one element (easier to move) by selecting them all
+(hold the shift key as you click on them or draw a selection box by holding
+the left mouse button down as you drag) and then go to <b>Arrange | Combine</b>
+while <b>Arrange | Break Apart</b> will separate them again. You can combine
+a group of objects and then combine the new group with another group so
+keep in mind the hierarchy of combinations.</font>
+<br>&nbsp;
+<ul>
+<li>
+<font size=-1>To recreate symbols used in the map, open <b>Draw | Symbol
+Attributes</b> which will allow you to choose the symbol, color, and point
+size. Next, click on the Draw Symbol icon&nbsp;<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/symbol.jpg" height=22 width=24>
+and place the symbol of choice.</font></li>
+
+<li>
+<font size=-1>The line icon&nbsp;<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/line.jpg" height=22 width=24>
+can be used to recreate the contour lines.</font></li>
+
+<li>
+<font size=-1>To add text for the explanations of the symbols use the text
+icon&nbsp;<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/text.jpg" height=22 width=24>
+.</font></li>
+
+<li>
+<font size=-1>Symbols and text can be rotated if necessary, by selecting
+the object and opening <b>Arrange | Rotate <i>or</i> Free Rotate</b>. The
+Rotate option allows the object to be moved by a user specified number
+of degrees while the Free Rotate allows the object to be rotated on an
+axis until the desired orientation is achieved.</font></li>
+
+<li>
+<font size=-1>The north arrow can be added from the symbols menu as well.
+There are a number of different symbols that can be used.</font></li>
+
+<li>
+<font size=-1>You may want to specify the countour interval and back that
+up with a few strategically placed contour line labels from the <b>Contour
+Map</b> edit window.</font></li>
+
+<li>
+<font color="#000000"><font size=-1>Scale</font></font></li>
+
+<li>
+<font size=-1>Lastly, if you prefer a neat line around the legend, try
+the Draw Rectangle or Draw Rounded Rectangle tools&nbsp;<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/rectangl.jpg" height=22 width=47>
+. Be sure the fill is turned off; the Fill Attributes box will have <b>None
+</b>written
+inside. If you plan to combine all of the legend elements, group everything
+inside the neatline box first. After the neatline has been constructed,
+draw a selection box with the pointer around the entire legend and then
+combine.</font></li>
+</ul>
+<a NAME="surface"></a>
+<hr SIZE=3 WIDTH="90%">
+<h4>
+<font color="#000099"><i>Optional</i>: Surface Plot of Aquifer Surface</font></h4>
+<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/3dview.jpg" HSPACE=5 VSPACE=5 height=187 width=384 align=RIGHT>
+<br><font size=-1>For a 3-dimensional&nbsp; map of the aquifer surface
+open the Map menu and choose <b>Surface...</b> Open the 1977 grid file.
+Surface plots create a 3-D mesh that simulates the surface of a database
+containing 3 dimensional data (x,y,z points). From the <b>Surface Plot</b>
+window you have a number of options to experiment with. The following example
+was created from this Surface Plot <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/surfplot.html">window</a>.
+A <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/plottoge.html" target="_top">graphic</a>
+example of a surface plot of the 1977 aquifer data, with a little rotation
+for visual effectiveness. To rotate, select the surface plot and open <b>Map|
+3D View...</b>; the rotation and tilt can be adjusted here.</font> <font size=-1>After
+learning the process, you may want to go back and experiment with some
+of the options. An <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/surfalt.html">example</a>.</font>
+<p><font size=-1><b>3-D labels</b> can be added to the surface plot by
+opening&nbsp; <b>Map | Post </b>and selecting the 1977 data file. In the
+Post Map window, change the Label column to be Column C (the elevation
+of the water level) or Column D if well ID's are more useful. In the 3-D
+Label Lines field enter the length of the pointer line (try 0.50 inches),
+and change the line color to red in the Attributes window. In the Symbol
+Attributes box, select an empty field so the Default Symbol box is empty.
+Click OK. Select both the post map and the surface plot and overlay them.
+An <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/postlabl.html">example</a>.</font>
+<p><font size=-1>Other map options are available under the Map menu. You
+may want to experiment with them just to become acquainted with the different
+styles.</font>
+<p><a NAME="postflow"></a>
+<hr SIZE=3 WIDTH="90%">
+<h4>
+<font color="#000099"><i>Optional</i>: Flow Direction Post Map</font></h4>
+<font size=-1>Mathematics can be used to manipulate grid files allowing
+a variety of different aspects of data to be mapped. The <b>Grid | Calculus</b>
+function manipulates the data with you guessed it... calculus. Grid calculus
+in Surfer is separated into four categories: <i>Differential and Integral
+Operators</i>, <i>Directional Derivatives</i>, <i>Fourier and Spectral
+Analysis</i>, and <i>Terrain Modeling</i>.&nbsp; Each has a number of subcategories
+or options that provide more powerful choices for data manipulation and
+analysis. The Terrain Modeling group is another type of analysis of surface
+geometry that is important to mapping physical features. Terrain Modeling
+is further subdivided into 5 types of operations: <i>Terrain Slope</i>,
+<i>Terrain
+Aspect</i>, <i>Profile Curvature</i>, <i>Plan Curvature</i>, and <i>Tangential
+Curvature </i>(<font color="#FF0000">Surfer manual, p.5-58-60</font>).</font>
+<p><font size=-1>Terrain Aspect provides the steepest slope at each grid
+node or in other words, the angle exactly perpendicular to the contour
+line. This would simulate the path that water would flow if running off
+the land-surface, in a watershed for example. Using this option, you can
+<b>predict</b>
+the direction of flow from a groundwater equipotential map as if it were
+runoff on the surface of the earth. An <font color="#000000"><a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/postflow.html" target="_top">example</a></font></font>
+.
+<p><font size=-1>Choose Grid | Calculus... and open either grid; the <font color="#000000"><a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/calculus2.html">Grid
+Calculus</a></font> window should appear. In the Grid-to-Grid Operation
+section choose <b>Terrain Modeling</b> and click on options and select
+<b>Terrain
+Aspect</b> and click OK. In the <b>Output Grid File</b> box browse to your
+directory, and in the <b>Save Grid</b> window choose <b>Save File as Type</b>
+and select ASCII XYZ (*.DAT). This will save the calculus output file as
+a data (.dat) file. Click OK. Click OK once more and the calculus fuction
+should output the file.</font>
+<p><img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/transfor.jpg" height=138 width=282 align=RIGHT><font size=-1>Now,
+you must manipulate the database file. Open the file in the <i>Surfer</i>
+worksheet&nbsp;<img SRC="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpg/iconwkst.jpg" height=22 width=24>
+and in <b>Options | Sort...</b> choose the <b>Primary Sort Column</b> as
+C and Ascending. This will group all the rows with a <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/blank.html">blanking
+value</a> together; highlight and delete these rows. "Blanking values indicate
+that insufficient data existed to generate a grid node value at that particular
+location..." (<font color="#FF0000">Surfer manual, p.5-24</font>) Open
+the <b>Transform...</b> function from the Compute menu and enter the formula:</font>
+<p><b><font size=-1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+D = -C + 360</font></b>
+<p><font size=-1>Check to be sure the rows to be transformed are 1 to the
+end of your data-set (after blanking value deletion) and then click OK.
+Save your data file (.dat) and close the worksheet window.</font>
+<p><font size=-1>Back in <i>Surfer</i>, open your basemap, create another
+contour map, and overlay them. From the <b>Map | Post...</b> open the data
+file you just edited and the <a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/postmap.html">Post
+Map</a> window should appear. In the <b>Worksheet Columns | Angle</b>box
+select <b>Column D:</b> , in <b>Symbol Size | Fixed Size</b> enter the
+size; try something around 0.12 inches. Lastly, in the <b>Default Symbol</b>
+section choose your symbol to represent flow direction and click OK. Select
+all the maps and overlay them again. Remember, you can edit any map in
+the overlay by selecting them and choosing Edit Overlays... from the Map
+menu.</font>
+<p><font size=-1>You may want to experiment with some of the options available
+in the Post Map window; for example, try changing the <b>Symbol Size</b>
+to Proportional or <b>Post every:</b> to 2. Although changing the latter
+doesn't work very well it at least demonstrates that other options are
+available to explore. That should finish the flow direction post map. An
+<a href="http://www.utexas.edu/depts/grg/gcraft/warmup/aquifer/jpghtml/postmap2.html" target="_top">example</a>.</font>
+<br>&nbsp;
+<h3>
+<a NAME="turnin"></a>
+<hr SIZE=3 WIDTH="90%"></h3>
+
+<h3>
+<font color="#000099">What to Turn in</font></h3>
+<font size=-1>Present the findings of your analysis in the Web.&nbsp; Your
+Web page(s) should demonstrate, at a minimum, how the aquifer levels have
+changed between 1977 and 1997 and your estimate of the difference in volume.&nbsp;
+You may also wish to show how this change is related to agricultural production
+or urban growth in the study area.</font>
+<p>
+<hr SIZE=3 WIDTH="90%">
+<p><font size=-1>Created March 28, 1998. LNC.</font>
+<br><font size=-1>Last Updated November 14, 1999. KEF.</font>
+</body>
+</html>

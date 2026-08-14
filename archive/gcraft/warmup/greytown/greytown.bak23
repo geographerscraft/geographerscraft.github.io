@@ -1,0 +1,397 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.06 [en] (WinNT; I) [Netscape]">
+   <TITLE>3D Modeling of Greytown, Nicaragua</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#6699FF" VLINK="#990066">
+
+<CENTER>
+<H1>
+3D Modeling of Greytown, Nicaragua</H1></CENTER>
+
+<CENTER>
+<H2>
+A MicroStation Exercise</H2></CENTER>
+This page is available in a <A HREF="greytown_f.html" target="_top">framed
+version</A>.&nbsp; For convenience, a <A HREF="greytown_ftoc.html" target="_top">Full
+Table of Contents</A> is provided.
+<BR>
+<HR><A NAME="Introduction"></A>This exercise is designed to familiarize
+the student with simple 3D modeling techniques, rendering, camera views,
+and fly-by animations, using MicroStation.
+<P><IMG SRC="gif/nicaragu.gif"  ALIGN=LEFT>
+<P>Greytown (also called San Juan del Norte), Nicaragua was a settlement
+at the eastern terminus of one of the proposed canal routes across the
+Central American isthmus during of the nineteenth century. The town was
+a small fort and customs station prior to 1848, the start of its period
+of rapid growth as a foreign merchant enclave. During the California Gold
+Rush, thousands of travelers crossed the isthmus through this town on their
+way to or from San Francisco. Sail and steam-ships traveled between Greytown
+and New York and New Orleans. Small boats transported passengers along
+the R&iacute;o San Juan - Lake Nicaragua waterway. Mules and horses transported
+them across the short land section between the lake and Pacific ports,
+meeting ships traveling up and down the coast between California and Nicaragua
+and Panama.
+<P>&nbsp;At the outlet of the R&iacute;o San Juan, the town was built in
+a rapidly changing physical environment. The surrounding delta, built from
+the volcanic sediment carried down from the Costa Rican volcanoes to the
+southwest and interacting with the prevailing ocean currents and winds,
+filled the harbor with shifting sandbars and spits, continuously changing
+the landforms.
+<P>&nbsp;In 1854 the town was bombarded and burned by a U. S. war-ship
+during a confrontation with the townspeople over tariffs and control of
+the transit route. During the period between 1848 and 1854 and afterward
+while the controversy over the destruction of the town was reported around
+the world, the town was described and depicted in a variety of charts,
+illustrations, and texts. These descriptions exhibit a wide range of differences
+in their portrayals of Greytown.
+<P>GIS technologies can provide a method for evaluating differences in
+place description in an environment that experienced rapid growth in settlement
+patterns and simultaneous variations in landforms. In this exercise, a
+planimetric map will be used to produce a three dimensional model that
+can be compared with oblique and horizontal perspective illustrations (panoramas
+and bird's eye views) from different periods.
+<P>The plan map is from a September 1851 survey of the harbor by Orville
+W. Childs, chief engineer for the American Atlantic &amp; Pacific Canal
+Company. The first panorama shows the port in <A HREF="gif/squier1849.gif">1849</A>
+as portrayed in Squier's Nicaragua (1852). The second panorama was published
+in <A HREF="gif/molina1851.gif">1851</A>
+by Felipe Molina, a minister of Costa Rica. The second Squier view shows
+Greytown in <A HREF="gif/squier1853.gif">1853</A>.
+The last panorama portrays the burning of the town in <A HREF="gif/london1854.gif">1854
+</A>and
+was published in the London Illustrated News within weeks of the event.
+The object of the exercise is to produce panoramic views from the planimetric
+map and compare them to these four panoramic views of the town.
+<P>&nbsp;The town was re-built and remained a small settlement until it
+was bombarded and destroyed again in a Sandinista-Contra conflict in 1984.
+A new town has been built a few kilometers to the northwest and is called
+both New Greytown and Nuevo San Juan del Norte.
+<P>
+<HR>
+<HR><A NAME="Procedure"></A>
+<BR>&nbsp;
+<CENTER>
+<H2>
+3D Modeling of Greytown, Nicaragua</H2></CENTER>
+
+<CENTER>
+<H3>
+<I>MicroStation Procedure Guidelines</I></H3></CENTER>
+
+<P><BR>
+<P><B>Launch Microstation</B>
+<P>&nbsp;Double click on the Microstation icon in the Program Manager window
+or under the <B>Start/Programs/Microstation95</B> directory if using NT
+4.0. Your screen should look like this:
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>
+<CENTER>
+<P><IMG SRC="gif/openms.jpg" ></CENTER>
+
+<P><IMG SRC="gif/create.jpg"  ALIGN=RIGHT><A NAME="dgn"></A><B>Create
+a New Design File</B>
+<P>&nbsp;In the MicroStation Manager window, first change the <B>Style</B>
+at the bottom to <B>Command Window</B>. Next click on <B>File</B> and select
+<B>New</B>.
+A window called <B>Create Design File</B> will open on the screen. In the
+textbox, type "greytown", then click once on the <B>Select</B> button and
+choose <I>seed3d.dgn</I> from the scroll menu; <I>"seed3d.dgn"</I> will
+appear in the <B>Seed File</B> dialog box. Click <B>OK</B> and <B>OK</B>
+again to return to main Microstation window. Click <B>OK</B> once more
+to open the new 3D seed file.
+<P>
+<HR><B>Fit View</B>
+<P>&nbsp;Observe the three dimensions in the top, isometric, front, and
+right views by choosing the fit view tool and clicking in each of the four
+windows.
+<P><IMG SRC="gif/viewcont.jpg"  ALIGN=CENTER>
+<P>&nbsp;<B>Remove the Seed Design</B><IMG SRC="gif/fence.jpg"  ALIGN=RIGHT>
+<P>&nbsp;Place a fence around the 3D seed design and delete the contents
+of the fence by choosing the delete tool and clicking inside of the fence.
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<P>
+<HR><A NAME="level"></A><B>When you complete the project, your levels will
+contain the following elements:</B>
+<BR>&nbsp;
+<BR>&nbsp;
+<UL><A HREF="gif/level1.jpg">Level
+1</A>: imported raster image of Greytown
+<BR><A HREF="level3.jpg">Level
+3</A>: water
+<BR><A HREF="gif/level5.jpg">Level
+5</A>: land
+<BR><A HREF="gif/level7.jpg">Level
+7</A>: structures
+<BR><A HREF="gif/level9.jpg">Level
+9</A>: animation flight path
+<BR><A HREF="gif/levelall.jpg">Levels
+3,5,7,9</A></UL>
+Be sure to keep your design elements in the correct layer. It will be important
+later when you are assigning textures to your three-dimensional representation
+of Greytown. If elements are created in the wrong layer, simply move them
+into the correct layer using the <B>Change Element Attributes</B> tool.&nbsp;<IMG SRC="gif/change.jpg" >
+<P>&nbsp;Before you get started, review the functions of the <A HREF="gif/menubar.jpg">main
+toolbox</A> and the <A HREF="gif/mswin.jpg">MicroStation
+Command Window</A>.
+<P>
+<HR><B>Importing a Raster Image</B>
+<P>&nbsp;To begin adding elements to your design file, <B>Set the active
+level to level 1</B> by selecting <B>Settings</B> from the Menu Bar. Select
+<B>Level</B>
+then <B>Display</B> from the pull-down menu. The <B>View Levels</B> window
+will appear. <B>Double click on level 1</B>, then click <B>apply</B>.
+<P><IMG SRC="gif/import1.jpg"  ALIGN=RIGHT>Now,
+<B>Import</B>
+a raster image of the Childs' 1851 map of Greytown into level 1 and register
+it as a 1400 meter by 1000 meter rectangle. The image is available on the
+anonymous ftp site on <B><I>Austin</I></B>. To retrieve it, log into <B>austin.grg.utexas.edu</B>
+using the anonymous login. Go to the <B>GTOWN</B> directory and ftp the
+file childs.tif to your disk in <B>binary</B> format. Alternatively, the files can be obtained from the <a href="download/">download</a> directory by clicking on each file while holding down the shift key. Once you have the
+.tif image on your disk, select
+<B>File</B> from the command window and
+click on <B>Import</B>, then <B>Image</B>.
+<P><IMG SRC="gif/import2.jpg"  ALIGN=RIGHT>In
+the window that pops up, set the <B>Filter Format</B> to <I>tif</I>, and
+select the file <I>a:\childs.tif</I> In the precision input (text) window
+of the MicroStation Command Window, enter <B>xy=0,0</B> as the starting
+point and <B>xy=1400,1000</B> as the end point.
+<BR>&nbsp;
+<BR>&nbsp;
+<P>
+<HR><B>Creating a Water Surface</B>
+<P><IMG SRC="gif/primaryt.jpg" >
+<P>&nbsp;Begin by checking to see if the <B>Primary Tools</B> bar is visible
+at the top . If not, go to <B>Tools</B> under the Menu Bar at top and click
+on <B>Primary</B>. If the menu is not at the top and appears in the middle
+of the screen as an individual window, select the window, and drag it to
+the top, and release it on leftover background grayspace. This should place
+it as a fixture to the page rather than as a movable window that must be
+constantly shuffled about.
+<P>&nbsp;The next thing you need to do is produce a blue background representing
+water. First, set the active color to blue. Do this by selecting the color
+tile in the Primary Tool Bar. <I>Make sure no other elements are selected</I>
+then select the <B>color</B> blue <I>on the top row of the color palette</I>.
+Blues chosen from other rows will look OK on your screen, but may not print
+correctly.
+<P>Before you actually draw in the water, you need to set the active level
+to <B>Level 3</B>. Remember that this is the level designated for water.
+It may be helpful to turn Level 1 with the raster image off.
+<P><IMG SRC="gif/placeblk.jpg"  ALIGN=RIGHT>Next,
+you are going to <B>Place a Shape</B>. You will do this by selecting the
+<B>Place
+Block</B> tool from the main toolbar (see the illustration at the right
+for the correct tool). In the Place Block window, select <B>Orthogonal</B>
+for Method, <B>Solid</B> for the type of Area, and <B>Opaque</B> for the
+Fill Type. This will produce a solid blue water surface. Double check to
+make sure the Fill Color is 1 (blue). When the Microstation Command Window
+gives the instruction to "enter first point", type <B>xy=0,0</B> in the
+text-input window. For "enter opposite corner", enter <B>xy=1400,1000</B>.
+There should now be a blue rectangle placed on the screen at the same coordinates
+as the raster image of Greytown. Turn on Level 1 to double check the coordinates
+correspond and that they overlay one another; then turn it off again. If
+the blue rectangle does not appear filled, click on <B>Settings</B> in
+the Menu Bar, then <B>View Attributes</B>. In the View Attributes window
+click the <B>Fill</B> box to turn on and then <B>Apply</B> (Apply will
+affect the window in the View Number box at the top, and <B>All</B> will
+affect all windows open). When done with the water surface, turn fill off
+again for later steps in the exercise.
+<BR>&nbsp;
+<P>
+<HR><B>Creating Land</B>
+<P>&nbsp;Now you should produce the green land areas. First, set the active
+level to level 5, the land level. Set the active element color to green
+using the same procedure outlined above. Make sure the Top View (View 1)
+is visible and maximized. Click on the <B>Fit View</B> button&nbsp;<IMG SRC="gif/fitview.jpg" >
+to refresh the window and display the full extent of your drawing. Now,
+select the <B>Place Shape</B> tool from the Polygon toolbar (where Place
+Block tool is located) and trace the three land areas over the .tiff image
+using your mouse. Click on <B>Close Element</B> in the Place Shape window
+to close each land shape. If too many vertices (digitizing points) comprise
+the line, the shape may close prematurely. Use judgement when digitizing.
+<P>
+<HR><B>Creating 3D Land Solids</B>
+<P>&nbsp;The next step is to form <B>3-dimensional land solids</B> that
+are <B>three meters tall.</B> These 3D solids will be the landshapes of
+Greytown in your final 3D animation. You <I>can</I> create files with solids
+of different heights, but for this exercise, we will make all the green
+areas the same height.
+<P>&nbsp;To create the solids, select <B>Tools</B> from the Microstation
+Menu Bar. Select <B>3D</B> from the pull-down window then <B>3D</B> again
+to choose the 3D tool bar. In the 3D tool bar that appears, select <B>Construct
+Surface of Projection</B>.&nbsp;<IMG SRC="gif/construc.jpg" >
+Select each of the three land shapes with the Construct Surface of Projection
+selecting crosshairs&nbsp;<IMG SRC="gif/cross.jpg" >
+and define the height in the Command Window as <B>xy=,,3</B>.
+<P>
+<HR><B>Creating Structures (Buildings)</B>
+<P>&nbsp;Now you need to produce solid shapes for each structure on the
+.tiff image. Set the active level to level 7 and set the element color
+to red. Once again, select <B>Tools</B> from the Microstation Menu Bar,
+and select <B>3D</B> from the pull-down window that appears. This time,
+select <B>Primitives</B>. Then select the <B>Place Slab</B> tool.&nbsp;<IMG SRC="gif/slab.jpg" >
+For <B>Type</B> select <B>Solid</B>. Trace the length and width of each
+building in the .tiff image (trace within lines to counter the effects
+of image capture). Then, in the Command Window, define the height as 5
+meters (<B>xy=,,5</B>). You may want to use 6 meters for larger structures.
+<P>
+<HR><B>Moving Structures</B>
+<P>&nbsp;The next step is to<B> Move the structures you just created to
+the land surface</B>.
+<P>&nbsp;View only level 7. In top view (view 1), select all the structures
+with a marquee selection (hint: draw marquee selection box with normal
+selection arrow icon button by clicking, holding left mouse button, and
+dragging box to desired size and shape). Choose the <B>Move</B> tool&nbsp;<IMG SRC="gif/move.jpg" >
+from <B>Tools/Main/Manipulate</B> pull-down menus or by selecting the tool
+button from the main toolbar. In the right view (<B>view 4</B>), select
+an xy definition (a line) from the top of one structure. Define the height
+in the Command Window (text input window) as <B>dl=,,3</B>
+<P>&nbsp;Change color of all the structures to white. <B>Select all</B>
+the structures by using a marquee selection. Then, change the active color
+to white. Make sure the raster image in Level 1 is off.
+<P>
+<HR><B>Render a Three Dimensional View</B>
+<P>&nbsp;Select the isometric view (window 2), maximize, and fit view.
+Select <B>Utilities/Render/Phong</B> and click in window 2. A default rendering
+of the surfaces will appear. You may want to experiment with other renderings.
+Once materials are assigned, renderings will appear more realistic.
+<P>
+<HR><B>Assign Materials</B>
+<P>&nbsp;Next, is assigning materials to the water, land, and structures.
+Click on <B>Settings</B> in the Menu Bar, then <B>Rendering</B>, <B>Assign
+Materials</B>. In the Assign Materials window, click on <B>File</B> and
+<B>Open
+Palette</B>. The <A HREF="gif/palette.jpg">Open
+Palette</A> window provides a list of .pal files each containing various
+materials that have been grouped by category. We will start with the water
+since there are only two choices to choose from. From the Open Palette
+window scroll down and select <B>water.pal</B>, and click ok. In the Assign
+Materials window/Palette panel two materials should appear: <I>Water -
+lake</I> and <I>Water - pool</I>. Select one to preview in the <B>Display</B>
+panel to the right. Change Display view from Sphere to Rectangle for a
+more two dimensional view. Once the material for the water has been selected
+(highlighted in black), click on <B>Tools</B>. Under the Tools pull-down
+menu two different options for <B>Assigning</B> the material are available:
+<B>Assign</B>
+and <B>Assign By Selection</B>. Assign uses levels or colors to assign
+the material, and Assign By Selection uses the selecting crosshairs to
+manually select the element that the material is to be assigned to. Choose
+the Assign By Selection and click on the blue rectangle representing water.
+Click on the rectangle once more to accept the material. The assigned materials
+will be displayed in the <B>Material</B> panel to the left of the <A HREF="gif/material.jpg">Assign
+Materials</A> window. Now check the material by rendering Window 1 or 2.
+<P><IMG SRC="gif/editmat.jpg"  ALIGN=RIGHT>
+If the material does not appear on the element as it did in the Display
+panel you may need to adjust the scaling. This is a common problem with
+the <I>water - lake</I> material. To do this, select the material and click
+<B>Tools</B>
+and <B>Edit Material</B>. If using <I>water - lake</I> material you may
+want to try an <B>X</B> and <B>Y</B> scaling value of 800 to 1000. Render
+water again and adjust as needed. <I>Water - pool</I> is also sometimes
+used as a replacement.
+<P>&nbsp;Repeat steps for assigning the materials to the structures and
+land surfaces. When done assigning materials, choose <B>File</B> within
+the Assign Materials window to <B>Save Material Table</B>.
+<P>
+<HR><B>Global Lighting</B> <I>Optional</I>
+<P>&nbsp;If you choose to alter the lighting to make the rendered design
+file lighter or darker for example, you will need to click on <B>Settings</B>,
+<B>Rendering</B>,
+and <B>Global Lighting</B>. When the Global Lighting window appears, click
+on the <B>Solar</B> box to activate. The colors for the various lighting
+options can be chosen to the far right. If you wish to change the <B>Time</B>
+of day the lighting simulates or the <B>Location</B> (Latitude and Longitude),
+click on the <B>Lock</B> box and turn this off (empty box). This will allow
+the Time and Location options to be changed. Once the options are chosen,
+click in the visible <B>rendered</B> window to view the changes.
+<P>
+<HR><A NAME="ani"></A><B>Produce a FlyThrough Animation File</B>
+<P>&nbsp;The final step is producing the animated flythrough of Greytown.
+First, set the active level to 9, the level reserved for the flythrough
+path. Next, set the color to yellow. From the <B>Linear Elements</B> toolbar
+choose <B>Place Point or Stream Curve<IMG SRC="gif/curve.jpg" ></B>
+and place a line around Greytown; this will be the flight path. It is recommended,
+at first, drawing a 2D path in View 1, the top view, for simplicity purposes.
+After becoming experienced with the process, you may want to experiment
+by changing the flight path on the Z axis (the 3rd dimension). After drawing
+the flight path, choose the <B>Move</B> tool, select the flight path line,
+and in the Command Window type in <B>dl=,,50</B> . This will raise the
+flight path above the town which will provide a birds-eye view.
+<P><IMG SRC="gif/flythru.jpg"  ALIGN=RIGHT>
+Now the path has been created; it must be selected. Click on <B>Utilities</B>,
+then <B>Render</B>, and <B>FlyThrough</B>. In the <B>FlyThrough Producer</B>,
+Camera Settings panel, check that the Standard Lens is <B>Normal</B> and
+Target Position is <B>Fixed</B>. The Output panel can be experimented with
+in later attempts but during the first, leave <B>View as 1</B>, Shading
+as <B>Phong</B>, and <B>Stereo</B> clicked off. In the Output panel leave
+the number of frames at 10 unless otherwise specified in class. In the
+<B>Tools</B>
+menu of the FlyThrough Producer choose <B>Define Path</B>. In the Command
+Window, "Identify Element at Path Beginning" will appear. Select the flight
+path at the point with which you want the flythrough movie to begin. Next,
+"Accept Element at Path End" will appear; choose the end of the flight
+path. Lastly, the focus point (target point within the village) of the
+camera must be chosen when "Define Target Point" appears in the Command
+Window. Clicking somewhere in the middle of the town usually works best.
+<P>The views in some windows may change as the camera views are calculated.
+These views can be updated to the original view with the <B>Rotate View</B>
+tool.&nbsp;<IMG SRC="gif/rotate.jpg" >
+Select the tool for the respective window and change <B>Method</B> from
+<B><I>Dynamic</I></B>
+to the original view: window 1 - <I>Top</I>; window 2 - <I>Isometric</I>;
+window 3 - <I>Front</I>; window 4 - <I>Right</I>, and click in the window.
+<P>&nbsp;At this point, turn on all levels and views 1, 2, 3, and 4. Your
+file should look somewhat like <A HREF="gif/complete.jpg">this</A>.
+<P>&nbsp;Now its time to record the FlyThrough movie. Leave the FlyThrough
+Producer window open and in the <B>View Levels</B> window, turn Level 9,
+the flight path, off so that it does not appear in the movie. Return to
+the FlyThrough Producer and click on <B>Tools</B> and then <B>Record</B>.
+In the <B><A HREF="gif/record.jpg">Record
+Sequence</A></B> window change the destination drive to the <B>a:\</B>
+drive, the Format to <B>FLI</B>, and name your file: <I>greytown.fli</I>.
+When you're done, click on OK. It will take a minute for the computer to
+record the movie.
+<P>
+<HR><A NAME="view"></A><B>View movie (within MicroStation)</B>
+<P>&nbsp;Pull down the <B>Utilities</B> menu and select <B>Image</B>, then
+select <B>Movies</B> from the pull-out menu.
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>
+<CENTER>
+<P><IMG SRC="gif/loadmovy.jpg" ></CENTER>
+
+<P>The <B><A HREF="gif/loadmov2.jpg">Movies</A></B>
+window will appear.
+<BR>&nbsp;
+<BR>&nbsp;
+<P>Select <B>File</B> then <B>Load</B>. The <B><A HREF="gif/loadmov3.jpg">Load
+Movie</A></B> window will appear next, select <B><I>yourfilename</I>.fli</B>.
+<P>&nbsp;Click on the highlighted arrow to begin the movie. To slow down
+the playback of the movie, click on <B>Settings</B> and <B>Playback</B>
+from the <B>Movies</B> window. Change the <B>Speed (Ticks/Frame)</B> to
+15 or 20 and hit the enter key.
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>
+<CENTER>
+<P><IMG SRC="gif/movie2.jpg" ></CENTER>
+
+<P>If the animation needs improvement, repeat above steps, and do not be
+afraid to experiment.
+<P>&nbsp;The 3D animation project is now (hopefully) complete.
+<BR>&nbsp;
+<P>
+<HR>
+<P>Created by Peter Dana, Shannon Crum, and Lance Christian.
+<BR>Revised June 25, 1997. LNC.
+<BR>Last updated January 26, 2000. LNC.
+</BODY>
+</HTML>

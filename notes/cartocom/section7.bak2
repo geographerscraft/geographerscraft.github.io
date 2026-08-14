@@ -1,0 +1,133 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<IMG SRC="http://www.utexas.edu/depts/grg/gif/lines/newlines/redln.gif" >
+
+<P>&nbsp;
+<H2>
+7. Problems of Realizing Ideals with Computer Systems</H2>
+Mapping software provides cartographers with the same sorts of advantages
+that text-processing software offers writers. Computers assist cartographers
+with the accurate drafting that has traditionally required tremendous manual
+skill, patience, and training. They also make it far easier to revise maps,
+to experiment with layout, composition, and symbolization, and to duplicate
+information from one map to another when producing series of maps. Still,
+the effective use of automated systems requires that the cartographer be
+just as familiar with the strengths and limitations of each automated system
+as with principles of effective cartography. The point is that computers
+can be used to produce poor maps as readily as good maps and the responsibility
+to know the difference rests with the cartographer. Perhaps the thought
+to keep in mind is that <I>computers don't make good or bad maps, cartographers
+do.</I>
+
+<P><I>&nbsp;</I>In turning to the use of computer systems, one should consider
+a number of related issues:
+
+<P><A NAME="7_7.1"></A><B>7.1 Systems vary greatly in their strengths and
+weaknesses: Be aware of both</B>
+
+<P>&nbsp;
+<UL>Most software systems are customized to meet the demands of specific
+mapping tasks. They are intended to do one or two things very well--perhaps
+demographic or contour mapping--and are not so good when deployed outside
+their domain. By acquainting yourself with a system's <I>raison d'&ecirc;tre</I>
+you will also be able to surmise potential limitations. More importantly,
+do not assume that all your mapping needs will be subsumed by a single
+software system. It is common practice to use a variety of systems to produce
+even individual maps. Some computer-assisted drafting packages make it
+very easy to create precise base maps, but these base maps will be transfered
+to other graphics or drawing programs to add shading or lettering. Contour
+mapping and terrain modeling software may offer very advanced features
+for surface modeling, but limited capabilities for text, annotations, and
+shading; these can be added with other systems. These days it is relatively
+easily to move digital maps and graphics from one software system to other
+so as to capture the virtues of each and avoid their deficiencies.</UL>
+<A NAME="7_7.2"></A><B>7.2 Consider availability of needed functions and
+ease of use</B>
+
+<P>&nbsp;
+<UL>In selecting software it is often easy to distracted by "bells-and-whistles"
+-- features that promise the potential of extra "pizzazz"-- such as hundreds
+of fonts or millions of colors. These extra capabilities can be nice to
+have, but it is essential to keep one's eye on a couple of critical issues.
+First, how well will the system perform the functions that you use most
+often, perhaps on a daily basis? Extra features can be useful, but they
+are of little concern if you only intend to use them once a year. Second,
+how easy will it be learn the system well enough to incorporate it in your
+work? This is more than asking whether the system comes with tutorials
+and instructional materials. Such materials are of course important, but
+for every extra feature a system offers, time is added to the learning
+process. Even the rudimentary drawing packages provided free on many computer
+systems can produce exceptional maps, and they are very easy to learn.
+Some advanced systems for computer-assisted drafting and geographic information
+systems can produce maps of equal or better quality, but require weeks
+or months to master. Do not feel you need to acquire more "power" than
+you need right now. Software changes so rapidly that you may be investing
+in capabilities that will be surpassed before you need them.</UL>
+<A NAME="7_7.3"></A><B>7.3 Be aware of the problems of designing for particular
+output devices</B>
+
+<P>&nbsp;
+<UL>Be aware that the destination in map production is particular a output
+device: a screen, or pen, inkjet, thermal, and electrostatic plotters.
+These devices vary greatly in their ability to depict linework, symbols,
+colors, and so forth. Cartographers have had to wait decades for the quality
+of low-cost, easy-to-use output devices to catch up with the capabilities
+of computers and mapping software. But such equipment is now available
+offering excellent resolution and color in A and B formats for less than
+$500. Still, what you see on the screen may not be exactly what the printer
+produces--colors, patterns, and lineweights may vary. You must design your
+map to the characteristics of the final output device. It is no use claiming
+that "it looked good on the screen." It is the final map that matters and
+experimentation with settings is a key to understanding how output devices
+vary in their representation of your map.</UL>
+<A NAME="7_7.4"></A><B>7.4 Experimentation and multiple iterations are
+often required</B>
+
+<P>&nbsp;
+<UL>Computer systems are able to assume some of the more onerous drafting
+tasks associated with map production, but that does not mean that you will
+produce an effective map the first time around. In working with automated
+systems, patience is a virtue. Time must be set aside to learn the system
+and its options. Once a person is familiar with the capabilities of system,
+map production will speed up, but not necessarily immediately. One has
+to experiment with settings through multiple iterations of a map. Patient,
+systematic experimentation with options is vital.</UL>
+<A NAME="7_7.5"></A><B>7.5 Never trust defaults</B>
+
+<P>&nbsp;
+<UL>The single most important rule in using automated systems is: Never
+trust defaults. Without your careful guidance, most systems use "default"
+settings designed, perhaps, to fit the needs of an "average" user or simply
+to get you started. These settings should always be questioned from the
+standpoint of your cartographic goals. Unquestioned, these settings may
+lead to ineffective or even misleading maps. Many of these settings are,
+initially, very useful because they will help users find their way around
+the software system. For example, some systems provide automatic options
+for titling, legends, shading, and symbology. In some cases, these setting
+may work for your project. It is more likely that you will need to change
+them. Learn the options available on your system, and do not feel obliged
+to use the standard settings simply because they are more convenient. Again,
+remember, <I>computers don't make good or bad maps, cartographers do.</I>
+
+<P>&nbsp;<A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/lago.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" ></A><I><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/lago.gif">default
+map___<A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/lago2.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" ></A></A><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/lago2.gif">same
+map, better format</A></I>
+
+<P>&nbsp;</UL>
+Additional discusion of many of these points is included in an article
+by Kenneth E. Foote, 1992. Mapping the past: A survey of microcomputer
+cartography. <I>Historical Methods</I> 25: 121-131.
+
+<P>&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/remote/gif/bar2.gif" >
+
+<P>&nbsp;<A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/section8.html">Go
+on to <I>Into the Future</I></A>
+
+<P><A HREF="cartocom_ftoc.html#8.0"><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/remote/gif/uparrow.gif" ></A><I><A HREF="cartocom_ftoc.html#8.0">Return
+to Contents</A></I>
+</BODY>
+</HTML>

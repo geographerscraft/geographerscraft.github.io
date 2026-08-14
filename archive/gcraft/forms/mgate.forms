@@ -1,0 +1,22 @@
+
+# Format is 
+# form FORMNAME address ADDRESS[,ADDRESS2,...,ADDRESSN] 
+# form FORMNAME forward body|formdata 
+# form FORMNAME forward formfields [FIELD1,FIELD2,...,FIELDN]
+# form FORMNAME response URL # form FORMNAME require FIELD[,FIELD2,FIELD3]
+
+form vdcomments address geochristian@mail.utexas.edu
+form vdcomments require from,subject,body 
+form vdcomments forward formfields body 
+form vdcomments response http://www.Colorado.EDU/geography/gcraft/forms/vd_response.html 
+
+form authorform address geochristian@mail.utexas.edu
+form authorform require from,subject,body 
+form authorform forward formfields body 
+form authorform response http://www.Colorado.EDU/geography/gcraft/forms/authorform_response.html
+
+form comments address geochristian@mail.utexas.edu 
+form comments require from,subject,body 
+form comments forward formfields body 
+form comments response http://www.Colorado.EDU/geography/gcraft/forms/response.html
+

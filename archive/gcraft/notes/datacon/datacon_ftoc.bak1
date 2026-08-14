@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Database Concepts</TITLE>
+</HEAD>
+<BODY TEXT="#663300" BGCOLOR="#FFFFCC" LINK="#0000FF" VLINK="#FF0000">
+
+<CENTER><IMG SRC="gif/title.gif" ></CENTER>
+These materials may be used for study, research, and education, but please
+credit the authors and source: <A HREF="mailto: k.foote@mail.utexas.edu">Kenneth
+E. Foote</A> and <A HREF="mailto: djhuebner@mail.utexas.edu">Donald J.
+Huebner</A>, The Geographer's Craft Project, Department of Geography, University
+of Texas at Austin. All commercial rights reserved. Copyright &copy; 1996
+Kenneth E. Foote and Donald J. Huebner.
+
+<P>&nbsp;
+<HR>
+<CENTER>
+<H3>
+Table of Contents</H3></CENTER>
+
+<H4>
+<A NAME="1"></A>1. <A HREF="datacon.html#GIS">GIS as Representations of
+Reality</A></H4>
+
+<H4>
+<A NAME="2"></A>2. <A HREF="datacon.html#Basic">Basic Types of Representation:
+Raster and Vector Reality</A></H4>
+
+<UL>
+<H5>
+<A NAME="2.1"></A>2.1. <A HREF="datacon.html#Raster">The Raster View of
+the World</A></H5>
+
+<H5>
+<A NAME="2.2"></A>2.2. <A HREF="datacon.html#Vector">The Vector View of
+the World</A></H5>
+
+<H5>
+<A NAME="2.3"></A>2.3. <A HREF="datacon.html#Graphical">Graphical Comparison
+of Raster and Vector Systems</A></H5>
+</UL>
+
+<H4>
+<A NAME="3"></A>3. <A HREF="datacon.html#Attribute">Organizing Attribute
+Data</A></H4>
+
+<UL>
+<H5>
+<A NAME="3.1"></A>3.1. <A HREF="datacon.html#Flat">Flat Files and Spreadsheets</A></H5>
+
+<H5>
+<A NAME="3.2"></A>3.2. <A HREF="datacon.html#Hierarch">Hierarchical Files</A></H5>
+
+<H5>
+<A NAME="3.3"></A>3.3. <A HREF="datacon.html#Relation">Relational Files</A></H5>
+
+<H5>
+<A NAME="3.4"></A>3.4. <A HREF="datacon.html#Compared">Flat, Hierarchical,
+and Relational Files Compared</A></H5>
+</UL>
+
+<H4>
+<A NAME="4"></A>4. <A HREF="datacon.html#Represent">Representing Relationships</A></H4>
+
+<H4>
+<A NAME="5"></A>5. <A HREF="datacon.html#Topological">The Example of Topological
+Relationships</A></H4>
+
+<H4>
+<A NAME="6"></A>6. <A HREF="datacon.html#Object">Object Oriented Databases</A></H4>
+
+<H4>
+<A NAME="7"></A>7. <A HREF="datacon.html#Expert">The Idea of Expert Systems</A></H4>
+
+<H4>
+<A NAME="8"></A>8. <A HREF="datacon.html#Required">Required Reading</A></H4>
+<A NAME="9"></A><B>9. <A HREF="datacon.html#References">References and
+Supplemental Reading</A></B>
+
+<P><A NAME="10"></A><B>10. <A HREF="http://www.utexas.edu/depts/grg/gcraft/exam/database/database.html">Examination
+and Study Questions</A></B>
+
+<P>
+<HR WIDTH="100%">
+
+<P>&nbsp;Last revised on 14 October1997. RRR.
+</BODY>
+</HTML>

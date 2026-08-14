@@ -1,0 +1,517 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./GPSEOW_files/filelist.xml">
+<link rel=Edit-Time-Data href="./GPSEOW_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>GPS Week Number Rollover Issues</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Peter H. Dana</o:Author>
+  <o:LastAuthor>Peter H. Dana</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>218</o:TotalTime>
+  <o:Created>1999-08-12T18:01:00Z</o:Created>
+  <o:LastSaved>1999-08-14T18:11:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>1885</o:Words>
+  <o:Characters>10748</o:Characters>
+  <o:Company>Peter H. Dana</o:Company>
+  <o:Lines>89</o:Lines>
+  <o:Paragraphs>21</o:Paragraphs>
+  <o:CharactersWithSpaces>13199</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1031"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h1 align=center style='text-align:center'><span style='font-family:"Times New Roman"'>GPS
+Week Number Rollover Issues<o:p></o:p></span></h1>
+
+<p class=MsoNormal align=center style='text-align:center'>Peter H. Dana</p>
+
+<p class=MsoNormal align=center style='text-align:center'>August 12 and August 24, 1999</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>The GPS
+Week Number is one of the system parameters transmitted by the GPS satellites in
+the Navigation Message. This note is a comment on the “rollover” of this value
+near midnight on August 21, 1999. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3><span style='font-family:"Times New Roman"'>Useful links<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Two Web
+links of particular relevance with respect to the GPS End of Week rollover
+issue are the Joint Program Office site at:</p>
+
+<p class=MsoNormal><a
+href="http://www.laafb.af.mil/SMC/CZ/homepage/y2000/index.html">http://www.laafb.af.mil/SMC/CZ/homepage/y2000/index.html</a></p>
+
+<p class=MsoNormal>and the U.S. Coast Guard NAVCEN site at:</p>
+
+<p class=MsoNormal><a
+href="http://www.navcen.uscg.mil/gps/geninfo/y2k/default.htm">http://www.navcen.uscg.mil/gps/geninfo/y2k/default.htm</a></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>An on line
+version of Richard Langley’s excellent review of the issue (Langley, 1998) is
+at GPS World:</p>
+
+<p class=MsoNormal><a href="http://www.gpsworld.com/0299/1198innovation.html">http://www.gpsworld.com/0299/1198innovation.html</a></p>
+
+<p class=MsoNormal style='text-indent:.5in'>The GPS SPS Signal Specification,
+2nd Edition (June 2, 1995) with a complete specification for the GPS Navigation
+Message is available on line:</p>
+
+<p class=MsoNormal><a
+href="http://www.navcen.uscg.mil/gps/geninfo/gpsdocuments/sigspec/default.htm">http://www.navcen.uscg.mil/gps/geninfo/gpsdocuments/sigspec/default.htm</a></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>The
+Interface Control Document (ICD-GPS 200C) is on line at:</p>
+
+<p class=MsoNormal><a
+href="http://www.navcen.uscg.mil/gps/geninfo/gpsdocuments/icd200/default.htm">http://www.navcen.uscg.mil/gps/geninfo/gpsdocuments/icd200/default.htm</a></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span></p>
+
+<h3><span style='font-family:"Times New Roman"'>The GPS Navigation Message<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>The GPS
+Navigation Message contains parameters that describe the location of the GPS
+satellites, their clock offsets, and various other system parameters. The
+Navigation Message consists of 25 data frames, each divided into five
+sub-frames. The sub-frames are 300 bit sequences. Bits are transmitted at 50
+bits per second. Each sub-frame takes 6 seconds, each frame 30 seconds, and the
+entire set of 25 frames takes 750 seconds (12.5 minutes) to complete.</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Sub-frames
+one, two, and three contain messages pertaining to the satellite that is
+transmitting them (complete orbit and clock descriptions) , while sub-frames 4
+and 5 contain system data relating to all the satellites (abbreviated orbit and
+clock data for all the satellites and common system). </p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Within a
+GPS receiver the received data bits are aligned, checked for errors (with a
+parity algorithm), separated into sets of bits representing each individual
+parameter, scaled, converted into various numeric formats, and then converted
+where required into specific units. These units include meters, meters squared,
+semi-circles, radians, seconds, seconds per second, seconds per second per
+second, and weeks. </p>
+
+<p class=MsoNormal style='text-indent:.5in'>Each parameter must be used
+appropriately to result in GPS-derived position and time estimates in the
+receiver. Some algorithms are specified partially or fully in the Interface
+Control Document (ICD-GPS-200C); other methods are left to the discretion of
+the GPS software designer.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3><span style='font-family:"Times New Roman"'>The GPS Week Number Parameter
+(WN)<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Transmitted
+by each satellite, every thirty seconds, sub-frame one contains a ten-bit value
+representing the GPS Week Number (WN). This parameter is transmitted as a
+ten-bit value ranging from 0 to 1023 (Figure 1).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:6in;
+ height:3in' o:bordertopcolor="this" o:borderleftcolor="this"
+ o:borderbottomcolor="this" o:borderrightcolor="this">
+ <v:imagedata src="./gif/wnbits.gif" o:title="wnbits"/>
+ <w:bordertop type="single" width="4"/>
+ <w:borderleft type="single" width="4"/>
+ <w:borderbottom type="single" width="4"/>
+ <w:borderright type="single" width="4"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=578 height=290 src="./gif/wnbits.gif"
+v:shapes="_x0000_i1025"><![endif]></p>
+
+<p class=MsoNormal><b>Figure 1. GPS WN 10 Bits in Navigation Message.<o:p></o:p></b></p>
+
+<p class=MsoNormal><span style="mso-spacerun: yes"> </span></p>
+
+<p class=MsoNormal style='text-indent:.5in'>The GPS Week Number can be used to
+set the current date in a GPS receiver which can then be used to determine what
+satellites are available for possible tracking by a receiver at an estimated
+location at a particular data and time. The date can also be used to properly
+account for the leap-seconds needed for a correct conversion from GPS Time to
+Universal Time Coordinated (UTC). The ICD does not fully specify how a receiver
+might make use of date information. </p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>GPS Time is
+conventionally represented in GPS Weeks and GPS Seconds from the GPS Epoch, the
+transition from 23:59:59 UTC on Saturday January 5, 1980 to 00:00:00 UTC on
+Sunday, January 6th. This GPS week, January 6 through January 12, 1980 is week
+zero (0) and the week of August 15 though August 21, 1999 is week 1023. The
+week of August 22 through August 28, 1999 is week 1024. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3><span style='font-family:"Times New Roman"'>Conversion From WN Parameter To
+The Correct GPS Week Number<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>The ten-bit
+WN parameter can only represent integer week values from 0 to 1023. At 00:00:00
+GPS Time on August 22, 1999 the transmitted WN parameter changed from 1023
+(1111111111 in bits) to 0 (0000000000 in bits). Because GPS Time leads UTC by
+13 leap seconds now, (the rollover moment took place on August 21 at
+23:59:47 UTC). This change in the WN parameter from 1023 to 0 is the “rollover”
+of the GPS Week Number. GPS receivers (if they make use of the WN parameter)
+must account for which 19.7 year (1024 week) period the WN parameter
+references. On August 22, 1999 the rollover must be interpreted as a change
+from GPS Week 1023 to GPS Week 1024.1024 weeks later (on April 7, 2019) the WN
+will rollover from 1023 to 0, and the rollover must be interpreted as a change
+from GPS Week 2047 to GPS Week 2048. </p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>The
+software designers of GPS receivers have a number of ways of insuring that the
+rollover is interpreted correctly. These techniques range from keeping GPS Week
+numbers in non-volatile memory, keeping a real-time clock, resolving 19.7 year
+period ambiguities with software revision dates, resolving these ambiguities
+using the leap second correction transmitted by the satellites, forcing the
+user to select the correct date, or simply ignoring the WN parameter altogether
+and setting dates in other ways (usually with a real-time-clock). </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3><span style='font-family:"Times New Roman"'>History Of The GPS WN Parameter<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Ignoring
+the WN parameter is the method used by the first GPS receiver designers. GPS
+satellites were launched in the late 1970s. These early satellites (and the
+ground transmitters used to emulate satellites) had no GPS Week Number in the
+Navigation Message data bits. GPS Time was only defined within one week. The
+early Interface Control Documents show no such data bits. Early published
+papers such as :</p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'>Van
+Dierendonck, A. J. and others 1978. The GPS Navigation Message. In Navigation:
+The Journal of the Institute of Navigation, Washington, DC. VOl25 no. 2.</p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'>show
+no Week Number bits. The SS-GPS-300B dated 3, March 1980 shows no GPS Week
+Number. These are all based on the early Navigation Data ID Number 1 (data id
+bits 00) definition used during Phase I of the GPS program. This is no doubt
+why early receivers designers had no trouble accommodating an explicit Week
+Number; they had designed receivers that did not need or make use of the WN, it
+rolled over (implicitly) each week. The first satellite with the Data ID set to
+1 (Data ID bits 00) was launched in February of 1978. The last probably was the
+one launched in April of 1980. The next successful launch was July of 1983, and
+that satellite was probably the first to transmit Data ID 2 (Data ID bits 01)
+with the Week Number. Navigation Data with Data ID Number 2 follow the current
+Navigation Message formats that do include a Week Number. The ICD-GPS-200 Draft
+of November 20, 1981 shows the ten-bit count for the first time. It is interesting
+to note that in all early ICD-GPS-200 documents through the 6/1/1993 ICD there
+is no mention of the rollover. The ICD of 10/10/1993 ICD is the first time the
+warning phrases are first introduced. &quot;At the expiration of GPS Week
+number 1023, the GPS week number will rollover to zero(0). Users must account
+for the previous 1024 weeks (page 34).&quot; </p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3><span style='font-family:"Times New Roman"'>Other GPS Week Number
+Parameters<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>There are
+three other places in the Navigation Message where the GPS Week Number is used
+as a basis for parameters. There is an Almanac Week Number (WNa) parameter that
+is an eight-bit value (Figure 2.). This parameter rolls over every 256 weeks
+and it is the responsibility of the receiver designer to properly account for
+this rollover. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+ style='width:6in;height:160.5pt' o:bordertopcolor="this" o:borderleftcolor="this"
+ o:borderbottomcolor="this" o:borderrightcolor="this">
+ <v:imagedata src="./gif/wna.gif" o:title="wna"/>
+ <w:bordertop type="single" width="4"/>
+ <w:borderleft type="single" width="4"/>
+ <w:borderbottom type="single" width="4"/>
+ <w:borderright type="single" width="4"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=578 height=216 src="./gif/wna.gif"
+v:shapes="_x0000_i1026"><![endif]></p>
+
+<p class=MsoCaption>Figure 2. Almanac Week Number WNa 8 bits in Navigation
+Message</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>There are
+also two other eight-bit Week Number parameters associated with the conversion
+of GPS Time to Universal Time Coordinated (UTC). The WNt parameter is the UTC
+reference week. The WNlsf parameter is the effectively time week number that
+signifies the week number when the transmitted current leap second parameters
+should be used (GPS Time does not have leap seconds and so UTC conversions
+require small corrections as well as an integer number of seconds – currently
+GPs time is ahead of UTC by 13 leap seconds). Figure 3 shows the location of
+these two eight-bit parameters which also must be interpreted correctly.</p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+ style='width:4in;height:195.75pt' o:bordertopcolor="this" o:borderleftcolor="this"
+ o:borderbottomcolor="this" o:borderrightcolor="this">
+ <v:imagedata src="./gif/wntlsf.gif" o:title="wntlsf"/>
+ <w:bordertop type="single" width="4"/>
+ <w:borderleft type="single" width="4"/>
+ <w:borderbottom type="single" width="4"/>
+ <w:borderright type="single" width="4"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=386 height=263 src="./gif/wntlsf.gif"
+v:shapes="_x0000_i1027"><![endif]></p>
+
+<p class=MsoNormal><b>Figure 3. UTC Reference Week (WNt) UTC Leap Second
+Effectively (WNlsf) Parameters <o:p></o:p></b></p>
+
+<p class=MsoNormal><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></p>
+
+<h3><span style='font-family:"Times New Roman"'>GPS Week Number Problems<o:p></o:p></span></h3>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-tab-count:1'>            </span>Because the use of the GPS Week
+number and the transmitted WN value is not specified, problems related to the
+Week Number Rollover issue in receivers that have not properly interpreted the
+WN parameter are very hard to predict. Problems might range from a few seconds
+of position error to a complete failure of receiver operation. Published
+accounts of failure modes for “non-compliant” receivers have no common pattern
+of failure. One of the more common failure modes is a failure to acquire the
+satellites that are visible from a particular location at a given time. </p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-tab-count:1'>            </span>Combinations of problems resulting
+from improper interpretation of the WN, WNa, WNt, and WNlsf bits can lead to
+all sorts of possible failure modes. </p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'>A
+software failure was reported (Brottlund and Harris 1995) that specifically
+related to UTC calculations related to UTC Week Number (WNt) and GPS Week
+Number (WN) parameter interpretations in September 1994, during GPS week 767,
+some receivers incorrectly identified the UTC week number by 256 weeks,
+resulting in the calculation of an erroneous GPS-UTC offset and rate.</p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='mso-tab-count:1'>            </span>Of course any hardware and software
+system is subject to occasional failure modes and GPS is no exception. There
+have been failures in the Control, Space, and User segments of GPS since the
+beginning of the program. See the examples of GPS time dissemination failure
+modes in (Dana 1997).</p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3><span style='font-family:"Times New Roman"'>Manufacturer and User
+Responsibilities<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Receivers
+designed in such a way that they experience a problem related to the WN
+rollover are “non-compliant.” Most GPS manufacturers have been very responsible
+and quick to deal with this issue. The issue has been well known in the
+industry for over a decade. For many years GPS simulators have been available
+that allow some form of Week Number rollover testing. While no simulation can
+completely test any complex hardware and software system such as GPS, most
+receivers have either been deemed “compliant,” “non-compliant,” or have been
+fixed. Many GPS manufacturers offer software or hardware upgrades for later models.
+Some can be download from the Web and installed by customers, some require
+return of the receiver to the vendor.</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>There is
+always concern about the possibility of accidents whatever their cause, but it
+is hard to envision one caused by a GPS navigation receiver failing. No prudent
+navigator uses a single navigation aid and so no prudent navigator should be
+subject to an accident caused by a GPS failure. Certainly someone who misused
+any navigation aid might get in some sort of trouble should their sole means
+fail and under some circumstances that might happen with an old or new GPS
+receiver that failed for any reason. GPS is not allowed for use in private or
+public aircraft as a sole means of navigation, so even if a GPS receiver should
+fail there should be no serious problem. Hikers should always carry a map and
+compass, in addition to a supply of new batteries for their GPS unit.
+Automobile navigation should never be dependent on GPS, or any other sole
+means. </p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>GPS
+receivers used in time and frequency applications should always be used with
+the possibility of failure in mind. Most receivers used for these purposes have
+coasting modes that allow for graceful change from GPS control to other means
+in the event of a GPS failure in the satellites, control system, or in the
+event of receiver hardware or software failures. </p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Secondary
+users, such as those who fly as passengers on aircraft equipped with GPS or who
+depend on telecommunications systems synchronized with GPS might want to asses
+the possibility of potential problems and make informed decisions, but should
+remember that no complex system offers guarantees against failures. </p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>In general,
+there was no substantive problem with respect to the date change from
+August 21, to August 22, 1999, but both manufactures and users should be extra
+cautious during the period and perhaps use the issue as a reminder to never
+depend on any single system in critical applications.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3><span style='font-family:"Times New Roman"'>References<o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in;tab-stops:.5in 1.0in decimal 1.5in 2.0in 2.5in 3.0in 3.5in 4.0in 4.5in 5.0in 5.5in left 6.0in'>Brottlund,
+Brian and Cliff Harris. 1995. UTC reference week calculation errors during GPS
+week 767. In GPS World. (February): 56.</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in;tab-stops:.5in 1.0in decimal 1.5in 2.0in 2.5in 3.0in 3.5in 4.0in 4.5in 5.0in 5.5in left 6.0in'>Dana,
+Peter H. 1997. Global Positioning System (GPS) Time Dissemination for Real-Time
+Applications. Real-Time Systems: The International Journal of Time Critical
+Computing Systems. 12. No. 1 (January).</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in;tab-stops:.5in 1.0in decimal 1.5in 2.0in 2.5in 3.0in 3.5in 4.0in 4.5in 5.0in 5.5in left 6.0in'>Langley,
+Richard B. 1998. The GPS End-of-Week Rollover. In GPS World (November) 9, no.
+11. pp 40-47.<b><o:p></o:p></b></p>
+
+</div>
+
+</body>
+
+</html>

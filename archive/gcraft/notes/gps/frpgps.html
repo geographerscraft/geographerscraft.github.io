@@ -1,0 +1,266 @@
+<HTML>
+<TITLE>Federal Navigation Plan GPS Statement</TITLE>
+<I><ADDRESS>Downloaded (8/20/94) from the U. S. Coast Guard</ADDRESS></I><P><I>
+</I><I><ADDRESS>NAVIGATION INFORMATION SERVICE BULLETIN 
+BOARD</ADDRESS></I><P><I>
+</I><I><ADDRESS>703-313-5910</ADDRESS></I><P><I>
+</I>A.2.8   GPS<P>
+<P>
+GPS is a space-based positioning, velocity, and time system that has three major<P>
+segments:  space, control, and user.  The GPS Space Segment, when fully<P>
+operational, will be composed of 24 satellites in six orbital planes.  The satellites<P>
+operate in circular 20,200 km (10,900 nm) orbits at an inclination angle of 55<P>
+degrees and with a 12-hour period.  The spacing of satellites in orbit will be<P>
+arranged so that a minimum of five satellites will be in view to users worldwide,<P>
+with a position dilution of precision (PDOP) of six or less.  Each satellite<P>
+transmits on two L band frequencies, L1 (1575.42 MHz) and L2 (1227.6 MHz).  L1<P>
+carries a precise (P) code and a coarse/acquisition (C/A) code.  L2 carries the<P>
+P code.  A navigation data message is superimposed on these codes.  The same<P>
+navigation data message is carried on both frequencies.<P>
+<P>
+The Control Segment has five monitor stations, three of which have uplink<P>
+capabilities.  The monitor stations use a GPS receiver to passively track all<P>
+satellites in view and thus accumulate ranging data from the satellite signals. <P>
+The information from the monitor stations is processed at the Master Control<P>
+Station (MCS) to determine satellite orbits and to update the navigation message<P>
+of each satellite.  This updated information is transmitted to the satellites via the<P>
+ground antennas, which are also used for transmitting and receiving satellite<P>
+control information.<P>
+<P>
+The user segment consists of antennas and receiver-processors that provide<P>
+positioning, velocity, and precise timing to the user.<P>
+<P>
+A.   Signal Characteristics<P>
+<P>
+The GPS concept is predicated upon accurate and continuous knowledge of the<P>
+spatial position of each satellite in the system with respect to time and distance<P>
+from a transmitting satellite to the user.  Each satellite transmits its unique<P>
+ephemeris data.  This data is periodically updated by the Master Control Station<P>
+based upon information obtained from five widely dispersed monitor stations.<P>
+<P>
+Each satellite continuously transmits a composite spread spectrum signal at 1227.6<P>
+and 1575.42 MHz.  The GPS receiver makes time-of-arrival measurements of the<P>
+satellite signals to obtain the distance between the user and the satellites.  These<P>
+distance calculations, together with range rate information, are combined to yield<P>
+system time and the user's three-dimensional position and velocity with respect<P>
+to the satellite system.  A time coordination factor then relates the satellite<P>
+system to Earth coordinates.  The characteristics of GPS are summarized in Table<P>
+A-10.<P>
+<P>
+Table A-10.  GPS Characteristics (Signal-In-Space)<P>
+<P>
+/--------------------- ACCURACY  (METERS)* --------------------/<P>
+/     PREDICTABLE    /     REPEATABLE     /       RELATIVE     /<P>
+/--------------------/--------------------/--------------------/<P>
+/       PPS          /                    /                    /<P>
+/                    /                    /         **         /<P>
+/    Horz - 21       /     Horz - 21      /      Horz - 1      /<P>
+/    Vert - 29       /     Vert - 29      /      Vert - 1.5    /<P>
+/   Time - 200 ns    /                    /                    / <P>
+/--------------------/--------------------/--------------------/<P>
+/       SPS          /                    /                    /<P>
+/                    /                    /         **         /<P>
+/     Horz - 100     /     Horz - 100     /      Horz - 1      /<P>
+/     Vert - 140     /     Vert - 140     /      Vert - 1.5    /<P>
+/    Time - 340 ns   /                    /                    /<P>
+/--------------------------------------------------------------/<P>
+<P>
+/--------------------------- AVAILABILITY ---------------------/<P>
+/                                                              /<P>
+/                      Expected to approach 100%               /<P>
+/--------------------------------------------------------------/<P>
+<P>
+/--------------------------- COVERAGE -------------------------/<P>
+/                                                              /<P>
+/                   Worldwide continuous (PDOP &lt = 6)           /<P>
+/--------------------------------------------------------------/<P>
+<P>
+/--------------------------- RELIABILITY ----------------------/<P>
+/                                                              /<P>
+/      99% probability that a 21-satellite constellation       /<P>
+/      will be operating                                       /<P>
+/--------------------------------------------------------------/<P>
+<P>
+/----------------------------- FIX RATE -----------------------/<P>
+/                                                              /<P>
+/                       Essentially continuous                 /<P>
+/--------------------------------------------------------------/<P>
+<P>
+/--------------------------- FIX DIMENSION --------------------/<P>
+/                                                              /<P>
+/                3D   +   Velocity (***)   +   Time            /<P>
+/--------------------------------------------------------------/<P>
+<P>
+/------------------------- SYSTEM CAPACITY --------------------/<P>
+/                                                              /<P>
+/                             Unlimited                        /<P>
+/--------------------------------------------------------------/<P>
+<P>
+/------------------------ AMBIGUITY POTENTIAL -----------------/<P>
+/                                                              /<P>
+/                               None                           /<P>
+/--------------------------------------------------------------/<P>
+<P>
+  *  Horizontal (2 drms); Vertical (95%); Time (95%).<P>
+ **  Preliminary estimates.<P>
+***  System specifications not defined for SPS.<P>
+<P>
+SYSTEM DESCRIPTION:  GPS is a space-based radio positioning system<P>
+that will provide three-dimensional position, velocity and time<P>
+information to suitably equipped users anywhere on or near the <P>
+surface of the Earth.  The space segment will consist of 24 satellites<P>
+in 6 orbital planes of 12 hour periods.  Each satellite will transmit<P>
+navigation data and time signals on 1575.42 and 1227.6 MHz.<P>
+<P>
+B.   Accuracy<P>
+<P>
+Accuracy projections for the operational satellite constellations are based upon<P>
+computer simulations.  At a specifed time of day, the programs calculate the<P>
+positions of the GPS satellites and determine which ones are visible at a given<P>
+location on earth.  They select four of the visible satellites and calculate the<P>
+location solution that a GPS receiver would provide.  Since a GPS receiver<P>
+determines location by estimating the user's range to each of the four satellites,<P>
+the simulations mimic the real errors in this process by introducing a range<P>
+error for each of the simulated satellites, using Monte Carlo techniques.  The<P>
+range data are used to solve for the user's location, and the instantaneous<P>
+position error is determined by subtracting the true position from the calculated<P>
+position.<P>
+<P>
+By repeating this process at many locations around the Earth, and over a<P>
+24-hour period, the simulations produce a composite view of system performance. <P>
+These results are dependent upon several program inputs:<P>
+<P>
+o    The number of satellites in the GPS constellation.<P>
+<P>
+o    The orbits chosen for the satellites.<P>
+<P>
+o    The locations of the simulated users.<P>
+<P>
+o    The local visibility contraints on receiving signals from satellites.<P>
+<P>
+o    The criteria for selecting four satellites from among the visible ones. <P>
+<P>
+o    The magnitude of the User Range Errors (URE) experienced by users. <P>
+<P>
+URE is an aggregate of all the range measurement uncertainties, including the<P>
+GPS receiver itself.  It can be expressed as a zero-mean Gaussian distribution<P>
+with a specified standard deviation.<P>
+<P>
+The position errors calculated by the simulations are normalized by dividing them<P>
+by the standard deviation of the URE originally used to generate the Monte Carlo<P>
+range errors.  Normalized error curves are often confused with Dilution of<P>
+Precision (DOP) curves.  DOP is a geometric quantity that depends upon the<P>
+relative positions of the user and the selected satellites.  Statistically, high<P>
+values of DOP cause small range measurement errors to be amplified into large<P>
+position errors.  GPS constellations are selected to minimize these high-DOP areas<P>
+of reduced accuracy.  Normalized position error distributions are preferable to<P>
+DOP distributions; the position error distributions implicitly include not only the<P>
+overall error amplification of the DOP curves, but also the fact that north-south,<P>
+east-west, and vertical location errors all have different trends. <P>
+<P>
+All accuracy projections are based upon a fully operational system:  24 healthy<P>
+satellites, normal uploads by the Control Segment, etc.  The accuracy simulations<P>
+use the 24 satellites.  Satellite visibility depends upon local conditions.  Some<P>
+users may be able to track satellites less than 5 degrees above the horizon, while<P>
+other users may have difficulty even at 10 degrees.  DOD accuracy simulations<P>
+use 5 degrees.<P>
+<P>
+Accuracy simulations use the four-satellite combination that minimizes<P>
+three-dimensional position DOP (PDOP).  In some applications, a user receiver may<P>
+have access to additional information, such as being at a known altitude (relative<P>
+to mean sea level), or may have a more accurate atomic clock in place of the<P>
+usual crystal clock.  In general, such information improves location accuracy<P>
+substantially.  When discussing horizontal accuracy it is important to differentiate<P>
+between a user whose horizontal errors are based upon the use of four satellites<P>
+that minimize DOP, and one based upon a known altitude and the use of three<P>
+satellites that minimize horizontal DOP (HDOP).  As noted above, the GPS accuracy<P>
+simulations are usually based solely upon the four satellites that minimize PDOP.<P>
+<P>
+GPS provides two services for position determination, SPS and PPS.  Accuracy<P>
+of a GPS fix varies with the capability of the user equipment.<P>
+
+
+1.   Standard Positioning Service (SPS)<P>
+<P>
+SPS is the standard specified level of positioning and timing accuracy that is<P>
+available, without qualification or restrictions, to any user on a continuous<P>
+worldwide basis.  The accuracy of this service will be established by the U.S.<P>
+Department of Defense based on U.S. security interests.  When GPS is declared<P>
+operational, the DOD plans to provide, on a daily basis at any position worldwide,<P>
+horizontal positioning accuracy within 100 meters (2 drms) and 300 meters with<P>
+99.99 percent probability.<P>
+<P>
+2.   Precise Positioning Service (PPS)<P>
+<P>
+PPS is the most accurate positioning, velocity, and timing information<P>
+continuously available, worldwide, from the basic GPS.  This service will be<P>
+limited to authorized U.S. and allied Federal Governments; authorized foreign and<P>
+military users; and eligible civil users.  Unauthorized users will be denied access<P>
+to PPS through the use of cryptography.  P code capable military user equipment<P>
+will provide a predictable positioning accuracy of at least 22 meters (2 drms)<P>
+horizontally and 27.7 meters (2 sigma) vertically and timing/time interval accuracy<P>
+within 90 nanoseconds (95 percent probability).  <P>
+<P>
+C.   Availability<P>
+<P>
+GPS will provide availability approaching 100 percent to be refined based on<P>
+orbital experience.  This is based upon a 24 satellite constellation with at least<P>
+four satellites in view above a 5o masking angle.<P>
+<P>
+D.   Coverage<P>
+<P>
+A 24-satellite constellation will provide worldwide three-dimensional coverage.<P>
+<P>
+E.   Reliability<P>
+<P>
+GPS operational (Block II) satellites have a design life of 7.5 years.  Reliability<P>
+figures can only be determined after satellites are launched and data are<P>
+collected and evaluated.  With the planned replenishment strategy, a constellation<P>
+of 24 satellites will provide a 98 percent probability of having 21 or more<P>
+satellites operational at any time.<P>
+<P>
+F.   Fix Rate<P>
+<P>
+The fix rate is essentially continuous.  Actual time to a first fix depends on user<P>
+equipment capability and initialization with current satellite almanac data.<P>
+<P>
+G.   Fix Dimensions<P>
+<P>
+GPS provides three-dimensional positioning and velocity fixes, as well as<P>
+extremely accurate time information.<P>
+<P>
+H.   System Capacity<P>
+<P>
+The capacity is unlimited.<P>
+<P>
+I.   Ambiguity<P>
+<P>
+There is no ambiguity.<P>
+<P>
+J.   Integrity<P>
+<P>
+According to DOD's concept of operation, GPS satellites are monitored more than<P>
+95 percent of the time by a network of five monitoring stations spread around<P>
+the world.  The information collected by the monitoring stations is processed by<P>
+the Master Control Station at Colorado Springs, Colorado, and used to periodically<P>
+update the navigation message (including a health message) transmitted by each<P>
+satellite.  The satellite health message, which is not changed between satellite<P>
+navigation message updates, is transmitted as part of the GPS navigation message<P>
+for reception by both PPS and SPS users.  Additionally, satellite operating<P>
+parameters such as navigation data errors, signal availability/anti-spoof failures,<P>
+and certain types of satellite clock failures are monitored internally within the<P>
+satellite.  If such internal failures are detected, users are notified within six<P>
+seconds.  Other failures detectable only by the control segment may take from<P>
+15 minutes to several hours to rectify.<P>
+<P>
+DOD GPS receivers use the information contained in the navigation and health<P>
+messages, as well as self-contained satellite geometry algorithms and internal<P>
+navigation solution convergence monitors, to compute an estimated figure of merit. <P>
+This number is continuously displayed to the operator, indicating the estimated<P>
+overall confidence level of the position information.<P>
+<P>
+Both DOT and DOD have recognized the requirement for additional integrity for<P>
+aviation and all other users of GPS.  The development of integrity capabilities to<P>
+meet flight safety requirements is underway.<P>
+<P>
+</HTML>

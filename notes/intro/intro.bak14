@@ -1,0 +1,659 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; U) [Netscape]">
+   <title>Geographic Information Systems as an Integrating Technology</title>
+</head>
+<body>
+<img SRC="gif/gis2.gif"  align=TOP>
+<P>
+
+<h1>
+Geographic Information Systems as an Integrating Technology: Context, Concepts,
+and Definitions</h1>
+
+<hr>
+<address>
+<i>The materials were developed by Kenneth E.
+Foote and Margaret Lynch, Department of Geography, University of Texas at Austin, 1995. You may use these materials for education and research, but please cite the Geographer's Craft Project, Department of Geography, University of Colorado at Boulder and the author. If you have comments or suggestions, please contact: <a href="mailto: k.foote@colorado.edu">k.foote@colorado.edu</a>.  All commercial rights reserved.
+</i></address>
+
+<p>This page is also available in a <a href="intro_f.html" target="_top">framed
+version</a>.&nbsp; For convenience we provide a full <a href="intro_ftoc.html">Table
+of Contents</a>.
+<P>
+<hr>Now available in <a href="http://www.prudente.unesp.br/dcartog/arlete/gis/intro_t.htm" target="_top">Portuguese.</a>
+<hr>
+<h2>
+&nbsp;<a NAME="Info"></a>1. Information Technologies in Geography</h2>
+GIS is one of many information technologies that have transformed the ways
+geographers conduct research and contribute to society. In the past two
+decades, these information technologies have had tremendous effects on
+research techniques specific to the discipline, as well as on the general
+ways in which geographers communicate and collaborate.
+<ul>
+<li>
+Discipline-Specific&nbsp;<a NAME="Disc"></a>Tools</li>
+</ul>
+
+<ol>
+<li>
+<b>Cartography and Computer-Assisted Drafting</b>: Computers offer the
+same advantages to cartographers that word-processing software offers writers.
+Automated techniques are now the rule rather than the exception in cartographic
+production.</li>
+
+<li>
+<b>Photogrammetry and Remote Sensing</b>: Aerial photogrammetry, a well-established
+technique for cartographic production and geographic analysis, is now complemented
+by the use of "remotely sensed" information gathered by satellites in outer
+space. Information technologies have made both sorts of information far
+more readily available and far easier to use.</li>
+
+<li>
+<b>Spatial Statistics</b>: Statistical analysis and modeling of spatial
+patterns and processes have long relied on computer technology. Advances
+in information technology have made these techniques more widely accessible
+and have allowed models to expand in complexity and scale to provide more
+accurate depictions of real-world processes.</li>
+
+<li>
+<b>Geographic Information Systems (GIS</b>): These systems allow geographers
+to collate and analyze information far more readily than is possible with
+traditional research techniques. As will be noted below, GIS can be viewed
+as an integrating technology insofar as it draws upon and extends techniques
+that geographers have long used to analyze natural and social&nbsp;<a NAME="Gen"></a>systems.</li>
+</ol>
+
+<ul>
+<li>
+General</li>
+</ul>
+
+<ol>
+<li>
+<b>Communication and Collaboration</b>: Electronic mail, discussion lists,
+and computer bulletin boards make it far easier for colleagues to communicate
+ideas and share ideas, locally, nationally, and internationally. Distance-learning
+techniques make it possible to hold interactive classes and workshops simultaneously
+at distant locations.</li>
+
+<li>
+<b>Access to Library and Research Materials and Sources</b>: Network access
+to both primary and secondary research resources is expanding rapidly.
+From their offices, scholars can now get information held by libraries,
+government agencies, and research institutions all over the world.</li>
+
+<li>
+<b>Publication and Dissemination</b>: Information technologies are reducing
+substantially the cost of publishing and distributing information as well
+as reducing the time required to circulate the latest news and research
+results.</li>
+</ol>
+
+<hr>
+<h2>
+&nbsp;2.&nbsp;<a NAME="Cour"></a>The Course of Technological Innovation</h2>
+These advances in the application of information technologies in geography
+began several decades ago and will continue to expand their effects into
+the foreseeable future. Scholars who have studied the spread of technological
+innovations in society sometimes divide the process into four&nbsp;<a NAME="Init"></a>phases:
+<ol>
+<li>
+<b>Initiation:</b> An innovation first becomes available.</li>
+
+<li>
+<b>Contagion:</b> Far-ranging experimentation follows to see how the innovation
+can be adapted to meet a wide variety of research and commercial needs.
+Some, but not necessarily all of these experiments will work.</li>
+
+<li>
+<b>Coordination:</b> The most promising applications of the innovation
+gradually gain acceptance and are developed collaboratively. The coordination
+of experimentation helps to distribute the potentially high costs of further
+development and implementation.</li>
+
+<li>
+<b>Integration:</b> A innovation is accepted and integrated into routine
+research tasks.</li>
+</ol>
+In geography, many innovations in the application of information technologies
+began in the late 1950s, 1960s and early 1970s. Methods of sophisticated
+mathematical and statistical modeling were developed and the first remote
+sensing data became available. Researchers began also to envision the development
+of geographic information systems. The mid-1970s to early 1990s was a period
+of contagion. The first commercially available software for GIS became
+available in the late 1970s and spurred many experiments, as did the development
+of the first microcomputers in the early 1980s. This was an exciting time
+in which the development of powerful software coupled with the availability
+of inexpensive computers permitted many researchers to test new ideas and
+applications for the first time. In the early 1990s, or perhaps just a
+bit earlier, many innovations entered the coordination phase even as other
+experimentation continued at a fast pace. The strengths and weaknesses
+of many information technologies were by then apparent, and researchers
+began to work together to cultivate the most promising applications on
+a large scale. Arguably, the complete integration of information technologies
+in geography has yet to be achieved except perhaps in a few relatively
+specialized research areas. Complete integration across the discipline
+may, in fact, be many years away.
+<p>
+<hr>
+<h2>
+&nbsp;3.&nbsp;<a NAME="GIS"></a>GIS as an Integrating Technology</h2>
+In the context of these innovations, geographic information systems have
+served an important role as an integrating technology. Rather than being
+completely new, GIS have evolved by linking a number of discrete technologies
+into a whole that is greater than the sum of its parts. GIS have emerged
+as very powerful technologies because they allow geographers to integrate
+their data and methods in ways that support traditional forms of geographical
+analysis, such as map overlay analysis as well as new types of analysis
+and modeling that are beyond the capability of manual methods. With GIS
+it is possible to map, model, query, and analyze large quantities of data
+all held together within a single database.
+<p>&nbsp;The importance of GIS as an integrating technology is also evident
+in its pedigree. The development of GIS has relied on innovations made
+in many different disciplines: Geography, Cartography, Photogrammetry,
+Remote Sensing, Surveying, Geodesy, Civil Engineering, Statistics, Computer
+Science, Operations Research, Artificial Intelligence, Demography, and
+many other branches of the social sciences, natural sciences, and engineering
+have all contributed. Indeed, some of the most interesting applications
+of GIS technology discussed below draw upon this interdisciplinary character
+and heritage.
+<p>
+<hr>
+<h2>
+&nbsp;<a NAME="Geog"></a>4. Geographic Information Systems: A Generic Definition</h2>
+GIS is a special-purpose digital database in which a common spatial coordinate
+system is the primary means of reference. Comprehensive GIS require a means&nbsp;<a NAME="D1"></a>of:
+<ol>
+<li>
+Data input, from maps, aerial photos, satellites, surveys, and other sources</li>
+
+<li>
+Data storage, retrieval, and query</li>
+
+<li>
+Data transformation, analysis, and modeling, including spatial statistics</li>
+
+<li>
+Data reporting, such as maps, reports, and plans</li>
+</ol>
+
+<ul>
+<li>
+Three observations&nbsp;<a NAME="3"></a>should be made about this definition:</li>
+</ul>
+
+<dl>
+<dd>
+&nbsp;<b>First</b>, GIS are related to other database applications, but
+with an important difference. All information in a GIS is linked to a spatial
+reference. Other databases may contain locational information (such as
+street addresses, or zip codes), but a GIS database uses geo-references
+as the primary means of storing and accessing information.</dd>
+
+<dd>
+&nbsp;</dd>
+
+<dd>
+<b>Second</b>, GIS integrates technology. Whereas other technologies might
+be used only to analyze aerial photographs and satellite images, to create
+statistical models, or to draft maps, these capabilities are all offered
+together within a comprehensive GIS.</dd>
+
+<dd>
+&nbsp;</dd>
+
+<dd>
+<b>Third</b>, GIS, with its array of functions, should be viewed as a process
+rather than as merely software or hardware. GIS are for making decisions.
+The way in which data is entered, stored, and analyzed within a GIS must
+mirror the way information will be used for a specific research or decision-making
+task. To see GIS as merely a software or hardware system is to miss the
+crucial role it can play in a comprehensive decision-making process.</dd>
+</dl>
+
+<hr>
+<h2>
+&nbsp;<a NAME="Other"></a>5. Other Definitions</h2>
+Many people offer definitions of GIS. In the range of definitions presented
+below, different emphases are placed on various aspects of GIS. Some miss
+the true power of GIS, its ability to integrate information and to help
+in making decisions, but all include the essential features of spatial
+references and data analysis.
+<dl>
+<dt>
+<i>&nbsp;</i>A definition quoted in&nbsp;<a NAME="Hux"></a>William Huxhold's
+Introduction to Urban Geographic Information Systems. (New York: Oxford
+University Press, 1991), page 27, from some GIS/LIS '88 proceedings:</dt>
+
+<dd>
+". . . The purpose of a traditional GIS is first and foremost spatial analysis.
+Therefore, capabilities may have limited data capture and cartographic
+output. Capabilities of analyses typically support decision making for
+specific projects and/or limited geographic areas. The map data-base characteristics
+(accuracy, continuity, completeness, etc) are typically appropriate for
+small-scale map output. Vector and raster data interfaces may be available.
+However, topology is usually the sole underlying data structure for spatial
+analyses."</dd>
+
+<dt>
+&nbsp;</dt>
+
+<dt>
+C.&nbsp;<a NAME="Tomlin"></a>Dana Tomlin's definition, from Geographic
+Information Systems and Cartographic Modeling (Englewood Cliffs, NJ: Prentice-Hall,1990),
+page xi:</dt>
+
+<br>&nbsp;
+<dd>
+"A geographic information system is a facility for preparing, presenting,
+and interpreting facts that pertain to the surface of the earth. This is
+a broad definition . . . a considerably narrower definition, however, is
+more often employed. In common parlance, a geographic information system
+or GIS is a configuration of computer hardware and software specifically
+designed for the acquisition, maintenance, and use of cartographic data."</dd>
+
+<dt>
+&nbsp;</dt>
+
+<dt>
+From&nbsp;<a NAME="Star"></a>Jeffrey Star and John Estes, in Geographic
+Information Systems: An Introduction (Englewood Cliffs, NJ: Prentice-Hall,
+1990), page 2-3:</dt>
+
+<br>&nbsp;
+<dd>
+"A geographic information system (GIS) is an information system that is
+designed to work with data referenced by spatial or geographic coordinates.
+In other words, a GIS is both a database system with specific capabilities
+for spatially-reference data, as well [as] a set of operations for working
+with data . . . In a sense, a GIS may be thought of as a higher-order map."</dd>
+
+<dt>
+&nbsp;</dt>
+
+<dt>
+And&nbsp;<a NAME="ARC"></a>from Understanding GIS: The ARC/INFO Method
+(Redlands, CA: Environmental System Research Institute, 1990), page 1.2:</dt>
+
+<br>&nbsp;
+<dd>
+A GIS is "an organized collection of computer hardware, software, geographic
+data, and personnel designed to efficiently capture, store, update, manipulate,
+analyze, and display all forms of geographically referenced information."</dd>
+</dl>
+<a NAME="USGS"></a>Click here to see the <a href="http://internet.er.usgs.gov/research/gis/title.html">USGS's
+definition of GIS</a> (Scroll down to "What is a GIS?").
+<p>
+<hr>
+<h2>
+<i>&nbsp;<a NAME="Rela"></a></i>6. Related Terms: Acronyms, Synonyms, and
+More</h2>
+One reason why it can be difficult to agree on a single definition for
+GIS is that various kinds of GIS exist, each made for different purposes
+and for different types of decision making. A variety of names have been
+applied to different types of GIS to distinguish their functions and roles.
+One of the more common specialized systems, for instance, is usually referred
+to as an AM/FM system. AM/FM is designed specifically for infrastructure
+management. It is defined further below.
+<p>&nbsp;In addition, some systems that are similar in both function and
+name to GIS, nevertheless are not really geographic information systems
+as defined above. Broadly, these similar systems do not share GIS's ability
+to perform complex analysis. CAD systems, for example, are sometimes confused
+with GIS. Not long ago, a major distinction existed between GIS and CAD,
+but the their differences are beginning to disappear. CAD systems, used
+mainly for the precise drafting required by engineers and architects, are
+capable of producing maps though not designed for that purpose. However,
+CAD originally lacked coordinate systems and did not provide for map projections.
+Nor were CAD systems linked to data bases, an essential feature of GIS.
+These features have been added to recent CAD systems, but geographic information
+systems still offer a richer array of geographic&nbsp;<a NAME="Wide"></a>functions.
+<p>&nbsp;The use of so many acronyms, synonyms, and terms with related
+meaning can cause some confusion. Consider a few of the most widely used
+terms:
+<ul>
+<li>
+AGIS (Automated Geographic Information System)</li>
+
+<br>&nbsp;
+<li>
+AM/FM&nbsp;<a NAME="AM"></a>(Automated Mapping and Facilities Management):
+Automated mapping by itself allows storage and manipulation of map information.
+AM/FM systems add the ability to link stores of information about the features
+mapped. However, AM/FM is not used for spatial analysis, and it lacks the
+topological data structures of GIS.</li>
+
+<br>&nbsp;
+<li>
+CAD&nbsp;<a NAME="CAD"></a>(Computer-Assisted Drafting): These systems
+were designed for drafting and design. They handle spatial data as graphics
+rather than as information. While they can produce high-quality maps, generally
+they are less able to perform complex spatial analyses.</li>
+
+<br>&nbsp;
+<li>
+CAM (Computer-Assisted Mapping, or Manufacturing)</li>
+
+<br>&nbsp;
+<li>
+Computerized GIS</li>
+
+<br>&nbsp;
+<li>
+Environmental Information System</li>
+
+<br>&nbsp;
+<li>
+GIS (Geographic Information System)</li>
+
+<br>&nbsp;
+<li>
+Geographically Referenced Information System</li>
+
+<br>&nbsp;
+<li>
+Geo-Information System</li>
+
+<br>&nbsp;
+<li>
+Image-Based Information System</li>
+
+<br>&nbsp;
+<li>
+LIS (Land Information System)</li>
+
+<br>&nbsp;
+<li>
+Land Management System</li>
+
+<br>&nbsp;
+<li>
+Land Record System</li>
+
+<br>&nbsp;
+<li>
+Land Resources Information System</li>
+
+<br>&nbsp;
+<li>
+Multipurpose Cadastre:&nbsp;<a NAME="Multi"></a>These systems store information
+about parcels of land. They are used in urban geographic information systems
+in order to collect and maintain data associated with property. Identifiers
+assigned to each parcel link information to each plot of land. All information
+is carefully stored with a geodetic reference frame because a high degree
+of accuracy is necessary in maintaining information about parcel boundaries
+and ownership. Because information in multipurpose cadastres is also linked
+to street addresses, these systems can be used for keeping track of such
+things as emergency response, crime, delivery of municipal services, and
+tax assessments. All such information can then be integrated and analyzed
+together.</li>
+
+<br>&nbsp;
+<li>
+Multipurpose Geographic Data System</li>
+
+<br>&nbsp;
+<li>
+Multipurpose Land Record System</li>
+
+<br>&nbsp;
+<li>
+Natural Resources Inventory System</li>
+
+<br>&nbsp;
+<li>
+Natural Resources Management Information System</li>
+
+<br>&nbsp;
+<li>
+Planning Information System</li>
+
+<br>&nbsp;
+<li>
+Resource Information System</li>
+
+<br>&nbsp;
+<li>
+Spatial Data Handling System</li>
+
+<br>&nbsp;
+<li>
+Spatial Database</li>
+
+<br>&nbsp;
+<li>
+Spatial Information System</li>
+</ul>
+
+<hr WIDTH="100%">
+<h2>
+&nbsp;7.&nbsp;<a NAME="View"></a>The GIS View of the World</h2>
+GIS provide powerful tools for addressing geographical and environmental
+issues. Consider the schematic diagram below. Imagine that the GIS allows
+us to arrange information about a given region or city as a set of maps
+with each map displaying information about one characteristic of the region.
+In the case below, a set of maps that will be helpful for urban transportation
+planning have been gathered. Each of these separate thematic maps is referred
+to as a <b>layer, coverage, or level</b>. And each layer has been carefully
+overlaid on the others so that every location is precisely matched to its
+corresponding locations on all the other maps. The bottom layer of this
+diagram is the most important, for it represents the grid of a locational
+reference system (such as latitude and longitude) to which all the maps
+have been precisely registered.
+<p><a NAME="gif1"></a><img SRC="gif/gis.gif"  align=TOP><i></i>
+<p>Once these maps have been registered carefully within a common locational
+reference system, information displayed on the different layers can be
+compared and analyzed in combination. Transit routes can be compared to
+the location of shopping malls, population density to centers of employment.
+In addition. single locations or areas can be separated from surrounding
+locations, as in the diagram below, by simply cutting all the layers of
+the desired location from the larger map. Whether for one location or the
+entire region, GIS offers a means of searching for spatial patterns and
+processes.
+<p><a NAME="gif2"></a><img SRC="gif/location.gif"  align=TOP>
+<p>Not all analyses will require using all of the map layers simultaneously.
+In some cases, a researcher will use information selectively to consider
+relationships between specific layers. Furthermore, information from two
+or more layers might be combined and then transformed into a new layer
+for use in subsequent analyses. This process of combining and transforming
+information from different layers is sometimes called map "algebra" insofar
+as it involves adding and subtracting information. If, for example, we
+wanted to consider the effects of widening a road, we could begin with
+the road layer, widen a road to its new width to produce a new map, and
+overlay this new map on layers representing land use.
+<p><a NAME="gif3"></a><img SRC="gif/fig2_2.gif"  align=TOP>
+<br>&nbsp;
+<p>
+<hr>
+<h2>
+<i>&nbsp;</i>8.&nbsp;<a NAME="Appeal"></a>The Appeal and Potential of GIS</h2>
+The great appeal of GIS stems from their ability to integrate great quantities
+of information about the environment and to provide a powerful repertoire
+of analytical tools to explore this data. The example above displayed only
+a few map layers pertaining to urban transportation planning. The layers
+included would be very different if the application involved modeling the
+habitat of an endangered species or the environmental consequences of leakage
+from a hazardous materials site.
+<p>&nbsp;Imagine the potential of a system in which dozens or hundreds
+of maps layers are arrayed to display information about transportation
+networks, hydrography, population characteristics, economic activity, political
+jurisdictions, and other characteristics of the natural and social environments.
+Such a system would be valuable in a wide range of situations--for urban
+planning, environmental resource management, hazards management, emergency
+planning, or transportation forecasting, and so on. The ability to separate
+information in layers, and then combine it with other layers of information
+is the reason why GIS hold such great potential as research and decision-making
+tools.
+<p><a NAME="gif4"></a><img SRC="gif/decision.gif" >
+<p>
+<hr WIDTH="100%">
+<h2>
+<i>&nbsp;</i>9.&nbsp;<a NAME="Appli"></a>Application Areas</h2>
+GIS are now used extensively in government, business, and research for
+a wide range of applications including environmental resource analysis,
+landuse planning, locational analysis, tax appraisal, utility and infrastructure
+planning, real estate analysis, marketing and demographic analysis, habitat
+studies, and archaeological analysis.
+<p><a NAME="NRM"></a>One of the first major areas of application was in
+<b>natural resources management</b>, including management of
+<ul>
+<li>
+wildlife habitat,</li>
+
+<li>
+wild and scenic rivers,</li>
+
+<li>
+recreation resources,</li>
+
+<li>
+floodplains,</li>
+
+<li>
+wetlands,</li>
+
+<li>
+agricultural lands,</li>
+
+<li>
+aquifers,</li>
+
+<li>
+forests.</li>
+</ul>
+<a NAME="FM"></a>One of the largest areas of application has been in <b>facilities
+management</b>. Uses for GIS in this area have included
+<ul>
+<li>
+locating underground pipes and cables,</li>
+
+<li>
+balancing loads in electrical networks,</li>
+
+<li>
+planning facility maintenance,</li>
+
+<li>
+tracking energy use.</li>
+</ul>
+<a NAME="LM"></a>Local, state, and federal governments have found GIS particularly
+useful in<b> land management</b>. GIS has been commonly applied in areas
+like
+<ul>
+<li>
+zoning and subdivision planning,</li>
+
+<li>
+land acquisition,</li>
+
+<li>
+environmental impact policy,</li>
+
+<li>
+water quality management,</li>
+
+<li>
+maintenance of ownership.</li>
+</ul>
+<a NAME="SN"></a>More recent and innovative uses of GIS have used information
+based on <b>street-networks</b>. GIS has been found to be particularly
+useful in
+<ul>
+<li>
+address matching,</li>
+
+<li>
+location analysis or site selection,</li>
+
+<li>
+development of evacuation plans.</li>
+</ul>
+<i>&nbsp;</i>The range of applications for GIS is growing as systems become
+more efficient, more common, and less expensive. Some of the newest applications
+have taken GIS to unexpected areas.&nbsp;<a NAME="Uses"></a>The USGS and
+the city of Boulder, Colorado have come up with some innovative uses for
+GIS:
+<ul>
+<li>
+<a href="http://internet.er.usgs.gov/research/gis/application7.html">Global
+Change and Climate History Project</a></li>
+
+<br>&nbsp;
+<li>
+<a href="http://internet.er.usgs.gov/research/gis/application4.html">Emergency
+Response Planning</a></li>
+
+<br>&nbsp;
+<li>
+<a href="http://internet.er.usgs.gov/research/gis/application3.html">Site
+Selection of Water Wells</a></li>
+
+<br>&nbsp;
+<li>
+Boulder, Colorado, has used GIS to develop a <a href="http://www.boco.co.gov/gislu/nacoawar.html">Wildfire
+Hazard Identification and Mitigation System</a></li>
+</ul>
+
+<hr>
+<h2>
+&nbsp;<a NAME="Many"></a>10. Many Software Systems Support GIS Decision
+Making</h2>
+These days, dozens of software systems offer GIS decision-making capabilities.
+The range and number available sometimes make it difficult to discern the
+differences among systems and the strengths and limitations of each. The
+important point to remember is that there are as many different types of
+GIS software systems as there are decision-making processes. Particular
+GIS software systems are often specialized to fit certain types of decision
+making. That is, they are customized to meet needs specific to demographic
+forecasting, transportation planning, environmental resource analysis,
+urban planning, and so on. These systems may respond well to individual
+problems, but they are also limiting. Special- purpose GIS designed for
+airport planning and maintenance, for instance, will not be well suited
+to demographic modeling.
+<p>Other software systems are not so specialized. The Intergraph Corporation's
+MGE/MGA system, Arc/INFO (produced by the Environmental Systems Research
+Institute), or Tydac's SPANS software have become well-known because they
+can be used in a wide number of applications. These general purpose systems
+also offer features that can be customized to meet various individual needs.
+<p>&nbsp;Other systems such as Atlas*GIS, MapInfo, and ArcView attempt
+to provide functions that will be of value in one or more of the broad
+application domains, for instance in demographic analysis or marketing
+research. Yet quite apart from these more general systems, there are dozens
+of very specialized software systems that are best suited to one task,
+one application, or even to just one part of a broader decision- making
+process, for example for storing maintenance records of a highway system
+or for planning the expansion of an electric distribution network.
+<br>
+<hr><b>Required Reading</b>
+<p>&nbsp;Antenucci, John C.; Brown, Kay; Croswell, Peter L.; Kevany, Michael
+J.; and Archer, Hugh N. 1991. "Introduction," "Evolution of the Technology,"
+and "Applications." Chaps. 1-3 in Geographic Information Systems: A Guide
+to the Technology. New York: Van Nostrand Reinhold.
+<p>&nbsp;Krol, Ed. 1992. The Whole Internet: User's Guide and Catalog.
+Sebastopol, CA: O'Reilly and Associates. Chapters 5 and 6.
+<p>&nbsp;<b>Further Reading</b>
+<p>&nbsp;Burrough, P.A. 1986. "Geographic Information Systems." Chap. 1
+in Principles of Geographic Information Systems for Land Resources Assessment.
+Oxford: Oxford University Press.
+<p>&nbsp;Huxhold, William E. 1991. "Information in the Organization" and
+"Applications of Urban Geographic Information Systems." Chaps. 1 and 3
+in An Introduction to Urban Geographic Information Systems. New York: Oxford
+University Press.
+<p>&nbsp;Star, Jeffrey and John Estes. 1990. "Introduction" and "Background
+and History." Chaps. 1 and 2 in Geographic Information Systems: An Introduction.
+Englewood Cliffs, NJ: Prentice- Hall.
+<p>&nbsp;Tobler, W.R. 1959. "Automation and Cartography." Geographical
+Review 49: 526-534.
+<br>
+<hr>
+<h2>
+<a NAME="exam"></a><a href="../../exam/concepts/concepts.html">11. Examination
+and Study Questions</a></h2>
+
+<hr>Last revised 12 October 1997. LNC.
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

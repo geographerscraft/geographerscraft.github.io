@@ -1,0 +1,697 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="Author" content="Kenneth E. Foote">
+  <title>Main Body</title>
+</head>
+<body bgcolor="#ffffff" text="#008f93">
+<center>
+<h1>Project Planning and Lifecycle</h1>
+</center>
+<i>These materials were developed by Kenneth E. Foote and Shannon L.
+Crum,
+Department of Geography, University of Texas at Austin, 1995.&nbsp;
+These
+materials may be used for study, research, and education in
+not-for-profit
+applications.&nbsp; If you link to or cite these materials, please
+credit
+the authors, Kenneth E. Foote and Shannon L. Crum, The Geographer's
+Craft
+Project, Department of Geography, The University of Colorado at
+Boulder.&nbsp;
+These materials may not be copied to or issued from another Web server
+without the authors' express permission.&nbsp; Copyright &copy; 2000
+All
+commercial rights are reserved.&nbsp; If you have comments or
+suggestions,
+please contact the author or Kenneth E. Foote at <a
+ href="mailto:k.foote@colorado.edu">k.foote@colorado.edu</a>.</i>
+<p>This page is also available in a <a href="lifecycl_f.html"
+ target="_top">framed
+version</a>.&nbsp; For convenience, we have provided a full <a
+ href="lifecycl_ftoc.html">Table
+of Contents</a>.
+<br>
+</p>
+<hr>
+<h3>&nbsp;<a name="1.0"></a>1. The Importance of Project Planning</h3>
+GIS projects are expensive in terms of both time and money. Municipal
+GIS
+and facilities management projects developed by utilities may take a
+decade
+or more to bring on-line at a cost of tens or hundreds of millions of
+dollars.
+Careful planning at the outset, as well as during the project, can help
+to avoid costly mistakes. It also provides assurance that a GIS will
+accomplish
+it goals on schedule and within budget.
+<p>&nbsp;There is a temptation, when a new technology like GIS becomes
+available, to improvise a solution to its use, that is to get started
+without
+considering where the project will lead. The greatest danger is that
+decisions
+made in haste or on the spur of the moment will have to be reversed
+later
+or will prove too costly to implement, meaning a GIS project may have
+to
+be abandoned. To avoid disappointing experiences like these, GIS
+professionals
+have developed a well-defined planning methodology often referred to as
+<b><i>project
+lifecycle</i></b>. Lifecycle planning involves setting goals, defining
+targets, establishing schedules, and estimating budgets for an entire
+GIS
+project.
+</p>
+<p>&nbsp;The original impetus for developing effective lifecycle
+planning
+was cost containment. For many decades, the rationale for implementing
+new information technologies was that, in the long run, such projects
+would
+reduce the cost of business operations.
+<br>
+&nbsp;
+</p>
+<p><br>
+</p>
+<center>
+<p><img src="gif/ecojust.gif"></p>
+</center>
+<p>This optimistic appraisal of the benefits of information
+technologies
+has not borne out in the American economy during the past two decades.
+In almost all cases, adopting new information technologies has <b>added
+to</b> the cost of business operations without producing a
+corresponding
+increase in traditional measures of labor productivity, as in the
+following
+graph.
+<br>
+&nbsp;
+</p>
+<p><br>
+</p>
+<center>
+<p><img src="gif/ecojust2.gif"></p>
+</center>
+<p>This does not mean that information technologies have been a
+failure.
+Rather, these systems allow users to accomplish a greater range of
+varied
+and complex tasks, but at a higher cost. Users are not so much doing
+their
+previous work at faster speeds, but assuming new tasks offered by the
+new
+technologies. Support staff once satisfied with producing in-house
+documents
+may now be tempted to issue them using desktop publishing software or
+on-line
+in the Worldwide Web. Cartographers once satisfied with producing
+discrete
+utility maps for individual construction projects may be tempted to
+create
+an encompassing map and GIS database containing maintenance records for
+an entire city.
+</p>
+<p>&nbsp;It is generally recognized that, for the foreseeable future,
+most
+information technologies projects will have to be justified on the
+basis
+of a "<b>do more, pay more</b>" philosophy. This means that effective
+lifecycle
+planning is all the more important. In the past, projected existing
+costs
+could be used as a baseline against which improvements could be
+measured.
+If the cost curve for new information technologies is always above the
+baseline, then greater care must be exerted in setting goals,
+establishing
+targets, and estimating budgets. There is far too great a danger that,
+in the absence of such checks and balances, a project may grow out of
+control.
+</p>
+<p></p>
+<hr>
+<h3>&nbsp;<a name="2.0"></a>2. The Value of a Problem-solving Approach</h3>
+Lifecycle planning is really a process of practical problem solving
+applied
+to all aspects of a GIS development project.
+<center><img src="gif/cicle2.gif"></center>
+<p><br>
+<br>
+</p>
+<p>Particular care is exerted in defining the nature of a problem or
+new
+requirement, estimating the costs and feasibility of proceeding, and
+developing
+a solution. This process should not be abridged; each step is important
+to the overall process. If this problem solving approach is applied to
+the design and creation of an entire GIS project a few additional
+subtasks
+must be addressed, as in the diagram below.
+</p>
+<p></p>
+<hr>
+<h3>&nbsp;<a name="3.0"></a>3. Project Lifecyle: An Overview</h3>
+<a name="flowchart"></a>For definitions, click on the boxes.
+<br>
+&nbsp;
+<p><br>
+</p>
+<center>
+<p><map name="lifecycle">
+<area href="definit.html#def1" coords="23, 3, 106, 49" shape="rect">
+<area href="definit.html#def17" shape="rect" coords="121, 259, 203, 309">
+<area href="definit.html#def19" coords="122, 332, 203, 380" shape="rect">
+<area href="definit.html#def2" coords="121, 3, 202, 49" shape="rect">
+<area href="definit.html#def4" coords="25, 63, 105, 115" shape="rect">
+<area href="definit.html#def5" shape="rect" coords="123, 68, 203, 114">
+<area href="definit.html#def6" shape="rect" coords="222, 66, 299, 115">
+<area href="definit.html#def8" shape="rect" coords="24, 130, 105, 178">
+<area href="definit.html#def9" shape="rect" coords="121, 130, 203, 177">
+<area href="definit.html#def10" shape="rect" coords="220, 129, 302, 180">
+<area href="definit.html#def12" shape="rect" coords="24, 194, 106, 246">
+<area href="definit.html#def13" shape="rect" coords="120, 197, 204, 244">
+<area href="definit.html#def14" shape="rect" coords="221, 197, 300, 245">
+<area href="definit.html#def16" shape="rect" coords="24, 261, 104, 310">
+<area href="#flowchart" coords="0, 0, 10000, 10000" shape="rect">
+</map>
+<img src="gif/goals2.gif" usemap="#lifecycle"
+ alt="Diagram of Project Planning and Lifecycle" border="0" height="381"
+ width="471"></p>
+</center>
+<p><b>Also put in links to examaples of project planning materials,
+FRS,
+RFP, etc.</b>
+</p>
+<hr>
+<h3>&nbsp;<a name="4.0"></a>4. Key Aspects of Project Lifecycle</h3>
+Three aspects of this planning process merit special attention.
+<p><a name="4.1"></a><b>1. Setting goals and estimating costs.</b>
+</p>
+<p>Each stage of the project lifecycle process involves setting clear
+goals
+for the next step and estimating the cost of reaching those goals. If
+the
+necessary funds or time are unavailable, it is better to stop the
+process
+than to continue and see the project fail. The process can begin again
+when funds are available.
+</p>
+<p><a name="4.2"></a><b>2. The functional requirements study.</b>
+</p>
+<p><b>&nbsp;</b>The functional requirements study is arguably the most
+important single step in the planning process. Here, careful study is
+devoted
+to what information is required for a project, how it is to be used,
+and
+what final products will be produced by the project. For a large
+organization,
+this amounts to a "map" of how information flows into, around, and out
+of each office and agency. The FRS also specifies how often particular
+types of information are needed and by whom. Furthermore, the FRS can
+look
+into the future to anticipate types of data processing tasks that
+expand
+upon or enhance the organization's work.
+</p>
+<p>&nbsp;By assessing information flows so carefully, the FRS allows an
+organization to set goals for all of the subsequent steps in the
+lifecycle
+planning process. The FRS also allows an organization to consider
+information
+flows across all the domains of its work, forcing it to consider how
+different
+systems will be integrated. Without taking an encompassing view of
+information
+flows, a project implemented in one unit may be of no use to another.
+It
+is important to take this broad view of information flows to avoid
+stranding
+projects between incompatible systems.
+</p>
+<p><a name="4.3"></a><b>3. The creation of a prototype.</b>
+</p>
+<p><b>&nbsp;</b>By the time a project has moved into the development
+stage,
+the greatest temptation is to jump forward to full implementation. This
+is a very risky path, for it leaves out the prototyping stage.
+Prototypes
+are a critical step because they allow the system to be tested and
+calibrated
+to see whether it meets expectations and goals. Making adjustments at
+the
+prototype stage is far easier than later, after full implementation.
+The
+prototype also allows users to gain a feel for a new system and to
+estimate
+how much time (in training and conversion) will be required to move to
+the pilot and full implementation stages. Finally, a successful
+prototype
+can help enlist support and funding for the remaining steps in the
+lifecycle
+planning process.
+</p>
+<p>&nbsp;As is noted in the module on <a
+ href="../manerror/manerror.html">Managing
+Error</a> , the prototype provides a good opportunity for undertaking
+sensitivity
+analysis--testing to see how variations in the quality of inputs
+affects
+outputs of the system. These tests are essential for specifying the
+accuracy,
+precision, and overall quality of the data that will be created during
+the conversion process. If these analyses are not performed, there is a
+chance that much time and effort will be wasted later.
+</p>
+<p></p>
+<hr>
+<h3>&nbsp;<a name="5.0"></a>5. System Selection as a Compromise</h3>
+In selecting a software and hardware combination, users are often faced
+with a number of compromises. For a given price, a system cannot be
+expected
+to do everything. A thoughtful choice is required in order to select
+the
+system that will best meet the prinicipal aims of a given project. The
+diagram below helps to show how users might attempt to balance four of
+the many characteristics of a given system. In these cases, the
+compromises
+involve:
+<p>&nbsp;<i>Speed:</i> The speed with which a system can respond to
+queries
+and achieve solutions.
+</p>
+<p>&nbsp;<i>Functional richness:</i> The analytical capabilities of the
+system and its flexibility in addressing a wide range of spatial and
+statistical
+problems.
+</p>
+<p>&nbsp;<i>Database Size:</i> The ability to handle large quantities
+of
+spatial and statistical data.
+</p>
+<p>&nbsp;<i>Training:</i> The amount of time required to bring users up
+to speed on a system and to use the database on a regular basis.
+<br>
+&nbsp;
+</p>
+<p><br>
+</p>
+<center>
+<p><img src="gif/pyramid.jpg"></p>
+</center>
+<p>A. Some applications, such as emergency vehicle dispatch (911
+systems),
+require high performance speed. Lives are at stake and the system must
+be able to match telephone numbers to addresses and dispatch vehicles
+instantly.
+At the same time, an emergency dispatch system will only be used to
+serve
+this single function and the database will contain only a street grid,
+address ranges, and links to telephone numbers.
+</p>
+<p>&nbsp;B. Some applications, such as those undertaken by water, gas,
+and power utilities, involve storing vast quantities of information
+about
+huge service territories. Some utilities serve hundreds or thousands of
+square miles of territory. Detailed information must be maintained
+about
+all facilities within these territories. Managing these quantities of
+information
+is a key to selecting the right GIS system. At the same time, speed of
+response may be less of a concern since a given piece of information
+may
+only have to accessed once a month or even once a year. Furthermore,
+functional
+richness may be useful, but many tasks (such as maintenance and
+planning)
+will require a limited range of analytical capabilities.
+</p>
+<p>&nbsp;C. Some applications, such as those related to urban planning
+and environmental management, may benefit most from great functional
+richness.
+Planning and management tasks may be many and varied, meaning that
+users
+must have access to a wide range of spatial and statistical functions.
+These may not be used often but, when used, may be essential to the
+success
+of a project.
+</p>
+<p>&nbsp;D. Some GIS may be used frequently by users with little
+training
+or in situations where there will be high staff turnover. This is a
+critical
+consideration for GIS that are used as part of management or executive
+information systems. Upper-level managers who can benefit greatly from
+the information provided by a GIS may have limited time (or
+inclination)
+for training. It is important in these situations to consider the time
+it takes to bring new users up to speed with a new system.
+</p>
+<p>&nbsp;Of course, these are only a few of the factors and scenarios
+that
+arise in GIS system selection. Compromises may have to be achieved with
+other system features.
+</p>
+<p>&nbsp;Too often, users imagine that they can find the "<b><i>perfect</i></b>"
+or "<b><i>best</i></b>" GIS. The <b><i>best</i></b> GIS is always the
+one
+that gets a job done at the right price and on schedule.
+</p>
+<p></p>
+<hr>
+<h3>&nbsp;<a name="6.0"></a>6. Planning Schedules and the Scope of
+Prototype
+and Pilot Projects</h3>
+There is nothing wrong with being cautious during the process of
+project
+planning. Rushing through the procedure exposes an organization to
+potentially
+costly mistakes. Large AM/FM projects typically take many years to
+reach
+the prototype or pilot stages.
+<br>
+&nbsp;
+<p><br>
+</p>
+<center>
+<p><img src="gif/schedule.gif"></p>
+</center>
+<p>Once a prototype or pilot has been approved, even more time will
+elapse
+before full implementation is achieved. Some municipal GIS projects
+have
+been underway for over a decade and still have far to go before
+complete
+implementation and compilation of a full dataset .
+</p>
+<p>&nbsp;Prototype and pilot projects are kept small, as is indicated
+in
+the following table. Remember, prototypes and pilots are intended to
+demonstrate
+functions and interfaces. What works best is a carefully selected test
+area that presents examples of common workflows. Its areal size of is
+little
+consequence in most applications.
+<br>
+&nbsp;
+</p>
+<p><br>
+</p>
+<center>
+<p><img src="gif/pilot.gif"></p>
+</center>
+<hr>
+<h3>&nbsp;<a name="7.0"></a>7 Applying the Insights of Project
+Lifecycle to
+Research Projects</h3>
+The concepts of lifecycle planning can be applied to projects of lesser
+scale and scope, particularly to those pursued in undergraduate and
+graduate
+research. This does not mean that every project will move through every
+step outlined above. Some steps such as benchmarking and system
+selection
+may be irrelevant in a setting where the researcher must make do with
+whatever
+equipment and software is on hand. But lifecycle planning should not be
+viewed as a series of boxes on a checklist, it is <b>a process of
+careful
+planning and problem solving</b>. It is this process of careful
+planning
+that should be emulated regardless of the scope or scale of a project.
+<p>&nbsp;This point is not always understood. Some researchers reject
+the
+methodology of project planning because it seems overly formal and
+stringent
+given their modest research goals. Instead, they improvise a GIS
+solution.
+But improvised solutions are always a risk. Attention to the process of
+careful planning can waylay such risks. Perhaps the essence of this
+process
+can be summarized in three points.
+</p>
+<p>&nbsp;<b>1. Think ahead to how the GIS will be used, but keep in
+mind
+what sources are available.</b>
+</p>
+<p><b>&nbsp;</b>Designing an effective GIS involves setting clear
+goals.
+The temptation is to rush ahead and begin digitizing and converting
+data
+without establishing how the system will be used. Even for small GIS
+projects,
+it is wise to engage in a modest functional requirements study. This
+allows
+the user to gain an idea of exactly what data sources are required, how
+they will be processed, and what final products are expected. Without
+clear-cut
+goals, there is too great a danger that a project will omit key
+features
+or include some that are irrelevant to the final use.
+</p>
+<p>&nbsp;<b>2. Exert special care in designing and creating the
+database.</b>
+</p>
+<p><b>&nbsp;</b>Again, it is easy to rush ahead with the creation of a
+database, and then find later that it has to be reorganized or altered
+extensively. It is far more economical to get things right the first
+time.
+This means that the researcher should chart out exactly how the
+database
+is to be organized and to what levels of accuracy and precision.
+Attention
+to (and testing) of symbolization and generalization will also pay off
+handsomely.
+</p>
+<p><b>3. Always develop a prototype or sample database to test the key
+features of the system.</b>
+</p>
+<p><b>&nbsp;</b>No matter the size of a project, the researcher should
+aim to create a prototype first before moving toward full
+implementation
+of a GIS. This allows the researcher move through all of the steps of
+creating
+and using the system to see that all procedures and algorithms work as
+expected. The prototype can be a small area or may be confined to one
+or
+two of the most critical layers. In either case, testing a prototype is
+one step that should not be overlooked.
+</p>
+<p></p>
+<hr>
+<h3>&nbsp;<a name="8.0"></a>8. Other Planning and Database Issues</h3>
+The project planning cycle outlines a process, but the issues that must
+be addessed at each stage of this process will vary considerably from
+organization
+to organization. Some topics are of critical importance to large
+municipal,
+state, and private AM/FM applications, but less so for research
+applications
+of limited scope. Among the issues that must be addressed in large GIS
+projects are:
+<p><a name="8.1"></a><b>A. Security</b>
+</p>
+<p>&nbsp;The security of data is always a concern in large GIS
+projects.
+But there is more to security than protecting data from malicious
+tampering
+or theft. Security also means that data is protected from system
+crashes,
+major catastrophes, and inappropriate uses. As a result, security must
+be considered at many levels and must anticipate many potential
+problems.
+GIS data maintained by government agencies often presents difficult
+challenges
+for security. While some sorts of data must be made publicly accessible
+under open records laws, other types are protected from scrutiny. If
+both
+types are maintained within a single system, managing appropriate
+access
+can be difficult. Distribution of data across open networks is always a
+matter of concern.
+</p>
+<p><a name="8.2"></a><b>B. Documentation</b>
+</p>
+<p>&nbsp;Most major GIS datasets will outlive the people who create
+them.
+Unless all the steps involved in coding and creating a dataset are
+documented,
+this information will be lost as staff retire or move to new positions.
+Documentation must begin at the very start of GIS project and continue
+through its life. It is best, perhaps, to actually assign a permanent
+staff
+to documentation to make sure that the necessary information is saved
+and
+revised in a timely fashion.
+</p>
+<p><a name="8.3"></a><b>C. Data Integrity and Accuracy</b>
+</p>
+<p>&nbsp;When mistakes are discovered in a GIS database, there must be
+a well-defined procedure for their correction (and for documenting
+these
+corrections). Furthermore, although many users may have to use the
+information
+stored in a GIS database, not all of these users should be permitted to
+make changes. Maintaining the integrity of the different layers of data
+in a comprehensive GIS database can be a challenging task. A city's
+water
+utility may need to look at GIS data about right-of-ways for power and
+cable utilities, but it should not be allowed to change this data.
+Responsibility
+for changing and correcting data in the different layers must be
+clearly
+demarcated among different agencies and offices.
+</p>
+<p><a name="8.4"></a><b>D. Synchronization of Usage</b>
+</p>
+<p>&nbsp;GIS datasets employed in government or by utilities will have
+many users. One portion of the dataset may be in demand simultaneously
+by several users as well as by staff charged with updating and adding
+new
+information. Making sure that all users have access to current data
+whenever
+they need it can be a difficult challenge for GIS design. Uncontrolled
+usage may be confusing to all users, but the greatest danger is that
+users
+may actually find themselves interfering with the project workflow or
+even
+undoing one another's work.
+</p>
+<p><a name="8.5"></a><b>E. Update Responsibility</b>
+</p>
+<p>&nbsp;Some GIS datasets will never be "complete." Cities and utility
+territories keep growing and changing and the database must be
+constantly
+updated to reflect these changes. But these changes occur on varying
+schedules
+and at varying speeds. Procedures must be developed to record, check,
+and
+enter these changes in the GIS database. Furthermore, it may be
+important
+to maintain a record of the original data. In large GIS projects,
+updating
+the database may be the responsibility of a full-time staff.
+</p>
+<p><a name="8.6"></a><b>F. Minimization of Redundancy</b>
+</p>
+<p>&nbsp;In large GIS projects, every byte counts. If a database is
+maintained
+for 30-50 years, every blank field and every duplicated byte of
+information
+will incur storage costs for the full length of the project. Not only
+will
+wasted storage space waste money, it will also slow performance. This
+is
+why in large, long-term GIS projects, great attention to devoted to
+packing
+data as economically as possible and reducing duplication of
+information.
+</p>
+<p><a name="8.7"></a><b>G. Data Independence and Upgrade Paths</b>
+</p>
+<p>&nbsp;A GIS database will almost always outlive the hardware and
+software
+that is used to create it. Computer hardware has a useable life of 2-5
+years, software is sometimes upgraded several times a year. If a GIS
+database
+is totally dependent on a single hardware platform or a single software
+system, it too will have to be upgraded just as often. Therefore, it is
+best to create a database that is as independent as possible of
+hardware
+and software. Through careful planning and design, data can be
+transferred
+as ASCII files or in some metadata or exchange format from system to
+system.
+There is nothing worse than having data held in a proprietary
+vendor-supported
+format and then finding that the vendor has changed or abandoned that
+format.
+</p>
+<p>&nbsp;In this way, GIS designers should think ahead to possible
+upgrade
+paths for their database. It is notoriously difficult to predict what
+will
+happen next in the world of computers and information technology. To
+minimize
+possible problems, thought should be given to making the GIS database
+as
+independent as possible of the underlying software and hardware.
+</p>
+<p>&nbsp;These topics are also discussed in the module on <a
+ href="../datacon/datacon.html">Database
+Concepts</a> .<br>
+</p>
+<p><a name="8.8"></a><b>H. Privacy<br>
+</b></p>
+<p>Safeguards on personal privacy have become a great concern over the
+past decade, particularly with the rise of the internet and
+web.&nbsp;&nbsp; These concerns arise to two principal
+situations.&nbsp; The first, is the hacking into, accidentally release,
+or inappropriate disclosure of privileged information which can
+compromise an individual's privacy with respect to medical conditions,
+financial situation, sexual, political, religious beliefs &amp; values
+and other privileged personal information.&nbsp; The second is the ease
+with which information and computer technologies permit the creation of
+information "mosaics" or personal profiles from small pieces of
+seemingly <span
+ style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">innocuous, </span>non-confidential
+data.&nbsp;&nbsp; <b><br>
+</b></p>
+<p></p>
+<hr>
+<p></p>
+<h3><a name="9"></a>9. References and Further Reading</h3>
+<p>Aronoff, Stan. 1989. <i>Geographic Information Systems: A
+Management
+Perspective. </i>WDL Publications: Ottawa.
+</p>
+<p>Chapter 8, "How to Pick a GIS" in Clarke, Keith C. 2003.&nbsp; <span
+ style="font-style: italic;">Getting Started with Geographic
+Information Systems,</span> 4th ed.&nbsp; Upper Saddle River, NJ:
+Prentice Hall.<br>
+</p>
+<p>Dagermond, Jack, Don Chambers, and Jeffrey R. Meyers. 1993.
+"Prototyping
+AM/FM/GIS Applications: Quality/Schedule Tradeoffs", <i>Proceedings of
+the Thirteenth Annual ESRI User Conference</i>. Palm Springs, CA. Vol.
+2, p. 75-80.
+</p>
+<p>Daniel, Larry. <a href="../atwork/identify.html">Identifying GIS
+for
+What It's Worth</a>
+</p>
+<p>Daniel, Larry. <a href="../atwork/looking.html">Looking and
+Thinking
+Beyond the Department</a>
+</p>
+<p>Chapter 11, "GIS Implementation and Project Management,"&nbsp; in
+Lo, C.P. and Albert K.W. Yeung.&nbsp;
+2002.&nbsp; <span style="font-style: italic;">Concepts and Techniques
+of Geographic
+Information Systems</span>.&nbsp; Upper Saddle River, NJ: Prentice Hall.<br>
+</p>
+<p>Huxhold, William. 1995. <i>Managing Geographic Information System
+Projects.
+</i>Oxford
+University Press: New York.
+</p>
+<p>Chapters 17 (Managing GIS), 18 (GIS and Management, the Knowledge
+Economy, and Information), and 19 (Exploiting GIS Assets and Navigating
+Constraints) in Longley, Paul A., Michael F. Goodchild, David J.
+Maguire,
+and David W. Rhind.&nbsp; 2005.&nbsp; <span style="font-style: italic;">Geographic
+Informaiton Systems and Science</span>, 2nd ed.&nbsp; Hoboken, NJ:
+Wiley.<br>
+</p>
+<p>Obermeyer, Nancy J. and Jeffrey K. Pinto.&nbsp; 1994.&nbsp; <i>Managing
+Geographic Information Systems.</i>&nbsp; New York : Guilford Press
+</p>
+<p></p>
+<hr>Last revised on 2006.4.11.&nbsp; k.foote@colorado.edu
+<br>
+&nbsp;
+</body>
+</html>

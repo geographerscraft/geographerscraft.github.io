@@ -1,0 +1,160 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="AUTHOR" CONTENT="Peter H. Dana">
+   <META NAME="OPERATOR" CONTENT="Peter H. Dana">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Map Projection Overview</TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#80FFFF" LINK="#0000FF" VLINK="#800080" ALINK="#800080">
+<IMG SRC="gif/mp.gif" >
+
+<P>
+<HR WIDTH="100%">
+<H1>
+<A NAME="TOC"></A>Table of Contents</H1>
+
+<UL>
+<LI>
+<A HREF="mapproj.html#Intro">Introduction</A></LI>
+
+<LI>
+<A HREF="mapproj.html#MapPro">Selected Map Projections</A></LI>
+
+<UL>
+<LI>
+<A HREF="mapproj.html#Cylin">Cylindrical Projections</A></LI>
+
+<UL>
+<LI>
+<A HREF="mapproj.html#CEA">Cylindrical Equal Area</A></LI>
+
+<UL>
+<LI>
+<A HREF="mapproj.html#Behr">Behrmann Cylindrical Equal-Area</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Gall">Gall's Stereographic Cylindrical</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Peters">Peters</A></LI>
+</UL>
+
+<LI>
+<A HREF="mapproj.html#Mercator">Mercator</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Miller">Miller Cylindrical</A></LI>
+
+<LI>
+<A HREF="mapproj.html#OM">Oblique Mercator</A></LI>
+
+<LI>
+<A HREF="mapproj.html#TM">Transverse Mercator</A></LI>
+</UL>
+
+<LI>
+<A HREF="mapproj.html#PseCylin">Pseudocylindrical Projections</A></LI>
+
+<UL>
+<LI>
+<A HREF="mapproj.html#Mollweide">Mollweide</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Eckert">Eckert Projections</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Rob">Robinson Projection</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Sinu">Sinusoidal Projection</A></LI>
+</UL>
+
+<LI>
+<A HREF="mapproj.html#Conic">Conic Projections</A></LI>
+
+<UL>
+<LI>
+<A HREF="mapproj.html#AlbersConic">Albers Equal Area Conic</A></LI>
+
+<LI>
+<A HREF="mapproj.html#EConic">Equidistant Conic</A></LI>
+
+<LI>
+<A HREF="mapproj.html#LambertConic">Lambert Conformal Conic</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Polycon">Polyconic</A></LI>
+</UL>
+
+<LI>
+<A HREF="mapproj.html#Azimuth">Azimuthal Projections</A></LI>
+
+<UL>
+<LI>
+<A HREF="mapproj.html#AzmEqui">Azimuthal Equidistant</A></LI>
+
+<LI>
+<A HREF="mapproj.html#LambertAzm">Lambert Azimuthal Equal Area</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Ortho">Orthographic</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Stereo">Stereographic</A></LI>
+</UL>
+
+<LI>
+<A HREF="mapproj.html#Misc">Miscellaneous Projections</A></LI>
+
+<UL>
+<LI>
+<A HREF="mapproj.html#Unproj">Unprojected Maps</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Texas">Texas State Wide Projection</A></LI>
+
+<LI>
+<A HREF="mapproj.html#Space">Space Oblique Mercator</A></LI>
+</UL>
+</UL>
+
+<LI>
+<A NAME="Links"></A>Links to other related information</LI>
+
+<UL>
+<LI>
+<A HREF="http://www.uncc.edu/~lagaro/cwg/mapproj/index.html"><IMG SRC="gif/html.gif" ></A><A HREF="http://www.uncc.edu/~lagaro/cwg/mapproj/index.html">Laurie
+Garo's Introduction to Map Projections</A></LI>
+
+<LI>
+<A HREF="http://everest.hunter.cuny.edu/mp/"><IMG SRC="gif/html.gif" ></A><A HREF="http://everest.hunter.cuny.edu/mp/">Karen
+Mulcahy's Map Projection Home Page</A></LI>
+
+<LI>
+<A HREF="../datum/datum.html"><IMG SRC="gif/html.gif" ></A><A HREF="../datum/datum.html">Geodetic
+Datum Overview, Department of Geography, University of Texas at Austin</A></LI>
+
+<LI>
+<A HREF="../gps/gps.html"><IMG SRC="gif/html.gif" ></A><A HREF="../gps/gps.html">Global
+Positioning System Overview, Department of Geography, University of Texas
+at Austin</A></LI>
+
+<LI>
+<A HREF="../coordsys/coordsys.html"><IMG SRC="gif/html.gif" ></A><A HREF="../coordsys/coordsys.html">Coordinate
+Systems Overview, Department of Geography, University of Texas at Austin</A></LI>
+
+<LI>
+<A HREF="http://www.utexas.edu/depts/grg/main.html"><IMG SRC="gif/html.gif" ></A><A HREF="http://www.utexas.edu/depts/grg/main.html">Home
+Page, Department of Geography, University of Texas at Austin</A></LI>
+</UL>
+
+<LI>
+<A HREF="mapproj.html#Refs">References</A></LI>
+</UL>
+
+<HR WIDTH="100%">
+<BR>Last Revised 18 October 1999. LNC.
+</BODY>
+</HTML>
+

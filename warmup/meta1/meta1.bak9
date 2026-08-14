@@ -1,0 +1,959 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.06 [en] (WinNT; I) [Netscape]">
+   <TITLE>ATLAS*GIS and METAPONTO Exercise 1</TITLE>
+</HEAD>
+<BODY>
+<IMG SRC="gif/x_cover.gif" HEIGHT=250 WIDTH=607>
+<BR>&nbsp;
+
+<H1>
+AN INTRODUCTION TO METAPONTO</H1>
+
+<H4>
+AND THE LAGO DEL LUPO DATA</H4>
+This page is available in a <A HREF="meta1_f.html" target="_top">framed
+version</A>.&nbsp; For convenience, a <A HREF="meta1_ftoc.html" target="_top">Full
+Table of Contents</A> is provided.
+<P>
+<A HREF = "metaarcview/metaarcview.html">Instructions</A> for this exercise using ArcView<P>
+
+<HR>Send comments to Kenneth Foote, UC Dept. of Geography - <I><A HREF="mailto: k.foote@colorado.edu">k.foote@colorado.edu</A></I>
+<HR>
+<P>
+<H3>
+<A NAME="about"></A>1. About this introduction</H3>
+The Department of Geography at The University of Texas at Austin offers
+a wide range of courses, preparing students for a variety of career opportunities
+relating to geography. As part of the curriculum for courses pertaining
+to computer cartography and GIS, students are required to generate various
+thematic maps for the purpose of analyzing a data set of archaeological
+sites in southern Italy. The data set, provided by Joseph C. Carter of
+the UT Classics Department, consists of sites in a defined area of the
+<A HREF="gif/x_area.gif">Metaponto
+<I>chora</I></A> (territory). The Metaponto
+<I>chora</I> (named for the
+ancient urban center of Metaponto within its boundaries) is roughly defined
+as the area extending 10-12 Km northwest from the coastline, and contained
+by the Bradano and Basento Rivers, in the Basilicata region of southern
+Italy. Lago del Lupo is a modern regional designation comprising a large
+portion of the ancient <I>chora</I>, and it provides a convenient base
+map from which the data set can be organized. Thus, all Lago del Lupo sites
+are from the Metaponto <I>chora</I>,<I> </I>but not all of the <I>chora
+</I>sites are in the Lago del Lupo data set. In addition, the Lago del
+Lupo data set should not be confused with the Lago del Lupo site which
+was excavated as part of the Metaponto Project. The Lago del Lupo data
+was digitized by Naomi Cleghorn, now a graduate student in the UT Anthropology
+Department, as part of her undergraduate honors thesis.
+<P>This introduction was created to provide users of the Lago del Lupo
+data with a minimum of background information. It is not intended to be,
+nor should it be considered, a definitive authority regarding Greek or
+Metapontine history and/or archaeology. For additional research in this
+area, you may wish to consult the <A HREF="#references">References</A>
+section of this introduction. Highlighted words are linked to other parts
+of this document or relevant images.
+<P>
+
+<H3>
+<A NAME="early"></A>2. Early Greek Colonization.</H3>
+Chronicling Greek colonization is a complex and confusing task. This is
+primarily due to the constant state of flux which characterized early Greek
+civilization. Classic Greek civilization, frequently referred to as a single
+entity by historians, was in reality, a group of individually governed
+city-states that shared similar cultural attributes. These self- governed
+municipalities were actually colonies themselves. From the time of their
+formation sometime after 1200 BC, until Roman conquest in 146 BC, these
+independent municipalities competed with each other, as well as with their
+Persian neighbors for control of the Aegean Sea and its associated territories.
+Thus, <I>Greek</I> refers to a culture rather than a specific governing
+body.
+<P>What may seem as a trivial point is actually a very important concept.
+Ancient Greek colonies were, in many respects, independent polities. There
+most definitely were political and economic ties with their founding territories,
+but the idea that these were far reaching extensions of an imperialistically
+motivated, unified Greek regime is erroneous. Greek colonization, therefore,
+should be thought of as an introduction of Greek culture into a new area
+by any one of a number of contemporaneous Greek civilizations.
+<P>With this in mind, it is not surprising that Greek colonization persisted,
+almost continuously, throughout ancient Greek history. Nevertheless, certain
+periods witnessed a greater degree of colonization than others. The period
+between 750 and 550 BC, for example, marked the first large-scale exodus
+of Greek culture from the Aegean, and was mainly targeted towards the Crimea
+and Marseilles. This expansion was motivated by an increased demand for
+trade goods by the flourishing and rapidly growing Aegean city- states.
+Another important period of colonization began around 440 BC, and was largely
+a consequence of peace (the war between Athenian allies and Persia ended
+in 448 BC, and the war between Athens and Sparta ended in 445 BC). Establishing
+colonies in Italy, Sicily, and the Black Sea territories were the main
+objectives this time.
+<P>Although these periods of colonization are well documented, they are
+typically generalized. New colonies are usually only referred to as Greek,
+even though a particular Greek territory was most likely responsible for
+the colonizing effort. Linking a colony to a particular Greek territory
+requires an extensive study of both the colony and any potential region
+of origin. Only relatively recently, have such detailed studies become
+commonplace.
+<P>
+<H3>
+<A NAME="greek"></A>3. Greek Settlement of Metaponto.</H3>
+Sometime between 800 and 700 BC, adventurous Greek merchants began scouring
+the Mediterranean in search of tradewares for their home territories. As
+a consequence, several <A HREF="gif/x_coloni.gif">Greek colonies</A> began
+to form along the southern coastlines of Italy and Sicily. This trend continued
+through the seventh century BC, as some of these new polities began to
+establish colonies themselves. The indigenous populations initially resisted,
+but they soon either fled inland or were acculturated. The Greeks brought
+with them a highly organized agricultural system which enabled the colonies
+to flourish. Metaponto was one such colony. Fueled by Athenian prosperity,
+the late Classical and early Hellenistic periods (350-275 BC) saw in influx
+of new settlements into southern Italy, and Metaponto continued to grow.
+<P>&nbsp;Though the city of Metaponto was successful in its own right,
+it was the Metaponto <I>chora</I> that enabled the system to work. This
+symbiotic complex between the rural <I>chora</I> and urban center characterized
+the majority of Greek colonies, not just Metaponto. What makes Metaponto
+unique is that it is one of the few places where this relationship is directly
+observable in the archaeological record.
+<P>
+<H3>
+<A NAME="ut"></A>4. UT Archaeology at Metaponto.</H3>
+Archaeologists were first attracted to the Metaponto <I>chora</I> in 1959,
+when a series of ancient land division lines showed up in aerial photographs.
+Subsequent surveys of rural sites by an international crew in 1965 directly
+led to UT's involvement, beginning in 1974.
+<P>The Metaponto <I>chora</I>, provides an appealing archaeological opportunity
+for several reasons. First, the preservation of land division lines is
+rare. Very few sites still exhibit these ancient clues to rural land organization,
+and the potential information that they offer is immense. A second consideration
+is that, like most parts of the world, good land is a prime commodity in
+southern Italy, and archaeological sites continue to lose out to agricultural
+expansion. A final factor is that few studies have concentrated solely
+on rural settlements. Urban sites tend to receive the majority of archaeological
+attention and resources (the ancient urban center of Metaponto, for example,
+has been undergoing excavation for decades). An opportunity to shed light
+on unexplored areas is a goal of every archaeologist.
+<P>&nbsp;The goals of the UT Metaponto project, since its inception, have
+been to chronicle the changes in livelihood of the rural populations that
+inhabited the Metaponto <I>chora</I>, throughout Greek and Roman occupation
+(about 700 BC - 400 AD). Over the years, the project has evolved into a
+international multi-disciplinary collaboration, where specialists in the
+various sub-fields of archaeology could pool the resources and work towards
+a common goal. Accomplishments include the <A HREF="gif/x_survey.gif">survey</A>
+of a 42 square kilometer area (revealing over 500 sites), extensive excavation
+and study of ancient crops and fauna, as well as the excavation of almost
+a dozen rural sites, including several <A HREF="gif/x_tomb.gif">burials</A>
+. Thousands of artifacts have been collected to aid in the analysis (including
+several hand- painted <A HREF="gif/x_vase.gif">vases</A> and other ceramic
+<A HREF="gif/x_urn.gif">vessels</A>
+). In addition to Metaponto, the field crew has been working in the <I>chora</I>
+of Croton since 1983, conducting similar investigations.
+<P>&nbsp;Though analysis and interpretation phases of the study are still
+ongoing, much has been learned about the <I>chora's</I> inhabitants. Thanks
+to multi-disciplinary efforts, we now know intimate details about the health
+and nutrition, working conditions, eating habits, agricultural techniques,
+burial practices, <A HREF="gif/x_goods.gif">material goods</A> , and many
+other aspects of the everyday lives of the rural population of the Metaponto
+<I>chora</I>.
+To learn more about Metapontine history and archaeology, please refer to
+the <A HREF="#references">References</A> section of this introduction.
+
+<P>
+<HR>
+<H3>
+<A NAME="references"></A>5. References</H3>
+<B>Carter, J. C. </B><I>Excavation in the Territory of Metaponto 1976</I>.
+Institute of Classical Archaeology, The University of Texas at Austin,
+1977.
+<P>&nbsp;<B>Carter, J. C. </B><I>Excavations at Metaponto, 1978</I>. Institute
+of Classical Archaeology, The University of Texas at Austin, 1978.
+<P>&nbsp;<B>Carter, J. C. </B><I>Excavations at Metaponto, 1979</I>. Institute
+of Classical Archaeology, The University of Texas at Austin, 1979.
+<P>&nbsp;<B>Carter, J. C. </B><I>Excavations in the Territory, Metaponto,
+1980</I>. Institute of Classical Archaeology, The University of Texas at
+Austin, 1980.
+<P>&nbsp;<B>Carter, J. C. (editor). </B><I>The Territory of Metaponto 1981-1982</I>.
+Institute of Classical Archaeology, The University of Texas at Austin,
+1977.
+<P>&nbsp;<B>Carter, J. C. (editor).</B> <I>The Pantanello Necropolis 1982-1989:
+An Interim Report</I>. Institute of Classical Archaeology, The University
+of Texas at Austin, 1990.
+<P>&nbsp;<B>Henneberg, Maciej, Renata Henneberg, and Joseph Coleman Carter.</B>
+Health in Colonial Metaponto. <I>National Geographic Research &amp; Exploration,
+</I>8(4):446-459,
+1992.
+<P>&nbsp;<B>Uden, Grant (editor).</B> Greece (Ancient). <I>Longman Illustrated
+Encyclopedia of World History</I>: 375-378, Ivy Leaf, London, 1989.
+<H2>
+
+<HR WIDTH="100%"></H2>
+
+<H2>
+<A NAME="Atlas*GIS"></A>ATLAS*GIS and METAPONTO Exercise 1</H2>
+<IMG SRC="gif/metmap1.gif" HEIGHT=323 WIDTH=387>
+<P>
+<HR>Before you begin, download the necessary Atlas*GIS files from the file
+server, texas, using anonymous ftp. First, insert a diskette into the A:\
+drive of the PC, then select <B>UTCONNECT</B> and <B>WS-FTP</B>. Fill in
+the Host Name, <B>austin.grg.utexas.edu</B> and select Host Type as <B>Auto
+Detect</B>. Remote Host field should be empty. Click on the box to mark
+an <B>Anonymous Login</B>, then click on <B>OK</B>. Once a connection is
+made, the left side of the window will be the Local System and the right
+side will be the Remote System. Using the mouse, change the directory on
+the <B>Local System</B> to the <B>A:\</B> drive, then change the directory
+on the <B>Remote System</B> (<I>Dewey</I>) to the <B>METAPONT/Atlas</B> directory.
+Make sure the <B>binary</B> option is selected, then highlight the <B>lago.zip</B>
+file, and click on the appropriate arrow to copy the file to your floppy
+disk. Exit from WS-FTP, and use <B>WinZip</B> to <B>Open</B> the lago.zip
+file on your floppy. Highlight all of the files, then select <B>Extract</B>.
+This will unzip all the <B>Lago</B> files.<P>
+Alternatively, the files can be obtained from the <a href="downloadatlas/">download</a> directory by clicking on each file while holding down the shift key. <P>
+<H3>
+<A NAME="Introduction"></A>Introduction</H3>
+Atlas*GIS has a number of analytic and graphic capabilities:
+<P>&nbsp;1. You can digitize maps, combining a number of sources, and edit
+these on the computer. The resulting electronic maps can contain up to
+250 separate layers. You can think of these layers as overlays. On a metropolitan
+area map, for example, you might have separate layers for roads, soils,
+hydrology (rivers, lakes, streams, etc.), land use, census tracts, public
+buildings, and utilities. These layers can be turned off and on. If you
+only need to look at roads and utilities, you can turn off the other layers
+so that they don't get in the way.
+<P>&nbsp;2. Using a built-in database system, you may enter, edit, display,
+and query data concerning these features. This data, called attribute data,
+is kept in spreadsheet form in separate files linked to the maps. The user
+creates the structure of these spreadsheets, and can edit them at any time.
+<P>&nbsp;3. You can select certain spatial or attribute features for display,
+query, and analysis.
+<P>&nbsp;4. Using built-in analytical tools, you can combine features and
+aggregate their data
+<P>&nbsp;using several different statistical methods, split features and
+disaggregate their data, create buffer regions around features, and perform
+point-in-polygon and similar operations.
+<P>&nbsp;5. You may assign geographic coordinates to address records in
+your database using an address-matching operation. This allows these records
+to be displayed, queried, and analyzed like any other feature.
+<P>&nbsp;6. You may produce thematic maps to graphically display information
+based on attribute data. Thematic map possibilities in Atlas*GIS include
+dot-density, proportional, ranged, and bi-variate maps. The system calculates
+the statistics necessary for creating these maps, and includes several
+ranging methods. The user controls all graphic aspects (e.g., color, shading,
+and fill pattern).
+<P>&nbsp;7. The program contains tools for setting various presentation
+parameters (e.g., page size, legends, and layout design) and freehand drawing
+tools. Paper copies of the maps can be made on printers or plotters.
+<P>&nbsp;8. Attribute data may be imported from or exported to some other
+programs. In addition, geographic features can be imported from or exported
+to Atlas*Graphics (a mapping program). Using a separate Atlas*GIS Import/Export
+program, ETAK MapBase, Census Bureau TIGER, and GBF/DIME files may be imported.
+<P>
+<H3>
+<A NAME="File Types"></A>Atlas*GIS File Types</H3>
+To understand Atlas*GIS, you must be familiar with our basic kinds of files
+(also called tables).
+<P>&nbsp;1. <B>Geo files </B>contain the map features of your workspace,
+i.e., the locational information. These map features consist of points,
+lines, and regions (the latter are also referred to as polygons or areas).
+These map features are assigned to various layers which the user defines,
+so that features of one type (e.g., roads) can be kept distinct from other
+types (e.g., census tract boundaries). This allows map features to be displayed,
+edited, and manipulated more easily. The Geo file keeps the x-y coordinates
+of each of these features on a separate spreadsheet, along with some very
+basic information, including the layer in which each feature is found,
+and its name. Each feature is also assigned a unique ID by which it is
+identified.
+<P>&nbsp;2. <B>Attribute tables </B>contain non-graphic information about
+each layer of your workspace. You define the types of attribute information
+to include. In a city GIS, for example, you might have census tract and
+census block pictures as geographic features on the map. The Attribute
+table might then contain information on population by tract and block,
+and the number of houses, businesses, schools, churches, etc. within each
+tract and block. None of this information appears on the map itself, but
+can be brought onto the computer screen in spreadsheet form. Each row of
+an Attribute table is linked to its corresponding geographic feature by
+the column of your choice.
+<P>&nbsp;3. <B>Point tables </B>are a combination of Geo files and Attribute
+tables, and are most useful for features that change with time. A Point
+table contains a row for one point (or location) on the map and its attribute
+information. The table also has the x-y coordinates for that point. You
+can think of Point tables like pins on a wall map marking the location
+of significant places or events. For example a city transportation office
+might want to keep a record of where traffic collisions occur, or monitor
+commuter flow. In the first case it would want a "pin" at the site of each
+traffic collision, and corresponding attribute information concerning causes,
+injuries, damage, etc. In the second case, it might want a "pin" for every
+place of business employing over 50 people, and information about type
+of business, parking, hours of operation, etc. The information in Point
+tables <I>could </I>be subdivided up between Geo files and Attribute tables,
+just as you <B>could </B>continually redraft paper maps to include new
+information. As with using pins on a wall map, however, a Point table allows
+you to create an overlay which requires fewer steps to update as the need
+arises.
+<P>&nbsp;4. <B>Project files </B>contain complete <I>descriptions </I>of
+the workspaces, including the names of the Geo files, Attribute tables
+and Point tables used in the workspace, plus the program settings (e.g.,
+scale, title, page layout, symbols, etc.). Although the Project file won't
+actually contain any of your geographic, attribute, or datapoint data,
+it does keep a list of where all these files are stored. The Project file
+is useful because it saves time. By loading the Project file, you load
+your complete workspace, rather than having to load the separately. But
+remember, if you have moved some of your Geo files, Attribute tables and
+Point tables since you created a Project file, the Project file won't be
+able to recreate your workspace because its list of previous file locations
+will be incorrect.
+<P>
+<HR>
+<H3>
+The Atlas*GIS Process</H3>
+<IMG SRC="gif/flats.gif" HEIGHT=138 WIDTH=362>
+<P><I>Archaeologists at Metaponto, Italy</I>
+<HR>
+<H3>
+<A NAME="About Exercise"></A>1. About this Exercise</H3>
+From around 600 BC. to 300 BC., colonists from Greece spread out through
+the Mediterranean and Black Sea. They brought with them their distinctive
+culture and all it encompassed--their agricultural economy, pottery, architectural
+styles, land tenure system, political systems, and religion. This Greek
+influence can be seen in the cultural landscape created by the Greeks in
+southern Italy. The more than 300- year span of their occupation in Italy
+is more than a colonial intrusion; consider that the European colonization
+of North American has not gone on much longer, and North Americans consider
+themselves to be quite different from European forebears. This exercise
+is first an introduction to GIS; second, it allows us to examine aspects
+of how the Greeks colonized the southern Italian landscape.
+<P>
+<H3>
+<A NAME="Starting"></A>2. Starting Atlas*GIS</H3>
+To run Atlas*GIS, double click with the mouse on the appropriate Windows
+icon.
+<P>&nbsp;The program takes time to load. Once loaded, the Atlas GIS Window
+appears. Automatically opening within this window is a window named "Untitled.prj".
+This is your working area or page.
+<P>Across the top of the Atlas GIS window is a line containing the currently
+available commands. Use the mouse to move the cursor to each command, and
+highlight them by clicking the left button. As you do this, a pull-down
+menu will appear with the available sub-commands. For example, highlight
+the <B>View </B>command. Underneath, you see that View has eight subcommands,
+including Entire Map, Previous Map View, Selected Map Features, Entire
+Tablet, Map Scale, Entire Page, Previous Map View, Map Frame, Actual Size,
+and Redraw. The <B>File </B>command has twelve subcommands, including New,
+Open, SQL Access, Merge, Close, Save, Save As, Compress, Page Setup, Print,
+Printer Setup, Preferences, Exit. Moving the cursor down to click on a
+subcommand will, most of the time, bring up a "dialog box". This box appears
+when more information is necessary to complete the command. Along with
+File and View, notice that there is also a <B>Help</B> command. Highlight
+it and take a look. There you will find help by an index of contents, search
+, or in using help itself!
+<P>&nbsp;Most of the dialog boxes that appear on the screen have cancel
+buttons to click if you do not want to complete the command. To exit any
+of the pull-down menus, you can move the cursor anywhere within the workspace
+and click the left button. You can press <B>ESC</B>, also.
+<P>Move the cursor within the workspace and click the left button on the
+mouse.
+<P>&nbsp;There are several ways to issue commands in Atlas*GIS. As you
+just saw, you can highlight the command by moving the cursor and clicking
+on it with the left button of the mouse, but below the line of commands
+is a Button Bar. These buttons allow you to select some of the most often
+used commands directly. Help can tell you what they are.
+<P>&nbsp;Also, on the right hand side of the screen there is a window containing
+two columns of buttons and is known as the <B>Tool Box</B>. This Tool Box
+can be moved anyplace on the screen or turned off completely. The Tool
+Box has it's own Help function, the ? button in the upper right hand corner.
+Click on the ? button within the Tool Box to learn about the tools it provides.
+<P>&nbsp;In these exercises we provide instructions for issuing commands
+in the following format: Choose <B>File | Open</B>. This means we want
+you to select the <B>File </B>command, then <B>Open</B>. The easiest method
+of doing this is to use the File | Open button on the Button Bar, but this
+exercise will follow the command menus, assuming that you will use the
+Button Bar as you become more familiar with the software.
+<H3>
+<A NAME="Loading Geo"></A>3. Loading a Geo File</H3>
+Put your diskette containing the LAGO files in the A:drive of the computer.
+This is the diskette you formatted previously and the one to which you
+copied the LAGO files during class.
+<P>&nbsp;On the Atlas*GIS main menu, highlight the <B>File </B>command
+so that its pull-down menu appears, then select <B>Open</B>. The Open command
+displays a dialog box that allows you to load the different files and tables
+into the current workspace. These include Geo files, Attribute and Point
+tables, and Project files.
+<P>In the rest of this exercise you will become familiar with some of the
+Atlas*GIS functions by experimenting with the LAGO workspace. We must first
+load its Geo file.
+<P>&nbsp;Within the Open dialog box, selections can be made by clicking
+and highlighting your choice. The different areas of the dialog box are
+called subpanels, and the boxes containing an arrow pointing down are called
+list boxes. A list of choices appear when these boxes are highlighted.
+Move the cursor to the <B>Drives</B> list box and click there. Here we
+will indicate that the A drive contains the files we want. Choose the <B>A:drive</B>
+from the list.
+<P>&nbsp;Now, move over to the List Files of Type list box and click there.
+Choose the <B>Geo</B> <B>(*.agf)</B> file type. Once selected, the Geo
+files contained on the floppy will appear in File Name subpanel above.
+Select the <B>Lago.agf</B> Geo file and click the <B>OK</B> button.
+<P>&nbsp;Wait while the file loads, then look at the Tool Box. The top
+button, Map Layers, now displays the name of the file and the name of the
+first layer being displayed. If an asterisk appears, it is the first of
+multiple layers being displayed. Also, notice that at the bottom of the
+screen, the Scale is displayed. In this particular case, the units are
+in meters. Recall from the Introduction that Geo files contain very basic
+attribute data.
+<P>
+<H3>
+<A NAME="Loading Attribute"></A>4. Loading Attribute Tables</H3>
+You load Attribute tables in the same way you loaded Geo files. Here, you
+might choose the <B>File | Open </B>button on the Button Bar to take you
+back into the Open dialog box.<B> </B>Make sure the A:drive is still selected,
+then move to the List Files of Type dialog box. Click there to bring up
+the list and choose <B>Table (*.dbf)</B>. Choose the <B>LAGO</B> table,
+then click on <B>OK</B>.
+<P>Tables can be linked to a layer in the Geo file. To help you in this
+task, a Table Link dialog box appears after you have selected the Attribute
+table to load. For this exercise, you do want link the table to the Geo
+file, so click on <B>Links to Geo</B> option button. In the Layer list
+box, choose <B>Allsites</B> as the layer to link to. In the Key Column
+list box, choose <B>ID</B>. After selecting <B>OK</B>, the values in this
+key column in the Attribute table will be matched to the values in the
+ID column in the Geo file.
+<P>&nbsp;Choose <B>Window | New Table Window </B>to look at this data.
+Choose the <B>Allsites</B> layer in the list and click on <B>OK</B>. This
+window takes a moment to come up completely, and it may be partially blocked
+by the Tool Box. Move the cursor into the banner bar at the top of this
+new window, and press and hold the left button of the mouse. Drag the window
+to the middle of the screen to reposition the window more central to the
+screen. Some of the fields in this table are considered to be "anchored"
+in that they will always be displayed as you move about through the data.
+In this case, the Select and ID fields are anchored. Move through the table
+using the mouse (or the arrow keys and PgDn/PgUp) to familiarize yourself
+with the different data fields.
+<P>&nbsp;Notice as you move through the data fields, a description of the
+field category appears in the top right box of the table. To <B>Close</B>
+the Table Window, double click on the <B>-</B> sign (the close box) in
+the upper left corner.
+<H3>
+<A NAME="View"></A>5. The View Commands</H3>
+Now that you have files loaded, you can begin experimenting with your workspace.
+Note that at the bottom left hand corner of the screen, there is a <B>Redraw</B>
+button. After certain operations, a redraw of the map occurs automatically,
+and the Redraw button changes to a red<B>Cancel</B> button, if you want
+to interrupt this process. If you want to choose when a redraw occurs,
+go to <B>File | Preferences</B>. By clicking on the <B>Workspace</B> button
+to the left, this dialog box contains the option <B>Auto Map Redraw</B>.
+Eliminating the checkmark in the box will allow you to redraw the map at
+your convenience. The Redraw button turns yellow to indicate that a change
+has been made and a redraw is necessary.
+<P>To enlarge the map so that it fills the working area, choose <B>View
+| Map Frame</B>.
+<P>&nbsp;Next, from the Tool Box, choose <B>Zoom In</B>. This is the button
+with the magnifying glass and the + sign. This allows you to zoom in on
+a certain area by creating a "zoom box" which defines the area to be enlarged.
+Position the cursor where you would like the first corner of the zoom box
+to be set (notice that on the bottom of the screen, the status line for
+X and Y show the changing longitude and latitude coordinates of the cursor.
+When the cursor is where you want it, press the left button down and hold
+it. While holding the button down, move the cursor and you will see a dynamic
+zoom box grow. To set the opposite corner, position the box where you want
+it and release the button. The screen is automatically redrawn to the new
+scale (the new scale is shown in the status area).
+<P>&nbsp;From the Tool Box, choose <B>Zoom Out</B>, which is the button
+with a magnifying glass and a - sign. This is a trickier process. When
+you set the zoom box under this command, the currently displayed map area
+shrinks to fit within the new zoom box, thereby bringing a wider portion
+of the map into view. You may have to experiment with this operation a
+few times to get the hang of it, but it can be very useful when you find
+that you've zoomed in too close on a feature and want to pull back a bit.
+<P>&nbsp;To set the viewing scale you desire you, first, have to set up
+the Scale Format. Go to <B>File | Preferences</B>. The Preferences dialog
+box will appear. Choose the <B>Units</B> option button on the left. Click
+on the <B>Map Scale Format</B> list box to the right. Choose the <B>1:N</B>option.
+Click on <B>Coordinate Format</B> and choose <B>Projected</B>, then click
+on <B>OK</B>. Now go to <B>View | Map Scale</B>. The Units/In input box
+that appears shows your current scale. Type in 2000. This translates to
+a scale of 1 inch of the Geo file equals 2000 meters of the actual land
+area. Click on OK.
+<P>&nbsp;To pan across the map in any direction by locating a new center
+for display, choose the <B>Pan </B>button on the Tool Box, which looks
+like a hand. Try it. When you move the cursor back into the map frame,
+it will appear as a hand. To move the map, press and hold the left button
+of the mouse. Note that you are simultaneously moving a box representing
+the map area. Release the button when the outline box is positioned where
+you want it.
+<P>There are other subcommands under View. Highlight them to see what each
+one does and experiment with them if you like. Choose <B>View | Entire
+Map </B>when you are finished. This resets the view so that the entire
+Geo file is visible and centered within the map frame. This is a very handy
+command when you need to get back to your original map view. When you want
+to return to a full view of both the map and the page, choose <B>View |
+Entire Page.</B> Hint: Both of these commands can be accessed through the
+Button Bar.
+<P>
+<H3>
+<A NAME="Layer"></A>6. Layer Display</H3>
+<IMG SRC="gif/tomb1.gif" HEIGHT=233 WIDTH=500>
+<P>&nbsp;<I>tomb site, Metaponto, Italy</I>
+<P>&nbsp;There are five layers in the LAGO Geo file: Steams, Transect,
+Division, Allsites, and Farms. (The Farms layer is a subset of the Allsites
+layer. Allsites contains information about farms, tombs, and a number of
+other sites.) Right now, all but Farms are visible on the screen. If you
+are just working with one feature, like streams, you may not want the transect
+and divisions getting in the way. Or you may wish to alter the way these
+layers appear on the screen.
+<P>&nbsp;We will delve into the details of this remarkable dataset later
+in the class, but for now "farms" are a rather generic class of agricultural
+settlements, some larger, some smaller. "Tombs" are probably situated according
+to different principles than farms, but for now both farms and tombs are
+contained in the variable allsites (Atlas*GIS is capable of differentiating
+these and many other aspects of the dataset, as we shall see).
+<P>&nbsp;Choose <B>Map | Layers and Themes </B>to select options for layer
+settings. Hint: This command can also be accessed through the Button Bar.
+The Layers and Themes dialog box will appear. The Layers box lists the
+layers by number and by name, then you will see two status columns for
+layers, labels, and theme. Pay attention to the option buttons on the left
+side of the dialog box. Currently, the <B>Visibility</B> button should
+be lit. Under the Layer On column, all layers except Farms should be "Yes"
+Turn off the "Division" layer by moving the mouse to the "Yes" in the "Division"
+row and click the mouse. It will automatically toggle to "No". Another
+method to complete this task is to highlight the "Transect" layer, then
+move to the Layer subpanel below. Within this box is an On switch. A click
+on the box to eliminate the X will turn the layer off. For now, leave the
+"Division" layer status set to "No" and click <B>OK</B> to see the results.
+<P>Go back into <B>Map | Layers and Themes</B>. Notice that within the
+<B>Layer</B>
+subpanel you have the capability to establish a Visibility Range, which
+controls at what scales a feature is visible. For our Lago map, this is
+not very useful, but generally, control of visibility range is important
+for keeping a handle on map clutter. If our map included a separate layer
+for contemporary land ownership in the study area, we would probably only
+want these visible at certain scales. Leave this range alone for now.
+<P>&nbsp;Highlight the Streams layer in the Layers box above and click
+on the <B>Style</B> button to the left. The Layer subpanel changes into
+a <B>Line </B>subpanel. This box allows you to set the line type, width,
+and color. Move the mouse and click on <B>Color </B>to bring up a color
+palette. You can select a color by using the mouse to highlight and click
+it. This will change the color of the streams to the color you choose.
+Try this, and feel free to change the style settings for other layers.
+Then click <B>OK</B> when you are finished to see the results.
+<P>&nbsp;One more time, go back into <B>Map | Layers and Themes</B>. Click
+on the <B>Labels</B> option button to the left. Within Layers at the top
+of the dialog box, you see the columns for Labels. Note that all of these
+settings are set to No, which means they are turned off. Highlight the
+<B>Allsites</B>
+layer, then move to the "No" under Labels On columns row and click to "Yes".
+In the <B>Label Expression </B>subpanel<B>, </B>you can create and display
+labels for features. Clicking on the small box at
+<B>Line 1</B> with <B>...</B>
+will open an <B>Expression Builder </B>dialog box. This will be used more
+later, but this is where you can scroll through all the variables in the
+file to pick the variable <B>SITE </B>(this is the site number). By picking
+a label of SITE, each site number will be shown next to its corresponding
+feature on the map. Click OK to leave the Expression Builder dialog box,
+and then again to leave the Layers and Themes dialog box. Note: You can
+also set the scale to control the scale at which SITE will be visible on
+the screen, say between 1:100 and 1:2000 from the Layers and Themes dialog
+box by selecting Visibility and making the appropriate selections.
+<P>&nbsp;<B>Redraw </B>to see the results of your changes. Experiment with
+the layer settings as much as you like. When you have finished, turn "Off"
+the labels for Allsites so they don't clutter your map.
+<P>
+<H3>
+<A NAME="Selecting"></A>7. Selecting Features</H3>
+When you are editing your map or performing geographic analysis, you must
+be able to select specific features with which to work. To select a feature,
+just point and click. The selected feature will be highlighted. To deselect
+the feature, move the cursor away and click. If you want to constrain your
+selections to the features of a particular layer, double-click on the <B>Map
+Layers Tool </B>in the Tool Box; i.e, the long button with the layer name.
+A dialog box appears that will allow you to choose the layers from which
+you want to select features. When all layers are highlighted, then you
+may select any feature.
+<P>&nbsp;<B>Point</B> to a stream and <B>click</B>. The feature is highlighted.
+If this is not the feature you wanted, then <B>move </B>the cursor outside
+the map and <B>click</B>. After you have selected the feature you want,
+go to <B>Window | Show Info Window</B>. This will show all the attribute
+information about this feature. Note: This command can also be accessed
+through the Button Bar.
+<P>To select <B>multiple</B> features, hold down the <B>Ctrl </B>key or
+the<B> Shift</B> key on the keyboard while selecting the additional features.
+Try that now. If there is a feature you wish to <B>subtract</B> from the
+selections, choose it again while holding down the <B>Ctrl </B>key. The
+feature will be deselected. You may deselect all the features by moving
+the cursor outside the map area and clicking the mouse. Multiple features
+may also be selected with the <B>Circle </B>and <B>Polygon</B> buttons
+in the Tool Box. It allows you to draw a circle, box, or polygon on the
+screen and select features which touch these. Try these if you like. Click
+outside the map area to deselect these features.
+<H3>
+<A NAME="Exploring"></A>8. Exploring the Metaponto Data Using Thematic
+Mapping</H3>
+In this section you will explore the type and ages of sites in the study
+area by mapping them several times. You are probably familiar with maps
+that use color coding, variable shading, dot- density, and proportional
+symbols to display data.
+<P>&nbsp;Thematic mapping in Atlas*GIS allows you to choose one or two
+variables from the attribute files for display in ranged maps, proportional
+maps, or dot-density maps. The program will calculate the necessary statistics
+for you, but also allows you to adjust these yourself to fine-tune your
+display.
+<P>&nbsp;Go to <B>Map | Layers and Themes </B>and make sure that the Division
+and Farms layers are off, as you will be working with Allsites and Streams
+(you can't see a change of layer status until you redraw the map, but wait
+until you are done with the Layers and Themes dialog box).
+<P>&nbsp;Now, highlight the Allsites layer in the Layers dialog box, then
+select the <B>Theme</B> button at the left side of the dialog box. This
+brings up the Theme subpanel. Click on the box next to <B>Theme On</B>
+to place an X there. This will be a one variable map, so make sure the
+box next to Two Variable is not checked. Click on the <B>Expression</B>
+field to bring up the Expression Builder, where you will define the variable
+you want mapped. Choose <B>TYPE</B> from the Columns list. Note: you may
+also use a variable in the expression like TYPE> 2. Click <B>OK</B> to
+return to the Layers and Themes dialog box. At the Theme subpanel, click
+on the Map Type field to pop up the list of options. There are two options
+for symbolizing points. <B>Ranged Symbol </B>assigns symbols to the different
+data ranges, which are then placed at the location of each feature. <B>Proportional
+Symbol </B>places a proportionally sized symbol representing data values
+at each feature's centroid. Use <B>Ranged Symbol </B>for this map.
+<P>Now, click on the <B>Ranges</B> button. Take a minute to examine the
+Ranged Symbol dialog box. On the left side are Ranging options you can
+change. On the right side, the program has calculated the relevant statistics
+needed to create the map. Click on Method to see your options (these are
+explained in the Atlas*GIS manual). Pick <B>List of Values </B>as the ranging
+method, and type in the number 5 as the <B>Number of Ranges</B>. Notice
+that the Calculate button has changed to yellow to indicate that you have
+made a change that requires a recalculation of the spreadsheet below. Click
+on the <B>Calculate</B> button and watch the modifications made to accommodate
+the 5 ranges. Now, select the first row in the column Values and type <B>0</B>,
+then hit <B>Enter</B>. Now, using the arrow keys, move down this column
+and insert the values 1,2,3,4, respectively, for ranges 2 through 5. <B>Calculate</B>,
+again, to have Atlas*GIS divide the data according to your list.
+<P>&nbsp;After Atlas*GIS has re-divided the data, study the distribution
+of the site types. Copy this information. The codes for this variable are:
+0 is for unknown; 1 is for farms; 2 is for tombs; 3 is for "scatter"; and
+4 is for other.
+<P>In this same spreadsheet, there are columns in which you can set the
+symbol, size, and color for each range. Choose <B>None </B>for the symbol
+of site type 0. Choose "filled circle" as the symbol for the other four
+categories. Set the size to 5, and pick a different color for each category.
+Click on <B>OK</B> to return to the Layers and Themes dialog box. Before
+you leave the Layers and Themes dialog box, click on the <B>Legend</B>
+button. At the bottom right of the Theme Legend-Ranged dialog box make
+sure that the Missing option box is open (not checked). Click <B>OK</B>
+to close this box. Then Click <B>OK</B> again to return to your map.
+<P>&nbsp;The result of this operation is a map, but a cartographically
+unacceptable map because it doesn't contain all the map elements needed
+to communicate its message effectively and because these elements have
+not been effectively arranged on the map--all issues of cartographic content
+and composition. Fortunately, Atlas*GIS provides you with the tools you
+need to produce an effective map, and these will be discussed in the subsequent
+steps of this exercise as well as in class.
+<P>&nbsp;The best way to learn about the other thematic mapping methods
+is to play with them and experiment with different ranges, values, symbols,
+and colors. Remember that you can use the mouse to explore the options
+presented by the various menus (look especially for fill style, and color).
+Feel free to do this, you can't hurt anything: Detailed explanations of
+thematic types and ranging methods are found in the Atlas*GIS manual.
+<P>
+<H3>
+<A NAME="Laying out"></A>9. Laying Out a Thematic Map</H3>
+Developing your theme is only one aspect of preparing an effective map.
+You must also add and edit the other map elements, such as the title, legend,
+and scale. Remember that the small plotters in the computer lab cannot
+plot in more than six colors in one pass, so keep your colors to six or
+less. If you can't finish all the work in a single session, save your work
+to a Project file (and, of course, close your files). This will save all
+your settings.
+<P>&nbsp;First, choose<B> Map | Legends and Frames</B>. This will bring
+up the Legends and Frames dialog box, which is divided into three subpanels:
+Maps, Map Legends and Theme Legends. Within each subpanel, the first column
+of buttons lists a part of the page that we can display or modify. By clicking
+on one of these buttons, you are taken into the corresponding dialog box
+which allows you to select how and what information is to be displayed,
+which you will see later. The second column entitled "On", indicates whether
+that particular item displayed on the page or not. The third column indicates
+whether the frame around the item is displayed or not, and the fourth column
+takes you into the Frame Style dialog box to make changes to the frame
+settings.
+<P>&nbsp;Now, we will make some changes. In the Maps subpanel, you can
+elect to display up to four maps. Here, only one map is needed, so make
+sure <B>Map 1 </B>is <B>On</B>, while <B>Maps 2 through 4</B>are <B>Off</B>.
+You will not need the layer legend since we have only one layer in our
+map, so in the <B>Map Legends</B> subpanel, turn the <B>Layer Legend</B>
+to <B>Off </B>, so that it will not be displayed at all. For this map,
+no frames are wanted, so set <B>Frame On</B> to <B>Off</B> for Map 1, Title,
+Scale, and Thematic Legend 1.
+<P>&nbsp;For other maps where a frame is desired, the style of the frame
+can be changed by clicking on one of the corresponding buttons under Frame
+Style. This takes you into the Frame dialog box where settings such as
+line type, color, corner treatment, and shadows can be changed. Try this.
+Also, before you leave the Legends and Frames dialog box, notice the Thematic
+Legend buttons 2-4. They are dimmed at this time, indicating that they
+are not available. Click on the Theme 1 button and look at the dialog box
+that pops up. For now, just note where you are and how you got here, it
+will help later Click on <B>OK </B>when you are finished. Click<B> OK </B>again
+to see the results of the changes you made.
+<P>
+<H3>
+<A NAME="Mapping by Age"></A>10. Mapping Sites By Age</H3>
+Now we would like to map the sites by their age. This data has been coded
+into the variable named AGE. The codes for AGE are: 0 is unknown; 1 is
+pre-Greek; 2 is 600-575 BC; 3 is 575-550 BC; 4 is 550-525 BC; 5 is 525-500
+BC; 6 is 500-475 BC; 7 is 475-450 BC; 8 is 450-425 BC; 9 is 425-400 BC;
+10 is 400-375 BC; 11 is 375-350 BC; 12 is 350-325 BC; 13 is 325-300 BC;
+14 is 300-275 BC; and 15 is post-Greek.
+<P>&nbsp;Choose <B>Map | Layers and Themes</B>. Make sure <B>Allsites</B>
+is highlighted in the Layers and Themes dialog box, and that Theme is set
+to <B>Yes</B>. In the Theme subpanel, Theme On should be checked and this
+will be a one variable map. This time, in the Expression field, pick <B>AGE
+</B>as
+the variable to be mapped.<B> </B>Use <B>Ranged Symbol </B>for this map.
+<P>Click on Ranges to bring up the Ranged Symbol dialog box. Pick <B>List
+of Values </B>as the Method, and type in the number 15 as the Number of
+Ranges. Click on <B>Calculate</B>. Move to the Value column for Range 1
+and click the mouse. Move down through the column and type in the numbers
+1 to 15 for the respective 15 ranges. <B>Calculate. </B>These values (1-15)
+correspond to the 15 age classes into which the various sites are subdivided.
+Each subdivision corresponds to an approximately 50-year period. This level
+of chronological accuracy is pretty spectacular for archaeological research,
+but since many aren't confident that ceramic types can be dated quite so
+accurately, we are lumping the datings into these larger classes.
+<P>&nbsp;Atlas*GIS is dividing the data according to these ranges. Study
+the distribution of settlement age. Copy this information.
+<P>&nbsp;Now that you have looked at the overall distribution of sites
+by age, let's make a map that divides the sites into five age groups: pre-
+Greek; 600-475 BC sites; 475-375 BC sites; 375-275 BC sites; and post-
+Greek sites. To do this move up and change the Ranging Method to <B>Discontinuous
+</B>with
+five as the number of ranges. In the spreadsheet below, there are now columns
+for minimum and maximum values. For the five Ranges, fill in the following
+values: 1 1; 2 6; 7 10; 11 14; 15 15. <B>Calculate</B>.
+<P>&nbsp;For pre-Greek settlements (Range=1) choose a black filled circle
+of size 5. For post-Greek settlements (Range=5) choose a blue open box
+of size 5. For the Greek settlements of the three time periods, choose
+a green open + (plus) of size 6 for the earliest period (Range=2), a red
+open circle of size 6 for intermediate period (Range=3), and a red filled
+circle of size 10 for the most recent period (Range=4). Click on <B>OK
+</B>when
+you are finished.
+<P><B>The Legend. </B>Now, you back to the Layers and Themes dialog box.
+In the Layer subpanel, next to the Ranges button there is a <B>Legend</B>
+button. Click on it. This brings up the Thematic Legend dialog box. It
+should look familiar to you. This button takes you directly to the Theme
+Legend dialog box in Legends and Frames. Set up the legend as follows:
+<P>
+<UL>
+<LI>
+Legend = On (checked)</LI>
+
+<LI>
+Frame = Off (open)</LI>
+
+
+<P></UL>
+Do not make any modifications to the frame style at this time.
+<P>
+<UL>
+<LI>
+Legend Title = Period of Settlement</LI>
+
+
+<P></UL>
+The button next to the Title marked with <B>Aa </B>allows you to change
+the text style of the Title.
+<P>
+<UL>
+<LI>
+Typeface = Times New Roman</LI>
+
+<LI>
+Size = 12</LI>
+
+<LI>
+Color = Black</LI>
+
+
+<P></UL>
+In the Descriptions subpanel:
+<P>
+<UL>
+<LI>
+Default or Custom = Custom</LI>
+
+<LI>
+Typeface = Times New Roman</LI>
+
+<LI>
+Color = Black</LI>
+
+<LI>
+Size = 12</LI>
+
+
+<P></UL>
+In the bottom right subpanel, move to the Custom column and edit the descriptions
+for each range:
+<P>
+<UL>
+<LI>
+1 to 1 = Pre-Greek</LI>
+
+<LI>
+2 to 6 = 600-475 BC</LI>
+
+<LI>
+7 to 10 = 475-375 BC</LI>
+
+<LI>
+11 to 14 = 375-275 BC</LI>
+
+<LI>
+15 to 15 = Post-Greek</LI>
+
+
+<P></UL>
+Finally, click on <B>Missing </B>turn <B>Off</B> the display of any missing
+sites. Then <B>OK</B> to see the results.
+<P>&nbsp;As you can see, there is more layout work to be done. First, we
+need to return to <B>Map | Legends and Frames.</B>
+<P>&nbsp;<B>The Title. </B>Click on the <B>Title </B>button to bring up
+the Title dialog box. Make sure that the Frame box does not have a check
+mark in it, so that the Title Frame will not be displayed. In Line 1, type
+in <B>Greek Settlements of Lago del Lupo. </B>Click on the <B>Aa </B>button,
+and choose Times New Roman as the typeface, Black as the color, and 30
+as the size. In Line 2, delete the default entry and leave this space blank
+(we don't wish to use a subtitle for this map). Click <B>OK.</B>
+<P>&nbsp;<B>The Scale. </B>Click on the<B> Scale</B> button to bring up
+the Scale dialog box<B>. </B>Make sure that the Frame box does not have
+a check mark in it, so that the Scale Frame will not be displayed. In the
+Title subpanel, type in <B>Meters</B> for the title, with a typeface Times
+New Roman, size 12, and color Black. Under the Layout subpanel, set the
+number of increments to <B>4</B> and the increment size to<B> 200</B>,
+and the font to Times New Roman. In the Bar Style subpanel, set Pattern
+to filled, bar width to 1, and color to Black. Click on OK when you are
+finished, then click on OK again to exit the Legends and Frames dialog
+box. <B>Redraw </B>to show your new legend, title, and scale.
+<P><B>Positioning the Page Elements. </B>You can move and resize the various
+page elements, by activating the <B>Page Freehand Tool </B>in the Tool
+Box. This button is the one with the pencil drawing on the page. Notice
+that this toggles the Map Layers button to indicate that you are in the
+Page Freehand mode, and it also toggles the available buttons in the Tool
+Box. The Page Freehand mode allows you to point and click on the page elements,
+then move or size them. When chosen, each element will be surrounded by
+a series of eight dots. The element can be moved by placing the cursor
+in the middle of the element, holding down the left button of the mouse,
+and dragging the element into place. The element can be resized by moving
+the cursor over one of the dots, holding down the left button of the mouse,
+and stretching the element. Play with this a little to get the hang of
+it.
+<P>Once you are used to it, use the mouse to<B> move</B> the T<B>itle</B>
+so that it is centered over the body of the map. Next, <B>move </B>the
+<B>Scale</B>
+up and to the left so that it is to the left of the body of the map. Then,
+<B>move </B>and <B>resize </B>the <B>Legend </B>as you see fit, but so
+that it is evenly arranged along the right side of the map. You can also
+try moving and resizing the map itself so that it is slightly larger and
+there is less blank space on the screen.
+<P>Finally, let's add a north-aligned arrow. First, choose <B>Edit | Change
+Properties | Symbols.</B> Hint: This command can be accessed through the
+Button Bar. In the Symbols dialog box, click on the Symbol list box and
+choose a North Arrow. Then set the size to 25, and the Color to Black.
+Click. Now, select the Symbol Tool in Tool Box. This is the button with
+the star inside a circle. Then, move the cursor onto to the map and click
+somewhere to the left of the body of the map below the repositioned scale
+bar. When all the elements are how you want them, choose <B>Redraw </B>to
+make sure you are viewing the final product. Go back and adjust as needed.
+<P>Save your work with the command <B>File | Save As</B>. Make sure you
+are in the A:drive, then type in the file name <B>LAGOMAP1. </B>This creates
+a Project file.<B> </B>The Project file keeps a record of all Atlas*GIS
+<B>settings
+</B>in effect when you create the Project file (but it does not contain
+your actual boundary and data files--only a record of the ones you used
+and where they are located on the disk). The Project file serves as a sort
+of folder containing a record of where you left off in your work and allows
+you to return to this place when you begin your next session. Warning:
+Once you create a Project file, it can only be used again if the files
+you were using at the time of its creation (in this case the LAGO files)
+are in exactly the same disk location (in this case the floppy in the A:drive).
+Click on <B>OK.</B>
+<P>&nbsp;Study this map carefully keeping in mind the larger archaeological
+questions about the ways the Greeks colonized this landscape. Where, for
+instance, did the Greeks colonize first? If you cannot see patterns, experiment
+with changing symbols, sizes, and colors to make it clearer.
+<H3>
+<A NAME="Printing"></A>11. Printing a Map</H3>
+When everything is satisfactory, you can print your map, but you have to
+be at a computer that has a printer attached to it. At this time, there
+is no networked printing capability. The printers are Hewlett-Packard Deskjet
+printers, which use 8 1/2" x 11" paper.
+<P>&nbsp;To backtrack a little, the size of paper on which you plan to
+print your map affects your work, so pre-planning before you start is a
+good habit to get into. Go to <B>File | Page Setup</B>. In the dialog box
+that appears, you can select the size of paper your map will occupy. Changing
+this will not automatically alter the scale of the map that you specified
+earlier in this exercise, and your map may be cropped by the new dimensions
+of the page size, if those dimensions are smaller now. Experiment with
+this, and be aware of the relationship between paper size and scale.
+<P>&nbsp;When you are ready to print, make sure that the printer is turned
+on and there is paper in the tray on the bottom. You might also want to
+check the control panel lights under <B>Install Print Cartridge </B>. A
+light there indicates if there is a problem with one of the cartridges.
+Now, go to <B>File|Print.</B> <U>HINT:</U> It is also on the Button Bar.
+The Print dialog box appears. Your print should not take up more than one
+sheet of paper so in the <B>Range</B> subpanel, click on <B>All</B>. If
+you are not sure, click on the <B>From</B> option and type in that you
+want to print from page <B>1</B> to page <B>1</B>. In the Sizing subpanel,
+select each option to see how they affect your print, then select <B>Best
+Fit</B>. Click on <B>Print Paper Cut Lines</B> to turn this option <B>Off</B>.
+Click on Output to File to turn this option <B>Off</B>. Then click on <B>OK</B>.
+<P>&nbsp;The DeskJet printers have the capability to print a wide range
+of colors, but you may not be able to tell the difference in shades of
+colors in lines and such. But, feel free to experiment!
+<H3>
+<A NAME="Quitting"></A>12. Quitting the Program</H3>
+Now, to finish your session choose <B>File | Close, </B>then choose the
+Project file and click on <B>OK</B>. If you have made changes to your project
+since your last save then answer Yes to the question about saving before
+close. Note: If you close the Geo file or Attribute table before closing
+the Project file, then the association between them will be lost.
+<P>To quit the Atlas GIS, choose <B>File | Exit</B>. Again, be careful
+when answering questions about saving before quitting. It will save down
+the current state of your files.
+<P>&nbsp;Finally, when you are finished with Atlas GIS, you should always
+make a backup copy of your work on a second disk using the Windows File
+Manager diskcopy routine. Never, NEVER, leave the lab without a backup
+of your current work.
+<P>
+<H3>
+<A NAME="About Files"></A>13. About Files</H3>
+As you create, update, and edit files, Atlas*GIS writes these changes to
+disk, thereby modifying the file in use. You should always use a <B>copy
+</B>of
+the Geo file, attribute and Point table files when editing (as we did in
+this exercise), rather than the originals, in case you make any big mistakes.
+You should also make frequent backups of your files to protect your work.
+You can do this at anytime by choosing <B>File | Save</B>.
+<P>In Atlas*GIS, there are several kinds of files as discussed in the Introduction.
+In turn, each of these usually consists of several files. For instance,
+the Geo file actually consists of several files, all with the same name
+<B>(e.g.
+LAGO), </B>but with different extensions.<B> </B>When copying or erasing
+files, you must be sure to get all of these.
+<P>
+<H3>
+<A NAME="Hand In"></A>14. What to Hand In</H3>
+For this exercise, you must hand in:
+<P>
+<OL>
+<LI>
+One 3.5" diskette containing the LAGO files, plus:</LI>
+
+<LI>
+A Project file containing a map of allsites by TYPE,</LI>
+
+<LI>
+A plotted map of allsites by AGE.</LI>
+</OL>
+Atlas*GIS and Metaponto Exercise 1 - 1 Atlas*GIS and Metaponto Exercise
+1- 1
+<P>
+<HR WIDTH="100%">
+<BR>Last revised 1/29/00. LNC.
+</BODY>
+</HTML>

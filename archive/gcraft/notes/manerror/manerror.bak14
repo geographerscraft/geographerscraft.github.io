@@ -1,0 +1,284 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; U) [Netscape]">
+   <title>Managing Error</title>
+</head>
+<body text="#663300" bgcolor="#FFFFFF" link="#0000BB" vlink="#FF0203">
+
+<center><img SRC="gif/manerror.gif" ></center>
+
+<p><I>The materials were developed by Kenneth E. Foote and Donald
+J. Huebner, Department of Geography, University of Texas at Austin, 1996. You may use these materials for education and research, but please cite the Geographer's Craft Project, Department of Geography, University of Colorado at Boulder and the author. If you have comments or suggestions, please contact: <a href="mailto: k.foote@colorado.edu">k.foote@colorado.edu</a>.  All commercial rights reserved.</i></b>
+
+<p>This page is also available in a <a href="manerror_f.html" target="_top">framed
+version</a>.&nbsp; For convenience we have provided a full <a href="manerror_ftoc.html">Table
+of Contents</a>.
+<p>
+<hr>
+<h3>
+<a NAME="1.0"></a>1. The Problems of Error, Accuracy and Precision</h3>
+Managing error in GIS datasets is now recognized as a substantial problem
+that needs to be addressed in the design and use of such systems. Failure
+to control and manage error can limit severely or invalidate the results
+of a GIS analysis. Please see the module, <a href="../error/error.html">Error,
+Accuracy, and Precision</a> for an overview of the key issues.
+<p>
+<hr>
+<h3>
+<a NAME="2.0"></a>2. Setting Standards for Procedures and Products</h3>
+No matter what the project, standards should be set from the start. Standards
+should be established for both spatial and non-spatial data to be added
+to the dataset. Issues to be resolved include the accuracy and precision
+to be invoked as information is placed in the dataset, conventions for
+naming geographic features, criteria for classifying data, and so forth.
+Such standards should be set both for the <b>procedures</b> used to create
+the dataset and for the final <b>products</b>. Setting standards involves
+three steps.
+<br>&nbsp;
+<br>&nbsp;
+<ul>
+<h4>
+<a NAME="2.1"></a>2.1. Establishing Criteria that Meet the Specific Demands
+of a Project</h4>
+Standards are not arbitrary; they should suit the demands of accuracy,
+precision, and completeness determined to meet the demands of a project.
+The Federal and many state governments have established standards meet
+the needs of a wide range of mapping and GIS projects in their domain.
+Other users may follow these standards if they apply, but often the designer
+must carefully establish standards for particular projects. Picking arbitrarily
+high levels of precision, accuracy, and completeness simply adds time and
+expense. Picking standards that are too low means the project may not be
+able to reach its analytical goals once the database is compiled. Indeed,
+it is perhaps best to consider standards in the light of ultimate project
+goals. That is, how accurate, precise, and complete will a solution need
+to be? The designer can then work backward to establish standards for the
+collection and input of raw data. Sensitivity analysis (discussed below)
+applied to a prototype can also help to establish standards for a project.
+<br>&nbsp;
+<br>&nbsp;
+<h4>
+<a NAME="2.2"></a>2.2 Training People Involved to Meet Standards, Including
+Practice</h4>
+The people who will be compiling and entering data must learn how to apply
+the standards to their work. This includes practice with the standards
+so that they learn to apply them as a natural part of their work. People
+working on the project should be given a clear idea of why the standards
+are being employed. If standards are enforced as a set of laws or rules
+without explanation, they may be resisted or subverted. If the people working
+on a project know why the standards have been set, they are often more
+willing to follow them and to suggest procedures that will improve data
+quality.
+<br>&nbsp;
+<br>&nbsp;
+<h4>
+<a NAME="2.3"></a>2.3. Testing That the Standards Are Being Employed Throughout
+a Project and Are Reached by the Final Products</h4>
+Regular checks and tests should be employed through a project to make sure
+that standards are being followed. This may include the regular testing
+of all data added to the dataset or may involve spot checks of the materials.
+This allows to designer to pinpoint difficulties at an early stage and
+correct them.
+<p>&nbsp;Examples of data standards:
+<br>&nbsp;
+<br>&nbsp;
+<ul>
+<li>
+<a href="http://www-nmd.usgs.gov/www/html/2nmpgds.html">USGS Geospatial
+Data Standards</a></li>
+
+<br>&nbsp;
+<p>&nbsp;
+<li>
+<a href="http://mcmcweb.er.usgs.gov/sdts/">Information on the Spatial Data
+Transfer Standard</a></li>
+
+<br>&nbsp;
+<p>&nbsp;
+<li>
+<a href="http://www.usgs.gov/fact-sheets/map-accuracy/map-accuracy.html">USGS
+Map Accuracy Standards</a></li>
+
+<br>&nbsp;</ul>
+</ul>
+
+<hr>
+<h3>
+<a NAME="3.0"></a>3. Documenting Procedures and Products: Data Quality
+Reports</h3>
+Standards for procedures and products should always be documented in writing
+or in the dataset itself. Data documentation should include information
+about how data was collected and from what sources, how it was preprocessed
+and geocoded, how it was entered in the dataset, and how it is classified
+and encoded. On larger projects, one person or a team should be assigned
+responsibility for data documentation. Documentation is vitally important
+to the value and future use of a dataset. They saying is that <i>an undocumented
+dataset is a worthless dataset</i>. By in large, this is true. Without
+clear documentation a dataset can not be expanded and cannot be used by
+other people or organizations now or in the future.
+<p>&nbsp;Documentation is of critical importance in large GIS projects
+because the dataset will almost certainly outlive the people who created
+it. That is, GIS for municipal, state, and AM/FM applications are usually
+designed to last 50-100 years. The staff who enters the data may have long
+retired when a question arises about the characteristics of their work.
+Written documentation is essential. Some projects actually place information
+about data quality and quality control directly in a GIS dataset as independent
+layers. An example of data quality reports is:
+<ul>
+<li>
+<a href="http://edcwww.cr.usgs.gov/glis/hyper/guide/2mil">1:2,000,000 Digital
+Line Graph Data User Guide (USGS)</a></li>
+</ul>
+
+<hr>
+<h3>
+<a NAME="4.0"></a>4. Measuring and Testing Products</h3>
+GIS datasets should be checked regularly against reality. For spatial data,
+this involves checking maps and positions in the field or, at least, against
+sources of high quality. A sample of positions can be resurveyed to check
+their accuracy and precision. The USGS employs a testing procedure to check
+on the quality of its digital and paper maps, as does the Ordnance Survey.
+Indeed, the Ordnance Survey continues periodically to test maps and digital
+datasets long after they have first been compiled. If too many errors crop
+up, or if the mapped area has changed greatly, the work is updated and
+corrected.
+<p>&nbsp;Non-spatial attribute data should also be checked either against
+reality or a source of equal or greater quality. The particular tests employed
+will, of course, vary with the type of data used and its level of measurement.
+Indeed, many different tests have been developed to test the quality of
+interval, ordinal, and nominal data. Both parametric and nonparametric
+statistical tests can be employed to compare true values (those observed
+"on the ground") and those recorded in the dataset.
+<p>&nbsp;Cohen's Kappa provides just one example of the types of test employed,
+this one for nominal data. The following example shows how data on land
+cover stored in a database can be tested against reality.
+<br>&nbsp;
+<p>See <a href="html/attribut.html">Attribute Accuracy</a> and <a href="html/kappa.html">Calculating
+Cohen's Kappa</a>
+<br>&nbsp;
+<p>
+<hr>
+<h3>
+<a NAME="5.0"></a>5. Calibrating a Dataset to Ascertain How Error Influences
+Solutions</h3>
+Solutions reached by GIS analysis should be checked or calibrated against
+reality. The best way to do this is check the results of a GIS analysis
+against the findings produced from completely independent calculations.
+If the two agree, then the user has some confidence that the data and modeling
+procedure is valid.
+<p>&nbsp;This process of checking and calibrating a GIS is often referred
+to as <b>Sensitivity Analysis</b>. Sensitivity analysis allows the user
+to test how variations in data and modeling procedure influence a GIS solution.
+What the user does is vary the inputs of a GIS model, or the procedure
+itself, to see how each change alters the solution. In this way, the user
+can judge quite precision how data quality and error will influence subsequent
+modeling.
+<p>&nbsp;This is quite straight forward with interval/ratio input data.
+The user tests to see how an incremental change in an input variable changes
+the output of the system. From this, the user can derive "marginal sensitivity"
+to an input and establish "marginal weights" to compensate for error.
+<p>&nbsp;But sensitivity analysis can also be applied to nominal (categorical)
+and ordinal (ranked) input data. In these cases, data may be purposefully
+misclassified or misranked to see how such errors will change a solution.
+<p>&nbsp;Sensitivity analysis can also be used during system design and
+development to test the levels of precision and accuracy required to meet
+system goals. That is, users can experiment with data of differing levels
+of precision and accuracy to see how they perform. If a test solution is
+not accurate or precise enough in one pass, the levels can be refined and
+tested again. Such testing of accuracy and precision is very important
+in large GIS projects that will generated large quantities of data. In
+is of little use (and tremendous cost) to gather and store data to levels
+of accuracy and precision beyond what is needed to reach a particular modeling
+need.
+<p>&nbsp;Sensitivity can also be useful at the design stage in testing
+the theoretical parameters of a GIS model. It is sometimes the case that
+a factor, though of seemingly great theoretical importance to a solution,
+proves to be of little value in solving a particular problem. For example,
+soil type is certainly important in predicting crop yields but, if soil
+type varies little in a particular region, it is a waste of time entering
+into a dataset designed for this purpose. Users can check on such situations
+by selectively removing certain data layers from the modeling process.
+If they make no difference to the solutions, then no further data entry
+needs to be made.
+<p>&nbsp;To see how sensitivity analysis might be applied to a problem
+concerned with upgrading a municipal water system, go to the following
+section on <a href="html/sensitiv.html">Sensitivity Analysis.</a>
+<p>&nbsp;In closing this example, it is useful to note that the results
+were reported in terms of ranking. No single solution was optimal in all
+cases. Picking a single, best solution might be misleading. Instead, the
+sites are simply ranked by the number of situations in which each comes
+out ahead.
+<br>&nbsp;
+<p>
+<hr>
+<h3>
+<a NAME="6.0"></a>6. Report Results in Terms of the Uncertainties of the
+Data</h3>
+Too often GIS projects fall prey to the problem of <b>False Precision</b>,
+that is reporting results to a level of accuracy and precision unsupported
+by the intrinsic quality of the underlying data. Just because a system
+can store numeric solutions down to four, six, or eight decimal places,
+does not mean that all of these are significant. Common practice allows
+users to round down one decimal place below the level of measurement. Below
+one decimal place the remaining digits are meaningless.
+<p>As examples of what this means, consider:
+<p>&nbsp;Population figures are reported in whole numbers (5,421, 10,238,
+etc.) meaning that calculations can be carried down 1 decimal place (density
+of 21.5, mortality rate of 10.3).
+<p>&nbsp;If forest coverage is measured to the closest 10 meters, then
+calculations can be rounded to the closest 1 meter.
+<p>&nbsp;A second problem is <b>False Certainty</b>, that is reporting
+results with a degree of certitude unsupported by the natural variability
+of the underlying data. Most GIS solutions involve employing a wide range
+of data layers, each with its own natural dynamics and variability. Combining
+these layers can exacerbate the problem of arriving at a single, precision
+solution. Sensitivity analysis (discussed above) helps to indicate how
+much variations in one data layer will affect a solution. But GIS users
+should carry this lesson all the way to final solutions. These solutions
+are likely to be reported in terms of ranges, confidence intervals, or
+rankings. In some cases, this involves preparing high, low, and mid-range
+estimates of a solution based upon maximum, minimum, and average values
+of the data used in a calculation.
+<p>&nbsp;You will notice that the case considered above pertaining an optimal
+site selection problem reported it's results in terms of rankings. Each
+site was optimal in certain confined situations, but only a couple proved
+optimal in more than one situation. The results rank the number of times
+each site came out ahead in terms of total cost.
+<p>&nbsp;In situations where statistical analysis is possible, the use
+of confidence intervals is recommended. Confidence intervals established
+the probability of solution falling within a certain range (i.e. a 95%
+probability that a solutions falls between 100m and 150m).
+<br>&nbsp;
+<p>
+<hr>
+<h3>
+<a NAME="7.0"></a>7. References and Supplemental Reading</h3>
+Bolstad, P.V. and P. Gessler. 1990. Positional uncertainty in manually
+digitized map data. <i>International Journal of Geographical Information
+Systems.</i> 4(4):399-412.
+<p>&nbsp;Burrough, P.A. 1990. <i>Principles of Geographical Information
+Systems for Land Resource Assessment</i>. Oxford: Clarendon Press.
+<p>&nbsp;Goodchild, M., and S. Gopal, eds. 1989. <i>Accuracy of Spatial
+Databases.</i> Bristol: Taylor and Francis.
+<p>&nbsp;King, J.L. and K.L. Kraemer. 1985. <i>The Dynamics of Computing</i>.
+New York: Columbia University Press.
+<p>&nbsp;Openshaw, S., M. Charlton, and S. Carver. 1991. Error Propagation:
+A Monte Carlo Simulation. In <i>Handling Geography Information: Methodology
+and Potential Applications</i>, ed. Ian Masser and Michael Blakemore, pp.
+102-114. New York: John Wiley and Sons, Inc.
+<p>&nbsp;Scott, L.M. 1994. Identification of GIS Attribute Error Using
+Exploratory Data Analysis. <i>The Professional Geographer</i>. 46(3):378-386.
+<p>
+<hr>
+<h3>
+<a NAME="8.0"></a>8. <a href="../../exam/manerror/manerror.html">Examination
+and Study Questions.</a></h3>
+
+<hr><img SRC="gif/txblut00.gif" > Last revised on 2000.3.27. LNC.
+<br>&nbsp;
+<center>
+<p><img SRC="gif/cactus.gif" ></center>
+
+</body>
+</html>

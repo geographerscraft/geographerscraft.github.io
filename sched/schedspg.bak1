@@ -1,0 +1,309 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>The Geographer's Craft, Spring Schedule</TITLE>
+</HEAD>
+<BODY>
+
+<H2>
+The Geographer's Craft, Spring 2000</H2>
+<B>This page contains the class schedule by week</B>: <A HREF="#January17">January
+17</A> | <A HREF="#January24">January 24</A> | <A HREF="#January31">January
+31</A> | <A HREF="#February7">February 7</A> | <A HREF="#February14">February
+14</A> | <A HREF="#February21">February 21</A> | <A HREF="#February28">February
+28</A> | <A HREF="#March6">March 6</A> | <A HREF="#March13">March 13</A>
+| <A HREF="#March20">March 20</A> | <A HREF="#March27">March 27</A> | <A HREF="#April3">April
+3</A> | <A HREF="#April10">April 10</A> | <A HREF="#April17">April 17</A>
+| <A HREF="#April24">April 24</A> | <A HREF="#May1">1 May</A> |
+
+<P>
+<HR><B>Related pages</B>: <A HREF="../geninfo/geninfo.html">General Information</A>
+| <A HREF="../notes/notes.html">Lecture and Discussion Notes</A> | <A HREF="../warmup/contents.html">Research
+Problems and Warmup Exercises</A> | <A HREF="../exam/exam.html">Study and
+Review Questions</A> | <A HREF="../contents.html">Geographer's Craft Homepage</A>
+| <A HREF="http://www.utexas.edu/depts/grg/main.html">UT Geography Homepage</A>
+|
+<BR>
+<HR>
+<BR>
+<HR>
+<H3>
+<A NAME="January17"></A>January 17: Introduction to CAD.</H3>
+Topics and tasks: Introduction to Microstation and computer-assisted drafting
+(CAD).&nbsp; No class Monday: MLK Holiday.
+
+<P>Assignment:
+<UL>
+<LI>
+Form lab teams</LI>
+</UL>
+
+<HR>
+<H3>
+<A NAME="January24"></A>January 24: CAD Basics and Beyond.</H3>
+Topics and tasks: Overview and practice with Microstation. Continue with
+Your Village assignment.
+
+<P>Assignment:
+<UL>
+<LI>
+Begin <A HREF="../warmup/village/village_f.html">Your Village</A> exercise.</LI>
+</UL>
+
+<HR>
+<H3>
+<A NAME="January31"></A>January 31: More CAD Using Public Access Datasets.</H3>
+Topics and tasks: More map editing and compositing using CAD. Learn how
+to download and use basemaps provided agencies of the State of Texas. Study
+documentation and file structures of other public-access datasets. Experiment
+with importing different file formats.
+
+<P>Assignment:
+<UL>
+<LI>
+Finish <A HREF="../warmup/village/village_f.html">Your Village</A> by Friday</LI>
+
+<LI>
+Begin <A HREF="../warmup/favorite/favorite.html">Favorite Place</A> map.</LI>
+
+<LI>
+Explore the <A HREF="http://www.tnris.state.tx.us/DigitalData/ftp.htm">TNRIS
+File Transfer Page</A> maintained by the <A HREF="http://www.tnris.state.tx.us/">Texas
+Natural Resources Information System.</A></LI>
+
+<LI>
+Skim <A HREF="../notes/sources/sources.html">Data Sources for GIS</A> .</LI>
+</UL>
+
+<HR>
+<H3>
+<A NAME="February7"></A>February 7: Three-dimensional Modeling.</H3>
+Topics and tasks: Consider methods for three-dimensional modeling by reconstructing
+a Nicaraguan village from nineteenth century maps and prints.
+
+<P>Assignment:
+<UL>
+<LI>
+Begin <A HREF="../warmup/greytown/greytown_f.html">Greytown</A> project.</LI>
+</UL>
+
+<HR>
+<H3>
+<A NAME="February14"></A>February 14: Rendering and Animation.</H3>
+Topics and tasks: Introduce tools for rendering a three-dimensional map.
+Learn how to "photograph" map views and how to prepare animations. Create
+a "fly-through" or "walk through" of Greytown.
+
+<P>Assignments:
+<UL>
+<LI>
+Finish <A HREF="../warmup/favorite/favorite.html">Favorite Place</A> map
+by Friday.</LI>
+</UL>
+
+<HR>
+<H3>
+<A NAME="February21"></A>February 21:<B> Depicting Temporal Change Using
+Animation</B></H3>
+Topics and tasks: Consider how temporal change in space can be depicted
+using animation.&nbsp; Create animated gif using Microstation and Gif Construction
+Set 32.
+
+<P>Assignments:
+<UL>
+<LI>
+Begin animated gif project</LI>
+</UL>
+
+<H3>
+
+<HR><A NAME="February28"></A>February 28:<B> Overview of WebGIS</B></H3>
+Topics and tasks: Consider how mapserver technology is changing the way
+GIS functions are being made available in the Web.&nbsp; Consider different
+approaches to implementing WebGIS.
+
+<P>Assignments:
+<UL>
+<LI>
+Foote, Kenneth E. and Anthony P. Kirvan. (1997) WebGIS, NCGIA Core Curriculum
+in GIScience, <A HREF="http://www.ncgia.ucsb.edu/education/curricula/giscc/units/u133/u133_f.html">http://www.ncgia.ucsb.edu/giscc/units/u133/u133_f.html</A>,
+posted July 13, 1998.&nbsp; Explore examples provided in bibliography.</LI>
+
+<LI>
+Finish <A HREF="../warmup/greytown/greytown_f.html">Greytown project</A>
+by Friday</LI>
+
+<LI>
+Begin WebGIS project</LI>
+</UL>
+
+<H3>
+
+<HR></H3>
+
+<H3>
+<A NAME="March6"></A>March 6:<B> Implementation of WebGIS</B></H3>
+Topics and tasks: Set up files for use with ArcExplorer or ArcView IMS.
+<UL>
+<LI>
+Finish animated gif project by Friday</LI>
+</UL>
+
+<H3>
+
+<HR WIDTH="100%"></H3>
+
+<H3>
+<A NAME="March13"></A>March 13: Spring Break.</H3>
+
+<HR>
+<H3>
+<A NAME="March20"></A>March 20: Begin Final Project</H3>
+Topics and tasks: Define topic for final research project.
+
+<P>Assignment:
+<UL>
+<LI>
+Review the the Final Projects from <A HREF="../projects/spring98/spring98.html">1998</A>,
+<A HREF="../projects/spring97/spring97.html">1997</A> and <A HREF="../projects/spring96/spring96.html">1996</A>.</LI>
+</UL>
+
+
+<P>
+<HR>
+<H3>
+<A NAME="March27"></A>March 27: <B>Coordinate Systems</B></H3>
+Topics and tasks: Raise issue of establishing and measuring location. Address
+issue of how and why coordinate systems differ. Survey major issues and
+terms. Introduce principle land survey and coordinate systems employed
+in Texas. Raise issues of accuracy and precision. Raise further issues
+in cartographic design and composition.
+
+<P>Assignment:
+<UL>
+<LI>
+Study the <A HREF="../notes/coordsys/coordsys_f.html">Coordinate Systems
+Overview</A>.</LI>
+
+<LI>
+Muehrcke, Phillip C. and Juliana O. Muehrcke.&nbsp; 1998. "Locational Reference
+Systems." Chap. 11 in <I>Map Use: Reading-Analysis-Interpretation</I>,
+4th ed. Madison, WI: J.P. Publications. (EISL Reserve)</LI>
+
+<LI>
+WebGIS project due Friday.</LI>
+</UL>
+
+<HR>
+<H3>
+<A NAME="April3"></A>April 3: Questions of Accuracy and Precision and Managing
+Error.</H3>
+Topics and tasks: Consider how accuracy and precision effect spatial datasets.
+Examine major sources and how they can propogate and cascade in GIS databases.
+Consider methods for dealing with error and imprecision in spatial datasets.
+Discuss standards for creating GIS databases and methods of testing for
+and estimating error. Introduce sensitivity analysis.
+
+<P>Assignment:
+<UL>
+<LI>
+Read <A HREF="../notes/error/error_f.html">Error, Accuracy, and Precision
+in Spatial Datasets</A> .</LI>
+
+<LI>
+Read <A HREF="../notes/manerror/manerror_f.html">Managing Error</A> .</LI>
+
+<LI>
+Burrough, P.A. 1986. "Data Quality, Errors, and Natural Variation." Chap.
+6 in <I>Principles of Geographic Information Systems for Land Resources
+Assessment</I>. Oxford: Oxford University Press. (EISL Reserve)</LI>
+</UL>
+
+
+<P>
+<HR>
+<H3>
+<A NAME="April10"></A>April 10: Economic and Legal Relating to GIS and
+Other Information Technologies.</H3>
+Topics and tasks: Examine situations in which GIS and information technology
+intersect the law. Consider some of the ethical problems that arise from
+the use and misuse of information technology, including the issue of privacy.
+Continue work on final projects.
+
+<P>Assignment:
+<UL>
+<LI>
+<A HREF="../notes/legal/legal_f.html">Legal Issues Relating to GIS</A>.</LI>
+</UL>
+Supplemental Reading:
+<UL>
+<LI>
+Antenucci, John C; Brown, Kay; Croswell, Peter L.; Kevany, Michael J.;
+and Archer, Hugh N. 1991. "Legal Issues." Chap. 11 in <I>Geographic Information
+Systems: A Guide to the Technology</I>. New York: Van Nostrand Reinhold.</LI>
+</UL>
+
+<HR>
+<H3>
+<A NAME="April17"></A>April 17: Ethical Issues Relating to GIS and Other
+Information Technologies.</H3>
+Topics and tasks: Examine situations in which GIS and information technology
+intersect the law. Consider some of the ethical problems that arise from
+the use and misuse of information technology, including the issue of privacy.
+Continue work on final projects.
+
+<P>Assignment:
+<UL>
+<LI>
+<A HREF="../notes/ethics/ethics_f.html">Ethical Issues in Electronic Information
+Systems</A>.</LI>
+</UL>
+Supplemental Reading:
+<UL>
+<LI>
+Antenucci, John C; Brown, Kay; Croswell, Peter L.; Kevany, Michael J.;
+and Archer, Hugh N. 1991. "Legal Issues." Chap. 11 in <I>Geographic Information
+Systems: A Guide to the Technology</I>. New York: Van Nostrand Reinhold.</LI>
+</UL>
+
+<HR>
+<H3>
+<A NAME="April24"></A>April 24: Trends in GIS Technologies and Presentation
+of Final Projects</H3>
+Topics and tasks: Consider current trends in hardware and software. Examine
+close connections now emerging between GIS and other information technologies.
+Continue work on final projects.
+
+<P>
+<HR>
+<H3>
+<A NAME="May1"></A>May 1: Presentation of Final Projects.</H3>
+
+<HR>
+<H3>
+May 6 (Saturday): Final Projects On-line and Documented by 5:00 pm.</H3>
+
+<HR>
+<H3>
+Grading</H3>
+Your final grade will be based on: 1) A set of CAD and animation exercises
+using Microstation (30%); 2) A WebGIS project (30%); A final independent
+project presented in class and in the Web (30%); and 4) Class and lab participation
+and attendance (10%).
+
+<P>The set of CAD and animation exercises (30%) includes:&nbsp; A) Your
+Village; B) Favorite Place; C) Greytown rendering and animation; D) Gif
+animation.
+<BR>
+<HR>
+<H3>
+Optional Textbook</H3>
+Bonnici, Anthony M .&nbsp; 1997.&nbsp; <I>Mapping with Microstation 95</I>.&nbsp;
+Volume I: <I>Foundation</I>.&nbsp;&nbsp; Peterborough, Canada: GeoData
+Solutions.&nbsp; URL: <A HREF="http://www.GeodataResources.on.ca/">http://www.GeodataResources.on.ca/</A>.
+
+<P>
+<HR>Last revised 2000.2.25. JKA.
+</BODY>
+</HTML>

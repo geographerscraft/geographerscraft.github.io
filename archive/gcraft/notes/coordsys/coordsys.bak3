@@ -1,0 +1,1080 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="AUTHOR" content="Peter H. Dana">
+   <meta name="OPERATOR" content="Peter H. Dana">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; U) [Netscape]">
+   <title>Coordinate Systems Overview</title>
+</head>
+<body text="#000000" bgcolor="#80FFFF" link="#0000FF" vlink="#800080" alink="#800080">
+<img SRC="gif/cs.gif" height=152 width=314>
+<h1>
+Coordinate Systems Overview</h1>
+
+<address>
+<a href="http://www.pdana.com">Peter H. Dana</a></address>
+
+<address>
+These materials may be used for study, research, and education in not-for-profit
+applications. All commercial rights are reserved. Please credit the author,
+Peter H. Dana, The Geographer's Craft Project, Department of Geography,
+The University of Colorado at Boulder. Copyright &copy; 1999 Peter H. Dana.</address>
+
+<address>
+This page is available in a <a href="coordsys_f.html" target="_top">framed
+version</a>.&nbsp; For convenience, a <a href="coordsys_ftoc.html">Full
+Table of Contents</a> is provided.</address>
+
+
+<p>
+<p>
+<hr>
+<address>
+Revised: 12/15/99 (Orignally published in July, 1995)</address>
+
+
+<p>
+<p>
+<hr>
+<h2>
+Associated Overviews</h2>
+<a href="../mapproj/mapproj.html"><img SRC="gif/mpmini.gif" height=76 width=157 align=CENTER></a><a href="../datum/datum.html"><img SRC="gif/gdmini.gif" height=76 width=157 align=CENTER></a><a href="../gps/gps.html"><img SRC="gif/gpsmini.gif" height=76 width=157 align=CENTER></a>
+<hr>
+<h1>
+<a NAME="Intro"></a>Introduction</h1>
+
+<ul>
+<li>
+This overview of coordinate systems for georeferencing provides a brief
+description of local and global systems for use in precise positioning,
+navigation, and geographic information systems for the location of points
+in space.</li>
+
+<li>
+There are many different coordinate systems, based on a variety of geodetic
+datums, units, projections, and reference systems in use today.</li>
+
+<li>
+As an example, this overview often uses the position of one of the thousands
+of geodetic control points in the United States, the star in the hand of
+the Goddess of Liberty atop the Capitol building in Austin, Texas.</li>
+
+<ul>
+<li>
+<a href="gif/capitol.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/capitol.gif">The
+Texas Capitol Building</a></li>
+
+<li>
+<a href="gif/capstar.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/capstar.gif">The
+Star in the Hand of The Goddess of Liberty</a></li>
+
+<li>
+<a href="gif/difsys.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/difsys.gif">One
+Location Described by a Variety of Systems</a></li>
+</ul>
+</ul>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a>
+<hr>
+<h1>
+<a NAME="Basic"></a>Basic Coordinate Systems</h1>
+
+<ul>
+<li>
+There are many basic coordinate systems familiar to students of geometry
+and trigonometry.</li>
+
+<li>
+These systems can represent points in two-dimensional or three-dimensional
+space.</li>
+
+<li>
+Ren&eacute; Descartes (1596-1650) introduced systems of coordinates based
+on orthogonal (right angle) coordinates.</li>
+
+<li>
+These two and three-dimensional systems used in analytic geometry are often
+referred to as Cartesian systems.</li>
+
+<li>
+Similar systems based on angles from baselines are often referred to as
+polar systems.</li>
+
+<li>
+<a NAME="Plane"></a><font size=+1>Plane Coordinate Systems</font></li>
+
+<ul>
+<li>
+<font size=+1>Two-dimensional coordinate systems are defined with respect
+to a single plane.</font></li>
+
+<ul>
+<li>
+<a href="gif/cpoint.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/cpoint.gif">A
+Point Described by Cartesian Coordinates in a Plane</a></li>
+
+<li>
+<a href="gif/twopoint.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/twopoint.gif">A
+Line Defined by Two Points in a Plane</a></li>
+
+<li>
+<a href="gif/pythag.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/pythag.gif">Distance
+Between Two points or Line Length from the formula of Pythagoras</a></li>
+
+<li>
+<a href="gif/polar1.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/polar1.gif">A
+Point Described by Polar Coordinates in a Plane</a></li>
+
+<li>
+<a href="gif/polar2.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/polar2.gif">Conversion
+of Polar to Cartesian Coordinates in a Plane</a></li>
+</ul>
+
+<li>
+<a NAME="ThreeD"></a><font size=+1>Three-Dimensional Systems</font></li>
+
+<ul>
+<li>
+Three-dimensional coordinate systems can be defined with respect to two
+orthogonal planes.</li>
+
+<li>
+<a href="gif/threed1.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/threed1.gif">A
+Point Described by Three-Dimensional Cartesian Coordinates</a></li>
+
+<li>
+<a href="gif/threedst.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/threedst.gif">Distance
+Between Two Points Described by Three-Dimensional Cartesian Coordinates</a></li>
+
+<li>
+<a href="gif/threed2.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/threed2.gif">A
+Point Described by Three-Dimensional Polar Coordinates</a></li>
+
+<li>
+<a href="gif/threed3.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/threed3.gif">Conversion
+of Three-Dimensional Polar to Three Dimensional Cartesian Coordinates</a></li>
+</ul>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<h1>
+<a NAME="RefEll"></a>Reference Ellipsoids</h1>
+
+<ul>
+<li>
+Ellipsoidal earth models are required for accurate range and bearing calculations
+over long distances. Loran-C, and GPS navigation receivers use ellipsoidal
+earth models to compute position and waypoint information. Ellipsoidal
+models define an ellipsoid with an equatorial radius and a polar radius.
+The best of these models can represent the shape of the earth over the
+smoothed, averaged sea-surface to within about one-hundred meters.</li>
+
+<li>
+Reference ellipsoids are defined by semi-major (equatorial radius) and
+semi-minor (polar radius) axes.</li>
+
+<li>
+Other reference ellipsoid parameters such as flattening, and eccentricity
+are computed from these two terms.</li>
+
+<li>
+<a href="gif/ellipse.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/ellipse.gif">Reference
+Ellipsoid Parameters</a></li>
+
+<li>
+Many reference ellipsoids are in use by different nations and agencies.</li>
+
+<li>
+<a href="gif/refellip.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/refellip.gif">Selected
+Reference Ellipsoids</a></li>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<h1>
+<a NAME="GeoDat"></a>Geodetic Datums</h1>
+
+<ul>
+<li>
+Geodetic datums define the reference systems that describe the size and
+shape of the earth. Hundreds of different datums have been used to frame
+position descriptions since the first estimates of the earth's size were
+made by Aristotle. Datums have evolved from those describing a spherical
+earth to ellipsoidal models derived from years of satellite measurements.</li>
+
+<li>
+Modern geodetic datums range from flat-earth models used for plane surveying
+to complex models used for international applications which completely
+describe the size, shape, orientation, gravity field, and angular velocity
+of the earth. While cartography, surveying, navigation, and astronomy all
+make use of geodetic datums, the science of geodesy is the central discipline
+for the topic.</li>
+
+<li>
+Referencing geodetic coordinates to the wrong datum can result in position
+errors of hundreds of meters. Different nations and agencies use different
+datums as the basis for coordinate systems used to identify positions in
+geographic information systems, precise positioning systems, and navigation
+systems. The diversity of datums in use today and the technological advancements
+that have made possible global positioning measurements with sub-meter
+accuracies requires careful datum selection and careful conversion between
+coordinates in different datums.</li>
+
+<li>
+<a href="../datum/datum.html"><img SRC="gif/html.gif" height=20 width=22></a><a href="../datum/datum.html">Geodetic
+Datum Overview, Department of Geography, University of Texas at Austin</a></li>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<h1>
+<a NAME="CoorSys"></a>Coordinate Systems</h1>
+
+<h2>
+<a NAME="Global"></a>Global Systems</h2>
+
+<ul>
+<li>
+<a NAME="llh"></a><b>Latitude, Longitude, Height</b></li>
+
+<ul>
+<li>
+The most commonly used coordinate system today is the latitude, longitude,
+and height system.</li>
+
+<li>
+The Prime Meridian and the Equator are the reference planes used to define
+latitude and longitude.</li>
+
+<li>
+<a href="gif/primequ.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/primequ.gif">Equator
+and Prime Meridian</a></li>
+
+<li>
+The geodetic latitude (there are many other defined latitudes) of a point
+is the angle from the equatorial plane to the vertical direction of a line
+normal to the reference ellipsoid.</li>
+
+<li>
+The geodetic longitude of a point is the angle between a reference plane
+and a plane passing through the point, both planes being perpendicular
+to the equatorial plane.</li>
+
+<li>
+The geodetic height at a point is the distance from the reference ellipsoid
+to the point in a direction normal to the ellipsoid.</li>
+
+<li>
+<a href="gif/latlon2.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/latlon2.gif">Geodetic
+Latitude, Longitude, and Height</a></li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="xyz"></a><font size=+1>ECEF X, Y, Z</font></li>
+
+<ul>
+<li>
+Earth Centered, Earth Fixed Cartesian coordinates are also used to define
+three dimensional positions.</li>
+
+<li>
+Earth centered, earth-fixed, X, Y, and Z, Cartesian coordinates (XYZ) define
+three dimensional positions with respect to the center of mass of the reference
+ellipsoid.</li>
+
+<li>
+The Z-axis points toward the North Pole.</li>
+
+<li>
+The X-axis is defined by the intersection of the plane define by the prime
+meridian and the equatorial plane.</li>
+
+<li>
+The Y-axis completes a right handed orthogonal system by a plane 90 degrees
+east of the X-axis and its intersection with the equator.</li>
+
+<li>
+<a href="gif/ecefxyz.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/ecefxyz.gif">ECEF
+X, Y, and Z</a></li>
+
+<li>
+<a href="gif/xyzexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/xyzexp.gif">ECEF
+X, Y, Z Coordinate Example</a></li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="utm"></a><font size=+1>Universal Transverse Mercator (UTM)</font></li>
+
+<ul>
+<li>
+Universal Transverse Mercator (UTM) coordinates define two dimensional,
+horizontal, positions.</li>
+
+<li>
+UTM zone numbers designate 6 degree longitudinal strips extending from
+80 degrees South latitude to 84 degrees North latitude.</li>
+
+<li>
+UTM zone characters designate 8 degree zones extending north and south
+from the equator.</li>
+
+<li>
+There are special UTM zones between 0 degrees and 36 degrees longitude
+above 72 degrees latitude and a special zone 32 between 56 degrees and
+64 degrees north latitude.</li>
+
+<li>
+<a href="gif/utmzones.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/utmzones.gif">UTM
+Zones</a></li>
+
+<li>
+Each zone has a central meridian. Zone 14, for example, has a central meridian
+of 99 degrees west longitude. The zone extends from 96 to 102 degrees west
+longitude.</li>
+
+<li>
+<a href="gif/utm14.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/utm14.gif">UTM
+Zone 14</a></li>
+
+<li>
+Eastings are measured from the central meridian (with a 500km false easting
+to insure positive coordinates).</li>
+
+<li>
+Northings are measured from the equator (with a 10,000km false northing
+for positions south of the equator).</li>
+
+<li>
+<a href="gif/utm14det.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/utm14det.gif">UTM
+Zone 14 Example Detail</a></li>
+
+<li>
+<a href="gif/utmexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/utmexp.gif">UTM
+Coordinate Example</a></li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="mgrs"></a><font size=+1>Military Grid Reference System (MGRS)</font></li>
+
+<ul>
+<li>
+The Military Grid Reference System (MGRS) is an extension of the UTM system.
+UTM zone number and zone character are used to identify an area 6 degrees
+in east-west extent and 8 degrees in north-south extent.</li>
+
+<li>
+UTM zone number and designator are followed by 100 km square easting and
+northing identifiers.</li>
+
+<li>
+The system uses a set of alphabetic characters for the 100 km grid squares.</li>
+
+<li>
+Starting at the 180 degree meridian the characters A to Z (omitting I and
+O) are used for 18 degrees before starting over.</li>
+
+<li>
+From the equator north the characters A to V (omitting I and O) are used
+for 100 km squares, repeating every 2,000 km.</li>
+
+<li>
+Northing designators normally begin with 'A' at the equator for odd numbered
+UTM easting zones.</li>
+
+<ul>
+<li>
+For even numbered easting zones the northing designators are offset by
+five characters, starting at the equator with 'F'.</li>
+
+<li>
+South of the equator, the characters continue the pattern set north of
+the equator.</li>
+
+<li>
+Complicating the system, ellipsoid junctions (spheroid junctions in the
+terminology of MGRS) require a shift of 10 characters in the northing 100
+km grid square designators. Different geodetic datums using different reference
+ellipsoids use different starting row offset numbers to accomplish this.</li>
+</ul>
+
+<li>
+<a href="gif/mgrs.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/mgrs.gif">Military
+Grid Reference System</a></li>
+
+<li>
+UTM zone number, UTM zone, and the two 100 km square characters are followed
+by an even number of numeric characters representing easting and northing
+values.</li>
+
+<ul>
+<li>
+If 10 numeric characters are used, a precision of 1 meter is assumed.</li>
+
+<li>
+2 characters imply a precision of 10 km.</li>
+
+<li>
+From 2 to 10 numeric characters the precision changes from 10 km, 1 km,
+100 m 10 m, to 1 m.</li>
+</ul>
+
+<ul>
+<li>
+<a href="gif/mgrsexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/mgrsexp.gif">MGRS
+Example</a></li>
+</ul>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="georef"></a><font size=+1>World Geographic Reference System (GEOREF)</font></li>
+
+<ul>
+<li>
+The World Geographic Reference System is used for aircraft navigation.</li>
+
+<li>
+GEOREF is based on latitude and longitude.</li>
+
+<li>
+The globe is divided into twelve bands of latitude and twenty-four zones
+of longitude, each 15 degrees in extent.</li>
+
+<li>
+<a href="gif/georef.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/georef.gif">World
+Geographic Reference System Index</a></li>
+
+<li>
+These 15 degree areas are further divided into one degree units identified
+by 15 characters.</li>
+
+<li>
+<a href="gif/georef1.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/georef1.gif">GEOREF
+1 Degree Grid</a></li>
+
+<li>
+Two numeric characters designate the integer number of minutes of longitude
+east of the one degree quadrangle boundary longitude.</li>
+
+<li>
+Two additional numeric characters designate the number of minutes of latitude
+north of the one degree quadrangle boundary latitude.</li>
+
+<li>
+<a href="gif/georefex.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/georefex.gif">GEOREF
+Example</a></li>
+
+<li>
+The World Geographic Reference System can be extended to refer to larger
+areas of operation.</li>
+
+<li>
+A larger East-West area can be designated by adding an "S" and the number
+of of nautical miles to the east and west sides of the referenced point.</li>
+
+<li>
+A larger north-south area can be designated by adding an "X" and the number
+of nautical miles to the north and south.</li>
+
+<li>
+A circular area can be designated by adding an "R" and the radius of the
+circle in nautical miles.</li>
+
+<li>
+An altitude zone can be defined by adding an "H" and a value of altitude.
+The number of digits indicates the precision of the value. Five digits
+implies units in feet. Four digits implies tens of feet, three digits,
+hundreds of feet, and two digits, thousands of feet.</li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="local"></a><b><font size=+1>Local systems</font></b></li>
+
+<ul>
+<li>
+<a NAME="ups"></a><font size=+1>Universal Polar Stereographic (UPS)</font></li>
+
+<ul>
+<li>
+The Universal Polar Stereographic projection (UPS) is defined above 84
+degrees north latitude and south of 80 degrees south latitude.</li>
+
+<li>
+The eastings and northings are computed using a polar aspect stereographic
+projection.</li>
+
+<li>
+Zones are computed using a different character set for south and north
+Polar regions.</li>
+
+<li>
+<a href="gif/nups.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/nups.gif">North
+Polar Area UPS Grid</a></li>
+
+<li>
+<a href="gif/nupsexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/nupsexp.gif">North
+Polar UPS Example</a></li>
+
+<li>
+<a href="gif/sups.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/sups.gif">South
+Polar Area UPS Grid</a></li>
+
+<li>
+<a href="gif/supsexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/supsexp.gif">South
+Polar UPS Example</a></li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="national"></a><font size=+1>National Grid Systems</font></li>
+
+<ul>
+<li>
+Many nations have defined grid systems based on coordinates that cover
+their territory. Australia, Belgium, Great Britain,&nbsp;<a href="http://www.nls.fi/kartta/julkaisu/kkj.html"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.nls.fi/kartta/julkaisu/kkj.html">Finland</a>
+, Ireland, Italy, The Netherlands, New Zealand, and Sweden are a examples
+of nations that have defined a National Grid System.</li>
+</ul>
+
+<ul>
+<li>
+<a NAME="British"></a>British National Grid (BNG)</li>
+
+<ul>
+<li>
+The British National Grid (BNG) is based on the National Grid System of
+England, administered by the British Ordnance Survey.</li>
+
+<li>
+The BNG has been based on a Transverse Mercator projection since the 1920s.</li>
+
+<li>
+The modern BNG is based on the Ordnance Survey of Great Britain Datum 1936
+(Airy Ellipsoid).</li>
+
+<li>
+The true origin of the system is at 49 degrees north latitude and 2 degrees
+west longitude.</li>
+
+<li>
+The false origin is 400 km west and 100 km north.</li>
+
+<li>
+Scale at the central meridian is 0.9996012717</li>
+
+<li>
+The first BNG designator defines a 500 km square.</li>
+
+<li>
+The second designator defines a 100 km square.</li>
+
+<li>
+<a href="gif/bng100km.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/bng100km.gif">British
+National Grid 100 km Squares</a></li>
+
+<li>
+The remaining numeric characters define 10 km, 1 km, 100 m, 10 m, or 1
+m eastings and northings.</li>
+
+<li>
+<a href="gif/bngexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/bngexp.gif">British
+National Grid Example</a></li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="Irish"></a><font size=+1>Irish National Grid</font></li>
+
+<ul>
+<li>
+The Irish National Grid (ING) is administered by the Irish Ordnance Survey.</li>
+
+<li>
+The ING has been based on a Transverse Mercator projection since the 1920s.</li>
+
+<li>
+The ING is based on the Ordnance Survey of Great Britain Datum 1936 or
+the Ireland Datum 1965.</li>
+
+<li>
+The true origin of the system is at 53 degrees, 30 minutes north latitude
+and 8 degrees west longitude.</li>
+
+<li>
+The false origin is 200 km west and 250 km south of the true origin.</li>
+
+<li>
+Scale at the central meridian is 1.000035.</li>
+
+<li>
+The first ING designator defines a 100 km square.</li>
+
+<li>
+<a href="gif/ing100km.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/ing100km.gif">Irish
+National Grid 100 km Squares</a></li>
+
+<li>
+The remaining numeric characters define 10 km, 1 km, 100 m, 10 m, or 1
+m eastings and northings.</li>
+
+<li>
+<a href="gif/ingexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/ingexp.gif">Irish
+National Grid Example</a></li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="State"></a><font size=+1>State Plane Coordinates</font></li>
+
+<ul>
+<li>
+In the United States, the State Plane System was developed in the 1930s
+and was based on the North American Datum 1927 (NAD27).</li>
+
+<ul>
+<li>
+NAD 27 coordinates are based on the foot.</li>
+
+<li>
+While the NAD-27 State Plane System has been superseded by the NAD-83 System,
+maps in NAD-27 coordinates<font size=+1> </font>(in feet) are still in
+use.</li>
+
+<li>
+<a href="gif/statecap.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/statecap.gif">NAD-27
+State Plane Coordinate Example</a></li>
+
+<li>
+Most USGS 7.5 Minute Quadrangles use several coordinate system grids including
+latitude and longitude, UTM kilometer tic marks, and applicable State Plane
+coordinates.</li>
+
+<li>
+<a href="gif/ausc3.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/ausc3.gif">Three
+Coordinate Systems on the Austin, East USGS 7.5' Quadrangle</a></li>
+</ul>
+
+<li>
+The State Plane System 1983 is based on the North American Datum 1983 (NAD83).</li>
+
+<ul>
+<li>
+NAD 83 coordinates are based on the meter.</li>
+</ul>
+
+<li>
+State plane systems were developed in order to provide local reference
+systems that were tied to a national datum.</li>
+
+<li>
+Some smaller states use a single state plane zone.</li>
+
+<li>
+Larger states are divided into several zones.</li>
+
+<li>
+State plane zone boundaries often follow county boundaries.</li>
+
+<li>
+Lambert Conformal Conic projections are used for rectangular zones with
+a larger east-west than north- south extent.</li>
+
+<ul>
+<li>
+<a href="gif/tsp4203.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/tsp4203.gif">State
+Plane Zone Example</a></li>
+
+<li>
+<a href="gif/tspzones.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/tspzones.gif">Texas
+State Plane Zones and Parameters</a></li>
+
+<li>
+<a href="gif/stateexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/stateexp.gif">NAD-83
+State Plane Coordinate Example</a></li>
+</ul>
+
+<li>
+Transverse Mercator projections are used to define zones with a larger
+north-south extent.</li>
+
+<li>
+One State Plane zone in Alaska uses an oblique Mercator projection for
+a thin diagonal area.</li>
+
+<ul>
+<li>
+<a href="gif/ak5001om.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/ak5001om.gif">Alaska
+State Plane Zone 5001</a></li>
+</ul>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="PublicLand"></a><font size=+1>Public Land Rectangular Surveys</font></li>
+
+<ul>
+<li>
+Public Land Rectangular Surveys have been used since the 1790s to identify
+public lands in the United States.</li>
+
+<li>
+The system is based on principal meridians and baselines.</li>
+
+<li>
+Townships, approximately six miles square, are numbered with reference
+to baseline and principal meridian.</li>
+
+<li>
+Ranges are the distances and directions from baseline and meridian expressed
+in numbers of townships.</li>
+
+<li>
+Every four townships a new baseline is established so that orthogonal meridians
+can remain north oriented.</li>
+
+<li>
+<a href="gif/usrecsur.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/usrecsur.gif">U.S.
+Rectangular Survey</a></li>
+
+<li>
+Sections, approximately one mile square, are numbered from 1 to 36 within
+a township.</li>
+
+<li>
+<a href="gif/township.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/township.gif">Township
+Sections</a></li>
+
+<li>
+Sections are divided into quarter sections.</li>
+
+<li>
+Quarter sections are divided into 40-acre, quarter-quarter sections.</li>
+
+<li>
+Quarter-quarter sections are sometimes divided into 10-acre areas.</li>
+
+<li>
+<a href="gif/section.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/section.gif">Subdivided
+Section</a></li>
+
+<li>
+Fractional units of section quarters, designated as numbered lots, often
+result from irregular claim boundaries, rivers, lakes, etc.</li>
+
+<li>
+Abbreviations are used for Township (T or Tps), Ranges (R or Rs), Sections(sec
+or secs), and directions (N, E, S, W, NE, etc.).</li>
+
+<li>
+<a href="gif/tandrdes.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/tandrdes.gif">A
+Township and Range Property Description</a></li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="metes"></a><font size=+1>Metes and Bounds</font></li>
+
+<ul>
+<li>
+Metes and Bounds identify the boundaries of land parcels by describing
+lengths and directions of lines.</li>
+
+<li>
+Lines are described with respect to natural or artificial monuments and
+baselines defined by these monuments.</li>
+
+<li>
+The metes and bounds survey is based on a point of beginning, an established
+monument.</li>
+
+<li>
+Line lengths are measured along a horizontal level plane.</li>
+
+<li>
+Directions are bearing angles measured with respect to a previous line
+in the survey.</li>
+
+<li>
+<a href="gif/metesexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/metesexp.gif">Metes
+and Bounds Example</a></li>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="MiscSys"></a><b><font size=+1>Miscellaneous Systems</font></b></li>
+
+<ul>
+<li>
+<a NAME="Postal"></a><font size=+1>Postal Codes</font></li>
+
+<li>
+Postal codes such as the United States ZIP code can be used to identify
+areas.</li>
+
+<li>
+Three digit codes identify large areas.</li>
+
+<ul>
+<li>
+<a href="gif/texzip3.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/texzip3.gif">Texas
+3-Digit Postal Zip Codes</a></li>
+
+<li>
+<a href="gif/texzip5.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/texzip5.gif">
+Five-digit ZIP codes identify smaller areas.</a></li>
+</ul>
+
+<li>
+<a NAME="Maiden"></a><font size=+1>Maidenhead Grid Squares</font></li>
+
+<li>
+The Maidenhead Grid Square system was designed to facilitate the designation
+of geographical positions for use within the amateur radio community. The
+Maidenhead Grid identifies "Fields" consisting of an area twenty degrees
+of longitude by ten degrees of latitude with two alphabetic characters.
+An additional set of two numeric digits locates a specific two-degrees
+of longitude by one-degree of latitude" grid square" area within the Field.
+Two additional alphabetic characters can be used to refer to a 5.0 minutes
+of longitude by 2.5 minutes of latitude "Sub-Square" within the Grid Square.
+In each case the longitude character precedes the latitude designator.</li>
+
+<ul>
+<li>
+Variations and extensions to the Maidenhead system are in use. Some Global
+Positioning System (GPS) receivers display positions in an extended Maidenhead
+system that appends one or two additional sets of numeric and alphabetic
+pairs, increasing the precision with which a location can be specified.</li>
+
+<li>
+Some amateur radio operators use other terms for the Maidenhead system
+such as World Wide Locator (WWL) squares or QTH locator squares.</li>
+
+<li>
+Ham operators use these grid designators to communicate transmitter positions
+to each other. Several utility programs are available to convert between
+latitude and longitude and the Maidenhead Grid Square system. Some of these
+also allow computation of distance and azimuth between stations.</li>
+
+<li>
+<a href="gif/maiden1.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/maiden1.gif">Maidenhead
+Grid Square Fields</a></li>
+
+<li>
+<a href="gif/maiden2.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/maiden2.gif">Maidenhead
+Grid Squares</a></li>
+
+<li>
+<a href="gif/maiden3.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/maiden3.gif">Maidenhead
+Grid Sub-Squares</a></li>
+</ul>
+
+<li>
+<a NAME="vandh"></a><font size=+1>AT&amp;T V and H Coordinate System</font></li>
+
+<li>
+The AT&amp;T V and H (Vertical and Horizontal) coordinate system was devised
+in 1957 by Jay K. Donald for the easy computation of distances between
+telephone switching centers. The system is based on the Donald Elliptic
+Projection, a two-point equidistant projection covering the land masses
+of the continental United States and Canada. The system is based on units
+of the square-root of one-tenth of a mile.</li>
+
+<ul>
+<li>
+<a href="gif/vandh.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/vandh.gif">AT&amp;T
+V and H Coordinates - Donald Elliptic Projection</a></li>
+</ul>
+
+<li>
+Once the coordinates of switching sites are known, distances between sites
+can be simply found by calculating the square root of the sum of the squares
+of the differences in the vertical and horizontal coordinates divided by
+ten. Designed for simple distance calculations that could be accomplished
+in the field with a slide rule, the system is still found imbedded in some
+telephone rate computation software.</li>
+
+<ul>
+<li>
+<a href="gif/vandhexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/vandhexp.gif">V
+&amp; H Coordinate Example</a></li>
+</ul>
+
+<li>
+<a NAME="Navsys"></a><font size=+1>Navigation System Coordinates</font></li>
+
+<li>
+Navigation systems can define locations by referencing measurements of
+electronic signals.</li>
+
+<ul>
+<li>
+Loran-C time-differences can identify positions with an accuracy of one-quarter
+of a mile.</li>
+
+<ul>
+<li>
+<a href="gif/loranexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/loranexp.gif">Loran-C
+Time Differences</a></li>
+</ul>
+
+<li>
+Omega phase-differences can identify positions with an accuracy of 1-5
+kms.</li>
+
+<li>
+VOR-DME (Very high frequency Omni Range - Distance Measuring) measurements
+from an aircraft can identify locations with an accuracy of 0.5-3 kms.</li>
+
+<ul>
+<li>
+<a href="gif/vordme.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/vordme.gif">VOR-DME
+Chart Detail</a></li>
+
+<li>
+<a href="gif/vordmexp.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/vordmexp.gif">VOR
+- DME Coordinates</a></li>
+</ul>
+
+<li>
+Navigational buoys, and other aids to navigation can be used as visual
+reference points, bearings to visual references can identify locations
+with varying accuracies.</li>
+
+<li>
+<a href="gif/buoy.gif"><img SRC="gif/gif.gif" height=20 width=22></a><a href="gif/buoy.gif">Navigational
+Buoy</a></li>
+</ul>
+</ul>
+
+<li>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></li>
+</ul>
+
+<hr>
+<ul>
+<li>
+<a NAME="Refs"></a><b><font size=+1>References</font></b></li>
+
+<ul>
+<li>
+Defense Mapping Agency. 1977. The American Practical Navigator Publication
+No. 9, Defense Mapping Agency Hydrographic Center.</li>
+
+<li>
+Laurila, Simo H. 1976. Electronic Surveying and Navigation. New York: John
+Wiley &amp; Sons</li>
+
+<li>
+Muehrcke, P.C and Juliana O. Muehrcke. 1992. Map Use. Madison, WI: JP Publications.</li>
+
+<li>
+National Imagery and Mapping Agency. 1997. World Geodetic System 1984 (WGS
+84) - Its Definition and Relationships with Local Geodetic Systems, 3rd
+Edition. Washington, DC: National Imagery and Mapping Agency.</li>
+
+<li>
+Snyder, John P. 1987. Map Projections, A Working Manual. Washington, DC:
+US Govt. Printing Office.</li>
+
+<li>
+Thomas, P. D. 1970. Spheroidal Geodesics, Reference Systems and Local Geometry.
+Washington, DC: U. S. Naval Oceanographic Office.</li>
+
+<li>
+U. S. Air Force and Navy. 1983. Air Navigation, AFM 51-40. Washington,
+DC: Department of the Air Force.</li>
+
+<li>
+U. S. Army. 1967. TM 5-241-1 Grids and Grid References. Washington, DC:
+Department of the Army.</li>
+</ul>
+<a href="#TOC"><img SRC="gif/uparrow.gif" height=20 width=22></a><a href="#TOC">Table
+of Contents</a></ul>
+
+</body>
+</html>

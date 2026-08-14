@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <META NAME="Author" CONTENT="Trey Rhodes">
+   <TITLE>Short TOC</TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000EE" VLINK="#551A8B" ALINK="#0000EE">
+<A HREF="../../contents.html" target="_top"><IMG SRC="gif/title.gif" HEIGHT=84 WIDTH=125></A>
+
+<P><FONT SIZE=+2>Error, Accuracy, and Precision</FONT>
+
+<P><FONT SIZE=-1><A HREF="error_ftoc.html" TARGET="pages">Full Table of
+Contents</A></FONT>
+
+<P><FONT SIZE=-1><A HREF="error.html" TARGET="pages">Top of Module</A></FONT>
+<BR><FONT SIZE=-1>&nbsp;</FONT>
+<BR><FONT SIZE=-1>&nbsp;</FONT><FONT SIZE=-2> 1&nbsp; <A HREF="error.html#Importance" TARGET="pages">The
+Importance of Error, Accuracy, and Precision</A></FONT>
+<BR><FONT SIZE=-2>&nbsp;</FONT>
+<BR><FONT SIZE=-2>&nbsp; 2&nbsp; <A HREF="error.html#Definitions" TARGET="pages">Some
+Basic Definitions</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 3&nbsp; <A HREF="error.html#Types" TARGET="pages">Types
+of Error</A></FONT>
+<BR><FONT SIZE=-2>&nbsp;</FONT>
+<BR><FONT SIZE=-2>&nbsp; 4&nbsp; <A HREF="error.html#Sources1" TARGET="pages">Sources
+of Inaccuracy and Imprecision</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 5&nbsp; <A HREF="error.html#Propagation" TARGET="pages">The
+Problems of Propagation and Cascading</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 6&nbsp; <A HREF="error.html#False" TARGET="pages">Beware
+of False Accuracy and Precision!</A></FONT>
+<BR><FONT SIZE=-2>&nbsp;</FONT>
+<BR><FONT SIZE=-2>&nbsp; 7&nbsp; <A HREF="error.html#Danger" TARGET="pages">The
+Dangers of Undocumented Data</A></FONT>
+<BR><FONT SIZE=-2>&nbsp;</FONT>
+<BR><FONT SIZE=-2>&nbsp; 8&nbsp; <A HREF="error.html#Managing" TARGET="pages">The
+Principles of Managing Error</A></FONT>
+
+<P><FONT SIZE=-2>&nbsp; 9&nbsp; <A HREF="error.html#Readings" TARGET="pages">Required
+Reading</A></FONT>
+<BR><FONT SIZE=-2>&nbsp;</FONT>
+<BR><FONT SIZE=-2>10&nbsp; <A HREF="error.html#References" TARGET="pages">References
+and Further Reading</A></FONT>
+<BR><FONT SIZE=-2>&nbsp;</FONT>
+<BR><FONT SIZE=-2>11&nbsp; <A HREF="../../exam/error/error.html" TARGET="pages">Examination
+and Study Questions</A></FONT>
+</BODY>
+</HTML>

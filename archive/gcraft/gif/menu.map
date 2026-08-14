@@ -1,0 +1,7 @@
+default http://www.Colorado.EDU/geography/gcraft/contents.html
+rect http://www.Colorado.EDU/geography/gcraft/notes/notes.html 0,3 71,58
+rect http://www.Colorado.EDU/geography/gcraft/sched/schedfll.html 0,119 56,158
+rect http://www.Colorado.EDU/geography/gcraft/sched/schedspg.html 0,170 56,200
+rect http://www.Colorado.EDU/geography/gcraft/exam/exam.html 1,216 56,244
+rect http://www.Colorado.EDU/geography/gcraft/about/visitor.html 1,256 72,296
+rect http://www.Colorado.EDU/geography/gcraft/warmup/contents.html 0,63 57,107

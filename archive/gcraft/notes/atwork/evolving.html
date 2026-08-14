@@ -1,0 +1,137 @@
+<HTML>
+<TITLE>The Evolving GIS Workplace</TITLE>
+<H1>The Evolving GIS Workplace</H1>
+<H2>by Larry Daniel</H2>
+<H2>Vice President, Research &amp  
+Information Systems</H2>
+<H2>Castillo Company, Phoenix, Arizona</H2>
+(Former Director of GIS at MPSI, Austin, Texas; from <I>GIS World</I> December 1993)<P>
+<H3>The Open Trend</H3>
+In an era of emerging standards and open architecture,  there continue to be increasing capabilities for 
+integrating data from different sources.  This enables teams to construct databases using any piece of available 
+data, with diminishing regard for where software or hardware data originates. This trend began in the late 
+1980s and continues to surface in the increasing number of import/export utilities found in most commercial 
+GIS.<P>
+<H3>From Product -Constrained  to  Multiple-
+Products</H3>
+What may be an equally important development is that as data is transported between different systems, an 
+increasing number of GIS users are using multiple systems to process the data.  Depending on how data needs 
+to be crunched, different systems are involved at different points of the crunching.  Each system does what it 
+performs best, regardless of what vendor manufactures it or what platform it resides on.<P>
+The end result is an increasing sense that if data exists, it can be processed in whatever manner the user desires.  
+No longer are systems constrained within the limitations of a single software product or hardware platform.  
+The data is simply transferred between systems.<P>
+<H3>The Bottom Line</H3>
+Whether database construction will be a one-time effort or an ongoing effort, organizations should regard these 
+events as important news, for the trends imply that  they can leverage the most cost-effective data without 
+regard to format and be assured of massaging it with the most advanced GIS features of whatever products they 
+can afford to buy.  It has become feasible to search for production software without regard to presentation 
+capabilities, and search for GIS presentation software without regard to production abilities.  The net effect is 
+that data acquisition costs can be kept down, production activity can be performed very efficiently and the 
+quality of end-use deliverables can increase. <P>
+<H3>Who benefits from these developments?</H3>
+The chief beneficiaries of these developments are those organizations who must assemble a variety of data into 
+a single database, and produce applications and output for a variety of uses.  The trend toward open data 
+exchange free users to shop around for data at least cost, and then exchange data between systems in order to 
+construct databases efficiently.<P>
+Consider an environment  where pointfiles exist in a Windows-based PC-GIS, census data exists in different 
+GIS vendor's format on a workstation, address matching data resides on a mainframe, graphic information has 
+been digitized on a mini-computer using yet a third GIS package and attribute data resides in a RDBMS.  This 
+scenario essentially equates to that faced daily at the GIS center for MPSI in Austin.   As daunting as its 
+integration might seem, more and more GIS users are operating with similar requirements and conquering the 
+challenge of integration.  <P>
+In MPSI's case, the diversity of data sources generally results from one or more of the following factors:<P>
+<UL>
+<LI>Client data can reside in a PC-GIS format (and require integration with MPSI data)
+<LI>We have accumulated demographic data in workstation GIS format
+<LI>We have accumulated street data for use in home-grown address matching programs on a 
+mainframe
+<LI>We have used drafting software on a mini-computer to delineate modelling boundaries 
+<LI>We have stored attribute data in flat files and ported recent data to RDBMS
+</UL>
+In other organizations, there might be other factors that lead to this situation:<P>
+<UL>
+<LI>Joint efforts with other departments/agencies
+<LI>Transitions to new GIS software
+<LI>Pursuing least cost data
+<LI>Working with whatever data is available
+</UL>
+To integrate diverse sources, users can accomplish much using generic import/export utilities.  Often, however, 
+it is necessary to process the data on separate systems before assembling the delivery system.   This is generally 
+because output specifications can require that data to be processed in a manner that can't  be performed feasibly 
+in the delivery system. For example, the delivery system might not be capable of efficiently handling data from 
+different projections; file formats for use in address matching might not agree with the target system; data might 
+require aggregation in manners not efficiently performed by the target system; or attribute data might need to 
+be imported from a separate database manager into GIS.<P>
+Our use of separate systems generally reflects three major types of processing:  we use 1) workstation GIS 
+(Arc/Info from ESRI, Redlands, California) to align geographies of varying projections, we use 2) Windows-
+based PC-GIS (MapInfo from MapInfo Corporation, Troy, New York) to aggregate point data and as the 
+presentation tool, and we use 3) custom written C, FORTRAN and SQL routines to perform data loading and 
+reformatting.  An example of our integration processes is cited below.<P>
+<H3>The Vancouver Story</H3>
+A Vancouver database was requested to include site analysis data and modelling boundaries in tandem with 
+Canadian census and address matching files on a Windows-based PC-GIS.  To keep production costs down, the 
+organization sought to use whatever internal files were available instead of purchasing data directly in the PC-
+GIS format.  Our in-house data included AMF Files (Area Master Files -- Canadian Road Data), FSA 
+boundaries (postal zones), Census boundaries (but no data), and a wealth of MPSI-defined modelling 
+geographies. Data missing at the enumeration area level was obtained from a third-party supplier in the PC-
+GIS format.<P>
+Conceptually, the integration task was rather easy -- port all the information over to the PC-GIS.  But in 
+practice, the portation not only required transfer, but several processing activities:<P>
+<UL>
+<LI>Extracting selected modelling boundaries from mini-computer drafting files 
+<LI>Loading attribute data from flat files into GIS format
+<LI>Reformatting Area Master Files from Packed Decimal a format interpretable by the workstation GIS
+<LI>Creating an 'address match' coverage
+<LI>Aligning the Address match coverage to modelling projections
+<LI>Aligning 3rd-party Enumeration Area Data to modelling projections
+<LI>Clipping Address Match and Enumeration Area Coverage beyond the modelling boundary
+<LI>Clipping Census Tract and FSA boundaries
+<LI>Aggregating Enumeration Area Data to Census Tract and FSA levels
+</UL>
+We regarded the selected PC-GIS as an excellent presentation vehicle with reasonably strong facilities for 
+aggregating point data.  But the PC product really lacks the power to rubber sheet, align or clip geographies in 
+any efficient manner.  After assessing the requirements, it was determined that a full integration was best 
+accomplished by going beyond the PC, and using the workstation GIS as well as developing several C and 
+FORTRAN routines to assist in the integration.<P>
+<H3>The Process</H3>
+The Workstation GIS was used as the primary production vehicle, but the integration process took on a 
+decidely eclectic flavor.  <P>
+Most of the geographies, including the FSA and census boundaries, as well as MPSI's proprietary modelling 
+boundaries were initially digitized on mini-computer drafting software (IGDS, Intergraph Corporation, 
+Huntsville, Alabama).  We transferred these graphic files over to the workstation GIS format using standard 
+GIS import facilities.  Corresponding attribute data was present in flat files.  This data was transferred into the 
+workstation RDBMS (Oracle, Oracle Corporation, California) using the RDBMS vendor's import facilities.  
+Once data was in the RDBMS, we made the information more interpretable by manufacturing additional 
+attribute data, such as determining common business ratios and various performance indicators.  The attribute 
+data was then transferred into workstation GIS and joined with the graphics data using the workstation system's 
+relational interface tools.   <P>
+To create an address matching coverage, we needed to work with the AMF files initially found on an IBM 
+mainframe.  Those files were ported to the workstation and C routines were written to remove EBCDIC 
+characters that had resided on the mainframe copy of the files.  FORTRAN routines were written to reformat 
+the modified AMFs to TIGER format, so that the data could be processed by the workstation GIS to create an 
+address matching coverage.<P>
+The least expensive Enumeration Area data we found had come prepared in the PC-GIS  format.  In order to 
+align it with the other geographies, we had to transfer it to the workstation (Unix) world.  We 'exported' the 
+points in the PC package to DXF format and then used network software to transfer the output from DOS to 
+Unix format.  Upon returning to the workstation, we imported the DXF file into the workstation GIS using 
+standard import facilities.<P>
+At this point all the data was finally resident in one system -- the workstation GIS.  We used this environment 
+align all geographies to the same projection.  Then we clipped the Address Match, Enumeration Area, Census 
+Tract and FSA coverages to 'fit' modelling boundaries. <P>
+With these processes done, all that remained was to export the workstation GIS data to the PC-GIS system.  
+Workstation coverages were converted to PC  format using tools provided by the PC-GIS vendor.  The 
+resultant files were then ported to the PC-environment using the network utilities and 'imported' into the PC-
+GIS product.  We QA'd the data and then wrapped up the process by using the PC GIS to aggregate 
+enumeration area data to census and FSA levels.<P>
+The net result was a database, with all coverages cleanly lining up and attribute information available at every 
+level.  The integration was performed within 80 hours by two analysts. This database could not have been 
+nearly as quickly (if at all) if we had only used the PC GIS.  The client was thoroughly impressed that such a 
+diverse set of information came together so quickly.<P>
+<H3>Conclusion</H3>
+The GIS workplace and trade is evolving.  The trend toward easier data exchange has led to an environment 
+where GIS databases are constructed using multiple GIS and multiple technologies.  This arrangement was 
+once only common at the digital conversion houses.  But with ever-decreasing data costs and an increasing 
+array of GIS products, it appears likely that more and more organizations will lend serious consideration to this 
+approach.<P>
+</HTML>

@@ -1,0 +1,256 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<IMG SRC="http://www.utexas.edu/depts/grg/gif/lines/newlines/bluln.gif" HEIGHT=7 WIDTH=881>
+<H2>
+5. The Cartographer's Palette: The Semiotics of Cartography</H2>
+Cartographers employ symbols to represent location, direction, distance,
+movement, function, process, and correlation. These features of the real
+world are abstracted and symbolized on maps as points, lines, and areas.
+A tremendous amount of practice and skill is involved in choosing effective
+strategies for symbolization. One of the best ways to learn about these
+strategies is to consider the sorts of visual resources available to the
+cartographer.
+<BR>&nbsp;
+
+<P><A NAME="5_5.1"></A><B>5.1 The range of visual resources</B>
+<UL>As cartographers reduce the world to points, lines, and areas, they
+use a variety of visual resources. Jacques Bertin in his book <I>The Semiology
+of Graphics</I> (1983), inventories these resources using the categories
+of size, shape, value, texture or pattern, hue, orientation, and shape.
+<UL><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/visres.gif" HEIGHT=368 WIDTH=480>
+
+<P>Cartographers can apply these resources to points, lines, and areas
+in a variety of ways.
+
+<P>Each of these resources can be used individually to draw attention to
+map features, or they may be used in combination. Sometimes cartographers
+deploy several of these resources simultaneously to stress particularly
+important information or to improve its legibility.</UL>
+</UL>
+
+
+<P><A NAME="5_5.2"></A><B>5.2 Strategies of symbolization</B>
+<UL>With such a range of resources available, the question arises as to
+what strategies to use in assigning these resources to points, lines, and
+areas. The strategies employed vary greatly depending on the nature of
+the phenomena being mapped. We distinguish among four <B>levels of measurement</B>
+in describing real-world phenomena:
+<UL>
+<UL><A NAME="5_5.2.a"></A><B>Nominal data</B> is information that is simply
+grouped into categories on the basis of qualitative considerations: a road
+distinguished from a river or a forest distinguished from an open field.
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/nompoint.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><I><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/nompoint.gif">Points</A></I>
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/nomareas.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><I><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/nomareas.gif">Areas</A></I>
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/nomline.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><I><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/nomline.gif">Lines</A></I>
+
+<P><A NAME="5_5.2.b"></A><B>Ordinal data</B> is grouped by rank on the
+basis of some quantitative measure: small, medium, and large cities or
+single-lane, double-lane, and four-lane roads.
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ordpoint.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><I><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ordpoint.gif">Points</A></I>
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ordarea.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><I><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ordarea.gif">Areas</A></I>
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ordline.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><I><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ordline.gif">Lines</A></I>
+
+<P><A NAME="5_5.2.c"></A><B>Interval data</B> is information that can be
+arranged using a standard scale along which operations of addition and
+subtraction have meaning. Temperature is an example of an interval measure.
+
+<P><A NAME="5_5.2.d"></A><B>Ratio data</B> is information that, like interval
+data, can be arranged along a scale but, in addition, the scale begins
+at a non-arbitrary zero point. At the zero point, no features are present.
+The operations of multiplication and division can be employed with ratio
+data to consider proportions and magnitudes. Elevation above sea level,
+precipitation, and population are all examples of ratio data.
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ration.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ration.gif">Points
+and Areas</A>
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ratiol.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/ratiol.gif">Lines</A></UL>
+</UL>
+</UL>
+
+<UL>These resources can be used in a wide variety of ways and several may
+be used at once to highlight or reinforce a single relationship. Thus,
+for example, if only a single ordinal variable is being mapped, several
+visual resources may be deployed at once. If several ordinal variables
+are being displayed, the visual resources may have to be used more selectively.</UL>
+<A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/usgs.gif"><IMG SRC="http://www.utexas.edu/depts/grg/gif/html.gif" HEIGHT=20 WIDTH=22></A><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/usgs.gif">USGS
+map symbols</A>
+
+<P><A NAME="5_5.3"></A><B>5.3 Typography and lettering</B>
+<UL>Adding text to a map is one of the cartographer's most demanding tasks.
+The cartographer must be concerned both with the <B>content</B> and the
+<B>form</B> of the text, that is the wording and the way the text is displayed
+on the map. Indeed, the verbal content of a map is one of the most powerful
+communicational resources available to the cartographer. Its effective
+use is often the point of difference between high-quality, professional
+maps and less skillfully executed maps. Compare the following maps and
+notice how much difference lettering makes to overall readability. Pay
+special attention to the differences--the size of the lettering, how it
+is aligned, and the fonts and cases used.
+<UL><A NAME="5_5.3.a"></A>A. Content
+
+<P>Concise, carefully formulated captions and annotations make a tremendous
+difference to a map. Compare:&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/letterng.gif" HEIGHT=397 WIDTH=483></UL>
+One way to test the effectiveness of your text is to ask others to read
+and interpret a draft of your map. If they are confused or misinterpret
+the theme, rewording is essential. You should also check your map for redundancies
+so as to avoid repeating yourself in the title, legend, and annotations.
+That is, consider all of the map text together and balance its content
+to convey your message without being repetitious. Finally, avoid using
+abbreviations unless you are certain your audience will be familiar with
+their meaning.
+<UL><A NAME="5_5.3.b"></A>B. Form
+
+<P>Bertin's semiotic resources apply to text just as they do to points,
+lines, and areas. However, with respect to text, some of these resources
+are given special names. Font refers to the shape and pattern of letters.
+Hundreds of fonts have been created since the invention of the printing
+press and are available using automated systems. Fonts are often grouped
+into several broad categories. A distinction is made between&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/serif.gif" HEIGHT=13 WIDTH=32>
+and&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/sans.gif" HEIGHT=11 WIDTH=61>
+fonts, as well as between <B>Roman</B> and <I>Italic</I> fonts. The weight
+of text is classified as&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/bold.gif" HEIGHT=11 WIDTH=32>,&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/medium.gif" HEIGHT=10 WIDTH=47>,
+or&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/light.gif" HEIGHT=17 WIDTH=32>.
+<BR>&nbsp;
+
+<P><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/sanscap.gif" HEIGHT=11 WIDTH=64>
+fonts can be scanned more rapidly by most readers, although less information
+seems to be retained than would be the case if the same text was displayed
+with a&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/serif.gif" HEIGHT=13 WIDTH=32>
+font. Italic fonts are used for the titles of books and journals and for
+some proper names. Since it was impossible to print italic characters with
+typewriters,&nbsp;<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/underln.gif" HEIGHT=15 WIDTH=78>
+was used to indicate the placement of italic characters. It is no longer
+necessary to employ this convention with automated systems capable of printing
+italic characters. Traditionally the size of lettering was measured in
+picas or point size. Increasingly, automated systems measure size using
+conventional units such as inches and millimeters. The horizontal and vertical
+distances between lettering are traditionally referred to as <I>leading
+</I>, but increasingly today as inter-character and inter-line spacing.
+<BR>&nbsp;
+
+<P>Although automated systems offer a wealth of fonts and sizes, good practice
+dictates that these resources be used sparingly. Too many fonts (and sizes)
+can potentially confuse the reader. Traditionally, typographers try to
+use no more than four fonts or font sizes on a given page of print. Apply
+the same principle to your maps. Use different fonts and sizes only when
+you have a compelling reason to do so.
+<BR>&nbsp;
+
+<P>Lettering is also distinguished by case: UPPER CASE, lower case, and
+Mixed Case.
+
+<P>If you consider professionally produced maps, you find that font, size,
+and case are used very carefully to encode text. In effect, the text is
+used to group information into useful categories that reflect the theme
+of the map.
+
+<P>Special attention must be paid to the orientation of text with respect
+to the features being labeled. In this respect, text can be used as an
+important cue to different map features.
+<UL>Point features--<I>lettering "points" to feature, but try to avoid
+lettering across boundaries.</I></UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/letterpt.gif" HEIGHT=185 WIDTH=478>
+<UL>Linear features--<I>lettering shows shape, but watch out for ambiguities.</I></UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/letterln.gif" HEIGHT=313 WIDTH=478>
+<UL>Area features--<I>lettering occupies the area.</I>
+
+<P><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/heros.gif" HEIGHT=291 WIDTH=309></UL>
+In following these guidelines, conflicts will always emerge. On maps crowded
+with information it is nearly impossible to arrange all text without striking
+compromises among these principles. The point is to follow the guidelines
+as much as possible and, when conflicts do arise, consider options carefully
+in light of the map theme and competing cartographic elements.
+
+<P>The arrangement of letters can also be used to convey quite subtle distinctions.
+For example, in the following map, lettering pertinent the map theme is
+aligned with the map frame whereas lettering that describes the background
+features is aligned with the graticule.
+
+<P>Quite apart from labeling features, text is used for convey other information
+about the map--sources, date, methods of compilation, projection, and cartographer.
+This ancillary information is usually placed in a subordinate position
+within the frame of the map. However, the readability of your map will
+be improved if you position this text in relation to the major map elements.
+That is, your map can be composed with implicit margins and tabs that can
+be used as a means of alignment for subsidiary text.
+<BR>&nbsp;
+<BR>&nbsp;</UL>
+</UL>
+<A NAME="5_5.4"></A><B>5.4 Foreground-background (figure-ground) relationships</B>
+<UL>Good cartography involves bringing the most important map information
+into the <I>foreground</I> of the reader's attention, even though other
+detail must be displayed in the <I>background</I> to make the map intelligible.
+Differences between the foreground and background are critical to some
+maps where clear distinctions must be made between certain types of features
+like the boundaries between land and water bodies. Cartographers employ
+a number of devices to make it easier for readers to distinguish between
+these features and to sort out a map's most important message.
+
+<P>The key to resolving foreground-background relationships is to use color,
+value, and patterning to "raise" some map features into the foreground.
+In some respects this is like using color, value, and patterning to produce
+a sort of three-dimensional effect in which certain key features appear
+to rise off the map's two-dimensional surface. In fact, these resources
+can be used to create a sort of three-dimensional visual hierarchy.
+
+<P>This idea can be put to practical use in a wide range of situations
+where the reader would otherwise have difficulty sorting out information
+displayed on a map.
+
+<P>Understanding the dynamics of foreground-background relationships can
+also help resolve certain ambiguities that sometimes arise in mapmaking.
+Consider the following example:
+<UL>In this map it is difficult to distinguish between water and land because
+both are arrayed at the same level of the visual hierarchy. This ambiguity
+can be resolved in several ways: shading, adding a graticule, vignetting,
+and lettering.
+
+<P><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/shading.gif" HEIGHT=460 WIDTH=537>
+
+<P>Depending the map and mapping system you employ, any of the options
+might be used either singly or in combination.</UL>
+</UL>
+
+
+<P><A NAME="5_5.5"></A><B>5.5 Highlighting the theme</B>
+<UL>The theme of your map must rise to the foreground. Now that you are
+aware of the cartographic resources available, you can use them to highlight
+the most important thematic information. This may involve using a vivid
+or saturated color to bring the information forward, using heavier line
+weights, or a contrasting, bold pattern. These resources can, of course,
+be used in combination.</UL>
+
+<HR>Further Reading
+
+<P>Bertin, Jacque. 1983. <I>Semiology of Graphics: Diagrams, Networks,
+Maps. </I>Translated by W.J. Berg. Madison: University of Wisconsin Press.
+
+<P>Board, C. and Taylor, R.M. 1985. Perception and maps: Human factors
+in map design and interpretation. <I>Transactions of the Institute of British
+Geographers New Series</I> 2: 19-36.
+
+<P>Cleveland, William S. and McGill, Robert. 1985. Graphical perception
+and graphical methods for analyzing scientific data.<I> Science</I> 229:
+828-833.
+<BR>&nbsp;
+
+<P><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/remote/gif/bar2.gif" HEIGHT=22 WIDTH=576>
+
+<P><A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/section6.html">Go
+on to <I>Issues of Statistical Generalization</I></A>
+
+<P><A HREF="cartocom_ftoc.html#6.0"><IMG SRC="http://www.utexas.edu/depts/grg/gif/gif.gif" HEIGHT=20 WIDTH=22></A><I><A HREF="cartocom_ftoc.html#6.0">Return
+to Table of Contents</A></I>
+</BODY>
+</HTML>

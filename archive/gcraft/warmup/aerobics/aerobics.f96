@@ -1,0 +1,61 @@
+<HTML>
+<TITLE>Digital Aerobics</TITLE>
+<H1>Digital Aerobics</H1>
+Practice with E-mail, the Internet, and the Worldwide Web.<P>
+<HR>
+<H3>E-mail</H3>
+1.	<B>E-mail a "howdy" message</B> to Foote and one to your teaching 
+assistant.<P>
+2.	<B>Send a "thank-you" message</B> to the author or compiler of your favorite Web 
+site and "CC" a copy of this message to your teaching assistant.<P>
+<HR>
+<H3>Internet and Worldwide Web</H3>
+3.	<B>Download to disk</B> a copy of first Atlas*GIS Metaponto exercise.  
+Open the file in Word, type your name and the date at the top of the file, and 
+then print.  Put in assignment box in GRG 302.<P>
+4.	<B>Print a copy</B> of this "Digital Aerobics" page directly from Netscape.  
+Write your name and the date on it and put it in the assignment box.<P>
+5.	<B>Use ftp to download</B> the datafiles you will need for the first Metaponto exercise.  This 
+are on texas.grg.utexas.edu.  Once you have the files, unzip them using WinZip or other decompression utilities..  Write your 
+name on the disk and leave it in the assignments box.<P>
+6.	<B>Prepare the following file</B> on one blank, labeled diskette.  This will be your first personal Web page.  Also, on the same disk, create a gif image from a scanned photograph or slide.  The photograph 
+should be of you or of a scene reflecting one of your interests or hobbies.  Both files should use the 
+first eight characters of your last name, for example: foote.txt and foote.gif.<P>
+	The ASCII file should be in the following form, substituting your name (and 
+interests) for mine:<P>
+<PRE>
+&ltHTML&gt
+&ltTITLE&gtKen Foote's Homepage&lt/TITLE&gt
+&ltBR&gt
+&ltIMG SRC = "gif/foote.gif"&gt
+&ltH2&gt Kenneth E. Foote&lt/H2&gt
+&ltB&gtE-mail: &ltA HREF = "mailto:k.foote@mail.utexas.edu"&gtk.foote@mail.utexas.edu&lt/A&gt&lt/B&gt&ltP&gt
+I am an associate professor of geography at the University of Texas at 
+Austin and the director of the Environmental Information Systems 
+Laboratory.  I joined the faculty in 1983 after training at the 
+University of Chicago (M.A., 1978; Ph.D., 1982) and University of  
+Wisconsin-Madison (B.A., 1976).  In addition research in cultural 
+geography, semiotics, and American landscape history, I teach computer 
+methods and geographic information systems.  My most recent grants from 
+the National Science Foundation--for &ltA HREF = 
+"http://www.utexas.edu/depts/grg/gcraft/contents.html"&gtThe Geographer's Craft 
+Project&lt/A&gt and the &ltA HREF = 
+"http://www.utexas.edu/depts/grg/virtdept/contents.html"&gtVirtual Geography 
+Department Project&lt/A&gt--are for developing hypermedia course materials 
+in the Worldwide Web.  My most recent book is &ltI&gtRe-reading Cultural 
+Geography&lt/I&gt (1994) which I co-edited with Peter Hugill, Kent Mathewson, 
+and Jonathan Smith.  Another book manuscript will be published in early 1997, 
+&ltI&gtShadowed Ground: America's Landscape of Tragedy and Violence&lt/I&gt. 
+In my spare time I rehearse and perform baroque and modern flute, 
+renaissance and baroque recorder, and viola da gamba with a variety of 
+ensembles.&ltP&gt
+&ltP&gt
+&ltHR&gt
+This is where I will add a link for my resources list.
+&ltHR&gt
+Created on 28 August 1996.  Last revised 13 January 1997.  KEF.
+&lt/HTML&gt
+</PRE>
+<HR>
+Last Revised 13 January 1997. KEF.<P>
+</HTML>

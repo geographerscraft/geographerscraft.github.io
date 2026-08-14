@@ -1,0 +1,1100 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>Ethical Issues in Electronic Information Systems</title>
+</head>
+<body>
+
+<h1>
+Ethical Issues in Electronic Information Systems</h1>
+<i>These materials were developed by Margaret Lynch, Department of Geography,
+University of Texas at Austin, 1994.&nbsp; These materials may be used
+for study, research, and education in not-for-profit applications.&nbsp;
+If you link to or cite these materials, please credit the author, Margaret
+Lynch, The Geographer's Craft Project, Department of Geography, The University
+of Colorado at Boulder.&nbsp; These materials may not be copied to or issued
+from another Web server without the author's express permission.&nbsp;
+Copyright &copy; 2000 All commercial rights are reserved.&nbsp; If you
+have comments or suggestions, please contact the author or Kenneth E. Foote
+at <a href="mailto: k.foote@colorado.edu">k.foote@colorado.edu</a>.</i>
+<p>This page is also available in a <a href="ethics_f.html" target="_top">framed
+version</a>. For convenience, we provide a <a href="ethics_ftoc.html">Full
+Table of Contents</a>.
+<p>
+<hr>
+<h2>
+<a NAME="Introduction"></a>1. Introduction</h2>
+<a NAME="newnew"></a>A New Technology Creates New Ethical Dilemmas
+<p>New computer technologies for gathering, storing, manipulating, and
+communicating data are revolutionizing the use and spread of information.
+Along the way, they are also creating ethical dilemmas. The speed and efficiency
+of electronic information systems, which include local and global networks,
+databases, and programs for processing information, force people to confront
+entirely new rights and responsibilities in their use of information and
+to reconsider standards of conduct shaped before the advent of computers.
+<p><a NAME="import"></a>The Importance of Ethics in Information Systems
+<p>Information is a source of power and, increasingly, the key to prosperity
+among those with access to it. Consequently, developments in information
+systems also involve social and political relationships-- and so make ethical
+considerations in how information is used all the more important. Electronic
+systems now reach into all levels of government, into the workplace, and
+into private lives to such an extent that even people without access to
+these systems are affected in significant ways by them. New ethical and
+legal decisions are necessary to balance the needs and rights of everyone.
+<p><a NAME="fill"></a>Ethics Fill the Gap as Legal Decisions Lag Behind
+Technology
+<p>As in other new technological arenas, legal decisions lag behind technical
+developments. Ethics fill the gap as people negotiate how use of electronic
+information should proceed. The following notes define the broad ethical
+issues now being negotiated. Since laws deciding some aspects of these
+issues have been made, these notes should be read in conjunction with Legal
+Issues in Electronic Information Systems.
+<p><a NAME="specif"></a>Ethical Issues Specific to Electronic Information
+Systems
+<p>Ethics include moral choices made by individuals in relation to the
+rest of the community, standards of acceptable behavior, and rules governing
+members of a profession. The broad issues relating to electronic information
+systems include control of and access to information, privacy and misuse
+of data, and international considerations. All of these extend to electronic
+networks, electronic databases, and, more specifically, to geographic information
+systems. Specific problems within each of the three areas, however, require
+slightly different kinds of ethical decisions. Networks, electronic information
+systems in general, and geographic information systems in particular are
+discussed separately below.
+<p>
+<hr>
+<h2>
+<a NAME="Elec_Nets"></a>2. Electronic Networks</h2>
+
+<h3>
+<a NAME="intro2"></a>Introduction: A Network Defined</h3>
+Any set of computers able to communicate with one another constitutes a
+network. Some networks are contained within institutions or companies,
+enabling people within a single organization to communicate electronically.
+Many of these small systems are also hooked into other organizations' computers.
+Thousands of such networks collectively form the Internet. Much of the
+following discussion has been formed with the Internet in mind, but the
+issues raised may be applied to smaller networks as well.
+<p><a NAME="netpow"></a>Networks as Sources of Power
+<p>Electronic networks were first established as a reliable means of communication
+and as a means for exchanging information efficiently, but they have become
+much more. Large networks represent new sources of power. In order to create
+reliability and efficiency in communication, networks were structured so
+that the movement of information would not depend on --and could not be
+controlled by--another person or computer. As a result, the larger networks
+have become anarchic. Ordinary people with relatively few resources can
+communicate ideas and information, however uncommon, unpopular, or politically
+sensitive those ideas or information may be, to millions of other people
+around the world. No government, no hierarchical system exerting either
+repressive or benign influence, not even the simple constraints of time
+and money, will have quite the same control they once had over the flow
+of information as long as the networks operate as they now do. For some
+people, the networks therefore contain exciting possibilities; for others
+they have become a threatening, even subversive, new presence.
+<p><a NAME="netsoc"></a>Networks as Social Places
+<p>Networks have also become social places, where people discover friendships,
+discuss issues, find others who share unusual interests, argue, form groups,
+commiserate, proselytize, play games, and fall in love. These activities
+have brought comparisons with more traditional communities, villages, or
+places. One essayist, Ray Oldenburg, has referred to the networks as a
+new sort of "Third Place," where people gather for conviviality, apart
+from home and work (First and Second Places). He theorizes that the networks
+may replace opportunities for social interaction lost in the modern world
+of suburbs, express highways, and shopping malls. Other writers are more
+cautious and when talking about the sociability of the networks use qualified
+terms : virtual communities or virtual villages, for instance. Such terms
+acknowledge the differences inherent in the kinds of interactions that
+take place over computer networks. A lack of face-to-face contact, for
+instance, has a leveling effect. Race, class, gender, and physical appearance
+are hidden, allowing interaction that is relatively free from all the subtle
+biases that usually accompany more direct human relations. On the other
+hand, this virtual anonymity allows interaction without any sort of commitment;
+the sense of shared responsibility that people must have in a real community
+does not necessarily exist on the Internet.
+<p><a NAME="newfund"></a>New Funding Sources Mean New Ethical Issues
+<p>Nonetheless, the networks have attracted loyal participants who recognize
+the value of what has been created in this new form of human interaction
+and who put a great deal of thought into the future character and uses
+of the networks. Electronic networks are becoming more common and their
+influence more pervasive but they are also changing under the influence
+of people and institutions who are relatively new to the networks. Funding,
+once almost exclusively public, now comes increasingly from private, or
+commercial, sources, and this change in funding will also mean changes
+in ideas about the proper uses of the networks and the nature of interaction
+on them. Recognition of the power and potential of electronic networks
+has created some hotly contested issues. These range from relatively simple
+questions of proper behavior and use within them to more important questions
+of political power, control of communications, equality of access, and
+privacy.
+<p>On the Internet,<a NAME="essays2"></a>several essays on the nature and
+possibilities of the networks have appeared. Here are just a few:
+<ul>
+<li>
+<a href="html/innkeeping.html">Cyberspace Innkeeping: Building Online Community</a>,
+by John Coate, gives a brief summary of Ray Oldenburg's ideas about an
+on-line "Third Place." Coate also discusses the nature of interactions
+on a local network called the WELL, the concept of virtual villages, on-line
+free speech, and some of the social dynamics specific to the networks.
+Privacy, intellectual property rights, on-line censorship, and the future
+of the Internet are also covered.</li>
+
+<li>
+<a href="html/internet.protection.html">Protection and the Internet</a>,
+by Steve Cisler, addresses the growing need for protection on the Internet:
+protecting the network itself from people who would change its emphasis
+on free expression, protecting people from some forms of free expression,
+protecting other cultures that have different standards for what is acceptable
+communication.</li>
+
+<li>
+<a href="html/small.town.html">The WELL: Small Town on the Internet Highway
+System</a>, by Cliff Fagallo, extolls the virtues of on-line communities.
+Provides a history of The WELL, a local network, and discusses maintaining
+the feeling of community on a network.</li>
+</ul>
+
+<hr>
+<h2>
+<a NAME="A_Behave"></a>3. Acceptable Behavior on the Networks: New Standards
+of Conduct</h2>
+Cultural norms and values shape a society's definition of acceptable behavior.
+On-line standards of conduct are founded on the norms of the society in
+which a network is set, but these broader norms and values are often challenged
+by the character of human interaction in electronic networks. Networks
+stretch across societies that have different values and traditions. The
+computers that form them have capacities that allow people to do things
+they could not do before--and to do so with anonymity. Finally, the networks,
+new as they are, have their own social history, in which somewhat different
+norms have been formed. The people who have so far populated the virtual
+community have tended to value individuality, free expression, free exchange
+of information, anarchy and nonconformity more than other groups. Acceptable
+behavior on the networks, therefore, has slightly different standards.
+These may change as many more people join the networks. But, so far, the
+less conventional on-line standards of conduct have been jealously guarded
+by long-time network users. These users generally are people who have strong
+feelings about the shape of life on their various networks and about what
+shape it will take in the future. New users of the Internet and of various
+smaller networks should be aware that they are entering an unconventional
+social community.
+<p>Issues of acceptable behavior in the networks include simple standards
+of civility to questions of rights and responsibilities in distributing
+information that have not yet been clarified in law.
+<br>&nbsp;
+<h3>
+<a NAME="Netiquette"></a>3.1 Netiquette</h3>
+How to Behave on the Networks: Remember Where You Are
+<p>Netiquette, or on-line civility, is a matter of common sense and of
+remembering the context of behavior. The Internet's emphasis on free expression,
+for instance, has meant that what might be considered rude elsewhere will
+often be tolerated on various networks in order to protect the principles
+of individual expression. Groups discuss every conceivable subject, obscenities
+flow on some parts of the Internet, pornography flourishes. Some people
+make a game of verbally hassling one another. Rather than squashing individuality
+with broad regulations, system administrators have so far tended to referee
+or negotiate specific situations in which conflicts occur. However, activities
+that would be questionable off the networks should be approached with some
+judgment and kept to the parts of the networks (in bulletin boards established
+for a specific purpose, for instance) where those who would be offended
+can avoid them.
+<p><a NAME="some2"></a>Some Activities That Will Offend
+<p>Specific activities that do offend most network users usually occur
+when the capacities of computers for allowing rapid, efficient communication
+and for giving access to other people's systems are misused. So, for instance,
+sending a rambling message to everyone with an e-mail address at the local
+state university is not considered appropriate even though computers make
+sending such a message relatively effortless. Unsolicited advertising is
+especially resented and will get an equally unsolicited reaction. In one
+case, a law firm's efforts to advertise over the Usenet prompted one young
+man in Norway to launch a cancelbot, a message that automatically destroyed
+the firm's transmissions every time it sent out an advertisement. He was
+applauded by other Usenet participants, although his actions did raise
+concerns about wider use of arbitrary censorship.
+<p><a NAME="simple2"></a>Some simple guidelines to on-line civil behavior
+follow:
+<ul>
+<li>
+In general, do not waste other people's time, be disruptive, or threaten.</li>
+
+<li>
+Do not take up network storage space with large, unnecessary files; these
+should be downloaded.</li>
+
+<li>
+Do not look at other people's files or use other systems without permission.</li>
+
+<li>
+When joining a bulletin board or discussion group, check the FAQ (frequently
+asked questions) file before asking questions.</li>
+
+<li>
+Remember that on-line communications lack the nuances of tone, facial expression,
+and body language. Write clearly. Try to spell correctly and to use good
+grammar.</li>
+
+<li>
+Add emoticons, or <a href="html/smilie.html">Smileys</a> --expressive symbols--to
+clarify meaning.</li>
+
+<li>
+Do not SHOUT needlessly. Capital letters are the on-line equivalent of
+shouting.</li>
+
+<li>
+Use asterisks to give emphasis, but do so *sparingly*.</li>
+
+<li>
+Sign messages, and include an e-mail address when writing to strangers,
+just in case a message's header is lost.</li>
+
+<li>
+Personal attacks or complaints are called flaming. Be discriminate: flaming
+can turn into flame wars and disrupt discussion groups.</li>
+
+<li>
+People who become too obnoxious can be banned from a system or simply ignored.
+A "kill file" will automatically erase messages sent from a person who
+has become intolerable.</li>
+</ul>
+<a NAME="netsos"></a>Some sources on netiquette:
+<ul>
+<li>
+<a href="http://www.cpsr.org/program/ethics/cei.html">The Ten Commandments</a>
+provides a basic outline for acceptable behavior on-line.</li>
+
+<li>
+<a href="html/netiquette.html">The Net User Guidelines and Netiquette</a>
+provides basic guidelines in netiquette to users at Florida Atlantic University.
+It also includes a bibliography on proper conduct.</li>
+
+<li>
+<a href="html/rfc1087.html">Ethics and the Internet</a> outlines the principles
+of responsible use put forth by the Internet Activities Board.</li>
+
+<li>
+<a href="http://nis.nsf.net/internet/documents/fyi/fyi28.txt">Netiquette
+Guidelines</a> by S. Hambridge at Intel Corp.</li>
+</ul>
+
+<h3>
+<a NAME="AUP"></a>3.2 Acceptable Use Policies</h3>
+Different Networks Have Different Policies
+<p>The networks that collectively form the Internet have different purposes,
+and they allow different kinds of traffic to pass through them. People
+who communicate across various networks must learn what they are allowed
+to do on each. Networks established for research and education, for instance,
+forbid most commercial activities. These restrictions now exist largely
+because research and education networks are supported with public funds.
+In the future, however, more and more of the Internet will be supported
+by private money. Commercial uses will become a more prominent feature
+of the Internet. Many researchers who now use the Internet worry about
+the change from public to private support. They see commercial activities,
+especially advertising, as intrusions on the time and attention of people
+at work. The level of hostility toward such activities runs high, so how
+commercial and research or education uses will mix is not yet clear even
+as public funding becomes uncertain.
+<p><a NAME="writ2"></a>Written Policies Outline Permissions and Restrictions
+<p>Various networks have produced written statements outlining what sort
+of traffic they permit. Many simply state the purpose of the network in
+question and restrict users to that purpose. Most explicitly forbid disruptive,
+frivolous, illegal, and obscene communications, along with any form of
+harassment. Others simply try to balance free exchange of information,
+in the spirit of the Internet, with concern about unfair uses of what they
+have so freely provided.
+<p><a NAME="pol2"></a>Policies from NSFNET and Others
+<p>The National Science Foundation Network (NSFNET), which supports research
+and education in US institutions and which is funded through the federal
+government, currently has one of the strictest acceptable use policies
+on the Internet. In general, the NSFNET policy limits use to activities
+in "support of research and education." It specifically forbids for-profit
+use and personal or private business.
+<ul>
+<li>
+NSFNET Acceptable Use Policy</li>
+
+<li>
+CREN Net Use</li>
+
+<li>
+OARnet Acceptable Use Policy</li>
+
+<li>
+Michnet Acceptable Use Policy</li>
+
+<li>
+<a href="http://165.248.2.14/ilk/html/policy/pchs/pchsaup.html">Pearl City
+Complex Internet Acceptable Use Policy</a></li>
+
+<li>
+State of Hawaii, Department of Education, Electronic School <a href="http://165.248.2.14/ilk/html/policy/ESAUP.txt">Internet
+Acceptable Use Policy</a></li>
+</ul>
+
+<h3>
+<a NAME="Net_Export"></a>3.3 Exporting Through the Networks</h3>
+Export Restrictions Apply But Clear Guidelines Are Lacking
+<p>Electronic files can be sent around the world in seconds and without
+physical restriction, which might lead people to think that other restrictions
+on them do not exist. Yet export regulations from the U.S. Department of
+Commerce do apply in electronic networks. To make matters more complex,
+export restrictions vary for different destination countries. As a rule,
+the people transferring files over networks are responsible for knowing
+and applying legal restrictions. Unfortunately, people sending files across
+national borders often are left without clear legal guidelines for specific
+situations because export law has not kept pace with the movement of information
+across electronic networks. . Networks which allow people from remote locations
+to log-in and use information or computer systems stored on computers within
+the U.S. have created even more complex problems, and have left network
+operators with little clear guidance. There are, however, some general
+principles to follow.
+<p><a NAME="fol2"></a>Some General Principles to Follow
+<p>For the most part, information commonly and freely available from U.S.
+periodicals, books, conferences, libraries, or university courses falls
+under general license, which means it may be transferred to other countries
+without further permission. What <i>is </i>restricted in electronic information,
+which may include data, software, machine readable code, encryption code,
+and so on, is more difficult to define. The following examples, though
+hardly comprehensive, illustrate some of the difficulties encountered when
+export laws are applied to electronic networks.
+<dl>
+<dt>
+<a NAME="exec"></a><b>Example</b>: Encryption codes, which are used to
+translate data into code that cannot be read without a key, are restricted.
+The U.S. government claims that such codes must be controlled for reasons
+of national security. Encryption codes are treated as munitions under export
+law and therefore require special export permission from the Department
+of State. This policy draws vociferous criticism from people who claim
+that the government is unfairly attempting to control access to and privacy
+of communications.</dt>
+
+<br>&nbsp;
+<p>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p>In one case, the government ruled that a source code for an encryption
+device already published in a book--a book not restricted from export--could
+not be distributed across national borders through a computer network because
+the code in digital format represented a different form of information.
+The source code in the new format was partitioned into files which, the
+government stated, could be "compiled into an executable subroutine."
+<p>For more detailed information on the export of encryption codes, and
+on the example summarized above, see the <a href="ftp://ftp.cygnus.com/pub/export/export.html">Cryptography
+Export Control Archives</a>.
+<br>&nbsp;
+<dt>
+<a NAME="exnet"></a><b>Example</b>: Access to hardware through a network
+may be restricted. If certain computer hardware may not be exported physically
+from the U.S., then access to that hardware may not be given to people
+working from countries to which export is forbidden.</dt>
+
+<br>&nbsp;
+<p>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p>When BITNET in 1990 decided to link into the Soviet Union, a letter
+from the U.S. Office of Technology and Policy Analysis reminded BITNET's
+operators that they could not allow open, international access to certain
+types of systems. The same letter pointed out that exporting certain kinds
+of software by file transfer over the network would require special licenses.
+A second letter informed the BITNET operators of their responsibility to
+maintain a vaguely defined "level of care" in making sure that the network's
+members were not exporting materials illegally while using BITNET.
+<ul>
+<li>
+To see a copy of the letter received by BITNET, see <a href="ftp://ftp.cygnus.com/pub/export/commerce.legal.network">Legal
+Aspects of International Network Communication</a>.</li>
+
+<li>
+Also see <a href="ftp://ftp.cygnus.com/pub/export/commerce.legal.opinion">Legal
+Aspects of Linking BITNET to Foreign Countries.</a></li>
+
+<li>
+To see what falls under the general license for export, read the guidelines
+to <a href="ftp://ftp.cygnus.com/pub/export/commerce.gtda.license.faq">General
+Technical Data Available for All Destinations</a> (GTDA).</li>
+
+<li>
+Network users with questions about exporting specific information or systems
+not covered under Commerce Department regulations may make a <a href="ftp://ftp.cygnus.com/pub/export/cjr.kit">Commodity
+Jurisdiction Request</a> to the State Department.</li>
+</ul>
+</dl>
+
+<h3>
+<a NAME="CRight"></a>3.4 Copyrights</h3>
+Existing Law is Challenged by Electronic Information Systems
+<p>The fluidity of information on the networks has caused some confusion
+about how copyrights and intellectual property rights apply to electronic
+files. In the relatively small world of the original network users, an
+emphasis on free exchange of information and a common understanding of
+intellectual property allayed most potential conflicts over use of information.
+Now, as the networks grow larger and attract a broader range of people,
+some clarification of how electronic files may be used is becoming necessary.
+The ease with which electronic files can be distributed and the nature
+of some electronic information create problems within existing copyright
+law: either the law does not address the peculiarities of electronic information
+or the law is too easily subverted by the ease with which files can be
+copied and transferred. Similar problems have arisen with photocopy machines,
+VCRs, and tape recorders. To make matters more complex, other countries
+may have different copyright laws, so information made available globally
+through a network may not have the same protections in other places.
+<p><a NAME="guide2"></a>Existing U.S. Copyright Law Provides Some Guidance
+<p>While the law does not always provide clear guidelines to rights and
+responsibilities even within the U.S., a familiarity with basic existing
+copyright principles should keep most network users on ethical grounds.
+<ul>
+<li>
+Copyrights protect original works of authorship, including literary, musical,
+dramatic, graphic, audiovisual, and architectural works, and sound recordings.</li>
+
+<li>
+The law forbids unauthorized reproduction, distribution, performance, or
+display of works with copyrights. The general intent of the law is to protect
+the commercial value of a work.</li>
+
+<li>
+Having a copy of a work with a copyright does not mean that the holder
+also has the right to distribute, reproduce, perform, or display it.</li>
+
+<li>
+Copyrights apply to both published and unpublished work. Under the international
+Berne Convention on copyrights, which the U.S. signed in 1989, a copyright
+comes into effect from the moment a work is created and is fixed in some
+form of tangible expression.</li>
+
+<li>
+A copyright notice is not required for copyright protection. The only way
+a copyright can be invalidated is by explicit announcement by the author
+that copyright protections are waived.</li>
+
+<li>
+Copyrights do not apply to titles, short phrases, names, slogans, mere
+listing of ingredients, or works consisting entirely of unoriginal information
+(such as standard calendars).</li>
+
+<li>
+Copyrights do not extend to ideas, procedures, methods, systems, concepts,
+principles, discoveries, or devices; these must be patented for protection.</li>
+
+<li>
+Works in the public domain (those not extended copyright protections) include
+those created by an author who has been dead for at least 50 years, works
+created by the federal government, and works explicitly granted to the
+public domain.</li>
+
+<li>
+Complete international copyright protection does not exists. Works are
+subject to the laws of individual nations, although most nations have signed
+international agreements on copyrights.</li>
+</ul>
+<a NAME="respons2"></a>Who is Responsible for Copyright Protection?: Carriers
+vs. Providers
+<p>Any work with a copyright, therefore, should not be distributed or reproduced
+on networks without permission of the author. This application of copyright
+law is fairly straightforward, but the question now becomes, who is responsible
+for enforcing copyright protection on the networks? The federal <b>High
+Performance Computing Act of 1991</b> holds the National Research and Education
+Network (NREN) responsible for protecting the copyrights of materials distributed
+on that network. But <a href="http://www.ccic.gov/pubs/linn/">NREN administrators
+point out</a> that the requirement is unenforceable. The network does not
+provide information, rather it provides links between networks and routes
+or relays information packets. The people at NREN propose instead that
+their role as carrier and the role of information services should be separated
+in the law, with responsibility for copyright protections going to the
+information services. They suggest that <b>technical means</b>, such as
+digital markers identifying the holder of a file copy and subscription
+fees to information services, be used to regulate the distribution and
+use of materials with copyrights.
+<p><a NAME="create2"></a>How is Work <i>Created</i> on a Network Protected?
+<p>The principles of copyright laws apply easily to work not created in
+an electronic file. But what about "original work" that is created within
+a network? The law applies in sometimes surprising ways, and users should
+think about copyrights before distributing or reproducing work created
+by another person. For instance:
+<dl>
+<dd>
+<a NAME="email"></a>E-mail</dd>
+
+<br>&nbsp;
+<p>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p>E-mail is protected by copyright. Information received in e-mail may
+be discussed, but the specific contents of e-mail have copyright protection.
+<br>&nbsp;
+<dd>
+<a NAME="usenet"></a>Usenet Postings</dd>
+
+<br>&nbsp;
+<p>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p>Usenet postings may also be protected. These may be read and discussed
+by however many people have access to the Usenet, but they cannot be reproduced
+and distributed in any way that may diminish the author's ability to profit
+from the original work--however farfetched such profit may seem. One author
+has brought up an interesting question concerning network postings. <a href="gopher://gopher.well.sf.ca.us/00/Community/innkeeping">John
+Coate asks,</a> "does the fact that anything you say in an on-line system
+can be downloaded and printed out by anyone who happens to read it create
+a different class of reproduction than quoting without permission from
+a commercial publication? If a journalist quotes something from an on-line
+system and they don't obtain permission, did they steal it, or did they
+overhear it in a conversation?" Coate's answer is that whatever seems like
+"fair use" probably is, but he also points out that actual control of such
+use is impossible and that good manners are "critically important."
+<br>&nbsp;
+<dd>
+<a NAME="cp2"></a>Computer Programs</dd>
+
+<br>&nbsp;
+<p>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<p>Computer programs, which might appear to be ideas, procedures, systems,
+or devices, may be registered as "literary works" under the law, and therefore
+receive copyright protection.</dl>
+<a NAME="fur2"></a>For further information on copyright laws, see the sources
+for this discussion:
+<ul>
+<li>
+<a href="http://www.utsystem.edu/ogc/intellectualproperty/copyint.htm">Copyright
+and The Internet: What Should Universities Be Doing About It?</a> by Georgia
+Harper, University of Texas System, Office of General Counsel</li>
+
+<li>
+<a href="http://www.loc.gov/copyright/circs/circ1.html">Copyright Basics</a>,
+The Library of Congress</li>
+
+<li>
+<a href="http://www.law.uoregon.edu/organizations/copy/copyright.shtml">Copyright
+Issues</a> by University of Oregon, School of Law</li>
+
+<li>
+<a href="http://www.utsystem.edu/ogc/intellectualproperty/cprtindx.htm#top">Crash
+Course in Copyright</a>, University of Texas, Office General Counsel</li>
+
+<li>
+<a href="http://www.law.cornell.edu/uscode/17/">Copyright Act of 1976,
+As Amended</a> (full text of the Act)</li>
+
+<li>
+<a href="http://lcweb.loc.gov/copyright/">United States Copyright Office</a>,
+The Library of Congress</li>
+</ul>
+
+<hr>
+<h2>
+<a NAME="Access"></a>4. Access to Electronic Networks</h2>
+<a NAME="whyac"></a>Why is Access Important?
+<p>One of the major issues in electronic networks is the question of access:
+who will have access to the networks, and what kinds of information will
+be accessible. These questions are important because networks offer tremendous
+economic, political, and even social advantages to people who have access
+to them. As the networks become a larger presence in society, conflicts
+may arise between information "haves" and "have-nots." Conceivably, network
+communication could create greater equality by offering common access to
+all resources for all citizens. Already, in a few places scattered around
+the country, experiments with "freenets," network connections established
+through local libraries or other municipal or local organizations specifically
+for people who otherwise would have no way to use the networks, have shown
+that those people will, for instance, participate more in local government
+issues. They therefore have a greater voice in whatever happens with local
+government. Conversely, if access is not evenly distributed, it threatens
+to perpetuate or deepen existing divides between the poor, who cannot afford
+expensive computer systems, and the better-off.
+<p><a NAME="three2"></a>Three key aspects of the issue are in debate.
+<dl><a NAME="prin2"></a>What principle will guide access?
+<br>&nbsp;
+<dl>Few people disagree that access to the networks also provides access
+to power. People disagree, however, on the principles that should guide
+network access. Some think that the private market now growing up around
+the networks can respond to the issue, because with more and more people
+buying computers and joining network services prices will drop and become
+adequately affordable to the majority of people. Others think that the
+access issue is too important to be left solely to the market. They seek
+guarantees of universal service already applied to the telephone and postal
+systems. Their approach raises difficult issues of public costs and subsidies.</dl>
+</dl>
+<a NAME="struc2"></a>How will the networks be structured?
+<ul>At present, the Internet is open to all. People interact freely; no
+hierarchical or centralized control exists. However, the coming information
+superhighway now discussed so broadly in the U.S. may be built on different
+terms and will be largely funded privately or corporately. Cable and telephone
+companies are now vying for a major part in the building of the information
+superhighway, which eventually will provide access to multimedia resources
+and data services through a national network based, they hope, on their
+existing lines.</ul>
+
+<dl>
+<dl>The present infrastructures of cable and telephone services offer two
+very different types of networks. Cable lines are generally designed for
+one-way communication--to the customer. In these systems, the companies
+retain control over "tree and branch" networks, allowing them control over
+the flow and content of information. Telephone lines, however, operate
+on an open, switch system in which anyone within the system can send and
+receive information to and from anyone else, much like the present operation
+of the Internet. Everyone on the network could produce information, telecasts,
+sound recordings, etc., at home or at work; people would have an infinite
+choice of data or programs to receive; no single company could control
+the flow and content on the information highway. Some people see exciting
+new cultural, political, and entrepreneurial possibilities in such an open
+system. Others see its anarchic qualities as dangerous and even subversive.</dl>
+<a NAME="allow2"></a>What will be allowed on the networks?
+<br>&nbsp;
+<dl>Questions of free speech and community standards of decency on the
+Internet are difficult to resolve even now in the United States. At present,
+under laws defined without computer networks in mind, local communities
+may define what is or is not obscene, and therefore not tolerated, within
+their geographic borders. The networks, however, have no such borders;
+so who defines obscenity on them has become a divisive issue. The problems
+will become still greater as network communication grows and crosses additional
+intranational, as well as international, boundaries--and cultural divides.
+Many types of information and communication taken for granted in some cultures
+and places are deeply offensive in others. This is not just a question
+of pornography, one of the major issues within the United States, but of
+conflicts over deeply held religious, political, and cultural values relating
+to many different aspects of day-to-day life.</dl>
+</dl>
+<a NAME="borders2"></a>Communities without borders: Whose standards apply?
+<dl>In the United States, conflicts have already arisen with respect to
+community standards of decency and the Internet. In one case, a couple
+living in California was charged with indency in Memphis for making available
+on the Internet pictures of bestiality, even though the images were posted
+on a closed bulletin board and no complaints were filed in the California
+community where the couple lived. As of January 1995, the couple face a
+jail sentence. Further cases are likely to arise now that individuals have
+great freedom both to publish and to distribute across state and community
+boundaries.</dl>
+<a NAME="ii"></a>International issues
+<dl>In the international arena, issues of community standards will remain
+sensitive. The problem may, in some countries, be a prime consideration
+in how the Internet is allowed to grow. Some nations have far different
+attitudes toward political debate and the expression of political dissent.
+Among world religions, tremendous differences exist in attitudes toward
+blasphemy, heresy, and family values. Finally, no international consensus
+exists on issues of human sexuality, obscenity, reproduction, and personal
+values. The free expression so valued by long-term network users thus conflicts
+directly with another valued feature of the Internet--its international
+reach and potential for rich cross-cultural exchanges. How the issue will
+be resolved will affect the fundamental nature of the Internet in the future.</dl>
+<a NAME="ffe"></a>Several sources were used for this discussion. For further
+exploration see:
+<ul>
+<li>
+<a href="http://www.eff.org/CAF/">Computers and Academic Freedom Archive</a></li>
+
+<li>
+<a href="http://www.eff.org">The Homepage for the Electronic Frontier Foundation</a></li>
+
+<li>
+<a href="http://simr02.si.ehu.es/DOCS/nearnet.gnn.com/mag/10_93/articles/kapor/nkapor.whole.html">Mitch
+Kapor, Data Highway Guru</a></li>
+
+<li>
+<a href="http://www.eff.org/pub/EFF/Policy?OP/op2.0">Public Policy for
+the Information Age Archive</a></li>
+
+<li>
+<a href="http://www.eff.org/CAF/cafuiuc.html#AUPs">Sex, Censorship and
+the Internet, by Carl Kadie</a></li>
+
+<li>
+Ashley Dunn. "Local Groups Are Attempting to Knock Down the Information
+Superhighway's Tollbooths," <i>New York Times</i> 4 August 1994, p. A15.</li>
+
+<li>
+Peter H. Lewis. "Censors Become a Force on Cyberspace Frontier," <i>New
+York Times</i> 29 June 1994, p. A1, C5.</li>
+
+<li>
+United States National Information Infrastructure (NII) <a href="http://nii.nist.gov/nii/">Virtual
+Library</a>, National Institute of Standards and Technology</li>
+</ul>
+
+<hr>
+<h2>
+<a NAME="Privacy"></a>5. Privacy and Electronic Networks</h2>
+A Counterpoint to Open Access: What Others Know About You
+<p>Countering questions of rights to access are questions of privacy. The
+degree of control that people have over what other people can find out
+and distribute about them has dropped markedly with the growth of electronic
+databases and network communications. The amount and kinds of personal
+information available as a result of both technologies is startling: financial,
+medical, educational and employment histories; driving records, insurance
+records, buying habits, hobbies, pets, family and associates, travels,
+phone usage--where and when, income, marital status, criminal records,
+address changes, and so on, can all be accessed through electronic networks.
+In 1986, the <b>Electronics Communication Privacy Act (ECPA)</b> passed
+by Congress gave some protection from electronic violations of privacy,
+but a great deal of room for abuse persists. Individuals, companies, and
+the government have all pushed existing barriers to what they can know
+about other people, even at times bringing into question the protections
+of the American Bill of Rights. New laws may eventually add some protection,
+but are not the only answer. Some people, such as <a href="http://www.cpsr.org/cpsr/computer_crime/net.crime.karnow.txt">Curtis
+Karnow</a>, point out that laws often do not fit the fast-moving cyberspace
+culture, and often cannot be enforced since infringements may not be detectable
+or even stoppable. People like Karnow suggest instead that evolving social
+norms and technological shields will offer better protection as the networks
+grow and become more powerful.
+<dl><a NAME="chalin"></a>Challenges to Privacy by Individuals.
+<dl>Two kinds of individuals have access to personal information that might
+be kept in a networked computer: hackers, those with no right to a system
+on which personal files might be held, and system operators, who have rights
+to be on a system but not necessarily to read personal files. System operators
+have access to root directories and can, for instance, read everything
+on private e-mail accounts (although they <i>may not</i> do so since the
+ECPA was passed). They might also hold backup tapes of entire root directories
+containing personal files that were thought to be safely deleted. Hackers
+and system operators do not necessarily pose a threat to privacy rights
+that is any greater than risks run with a curious postman or telephone
+operator. However, they can get access to personal information with a much
+smaller risk of detection, which makes the enforcement of privacy rights
+much more difficult.</dl>
+<a NAME="chalco"></a>Challenges to Privacy by Companies: Selling Information.
+<dl>Because selling information is so lucrative, and so much is available
+through the networks, companies have begun to profit from data they already
+hold for their own purposes. For instance, companies with 800 or 900 numbers
+can legally gather the names, billing addresses, and phone numbers of all
+their callers. This information can be bought and sold freely, though if
+companies become too flagrant about it people may simply stop using their
+services. The same is true for on-line services such as Prodigy, which
+know not only their members' social security and credit card numbers, but
+may also hold entire profiles on people, including what bulletin boards
+they join--discussion groups for cancer survivors, for instance, which
+might be a danger for a job applicant. Some companies also gather data
+merely for the purpose of selling it. Few protections against these practices
+have been established, though some have been proposed in Congress. People
+need to be aware of exactly what they are revealing and to whom when giving
+out information, however inadvertently.</dl>
+<a NAME="chalmon"></a>Challenges to Privacy by Companies: Monitoring Employees
+<dl>Under the rules of the ECPA, companies may also electronically monitor
+their employees. Employers can tap e-mail and other network communications,
+they can look through employee electronic files, and eavesdrop on phone
+conversations. Employees who do repetitive tasks on computers can be monitored
+for speed and accuracy. These practices may protect companies from employee
+dishonesty, but they can also create extremely stressful working conditions.</dl>
+
+<p><br><a NAME="chalgov"></a>Challenges to Privacy by Government: Access
+to Databases
+<dl>Federal and state agencies hold and verify enormous amounts of information
+about individuals, which they share with one another and with the private
+sector. A 1989 General Accounting Office report found that over 2000 federal
+agencies maintain databases of various kinds of personal information. Much
+of this data is covered by privacy laws in theory, but is still shared
+in practice.</dl>
+<a NAME="chalss"></a>Challenges to Privacy by Government: Search and Seizure
+Laws
+<dl>In addition to not always being careful about the information it keeps
+and distributes, the government has been testing some traditional rights
+which offer some specific forms of privacy protection. The Fourth Amendment
+in the U.S. Constitution guarantees protection from unreasonable search
+and seizure. Yet the ECPA allows the FBI to seize entire computer systems
+in order to comb through files. The FBI must have a search warrant, but
+only if the information they seek is less than six months old. If the information
+has been on a system for more than six months, only a subpoena is needed.
+This gives federal authorities theoretical access to tremendous amounts
+of personal files, which happen to be held on a suspect computer system.</dl>
+</dl>
+<a NAME="formore2"></a>For more information on privacy see:
+<ul>
+<li>
+<a href="http://www.eff.org/CAF/faq/email.privacy.html">E-mail Privacy:
+Computers and Academic Freedom FAQ</a></li>
+
+<li>
+<a href="ftp://ftp.eff.org/pub/CAF/library/confidentiality.2.ala">American
+Library Association Statement of Confidentiality of Indentifiable Information
+About Library Users</a></li>
+
+<li>
+<a href="http://www.eff.org/pub/Privacy/Email_GII_NII/">Index of Links
+on E-mail Privacy</a></li>
+
+<li>
+Charles Piller, "Bosses with X-Ray Eyes," <i>Macworld</i>, July 1993, pp.
+118-23.</li>
+
+<li>
+Bruce Sterling. 1992. <i><a href="http://www.lysator.liu.se/etexts/hacker/">The
+Hacker Crackdown: Law and Disorder on the Electronic Frontier</a></i>.
+New York: Bantam.</li>
+
+<li>
+Clifford Stoll. 1989. <i>The Cuckoo's Egg: Tracking a Spy through the Maze
+of Computer Espionage</i>. New York: Doubleday.</li>
+</ul>
+
+<hr>
+<h2>
+<a NAME="ED"></a>6. Electronic Databases</h2>
+
+<h3>
+Electronic Format Changes the Way Information is Used</h3>
+Electronic databases cost a great deal of money to establish: they must
+be designed carefully to get the best use possible out of raw data, the
+necessary computer equipment must be acquired, reams of information once
+held only in paper format must be entered into the database, people must
+be trained in how to enter and use information in digital formats. But
+once electronic databases are created they change the way that information
+is used. More information, and in seemingly infinite combinations, can
+be stored with less effort, time, and money. Changes or additions to the
+existing database become relatively simple; information can be retrieved
+and manipulated with breathtaking speed and ease. As a consequence, information
+in electronic databases has become more valuable and has been assigned
+new uses. Holders of databases become tempted to sell them, causing conflicts
+with privacy rights. Information, for example from the records of federal
+agencies, becomes more in demand, creating further conflicts with both
+privacy rights and with the mandated functions of agencies who become overwhelmed
+by demands for access to their publicly-owned databases. Some of the general
+problems encountered with electronic databases are covered below.
+<br>&nbsp;
+<h3>
+<a NAME="Mosaic"></a>6.1 Data Mosaics</h3>
+One of the most powerful features of electronic databases lies in their
+ability to link together enormous quantities and types of information.
+Using, for instance, social security numbers, or any other unique anchor
+for information, a database creator can take bits of information from various
+sources and build up a detailed profile on specific people or objects,
+as well as on thousands of others at the same time. The information in
+the database does not have to be stored in a single place, but can be called
+up from other sources held on other computers, as long as the information
+is contained in a compatible format. The result is often referred to as
+a data mosaic. These mosaics can be arranged and rearranged for thousands
+of different uses. They can be shared at relatively little cost by a number
+of different agencies, each perhaps having to store and manage only a part
+of the whole mosaic. They eliminate the thousands of hours of tedious and
+expensive indexing and arranging once required for information held on
+paper. They do so, however, at some cost since such mosaics can also lead
+to misuse of information.
+<br>&nbsp;
+<h3>
+<a NAME="Sharing"></a>6.2 Inadvertent Consequences of Data Sharing</h3>
+The consequences of sharing data and creating mosaics can be fairly complex.
+Many problems are simply logistical. A database manager may have to balance
+required security of a data set with providing access to it. Information
+systems may need to be designed carefully in order to prevent inappropriate
+access to all or part of a data set and still allow a way to benefit from
+sharing information. However, some more basic problems with how information
+is handled also arise with storing and manipulating information in digital
+formats. Two are discussed here to illustrate the range of problems created
+along with electronic databases.
+<dl>
+<dt>
+<a NAME="pe3"></a>Propagation of Errors</dt>
+
+<dd>
+Errors can make their way into a database in any number of ways, and in
+an instant can create endless complications in someone's life. Say, for
+instance, a data entry clerk makes a mistake in entering an individual's
+credit rating. If the individual discovers the error upon being told his
+or her credit is bad after applying for a bank loan, the error might be
+fixed easily at the agency that created the error (if the mistake is proven).
+But what if such a mistake has been passed to other holders of financial
+or personal information? Who is responsible for tracking down every agency
+that might have acquired the error along with masses of other information?
+Individuals, at the moment, have no way to access, check, and correct discrepancies
+as they appear. Errors may be passed far beyond the site where they first
+occur and be almost impossible to correct. In a data mosaic, such an error
+might even be propagated further. Individuals with bad credit ratings might
+be thrown together into a related category, and the reason for being placed
+in this new category within a new database might then be obscured. The
+original error would then be compounded, and becomes even more difficult
+to correct. Who is responsible? Who should be? Questions like this are
+still open to debate.</dd>
+
+<dt>
+<a NAME="pp3"></a>Propensity Profiles</dt>
+
+<dl>Database creators often focus their efforts on finding people or objects
+with sets of characteristics which they think suggest something else about
+the people or objects thus profiled. For instance, the marketing specialist
+for the manufacturer of a specific car can target certain people because
+they possess a set of characteristics that together give them the appearance
+of becoming likely buyers: people who live within certain zip code areas,
+who now own a similar car that is six years old, who have no more than
+two children, and so forth. Such practices have become a familiar feature
+of American life, but while becoming the target of a marketing scheme can
+be annoying or even slightly disturbing, it is relatively innocuous. Such
+profiles, however, also have been put to less innocent uses. Police have
+used propensity profiles to target people as possible suspects because
+they possess certain characteristics, characteristics which in themselves
+do not indicate criminal activity. Some police departments, for instance,
+have used utility records to ferret out home-based drug labs. People who
+use unusual amounts of water and electricity became the objects of police
+attention. Imagine, in such a scenario, what might happen to the honest
+citizen in a cold, northern state who also lives on the wrong side of the
+tracks and has a passion for rare tropical plants. Propensity profiles
+may have led to the discovery of drug labs, but they have also opened the
+way to violating basic and Constitutional rights for reasons that seem
+logical but which have been conjured out of substitute information.</dl>
+</dl>
+
+<hr>
+<h2>
+<a NAME="GIS"></a>7. Geographic Information Systems</h2>
+<a NAME="also"></a>GIS Also Create New Sets of Data
+<p>Geographic Information Systems (GIS) can be used to create data mosaics
+and so may share some of the potential problems of other database systems.
+But GIS also have specific capabilities and characteristics which come
+with their own ethical dilemmas. As well as their database functions and
+mapping features, GIS can perform spatial analysis and so create entirely
+new sets of data. The data gathered and created by public agencies have
+become increasingly valuable and attractive to a wide range of people and
+businesses. Because GIS are often operated by local, state, and federal
+agencies--organizations with the resources to run such costly systems--conflicts
+have arisen over rights to access. Three types of existing conflicts are
+outlined below. The first provides the general terms of the majority of
+conflicts over access; the last two examples point out more specialized
+cases of conflicting interests.
+<br>&nbsp;
+<h3>
+<a NAME="costs"></a>7.1 Conflicting Responsibilities: Serve and Protect</h3>
+GIS Information is Often Public Information and Agencies Like to Share
+Costs
+<p>GIS are used extensively by local, state, and federal agencies. Often
+government agencies share a Geographic Information System in order to also
+share costs, to prevent redundancies in storing information, and to make
+the system overall more useful. These agencies must find a balance between
+effectively sharing information and preserving the integrity of any private
+records they hold.
+<p><a NAME="apip"></a>Access to Public Information vs. Privacy
+<p>This required balance between effective access and preservation of privacy
+has become an even greater problem when the demands of private citizens
+or companies enter the equation. Government agencies are publicly owned,
+and they are required by law to give open access to the information they
+hold. The <b>Freedom of Information Act of 1966 (FOIA)</b> mandates public
+access in order to ensure accountability and prevent corruption. While
+it makes some allowances for preservation of privacy and for national security,
+the FOIA, along with the Open Records acts of the various states, contains
+a series of rules which prevent agencies from creating obstacles to access.
+The ability to preserve privacy of citizens, and of companies who have
+some involvement with governmental agencies, becomes increasingly difficult
+as the ability to manipulate and store information grows. Complicating
+the picture is the ability of systems like GIS to create entirely new data
+out of old information, which may then indirectly reveal information that
+is supposed to be private.
+<p><a NAME="apindpa"></a>Access to Public Information vs. New Demands on
+Public Agencies
+<p>The GIS operated by governmental agencies, meanwhile, have become so
+powerful and the information they produce so valuable that ever greater
+demands are made for the information they hold. The intent of the FOIA
+and Open Records acts was specifically to ensure governmental accountability;
+but the nature and volume of demands for access to public records held
+in public Geographic Information Systems as well as other powerful electronic
+formats, is creating a burden on public agencies for purposes of private
+profit. People or corporations who find information held by public agencies
+economically valuable will demand access based on Open Records or FOIA
+statutes. At the same time, not all citizens have the means or training
+to use digital formats, which may create obstacles to their access. And
+to make matters even more complex, some private companies make their living
+from "value-added" information, from manipulating, arranging, or analyzing
+data in such a way that it becomes more valuable for specific kinds of
+information users. These companies find dissemination of value-added information
+by publicly-funded agencies to be unfair and in conflict with their private
+interests. The inability of laws like the FOIA, which were created before
+the advent of intangible computer records, to cope with electronic information
+has thus created a myriad of problems, even as computers have become essential
+new tools. Some of the problems already encountered by federal, state and
+local agencies are outlined below:
+<p><a NAME="what1"></a>What's a public record? What are agencies required
+to provide?
+<dl>Agencies can no longer be sure what must be made accessible: the boundary
+between what is and is not a record is no longer clear. If public information
+in digital format can only be read with specific software, must the software
+be provided along with the record? What happens if an agency uses proprietary
+software to store and analyze public records?
+<p><a NAME="what2"></a>What's a reasonable search?
+<p>The FOIA states that agencies must only make "reasonable" searches for
+requested information, in order to prevent burdensome requests; but what
+is a reasonable search? The definition of reasonable becomes broader with
+the efficiencies of electronic information, but by how much? The answer
+must balance traditional rights to access with the burden that would be
+placed on public agencies should the definition of "reasonable" be made
+too broad.
+<p><a NAME="what3"></a>May user fees be charged?
+<p>How should agencies balance their traditional mandates with meeting
+the requirements of the FOIA and Open Records acts? Electronic searching
+for requested information under FOIA rules raises new staffing and budgetary
+problems. Staff must be trained in computer skills, for instance, or an
+agency with particularly valuable information may find itself overwhelmed
+with requests for public information. User fees are generally considered
+an obstacle to access; so where do agencies draw the line on providing
+information? Some agencies may simply stop creating particularly useful
+information systems in order to avoid the problem, and so concentrate on
+their own mandates.
+<p><a NAME="what4"></a>Must agencies provide records on paper or in digital
+format?
+<p>Some people cannot use information in digital formats; some records
+have no practical use when provided on paper--too much data is needed to
+be handled on anything but a computer, for instance. How can the government
+legislate which records must be provided in which format? As with all of
+the conflicts listed above, government agencies must find ways to preserve
+traditional rights and to maintain traditional responsibilities as new
+technologies create fundamental differences in how information is treated.</dl>
+
+<h3>
+<a NAME="Taking"></a>7.2 International Data: Taking and Sharing</h3>
+American satellites orbit the earth, scanning for various kinds of data,
+which can then be used in a GIS. Analysis of resulting data tells researchers
+a great deal about, for instance, natural resources located in other countries.
+Conflicts have arisen over the collection and use of such data. Poorer
+countries, without the financial resources to send up their own satellites,
+claim that the U.S. is taking information from them without any kind of
+recompense. They demand that the satellite data gathered from and about
+their countries be shared with them. The problem is a difficult one. The
+data derived from satellite information can be extremely valuable, but
+it is also costly to gather and use. Should the U.S. share the information
+with the countries from which it is taken?
+<br>&nbsp;
+<h3>
+<a NAME="Knowing"></a>7.3 Knowing is Destroying</h3>
+Public agency mandates and the right to access of public records are also
+creating problems of a different sort. Some agencies are charged with responsibilities
+to study and thereby help protect endangered species, others to understand
+and help preserve archaeological sites. Some of these agencies are finding
+that detailed information about species and their habitats or about sensitive
+archaeological sites can also harm endangered animals or places. Habitats
+and sites become vulnerable because they become known. The problem lies
+in the right to access of public records. Agencies may decide that the
+best protection of species or sites is simply to not gather detailed information
+about them.
+<p><a NAME="edsos"></a>Some of the sources for the section on GIS and Electronic
+Databases are listed below.
+<ul>
+<li>
+Antenucci, John C., et al. 1991. "Legal Issues." Chap. 11 in <i>Geographic
+Information Systems: A Guide to the Technology</i>. New York: Van Nostrand
+Rheinhold.</li>
+
+<li>
+<a href="http://www.eff.org/pub/Activism/FOIA/e-foia.bill">103rd Congress
+(1993) Senate Bill 1782</a> (amends the FOIA in reference to electronic
+information)</li>
+
+<li>
+Charles Piller, "Privacy in Peril," <i>Macworld</i>, July 1993, pp. 124-30.</li>
+
+<li>
+Jeffrey Rothfeder. 1992. <i>Privacy for Sale: How Computerization Has Made
+Everyone's Private Life an Open Secret</i>. New York: Simon and Schuster.</li>
+</ul>
+
+<hr>
+<h2>
+<b>8. <a href="../../exam/legal/legal.html">Examination and Study Questions</a></b></h2>
+
+<hr>
+<p>Last revised 2000.3.27. LNC.
+</body>
+</html>

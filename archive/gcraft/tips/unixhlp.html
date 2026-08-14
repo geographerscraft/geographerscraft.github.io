@@ -1,0 +1,295 @@
+<HTML>
+<TITLE>Essential UNIX Commands</TITLE>
+<H1>Helpful UNIX Commands (AIX and 
+CLIX)</H1>
+	In most cases, you can use the Looking Glass or X-Windows environments to accomplish all of 
+the necessary file management, mapping, and GIS tasks you need on a day-to-day basis.  Most of the tasks 
+such as copying, renaming, and deleting files are available to you in Looking Glass or Windows.   You 
+also have the option of  using Unix commands in the Shell.  Since you can move back and forth between 
+the Unix shell and Looking Glass and Windows, it doesn't matter which option you employ.  Some 
+commands are faster in invoke in Looking Glass and Windows, others in the shell.   Occasionally, 
+however, you will have to invoke a command from the shell.  These commands are equivalent to DOS 
+commands and, in many cases, there is a distinct parallel to their syntax.<P>
+	This tip sheet assumes that you have learned how logon to the Unix workstations and that you 
+have familiarized yourself with their keyboards (no small task in itself).  It also assumes that you 
+understand the meaning of the concept of a <I>file</I> and a <I>filesystem</I>.  Remember, to get Unix 
+shell on the Intergraph workstations, either choose "Shell" from the menu that pops up from the 
+workstation icon (lower left corner of the screen) or logon through the console icon (lower right corner of 
+the screen).  In AIX, open AIXterm window with your mouse, if one isn't already open.<P>
+	You will quickly find that the best way to learn how to use these commands is through 
+experimentation.  That is, once you have learned a command, try some variations until they don't work, 
+then start over.  Often there are five or six ways for you to accomplish a particular task.  Usually, I will 
+introduce you to only one, leaving it up to you to discover the rest.  Don't hesitate to consult reference 
+manuals and be aware that Oneida has a complete on-line help system (this hasn't been loaded on all the 
+systems to save space) for CLIX.  In AIX, reference materials are available in the InfoExplorer.  As 
+always, the best ways to learn is by making mistakes.<P>
+<H2>Listing Files: ls</H2>
+	The ls command lists the names and, optionally, the size and characteristics of files. <P>
+Examples:<P>
+<UL>
+<LI>$ ls
+<LI>List names of files in present working directory
+<LI>$ ls /usr5/txdot/travis/*.dgn
+<LI>List all design files in the /usr5/txdot/travis directory
+<LI>$ ls /usr2/oneida02
+<LI>Lists all files for user oneida02
+<LI>$ ls -al
+<LI>List all file characteristics for visible and hidden files on present working directory
+</UL>
+	Note: use * as a "wild-card" character with any Unix command to look for files with similar 
+characteristics.     The asterisk is a wild-card character which allows the user to enter only a limited part 
+of a file specification to find a file.  It is useful when you wish to locate a group of files with the same 
+filename or attributes.  On other occasions you may have forgotten part of a file specification.  You can 
+use '*' in place of the parts of the specification you have forgotten.   The character "?" can be used to 
+substitute for a single character. <P>
+Examples:<P>
+<UL>
+<LI>$ ls c*.dgn
+<LI>Lists all design files beginning with the letter c.
+<LI>$ ls  project.*
+<LI>Lists all files that begin with the work project.
+<LI>$ ls  austin?.dgn
+<LI>List versions of  the austin.dgn design file, only the seventh character varies.
+</UL>
+<H2>Present Working Directory:  pwd</H2>
+	Type pwd at any time to find out where you are in the file system.  You will use this command 
+often.  Remember, you need to be in your home directory to create and change your files.<P>
+<H2>Change Directory: cd</H2>
+To move around in the file system, use the cd command. <P>
+Examples:<P>
+<UL>
+<LI>$ cd /usr5/txdot/travis
+<LI>Moves you to the directory where the Travis County design file are located.
+<LI>$ cd /usr4/nauvoo00
+<LI>Moves you to the subdirectory called nauvoo00 under the directory usr4.
+<LI>$ cd ..
+<LI>Moves you back one level in the path.
+<LI>$ cd /
+<LI>Takes you back to the root directory of your workstation
+</UL>
+<H2>Changing Your Password:  passwd 
+(CLIX) ypasswd (AIX)</H2>
+	To change your password, use the passwd command and follow the prompts.     It is good to 
+change your password periodically.   You must choose a password between 6-8 characters and a mix of 
+numbers and upper and lowercase letters.   Remember passwords in Unix are "case-sensitive": upper and 
+lowercase letters matter.  Never use your name as a password or other easy-to-find personal information.  
+Also, never use a word or phrase that could to found in a dictionary.  It is easy to come up with passwords 
+that meet these requirements and are still easy to remember.  Think of simple phrases in which numbers 
+can be substituted, such as four2GO, 3Cubed, or COME2me.  <P>
+	Note: please keep a record of your original password (but do not write it down with the account 
+number).  If the lab manager and director ever have to get into your account by removing the password, 
+they will return to the password to its original setting.    Therefore, if you ever find that your new 
+password doesn't work, try the original.  All passwords on all accounts are changed at the end of the 
+semester.<P>
+<H2>Make a Directory:  mkdir</H2>
+	This command creates a new directory.  It is useful to create new directories to store related files.  
+<P>
+Example:<P>
+<UL>
+<LI>$ mkdir austin
+<LI>Creates a directory called austin to store files related to austin.
+</UL>
+<H2>Remove a File or Directory: rm and 
+rmdir</H2>
+	This command removes a file or directory.  It is only possible to execute<P>
+this command if the directory you wish to remove is empty.<P>
+Examples:<P>
+<UL>
+<LI>$ rm village1.dgn
+<LI>Deletes the file village1.dgn
+<LI>$ rm -i travis.dgn
+<LI>Deletes the file travis.dgn but will prompt you for confirmation
+<LI>$ rmdir project
+<LI>If project is a directory, this command removes it.  A directory can be removed in
+<LI>this fashion only if it is empty.
+<LI>$ rm -r project
+<LI>Deletes a directory and all the files in the directory.  This command option should be used very 
+sparingly since it will erase all the files in a directory.
+</UL>
+<H2>Copy a File: cp</H2>
+Examples:<P>
+<UL>
+<LI>$ cp  mymap1.dgn /usr4/nauvoo00/project/dgn
+<LI>Copies the file mymap1.dgn (in the present working directory) to a different subdirectory.  The 
+copied file will have the same name as the original, mymap.dgn
+<LI>$ cp  mymap1.dgn /usr4/nauvoo00/project/dgn/mymap2.dgn
+<LI>Copies the file mymap1.dgn (in the present working directory) to a different subdirectory and 
+gives the copy a new name, mymap2.dgn
+</UL>
+	The key to using this command correctly is to remember that the first file specified after the cp 
+command is the source file (the one to be copied), the second is the target.  The target will be the location 
+and, optionally, the  name of the new file.  If a new filename is omitted from the target specification, the 
+new file will have exactly the same name as the source.<P>
+	Note: it is always good practice to us the complete file specifications for both source and target 
+files,  Be very sure of yourself before you accept defaults or employ wild-card characters.  Otherwise you 
+may end up with some interesting results.  Incomplete or incorrect source names may result in errors.<P>
+<H2>Rename or Move a File: mv</H2>
+	The mv command allows users to change filenames or file locations.  The mv command is a good 
+alternative to the cp command when you wish to move a file physically and don't need to keep a copy.<P>
+Examples:<P>
+<UL>
+<LI>$ mv austin.dgn houston.dgn
+<LI>Changes the name of "austin.dgn" to "houston.dgn"
+<LI>$ mv austin.dgn  /usr4/nauvoo00/project/dgn
+<LI>Moves "austin.dgn" from the present working directory to /usr4/nauvoo00/project/dgn
+</UL>
+<H2>List File Contents: cat and pg</H2>
+	The commands cat and pg list file contents, cat by scrolling through the whole file and pg by 
+listing the contents a page at a time.   The cat command can also be used to create a file or append to 
+it.<P>
+Examples:<P>
+<UL>
+<LI>$  cat  /etc/passwd
+<LI>Scrolls through the contents of the password file.
+<LI>$ pg  /etc/passwd
+<LI>Pages through the contents of the password file.
+</UL>
+<H2>Format a floppy disk for a UNIX file 
+system: /etc/format (CLIX)</H2>
+ 	You must format new disks before saving files.  The format command checks a diskette for flaws 
+and creates a directory  where all the names of the diskette's files will be stored.<P>
+Examples:<P>
+<UL>
+<LI>$ /etc/format   [enter]
+<LI>Formats a high-density (1.44MB) diskette
+</UL>
+	NOTE: The Unix workstations can read from and write to DOS diskettes, but these disks should 
+be formatted first on one of the DOS/Windows PCs.  The Unix format command formats a disk for a Unix 
+filesystem.<P>
+	BEWARE: Executing the format command with a diskette which already contains files will 
+result in the deletion of all the contents of the entire disk.  It is best to execute the format command only 
+on new diskettes.  If you format an old diskette make sure it contains nothing you wish to save.<P>
+<H2>Rebooting the computer (CLIX)</H2>
+	In some cases, the workstation may stall.  This is not unusual and as you become familiar with 
+the workstation you will often learn to find your way out of such situations.  However, there is nothing 
+wrong with rebooting the computer if you are really stuck. <B>  Press the ROUND button on the back 
+of the keyboard.</B>   Be aware that rebooting will take 5-10 minutes.  Also, before you reboot be sure 
+that no other user is accessing files from your workstation.  There use of the file will be terminated when 
+you reboot.  When you reboot you many loose some of your work in the file that is open at the time you 
+press the button.<P>
+<H2>Stop Execution and Reset (Ctrl-C and 
+Escape)</H2>
+	If you wish to stop the computer in the midst of executing the current command, you may use the 
+key sequence Ctrl-C.  Sometimes the Escape key serves the same function..<P>
+<H2>Changing File Attributes and File 
+Protection: chmod, chown, chgrp</H2>
+	All Unix files are "owned" by a particular user, and carry certain protections which guard their 
+use--read , write, and execute protection.   You own all the files in your home directory and can do what 
+you like with them.  But all other files on the workstations are owned by other users and you can use them 
+only if you are permitted.   The command chown changes the ownership of a file, and you will only be 
+able to use it if you wish to "give" a file to another user.  This won't happen very often, because it would 
+be just as easy to let the other user make a copy (provided they have read access).  The only one of these 
+three commands that you may use periodically is chmod, it controls the read, write, and execute access to 
+files.<P>
+	All user accounts have been set up so that you, the user, have read, write, and execute access to 
+all your files in your home directory.  Read access has also been granted automatically to people in your 
+"group" and to "other" users.  Everyone in the class is part of the same "group" (think of this as a 
+workgroup sharing its files).   If you wish to remove these automatic permissions, use the following 
+options:<P>
+Examples:<P>
+<UL>
+<LI>chmod  go-r  austin.dgn
+<LI>Subtracts the read ("r") permission for group ("g") and other ("o") for austin.dgn
+<LI>chmod  go+r  austin.dgn
+<LI>Adds the read permission for group and other
+<LI>chmod  go-r  *.dgn
+<LI>Subtracts read permission for group and other, for all design files.  No one but yourself will be 
+able to view or copy your design files.
+<LI>chmod  g+w  houston.dgn
+<LI>Adds write access for all members of your group.  Other members of the class will be able to 
+make changes in your file.  This is fine if several people plan to work on a file together.
+</UL>
+	It will be unusual to use the command chgrp in the present workstation configuration since 
+everyone in the class is a member of the same group.  There is no group for you to change to.  <P>
+<H2>Checking Disk Space:  Free (CLIX) and 
+df</H2>
+	If you'd like to know how much disk space is available on all mounted file systems, use either the 
+Free command or df.<P>
+<H2>Backup Files</H2>
+	It is possible to lose files by mistake, although the more you practice the less likely it becomes.  
+For your own peace of mind, it is good practice to make backup copies of your most valuable files.<P>
+	You can backup your files on DOS or Unix diskettes or, for very large files and entire directory 
+and file systems, on tape.  <P>
+<H3>1.	Files to and from DOS diskettes for Backup and 
+Transfer</H3>
+<H4>The Unix-to-DOS command: utd (CLIX)</H4>
+	Copies a Unix file to a DOS diskette.  Diskette must already be formatted for DOS.<P>
+Examples:<P>
+<UL>
+<LI>utd -p austin.dgn a:
+<LI>Copies austin.dgn from the present working directory to the floppy.  Notice that the option -p 
+must be used to conserve the end-of-file marker.
+</UL>
+NOTE:  The utd command is not very robust and is not buffered against typographical errors.  That is, you 
+cannot make any mistakes as you type it or it won't work properly--use of the Delete and Backspace keys 
+confuse it.  If you make a typo, Ctrl-C to end the command and start over.<P>
+On the AIX machines "drop" files on the DOS-Write and DOS-Write icons to transfer them to and from a 
+diskette.  These icons are under the Power menu on the desktop.<P>
+<H4>The DOS-to-Unix command: dtu (CLIX)</H4>
+	Copies a DOS file to a Unix disk.  <P>
+Examples:<P>
+<UL>
+<LI>dtu -p a:austin.dgn /usr4/nauvoo00
+<LI>Copies austin.dgn from the DOS floppy to the /usr4/nauvoo00 directory.  Notice that the option 
+-p must be used to conserve the end-of-file marker.
+<LI>dtu -p a:houston.dgn .
+<LI>Copies houston.dgn to the present working directory.  Notice the period at the end of the 
+command.  This is the Unix shorthand for present working directory.
+</UL>
+NOTE:  The dtu command is not very robust and is not buffered against typographical errors.  That is, you 
+cannot make any mistakes as you type it or it won't work properly--use of the Delete and Backspace keys 
+confuse it.  If you make a typo, Ctrl-C to end the command and start over.<P>
+On the AIX machines "drop" files on the DOS-Write and DOS-Write icons to transfer them to and from a 
+diskette.  These icons are under the Power menu on the desktop.<P>
+<H4>The DOS List Command:  dls (CLIX)</H4>
+	It is sometimes useful to look at the contents of your DOS diskette from the Unix workstations to 
+see, for example, what files are already there and how much space is occupied.  Use the dls command to 
+get this information.<P>
+Examples:<P>
+<UL>
+<LI>dls
+<LI>Lists files on DOS diskette in disk drive.
+<LI>dls -al
+<LI>Lists characteristics (including size) of all visible and hidden files on DOS diskette.
+</UL>
+Again, AIX provides an icon for reading the contents of a DOS disk.<P>
+<H3>2.	Files to and from Unix diskettes for Backup and 
+Transfer</H3>
+	There are a number of ways to copy and store files to Unix diskettes, including the use of the 
+conventional cp and mv commands.    There are also the to_flop and from_flop commands; the tar (tape 
+or floppy archiver); and the cpio (copy input to output) command among others.  Check the Unix manuals 
+if you wish backup your files on Unix diskettes.<P>
+<H3>3.	Files to and from 8mm Tape</H3>
+	All of the workstations have access to the 8mm tape drive attached to reunion.  Very large files 
+and file systems can be put on tape.  You can purchase a tape or, in some situations, borrow one.  Special 
+backup and recover routines have been written for the workstations to make tape backup easy.<P>
+<H4>Copy File(s) or File System to Tape:  
+/usr/ip32/toolbox/backup</H4>
+	Move to the directory you wish to backup and put a tape into the tape drive.  The backup 
+command will backup all files from there downward in the file system hierarchy.<P>
+<H4>Copy File(s) or File System from Tape to Disk: 
+/usr/ip32/toolbox/recover</H4>
+	Create or move to an empty subdirectory and put a tape into the tape drive.   If the directory is 
+not empty and recover finds duplicate file names on tape and disk, it will over-write the disk files with the 
+tape files.<P>
+<H2>File-Naming Conventions</H2>
+	Careful file naming can save time.  Always choose names which provide a clue to the file's 
+contents.  If you are working with a series of related files, use a number somewhere in the name to 
+indicate which version you have created.  Remember, some suffixes are assigned automatically (for 
+instance, .dgn and .ulf) or are required by certain software modules.  These cannot be varied.<P>
+Examples:<P>
+<UL>
+<LI>world.dgn
+<LI>A Microstation design file of a world map.  The .dgn suffix is required.
+<LI>brazil.dgn
+<LI>A boundary file of Brazil in Microstation format.
+<LI>BRIT1.DAT
+<LI>BRIT2.DAT
+<LI>BRIT3.DAT
+<LI>Three versions of a data file for a map of Britain.
+</UL>
+Converted on 20 July 1994.  KEF.<P>
+</HTML>
+
+
+

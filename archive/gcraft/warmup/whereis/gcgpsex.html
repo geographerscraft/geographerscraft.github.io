@@ -1,0 +1,286 @@
+<!doctype html public "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<TITLE>Notes on the GPS Positioning Exercise for the Geographer's Craft 
+</TITLE>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Word 1.0Z">
+<META NAME="AUTHOR" CONTENT="Peter H. Dana">
+</HEAD>
+
+<BODY>
+
+<H1>Notes on the GPS Positioning Exercise for the Geographer's
+Craft </H1>
+
+<P>
+<B>Peter H. Dana</B>
+<P>
+<B>2/6/96</B> 
+<H1>Introduction</H1>
+
+<P>
+The object of the exercise to attempt to measure the four corners
+of the Geography Building with GPS. The task seems simple enough
+and yet is quite difficult to accomplish. This is a very common
+problem with many positioning projects that have selected GPS
+as the source for position data.
+<P>
+The task is difficult because GPS depends the ability of the receiver
+antenna to &quot;see&quot; four or more satellites at the same
+time in order to provide a position solution at all. Without tracking
+four satellites the receiver cannot provide (without aiding) a
+three-dimension fix. The task of measuring the corners of the
+Geography Building is even more difficult because the ability
+to track four satellites is not enough to insure an accurate position
+solution. To achieve the specified accuracies of GPS, the receiver
+must track four satellites which are well distributed around the
+sky so that the satellites measurements provide good Geometric
+Dilution of Precision (GDOP). Essentially the satellites must
+be selected so that they provide range measurements with respect
+to east and west, north and south , and up and down all at the
+same time. They cannot do this at all if they are all in the same
+place in the sky, and can only do it well if they are &quot;nicely&quot;
+distributed around the sky with some low in the sky and some high,
+with some to the east and west and some to the north and south.
+<P>
+The Trimble GeoExplorer receiver provides the user with an indicator
+of the effect of GDOP on the position solution. The PDOP figure
+available on the user Satellite Tracking screen reached from the
+GPS Status screen under the Main Menu screen, gives a figure for
+the geometric dilution of precision for three dimensional position,
+PDOP, or Position DOP. This number can be used to estimate the
+effect geometry will have on the position solution. If the PDOP
+is more than around 6.0, the solution will be twice as bad as
+if the PDOP was 3.0 (a more normal value). Check the PDOP value
+before and after taking position data.
+<P>
+You will find that while attempting to use the GPS receiver right
+up against the corner of the building that much of the sky is
+blocked by other structures and by the Geography Building itself.
+The portion of the sky that can be seen by the antenna is very
+limited. While you will occasionally be able to see the required
+four satellites, the GDOP will usually be rather poor. One of
+the reasons for this exercise is to point out the problems in
+specifying GPS for positioning projects and a common problem is
+the inability of the receiver to do the job in the project environment.
+Whenever trees, terrain, buildings, or even heavy foliage cover
+block the GPS signals, the specified accuracies of GPS may not
+be available.
+<P>
+Because there are 24 SVs orbiting the earth, and because these
+SV are constantly changing their positions with respect to the
+receiver, you will probably be able to measure the signals from
+four satellites at each of the corners of the building. You may
+have to wait for the satellites to move into positions from which
+they can be seen. Because they orbit the earth every twelve hours
+and move across the sky above you in only a few hours, there positions
+do change fairly quickly and so you should not have to wait too
+long.
+<P>
+Consider other ways of using GPS position to measure the corners
+without taking measurements right at the corners of the building.
+It might be possible to take readings at points that are lined
+up with the sides of the building. It might require eight measurements
+rather than four, to develop a set of positions that would allow
+you to draw four straight lines that would intersect at the four
+corners of the Geography Building, but the difficulties of measuring
+the corners directly might make this a worth doing.
+<H1>The Trimble Navigation GeoExplorer GPS Receiver</H1>
+
+<P>
+This is a six channel GPS receiver that can provide GPS position
+data in several modes of GPS operation.
+<H2>Stand-alone C/A code GPS positioning</H2>
+
+<P>
+In this mode, the GeoExplorer tracks up to eight GPS space vehicles
+(SVs) and provides three-dimensional position fixes in a variety
+of coordinate systems and geodetic datums. As specified in the
+Federal Radionavigation Plan, this Standard Positioning Service
+(SPS) of GPS can provide horizontal position fixes to an accuracy
+of 100 meters (95% - meaning that a distribution of independent
+position fixes will provide position estimates such that 95% -
+or two standard deviations - of the radial distances from the
+true position to the estimates will be less than 100 meters).
+Vertical accuracies are specified as 156 meters (95%).
+<H2>Real-Time Differential GPS (DGPS) Positioning</H2>
+
+<P>
+In this mode, the GeoExplorer can be interfaced to a communication
+link that provides differential corrections for each individual
+SV measurement. These corrections can result in positioning accuracies
+of one to five meters. A source of DGPS corrections must be available.
+Several public and private agencies provide DGPS real-time corrections
+in different areas.
+<H2>Post-Processed DGPS Positioning</H2>
+
+<P>
+In this mode the GeoExplorer collects SV measurements that are
+later downloaded to a computer for DGPS correction. Correction
+is done with respect to data files collected at a reference station
+within a few hundred kilometers of the remote GeoExplorer. This
+mode can also result in one to five meter positioning accuracies,
+but without the need for a communication link to a real-time DGPS
+service.
+<H2>Post-Processed Carrier Phase DGPS Positioning</H2>
+
+<P>
+The GeoExplorer can also be used in a specialized sub-set of survey-mode
+GPS carrier-phase positioning. With specialized software and data
+files, a sub-meter position accuracy can be obtained within 30
+kilometers of a reference base station that supplies the specialized
+measurement data files that are required for this mode.
+<H2>The GeoExplorer as a Base Station</H2>
+
+<P>
+The GeoExplorer can also act as a source for DGPS base station,
+or reference DGPS. The receiver has a limited storage capacity
+and so is not a good choice for a permanent base station, but
+two GeoExplorers, one at a precisely known location, and the other
+a roving remote receiver can act as a complete DGPS system.
+<P>
+In this exercise we will use the GeoExplorer in two modes, the
+stand-alone mode, and the post-processed DGPS mode.
+<H1>Hints for GPS Measurements and DGPS Corrections</H1>
+
+<P>
+In addition to the receiver and a set of fresh batteries (four
+AAs), you will need the interface cable and a PC loaded with the
+GEO-PC software to accomplish the task.
+<P>
+You should turn the receiver on and delete all the files previously
+stored within it before starting your exercise. If you install
+new batteries reset the battery usage to zero in the Configuration
+menu. The nice thing to do is use the batteries that are in the
+receiver and install your new ones after you are done for use
+by the next group.
+<P>
+Because you will need a DGPS correction file from a Community
+Base Station to correct you measurements, and because these files
+cover one hour periods of time, you might want to schedule your
+project so that you will make all your measurements within a particular
+one-hour period. This will make post-processing much easier.
+<P>
+Find a place near the building that provides a good view of the
+sky. Turn the receiver on by pressing the bottom button. Hold
+the receiver so that the antenna under the Trimble logo (an engraved
+sextant) is pointing up toward the sky. The receiver is curved
+so that if you keep the antenna pointing up the keys and screen
+are still visible.
+<P>
+While the receiver begins to track satellites and gather the required
+Navigation Message from each available satellite, use the menu
+keys as instructed in the user guide to find the GPS Status menu
+and the Sat. Tracking screen. Watch as the receiver acquires SVs
+from the list of SVs that should be visible from receiver (using
+the last position solution) and when the receiver is tracking
+at least four switch to the position screen and wait until the
+receiver begins to update the position. Note that the position
+will change as the noise and bias errors move the apparent position
+of the receiver around. Note too that position movement is most
+apparent in the HAE (height above reference ellipsoid) figure
+for two reasons. The height is displayed in meters while latitude
+and longitude are displayed in decimal seconds (1.0 seconds is
+about 30 meters) and so the displayed numbers change less for
+latitude and longitude than they do for height. In addition the
+sensitivity of GPS to errors is more (156 meters Vs 100 meters)
+in the vertical direction (due in large part to the ionospheric
+delays).
+<P>
+When you are tracking enough satellite to get position fixes,
+move toward the spot you have selected for the first set of measurements.
+If, close to the building, you can no longer get position fixes,
+wait, or reconsider the approach you have taken to the task. When
+you are at a location you do wish to measure, check the PDOP value,
+locate the Data Capture Screen, and open a &quot;rover&quot; file
+as instructed in the user guide. Take at least 30 position readings
+before closing the file. Remember to open and close a new file
+at each measurement point. Note the file names so that you can
+recover the data later. When you close the file, note the PDOP
+value. If you think it was too high, you might want to try again
+or reconsider where you want to make your measurements. You may
+also wish to record one independent position reading at each point
+to compare un-corrected, stand-alone GPS with DGPS.
+<P>
+After collecting four (or more) data files, turn the receiver
+off and return to the lab.
+<H2>Correcting GPS Data Files</H2>
+
+<P>
+Get the DGPS base station correction files from the Community
+Base Station for the data and time of your data file collection.
+The files are stored so that the file names indicate the data
+and time of applicability. For February 12, 1996, between 2:00
+and 3:00 PM the file name would be T6021214.EXE. This file must
+be stored in the GEO-PC\DATA directory and then run by typing
+T6021214 at the DOS prompt. The self-extracting file needed for
+correction, T6021214.SSF will be placed in the GEO-PC\DATA directory.
+<P>
+Connect the interface cable to the back of the receiver, start
+the GEO-PC software and download your un-corrected files to the
+GEO-PC \DATA directory.
+<P>
+Following the instructions in the GEO-PC software guide, set up
+the reference location, the reference files and correct your data
+files. Be very careful to be sure you know exactly what data files
+are being used in this process. Use the graphic display features
+to look at your uncorrected and corrected data files. Use the
+statistics menu to compute mean and standard deviations for both
+corrected and uncorrected data files.
+<P>
+Using the Geo-PC software convert the positions in each of your
+files to ASCII GIS files in the Texas Central Zone State Place
+Coordinate (SPC) system in survey feet. Do this for each uncorrected
+and corrected file. Clever folks will find that the software can
+be used to take each corrected file and produce a single file
+with one line containing the mean position in SPC for each of
+the measurement points.
+<P>
+As part of the exercise you are to provide one independent un-corrected
+position for each corner of the building. Use the first position
+in the un-corrected files if you did not record a single position
+reading while making the measurements.
+<P>
+When you plot your final results in State Plane Coordinates you
+may find that your DGPS position estimates do not describe a rectangle
+and that there are errors of perhaps even tens of meters. This
+may well be the result of poor PDOP during data collection. If
+your errors are more than 20 meters, you may have to repeat the
+measurements at one or more points to properly complete the exercise.
+<H1>Results</H1>
+
+<P>
+If you are lucky and were able to make measurements at a time
+when SV availability was good and the PDOP values during your
+data collection session were low it is possible to end up with
+building coordinates within one to two meters of the actual building
+corners. If your position plots do not agree with the maps consider
+whether it is more likely the maps or the GPS positions that are
+in error. If your State Plane Coordinate positions describe a
+rectangle the size of the Geography Building but the rectangle
+is shifted or rotated with respect to the SPEC coordinate system
+on the maps, remember that local plane surveying techniques (used
+to make the maps) are very accurate in a relative sense but that
+GPS might provide better accuracy in an absolute geodetic coordinate
+system. The maps may be better representations of local features,
+and GPS may be better able to describe positions with respect
+to a global coordinate system.
+<P>
+Note the extent to which your un-corrected, stand-alone GPS errors
+exceed the DGPS solutions. Expect even more than the specified
+100 meter error if you have collected the points in poor PDOP
+situations.
+<P>
+No matter how well you did, expect the DGPS estimate accuracies
+to be the result of a process subject to noise, bias, and possibly
+blunder errors that at the best can approach one meter accuracies
+and in real situations, such as we have tried to show here, may
+be as much as tens of meters. Planning, care, and a good measurement
+environment are all necessary in order to achieve the specified
+(and advertised) accuracies possible with differential GPS. 
+</BODY>
+
+</HTML>

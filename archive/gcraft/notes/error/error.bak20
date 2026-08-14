@@ -1,0 +1,583 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; U) [Netscape]">
+   <title>Error, Accuracy, and Precision</title>
+</head>
+<body>
+
+<h1>
+<img SRC="gif/accurate.gif" > Error, Accuracy, and Precision</h1>
+<i>These materials may be used for study, research, and education, but
+please credit the authors and source: Kenneth E. Foote and Donald J. Huebner,
+The Geographer's Craft Project, Department of Geography, University of
+Colorado at Boulder. All commercial rights reserved. Copyright 1995 Kenneth
+E. Foote and Donald J. Huebner. To make suggestions and corrections please
+contact <a href="mailto: k.foote@colorado.edu">k.foote@colorado.edu</a></i>
+<p>This page is available in a <a href="error_f.html" target="_top">framed
+version</a>. For convenience, we have provided a <a href="error_ftoc.html">Full
+Table of Contents</a>.
+<p>
+<hr>
+<h3>
+1.<a NAME="Importance"></a> The Importance of Error, Accuracy, and Precision</h3>
+Until quite recently, people involved in developing and using <a href="http://www.usgs.gov/research/gis/title.html">GIS</a>
+paid little attention to the problems caused by error, inaccuracy, and
+imprecision in spatial datasets. Certainly there was an awareness that
+all data suffers from inaccuracy and imprecision, but the effects on GIS
+problems and solutions was not considered in great detail. Major introductions
+to the field such as C. Dana Tomlin's <i>Geographic Information Systems
+and Cartographic Modeling</i> (1990), Jeffrey Star and John Estes's <i>Geographic
+Information Systems: An Introduction</i> (1990), and Keith Clarke's <i>Analytical
+and Computer Cartography</i> (1990) barely mention the issue.
+<p>This situation has changed substantially in recent years. It is now
+generally recognized that error, inaccuracy, and imprecision can "make
+or break" many types of GIS project. That is, errors left unchecked can
+make the results of a GIS analysis almost worthless.
+<p>The irony is that the problem of error is devolves from one of greatest
+strengths of GIS. GIS gain much of their power from being able to collate
+and cross-reference many types of data by location. They are particularly
+useful because they can integrate many discrete datasets within a single
+system. Unfortunately, every time a new dataset is imported, the GIS also
+inherits its errors. These may combine and mix with the errors already
+in the database in unpredictable ways.
+<p>One of first thorough discussions of the problems and sources error
+appeared in P.A. Burrough's <i>Principles of Geographical Information Systems
+for Land Resources Assessment</i> (1986). Now the issue is addressed in
+many introductions to GIS such as <i>Geographic Information Systems: A
+Guide to the Technology</i> (1991) by John Antenucci, Kay Brown, Peter
+Croswell, Michael Kevany and Hugh Archer.
+<p>The key point is that even though error can disrupt GIS analyses, there
+are ways to keep error to a minimum through careful planning and methods
+for estimating its effects on GIS solutions. Awareness of the problem of
+error has also had the useful benefit of making GIS practitioners more
+sensitive to potential limitations of GIS to reach impossibly accurate
+and precise solutions.
+<p>
+<hr>
+<h3>
+2.<a NAME="Definitions"></a>Some Basic Definitions</h3>
+It is important to distinguish from the start a different between <b>accuracy</b>
+and <b>precision</b>:
+<ol>
+<li>
+<b>Accuracy</b> is the degree to which information on a map or in a digital
+database matches true or accepted values. Accuracy is an issue pertaining
+to the quality of data and the number of errors contained in a dataset
+or map. In discussing a GIS database, it is possible to consider horizontal
+and vertical accuracy with respect to geographic position, as well as attribute,
+conceptual, and logical accuracy.</li>
+
+<ul>
+<li>
+The level of accuracy required for particular applications varies greatly.</li>
+
+<li>
+Highly accurate data can be very difficult and costly to produce and compile.</li>
+</ul>
+
+<li>
+<b>Precision</b> refers to the level of measurement and exactness of description
+in a GIS database. Precise locational data may measure position to a fraction
+of a unit. Precise attribute information may specify the characteristics
+of features in great detail. It is important to realize, however, that
+precise data--no matter how carefully measured--may be inaccurate. Surveyors
+may make mistakes or data may be entered into the database incorrectly.</li>
+
+<ul>
+<li>
+The level of precision required for particular applications varies greatly.
+Engineering projects such as road and utility construction require very
+precise information measured to the millimeter or tenth of an inch. Demographic
+analyses of marketing or electoral trends can often make do with less,
+say to the closest zip code or precinct boundary.</li>
+
+<li>
+Highly precise data can be very difficult and costly to collect. Carefully
+surveyed locations needed by utility companies to record the locations
+of pumps, wires, pipes and transformers cost $5-20 per point to collect.</li>
+</ul>
+</ol>
+High precision does not indicate high accuracy nor does high accuracy imply
+high precision. But high accuracy and high precision are both expensive.
+<p>Be aware also that GIS practitioners are not always consistent in their
+use of these terms. Sometimes the terms are used almost interchangeably
+and this should be guarded against.
+<p>Two additional terms are used as well:
+<ol>
+<li>
+<b>Data quality</b> refers to the relative accuracy and precision of a
+particular GIS database. These facts are often documented in data quality
+reports.</li>
+
+<br><b>Error</b> encompasses both the imprecision of data and its inaccuracies.</ol>
+
+<hr>
+<h3>
+3.<a NAME="Types"></a>Types of Error</h3>
+Positional error is often of great concern in GIS, but error can actually
+effect many different characteristics of the information stored in a database.
+<p><b>3.1.<a NAME="Positional"></a>Positional accuracy and precision</b>.
+<p>This applies to both horizontal and vertical positions.
+<p>Accuracy and precision are a function of the scale at which a map (paper
+or digital) was created. The mapping standards employed by the United States
+Geological Survey specify that:
+<p>"requirements for meeting horizontal accuracy as 90 per cent of all
+measurable points must be within 1/30th of an inch for maps at a scale
+of 1:20,000 or larger, and 1/50th of an inch for maps at scales smaller
+than 1:20,000."
+<p><b><a href="gif/scale.gif">Accuracy Standards for Various Scale Maps</a></b>
+<ul>1:1,200 &plusmn; 3.33 feet
+<p>1:2,400 &plusmn; 6.67 feet
+<p>1:4,800 &plusmn; 13.33 feet
+<p>1:10,000 &plusmn; 27.78 feet
+<p>1:12,000 &plusmn; 33.33 feet
+<p>1:24,000 &plusmn; 40.00 feet
+<p>1:63,360 &plusmn; 105.60 feet
+<p>1:100,000 &plusmn; 166.67 feet</ul>
+This means that when we see a <a href="gif/hump3.gif">point</a> on a map
+we have its "probable" location within a certain area. The same applies
+to <a href="gif/line3.gif">lines.</a>
+<p>Beware of the dangers of false accuracy and false precision, that is
+reading locational information from map to levels of accuracy and precision
+beyond which they were created. This is a very great danger in computer
+systems that allow users to pan and zoom at will to an infinite number
+of scales. Accuracy and precision are tied to the original map scale and
+do not change even if the user zooms in and out. Zooming in and out can
+however mislead the user into believing--falsely--that the accuracy and
+precision have improved.
+<p><b>3.2.<a NAME="Attribute"></a>Attribute accuracy and precision</b>
+<p>The non-spatial data linked to location may also be inaccurate or imprecise.
+Inaccuracies may result from mistakes of many sorts. Non-spatial data can
+also vary greatly in precision. Precise attribute information describes
+phenomena in great detail. For example, a precise description of a person
+living at a particular address might include gender, age, income, occupation,
+level of education, and many other characteristics. An imprecise description
+might include just income, or just gender.
+<p><b>3.3.<a NAME="Conceptual"></a>Conceptual accuracy and precision</b>
+<p>GIS depend upon the abstraction and classification of real-world phenomena.
+The users determines what amount of information is used and how it is classified
+into appropriate categories. Sometimes users may use inappropriate categories
+or misclassify information. For example, classifying cities by voting behavior
+would probably be an ineffective way to study fertility patterns. Failing
+to classify power lines by voltage would limit the effectiveness of a GIS
+designed to manage an electric utilities infrastructure. Even if the correct
+categories are employed, data may be misclassified. A study of drainage
+systems may involve classifying streams and rivers by "order," that is
+where a particular drainage channel fits within the overall tributary network.
+Individual channels may be misclassified if tributaries are miscounted.
+Yet some studies might not require such a precise categorization of stream
+order at all. All they may need is the location and names of all stream
+and rivers, regardless of order.
+<p><b>3.4<a NAME="Logical"></a></b>Logical accuracy and precision Information
+stored in a database can be employed illogically. For example, permission
+might be given to build a residential subdivision on a floodplain unless
+the user compares the proposed plat with floodplain maps. Then again, building
+may be possible on some portions of a floodplain but the user will not
+know unless variations in flood potential have also been recorded and are
+used in the comparison. The point is that information stored in a GIS database
+must be used and compared carefully if it is to yield useful results. GIS
+systems are typically unable to warn the user if inappropriate comparisons
+are being made or if data are being used incorrectly. Some rules for use
+can be incorporated in GIS designed as "expert systems," but developers
+still need to make sure that the rules employed match the characteristics
+of the real-world phenomena they are modeling.
+<p>Finally, It would be a mistake to believe that highly accurate and highly
+precision information is needed for every GIS application. The need for
+accuracy and precision will vary radically depending on the type of information
+coded and the level of measurement needed for a particular application.
+The user must determine what will work. Excessive accuracy and precision
+is not only costly but can cause considerable details.
+<p>
+<hr>
+<h3>
+<b>4.<a NAME="Sources1"></a>Sources of Inaccuracy and Imprecision</b></h3>
+There are many sources of error that may affect the quality of a GIS dataset.
+Some are quite obvious, but others can be difficult to discern. Few of
+these will be automatically identified by the GIS itself. It is the user's
+responsibility to prevent them. Particular care should be devoted to checking
+for errors because GIS are quite capable of lulling the user into a false
+sense of accuracy and precision unwarranted by the data available. For
+example, smooth changes in boundaries, contour lines, and the stepped changes
+of chloropleth maps are "elegant misrepresentations" of reality. In fact,
+these features are often "vague, gradual, or fuzzy" (Burrough 1986). There
+is an inherent imprecision in cartography that begins with the projection
+process and its necessary distortion of some of the data (Koeln and others
+1994), an imprecision that may continue throughout the GIS process. Recognition
+of error and importantly what level of error is tolerable and affordable
+must be acknowledged and accounted for by GIS users.
+<p>Burrough (1986) divides sources of error into three main categories:
+<ol>
+<li>
+Obvious sources of error.</li>
+
+<li>
+Errors resulting from natural variations or from original measurements.</li>
+
+<li>
+Errors arising through processing.</li>
+</ol>
+Generally errors of the first two types are easier to detect than those
+of the third because errors arising through processing can be quite subtle
+and may be difficult to identify. Burrough further divided these main groups
+into several subcategories.
+<p><b>4.1<a NAME="Obvious"></a>Obvious Sources of Error</b>
+<p><b>4.1.1.<a NAME="Age"></a>Age of data.</b>
+<p>Data sources may simply be to old to be useful or relevant to current
+GIS projects. Past collection standards may be unknown, non-existent, or
+not currently acceptable. For instance, John Wesley Powell's nineteenth
+century survey data of the Grand Canyon lacks the precision of data that
+can be developed and used today. Additionally, much of the information
+base may have subsequently changed through erosion, deposition, and other
+geomorphic processes. Despite the power of GIS, reliance on old data may
+unknowingly skew, bias, or negate results.
+<p><b>4.1.2.<a NAME="Areal"></a> Areal Cover.</b>
+<p>Data on a give area may be completely lacking, or only partial levels
+of information may be available for use in a GIS project. For example,
+vegetation or soils maps may be incomplete at borders and transition zones
+and fail to accurately portray reality. Another example is the lack of
+remote sensing data in certain parts of the world due to almost continuous
+cloud cover. Uniform, accurate coverage may not be available and the user
+must decide what level of generalization is necessary, or whether further
+collection of data is required.
+<p><b>4.1.3.<a NAME="Map"></a> Map Scale.</b>
+<p>The ability to show detail in a map is determined by its scale. A map
+with a scale of 1:1000 can illustrate much <a href="gif/soil.gif">finer
+points of data</a> than a smaller scale map of 1:250000. Scale restricts
+type, quantity, and quality of data (Star and Estes 1990). One must match
+the appropriate scale to the level of detail required in the project. Enlarging
+a small scale map does not increase its level of accuracy or detail.
+<p><b>4.1.4.<a NAME="Density"></a> Density of Observations.</b>
+<p>The number of observations within an area is a guide to data reliability
+and should be known by the map user. An insufficient number of observations
+may not provide the level of resolution required to adequately perform
+spatial analysis and determine the patterns GIS projects seek to resolve
+or define. A case in point, if the contour line interval on a map is 40
+feet, resolution below this level is not accurately possible. Lines on
+a map are a generalization based on the interval of recorded data, thus
+the closer the sampling interval, the more accurate the portrayed data.
+<p><b>4.1.5.<a NAME="Relevance"></a> Relevance.</b>
+<p>Quite often the desired data regarding a site or area may not exist
+and "<a href="http://www.usgs.gov/research/gis/work1.html">surrogate</a>"
+data may have to be used instead. A valid relationship must exist between
+the surrogate and the phenomenon it is used to study but, even then, error
+may creep in because the phenomenon is not being measured directly. A local
+example of the use of surrogate data are habitat studies of the golden-cheeked
+warblers in the Hill Country. It is very costly (and disturbing to the
+birds) to inventory these habitats through direct field observation. But
+the warblers prefer to live in stands of old growth cedar <i>Juniperus
+ashei</i>. These stands can be identified from aerial photographs. The
+density of <i>Juniperus ashei</i> can be used as surrogate measure of the
+density of warbler habitat. But, of course, some areas of cedar may uninhabited
+or inhibited to a very high density. These areas will be missed when aerial
+photographs are used to tabulate habitats.
+<p>Another example of surrogate data are electronic signals from remote
+sensing that are use to estimate vegetation cover, soil types, erosion
+susceptibility, and many other characteristics. The data is being obtained
+by an indirect method. Sensors on the satellite do not "see" trees, but
+only certain digital signatures typical of trees and vegetation. Sometimes
+these signatures are recorded by satellites even when trees and vegetation
+are not present (false positives) or not recorded when trees and vegetation
+are present (false negatives). Due to cost of gathering on site information,
+surrogate data is often substituted and the user must understand variations
+may occur and although assumptions may be valid, they may not necessarily
+be accurate.
+<p><b>4.1.6.<a NAME="Format"></a> Format.</b>
+<p>Methods of formatting digital information for transmission, storage,
+and processing may introduce error in the data. Conversion of scale, projection,
+changing from raster to vector format, and resolution size of pixels are
+examples of possible areas for format error. Expediency and cost often
+require data reformation to the "lowest common denominator" for transmission
+and use by multiple GIS. Multiple conversions from one format to another
+may create a ratchet effect similar to making copies of copies on a photo
+copy machine. Additionally, international standards for cartographic data
+transmission, storage and retrieval are not fully implemented.
+<p><b>4.1.7.<a NAME="Accessibility"></a> Accessibility.</b>
+<p>Accessibility to data is not equal. What is open and readily available
+in one country may be restricted, classified, or unobtainable in another.
+Prior to the break-up of the former Soviet Union, a common highway map
+that is taken for granted in this country was considered classified information
+and unobtainable to most people. Military restrictions, inter-agency rivalry,
+privacy laws, and economic factors may restrict data availability or the
+level of accuracy in the data.
+<p><b>4.1.8.<a NAME="Cost"></a> Cost.</b>
+<p>Extensive and reliable data is often quite expensive to obtain or convert.
+Initiating new collection of data may be too expensive for the benefits
+gained in a particular GIS project and project managers must balance their
+desire for accuracy the cost of the information. True accuracy is expensive
+and may be unaffordable.
+<p><b>4.2.<a NAME="Natvariation"></a> Errors Resulting from Natural Variation
+or from Original Measurements.</b>
+<p>Although these error sources may not be as obvious, careful checking
+will reveal their influence on the project data.
+<p><b>4.2.1.<a NAME="Posaccuracy"></a> Positional accuracy.</b>
+<p>Positional accuracy is a measurement of the variance of map features
+and the true position of the attribute (Antenucci and others 1991, p. 102).
+It is dependent on the type of data being used or observed.. Map makers
+can accurately place well-defined objects and features such as roads, buildings,
+boundary lines, and discrete topographical units on maps and in digital
+systems, whereas less discrete boundaries such as <a href="gif/soil.gif">vegetation
+or soil type</a> may reflect the estimates of the cartographer. Climate,
+biomes, relief, soil type, drainage and other features lack sharp boundaries
+in nature and are subject to interpretation. Faulty or biased field work,
+<a href="gif/digitz.gif">map
+digitizing errors</a> and conversion, and scanning errors can all result
+in inaccurate maps for GIS projects.
+<p><b>4.2.2.<a NAME="Acontent"></a> Accuracy of content.</b>
+<p>Maps must be correct and free from bias. Qualitative accuracy refers
+to the correct labeling and presence of specific features. For example,
+a pine forest may be incorrectly labeled as a spruce forest, thereby introducing
+error that may not be known or noticeable to the map or data user. Certain
+features may be omitted from the map or spatial database through oversight,
+or by design.
+<p>Other errors in quantitative accuracy may occur from faulty instrument
+calibration used to measure specific features such as altitude, soil or
+water pH, or atmospheric gases. Mistakes made in the field or laboratory
+may be undetectable in the GIS project unless the user has conflicting
+or corroborating information available.
+<p><b>4.2.3.<a NAME="Sources2"></a> Sources of variation in data.</b>
+<p>Variations in data may be due to measurement error introduced by faulty
+observation, biased observers, or by mis-calibrated or inappropriate equipment.
+For example, one can not expect sub-meter accuracy with a hand-held, non-differential
+GPS receiver. Likewise, an incorrectly calibrated dissolved oxygen meter
+would produce incorrect values of oxygen concentration in a stream.
+<p>There may also be a natural variation in data being collected, a variation
+that may not be detected during collection. As an example, salinity in
+Texas bays and estuaries varies during the year and is dependent upon freshwater
+influx and evaporation. If one was not aware of this natural variation,
+incorrect assumptions and decisions could be made, and significant error
+introduced into the GIS project. In any case if the errors do not lead
+to unexpected results their detection may be extremely difficult.
+<p><b>4.3.<a NAME="Processing"></a> Errors Arising Through Processing</b>
+<p>Processing errors are the most difficult to detect by GIS users and
+must be specifically looked for and require knowledge of the information
+and the systems used to process it. These are subtle errors that occur
+in several ways, and are therefore potentially more insidious, particularly
+because they can occur in multiple sets of data being manipulated in a
+GIS project.
+<p><b>4.3.1.<a NAME="Numerical"></a> Numerical Errors.</b>
+<p>Different computers may not have the same capability to perform complex
+mathematical operations and may produce significantly different results
+for the same problem. Burrough (1990) cites an example in number squaring
+that produced 1200% difference. Computer processing errors occur in rounding
+off operations and are subject to the inherent limits of number manipulation
+by the processor. Another source of error may from faulty processors, such
+as the recent mathematical problem identified in Intel's Pentium(tm) chip.
+In certain calculations, the chip would yield the wrong answer.
+<p>A major challenge is the accurate conversion of existing to maps to
+digital form (Muehrcke 1986). Because computers must manipulate data in
+a digital format, numerical errors in processing can lead to inaccurate
+results. In any case numerical processing errors are extremely difficult
+to detect, and perhaps assume a sophistication not present in most GIS
+workers or project managers.
+<p><b>4.3.2.<a NAME="Topological"></a> Errors in Topological Analysis.</b>
+<p>Logic errors may cause incorrect manipulation of data and topological
+analyses (Star and Estes 1990). One must recognize that data is not uniform
+and is subject to variation. Overlaying multiple layers of maps can result
+in problems such as <a href="gif/sliver.gif">Slivers</a>, <a href="gif/overun.gif">Overshoots</a>,
+and <a href="gif/dangle.gif">Dangles</a>. Variation in accuracy between
+different map layers may be obscured during processing leading to the creation
+of "virtual data which may be difficult to detect from real data" (Sample
+1994).
+<p><b>4.3.3.<a NAME="Classification"></a> Classification and Generalization
+Problems.</b>
+<p>For the human mind to comprehend vast amounts of data it must be classified,
+and in some cases generalized, to be understandable. According to Burrough
+(1986, pp. 137) about seven divisions of data is ideal and may be retained
+in human short term memory. Defining class intervals is another problem
+area. For instance, defining a cause of death in males between 18-25 years
+old would probably be significantly different in a class interval of 18-40
+years old. Data is most accurately displayed and manipulated in small multiples.
+Defining a reasonable multiple and asking the question "compared to what"
+is critical (Tufte 1990, pp. 67-79). Classification and <a href="gif/soil.gif">generalization
+of attributes</a> used in GIS are subject to interpolation error and may
+introduce irregularities in the data that is hard to detect.
+<p><b>4.3.4.<a NAME="Digitizing"></a> Digitizing and Geocoding Errors.</b>
+<p>Processing errors occur during other phases of data manipulation such
+as digitizing and geocoding, overlay and boundary intersections, and errors
+from rasterizing a vector map. Physiological errors of the operator by
+involuntary muscle contractions may result in <a href="gif/dangle.gif">spikes,
+switchbacks, polygonal knots, and loops</a>. Errors associated with damaged
+source maps, <a href="gif/digitz.gif">operator error while digitizing</a>,
+and bias can be checked by comparing original maps with digitized versions.
+Other errors are more elusive.
+<p>
+<hr>
+<h3>
+<b>5.<a NAME="Propagation"></a> The Problems of Propagation and Cascading</b></h3>
+This discussion focused to this point on errors that may be present in
+<i>single</i>
+sets of data. GIS usually depend on comparisons of <i>many</i> sets of
+data. This schematic diagram shows how a variety of discrete datasets may
+have to be combined and compared to solve a resource analysis problem.
+It is unlikely that the information contained in each layer is of equal
+accuracy and precision. Errors may also have been made compiling the information.
+If this is the case, the solution to the GIS problem may itself be inaccurate,
+imprecise, or erroneous.
+<p>The point is that inaccuracy, imprecision, and error may be compounded
+in GIS that employ many data sources. There are two ways in which this
+compounded my occur.
+<p><b>5.1.<a NAME="Prop"></a> Propagation</b>
+<p><a href="gif/prop2.gif">Propagation</a> occurs when one error leads
+to another. For example, if a map registration point has been mis-digitized
+in one coverage and is then used to register a second coverage, the second
+coverage will propagate the first mistake. In this way, a single error
+may lead to others and spread until it corrupts data throughout the entire
+GIS project. To avoid this problem use the largest scale map to register
+your points.
+<p>Often propagation occurs in an additive fashion, as when maps of different
+accuracy are collated.
+<p><b>5.2.<a NAME="Cascade"></a> Cascading</b>
+<p><a href="gif/cascade.gif">Cascading</a> means that erroneous, imprecise,
+and inaccurate information will skew a GIS solution when information is
+combined selectively into new layers and coverages. In a sense, cascading
+occurs when errors are allowed to propagate unchecked from layer to layer
+repeatedly.
+<p>The effects of cascading can be very difficult to predict. They may
+be additive or multiplicative and can vary depending on how information
+is combined, that is from situation to situation. Because cascading can
+have such unpredictable effects, it is important to test for its influence
+on a given GIS solution. This is done by calibrating a GIS database using
+techniques such as sensitivity analysis. Sensitivity analysis allows the
+users to gauge how and how much errors will effect solutions. Calibration
+and sensitivity analysis are discussed in <a href="../manerror/manerror.html">Managing
+Error</a>.
+<p>It is also important to realize that propagation and cascading may affect
+horizontal, vertical, attribute, conceptual, and logical accuracy and precision.
+<p>
+<hr>
+<h3>
+<b>6.<a NAME="False"></a> Beware of False Precision and False Accuracy!</b></h3>
+GIS users are not always aware of the difficult problems caused by error,
+inaccuracy, and imprecision. They are often fall prey to False Precision
+and False Accuracy, that is they report their findings to a level of precision
+or accuracy that is impossible to achieve with their source materials.
+If locations on a GIS coverage are only measured within a hundred feet
+of their true position, it makes no sense to report predicted locations
+in a solution to a tenth of foot. That is, just because computers can store
+numeric figures down many decimal places does not mean that all those decimal
+places are "significant." It is important for GIS solutions to reported
+honestly and only to the level of accuracy and precision they can support.
+<p>This means in practice that GIS solutions are often best reported as
+ranges or ranking, or presented within statistical confidence intervals.
+These issues are addressed in the module, <a href="../manerror/manerror.html">Managing
+Error</a>.
+<p>
+<hr>
+<h3>
+<b>7.<a NAME="Danger"></a> The Dangers of Undocumented Data</b></h3>
+Given these issues, it is easy to understand the dangers of using undocumented
+data in a GIS project. Unless the user has a clear idea of the accuracy
+and precision of a dataset, mixing this data into a GIS can be very risky.
+Data that you have prepared carefully may be disrupted by mistakes someone
+else made. This brings up three important issues.
+<p><b>7.1.<a NAME="Ask"></a> Ask or look for a when you borrow or purchase
+data.</b>
+<p>Many major governmental and commercial data producers work to well-established
+<a href="http://www-nmd.usgs.gov/www/html/2nmpgds.html">standards
+of accuracy</a> and precision that are available publicly in printed or
+digital form. These documents will tell you exactly how maps and datasets
+were compiled and such reports should be studied carefully. Data quality
+reports are usually provided with datasets obtained from local and state
+government agencies or from private suppliers.
+<p><b>7.2.<a NAME="Prepare"></a> Prepare a Data Quality Report for dataset
+that you create.</b>
+<p>Your data will not be valuable to others unless you too prepare a data
+quality report. Even if you do not plan to share your data with others,
+you should prepare a report--just in case you use the dataset again in
+the future. If you do not document the dataset when you create it, you
+may end up wasting time later having to check it a second time. Use the
+data quality reports found above as models for documenting your dataset.
+<p><b>7.3.<a NAME="Questions"></a> In the absence of a Data Quality Report,
+ask questions about undocumented data before you use it.</b>
+<ul>
+<li>
+<i>What is the age of the data?</i></li>
+
+<li>
+<i>Where did it come from?</i></li>
+
+<li>
+<i>In what medium was it originally produced?</i></li>
+
+<li>
+<i>What is the areal coverage of the data?</i></li>
+
+<li>
+<i>To what map scale was the data digitized?</i></li>
+
+<li>
+<i>What projection, coordinate system, and datum were used in maps?</i></li>
+
+<li>
+<i>What was the density of observations used for its compilation?</i></li>
+
+<li>
+<i>How accurate are positional and attribute features?</i></li>
+
+<li>
+<i>Does the data seem logical and consistent?</i></li>
+
+<li>
+<i>Do cartographic representations look "clean?"</i></li>
+
+<li>
+<i>Is the data relevant to the project at hand?</i></li>
+
+<li>
+<i>In what format is the data kept?</i></li>
+
+<li>
+<i>How was the data checked?</i></li>
+
+<li>
+<i>Why was the data compiled?</i></li>
+
+<br><i>What is the reliability of the provider?</i></ul>
+
+<hr>
+<h3>
+<b>8.&nbsp;<a NAME="Managing"></a><a href="../manerror/manerror.html">Principles
+of Managing Error</a></b></h3>
+Methods for controlling, measuring, and managing error are the subject
+of the next module.
+<p>
+<hr>
+<h3>
+<b>9.&nbsp;<a NAME="Readings"></a>Required Reading</b></h3>
+Antenucci, J.C., Brown, K., Croswell, P.L., Kevany, M. and Archer, H. 1991.
+<i>Geographic
+Information Systems: a guide to the technology</i>. Chapman and Hall. New
+York.
+<p>Burrough, P.A. 1990. <i>Principles of Geographical Information Systems
+for Land Resource Assessment</i>. Clarendon Press. Oxford.
+<p>
+<hr>
+<h3>
+<b>10.&nbsp;<a NAME="References"></a>References and Further Reading</b></h3>
+Antenucci, J.C., Brown, K., Croswell, P.L., Kevany, M. and Archer, H. 1991.
+<i>Geographic
+Information Systems: a guide to the technology</i>. Chapman and Hall. New
+York.
+<p>Burrough, P.A. 1990. <i>Principles of Geographical Information Systems
+for Land Resource Assessment</i>. Clarendon Press. Oxford.
+<p>Koeln, G.T., Cowardin, L.M., and Strong, L.L. 1994. "Geographic Information
+Systems". P. 540 in T.A. Bookhout ed. <i>Research and Management Techniques
+for Wildlife and Habitat.</i> The Wildlife Society. Bethesda.
+<p>Muehrcke, P.C. 1986. <i>Map Use: Reading, Analysis, and Interpretation</i>.
+2d Ed. JP Publications, Madison.
+<p>Sample, V.A. (Ed). 1994. <i>Remote Sensing and GIS in Ecosystem Management</i>.
+Island Press. Washington, D.C.
+<p>Star, J. and Estes, J. 1990. <i>Geographic Information Systems: an Introduction</i>.
+Prentice Hall. Englewood Cliffs.
+<p>Tufte, E.R. 1990. <i>Envisioning Information. </i>Graphics Press, Cheshire,
+Conn.
+<p>
+<hr>
+<p><b>11. <a href="../../exam/error/error.html">Examination and Study Questions</a></b>
+<p>
+<hr><img SRC="gif/txblut00.gif" ><b> </b>Created on 14 Oct 95. DJH. Last
+revised on 2000.3.27. LNC.
+</body>
+</html>

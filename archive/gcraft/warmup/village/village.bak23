@@ -1,0 +1,640 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.6 [en] (Win95; I) [Netscape]">
+   <title>The Village</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#339966" vlink="#006666">
+
+<center>
+<hr 
+
+WIDTH=50%>
+<hr>
+<hr WIDTH=50%>
+<br><img SRC="gif/airphoto.gif" ></center>
+
+<p><br>
+<center>
+<h1>
+THE VILLAGE</h1></center>
+
+<center>
+<h2>
+An exercise to introduce digitizing in Microstation</h2></center>
+
+<center>
+<hr WIDTH=50%>
+<hr>
+<hr WIDTH=50%></center>
+
+<p>This exercise was created by Dr. Kenneth E. Foote and Katrin Molch at
+the geography department of The University of Colorado at Boulder. You may
+use the material freely but please credit the authors. Send any comments
+and suggestions to <a href="mailto: k.foote@colorado.edu">k.foote@colorado.edu</A>.
+<p>This page is available in a <a href="village_f.html" target="_top">framed
+version</a>. For convenience, a <a href="village_ftoc.html" target="_top">Full
+Table of Contents</a> is provided.
+<p>
+<hr>
+<h2>
+<a NAME="goal"></a>Goal</h2>
+Microstation is a CAD package that offers all the features necessary for
+e.g. architectural design. As many features are similar to those of mapping
+software, it can also be used for cartographic purposes.
+<p>In this exercise you will learn how to digitize in Microstation
+by tracing from a digital file. The goal is to familiarize you with the
+basic features of this CAD program.
+<p>
+<hr>
+<h2>
+<a NAME="bac"></a>Background</h2>
+This digitizing exercise is based on the seventeen episode British TV series
+<i>The
+Prisoner</i>, first aired during the winter of 1967/68. It was a remarkable
+one for various reasons. For a TV show to follow <i>Danger Man</i> (<i>Secret
+Agent</i> in the U.S.) the director, Patrick McGoohan, had in mind an unconventional
+and very different type of plot that was far ahead of its time.
+<br>
+<br>
+<h3>
+<a NAME="seri"></a>The Series</h3>
+Being full of mystery and unanswered questions, <i>The Prisoner</i> is
+essentially a spy story. The narrative is set in a rather idyllic village
+the location of which is never revealed during the course of the series.
+As the protagonist and the invisible leader of the village everybody is
+addressed by a number instead of his or her name. Number Six, the main
+character, resigns from his job as secret agent and is subsequently abducted
+from his London home to the village which is ruled by a certain Number
+One, who is never seen. Second in charge is Number Two, who continuously
+presses Number Six to reveal information. During the course of the series
+Number six meets several former colleagues and the village turns out to
+be a place where people who had access to top secret information are kept
+locked away. The leaders, which political side they are on remains unclear,
+try to make the former agents reveal information gathered in their previous
+job. Upon successfully doing so, they are retired to the old people's home.
+The village is set up to where each villager is under twenty-four hour
+surveillance, making escape impossible. Order is enforced by so-called
+rovers, huge white balloons that travel easily both on land and water.
+<p><i>The Prisoner</i> launched a considerable amount of strongly emotional
+reactions among its audience. To some the series was simply a hardly understandable
+spy story, but interpreted on another level, it addressed interesting issues
+pertaining to real life. Will, for instance, former agents, with access
+to top secret information be left to live a normal life when they resign
+their job. Does not the complexity of the narrative very well represent
+real life situations that most often are not simple and straightforward
+and might lack a final answer to each question posed? These and other issues
+the viewer was left to contemplate as each of the seventeen episodes left
+behind a feeling of uneasiness and unrest. The village is like a microcosm
+and has been described by the director himself as "a social commentary"
+on society in general.
+<br>
+<br>
+<h3>
+<a NAME="vil"></a>The Village</h3>
+While the interior shooting was done at the M-G-M Borehamwood studio in
+England, the exterior set is the village of Portmeirion which is located
+on a peninsula in Northern Wales.
+<br>
+<p><br>
+<center>
+<p><img SRC="gif/portm1p.gif" ></center>
+
+<p>Sir Clough Williams-Ellis bought the site, then called Aber I&acirc;,
+in 1925 and built a village essentially as a collection of various architectural
+styles. After <i>The Prisoner</i> had been shot in Portmeirion the village
+turned into a tourist sight. Today people can rent the buildings and spend
+their vacation on <i>The Prisoner</i>'s tracks.
+<br>
+<br>
+<center>
+<h1>
+<img SRC="gif/portm2p.gif"  align=LEFT></h1></center>
+
+<center><img SRC="gif/portm3p.gif" ></center>
+
+<p>
+<hr>
+<h2>
+<a NAME="exer"></a>The Exercise</h2>
+
+<h3>
+<a NAME="one"></a>1. Preliminaries</h3>
+Download <b>village.dgn</b> and <b>village.jpg</b> from the <i>Austin</i>
+server onto a floppy disk.
+<ul>
+<li>
+Log into <b>austin.grg.utexas.edu</b> using <b>anonymous login</b>, go
+to the <b>village</b> directory and ftp the files <b>village.dgn</b> and
+<b>village.jpg</b>
+to your disk in binary format. Village.dgn contains the outline of an 8
+1/2 x 11 sheet of paper plus settings for your workunits in inches. You
+will trace your map from the graphic file village.jpg .</li>
+<li>Alternatively, the files can be obtained from the <a href="download/">download</a> directory by clicking on the file while holding down the shift key.
+</li>
+
+</ul>
+
+<hr>
+<h3>
+<a NAME="two"></a>2. Getting started on the project</h3>
+<b>Open Microstation</b> by double clicking on its icon. Your screen should
+look somewhat like this:
+<br>
+<p><br>
+<center>
+<p><img SRC="gif/openms.jpg" ></center>
+
+<p><img SRC="gif/fit_dgn.jpg"  align=RIGHT>Change to the <b>a:</b> drive,
+if necessary set <b>Type</b> to <b>Design Files (.dgn)</b> and <b>Style</b>
+to <b><a href="gif/mswin.jpg">Command Window</a></b>. Select <b>village.dgn</b>
+from your disk, and click <b>ok</b> to open. You will see a black screen
+with only the outline (blue dashed line) of an 8.5 by 11 inch sheet of
+paper. If not, click on the <b>Fit View</b>.
+<p><a NAME="lev"></a><b>Levels</b>
+<br>The frame you see is in level, or layer, 63. As you would do with cartographic
+software or in a GIS, you will separate the map features out into several
+different levels.
+<p><b>This is what your layers or levels should contain eventually:</b>
+<ul>
+<li>
+level 1: The imported map</li>
+
+<li>
+level 2: The mapframe</li>
+
+<li>
+level 3: Natural features: coastline, cliffs, and mountains</li>
+
+<li>
+level 4: Pond, lawn, and chessfield</li>
+
+<li>
+level 5: Buildings</li>
+
+<li>
+level 6: Scale and north arrow</li>
+
+<li>
+level 7: Labels</li>
+
+<li>
+level 8: Title, source, your name and the date</li>
+
+<li>
+level 63: The page frame</li>
+</ul>
+
+<hr>
+<h3>
+<a NAME="three"></a>3. Level 1: The Imported Map</h3>
+<b>Importing the digital map</b>
+<ul>
+<li>
+Click on <b>Settings|Levels|Display</b>. In the <b>View Levels</b> window,
+set active level to <b>1</b> by double-clicking on 1 (it will turn black
+and round), then press <b>Apply </b>(never forget to press Apply, or else
+the active level will not change)</li>
+
+<li>
+Go to <b>File|Import|Image</b>. Set <b>Type</b> to <b>JPEG(JFIF)</b>, make
+sure the path is correct, i.e. change to drive <b>a:</b>, <b>highlight
+village.jpg</b> and press <b>OK</b>.</li>
+
+<li>
+Now you need to tell Microstation where on your page and how large you
+want the map. Notice that Microstation "talks to you." (it always tells
+you what it wants you to do next in the <b>Command Window)</b>. In the
+Command Window it says: <b>"Select rectangle origin"</b>. There are two
+options for doing that. You could just drag a rectangle on the screen,
+but to be more precise, type the coordinates into the Command Window textbox.
+Click in the box to activate the typing cursor (make it blink if it does
+not already), and type in the coordinates of the lower left hand ("Select
+rectangle origin") and upper right hand ("Select rectangle corner") corners
+respectively: <b>xy=0,0</b> press <b>Enter</b> and <b>xy=8.5,11</b> press
+<b>Enter</b>
+again. Now the map is being imported. If it does not show up right away
+do an <b>Update View</b> (see point 5. in the following section "Useful
+Microstation info") .</li>
+</ul>
+
+<hr>
+<center><img SRC="gif/infobar.gif" >
+<br><b>USEFUL MICROSTATION INFO</b></center>
+
+<p><a NAME="draw"></a><b>Drafting in Microstation</b>
+<p>To get familiar with the most commonly used features you might
+want to consult chapter 4 of the manual: <i>MicroStation 95, Academic Suite:
+User's Guide</i>.
+<p><b>There are a few main features you should know about before you start
+tracing:</b>
+<center><img SRC="gif/mainmen.jpg" ></center>
+
+<p><b>1. The Main Tool Box</b>
+<p>The <b>Main Tool Box</b> under <b>Tools|Main</b> contains all
+the tools you need for drawing, placing text and manipulating elements
+afterwards. To open the Main Tool Box click on Main under Tools|Main. To
+get into one of its submenus from the tool box, click on one tool and,
+while holding down the left mouse button, drag the submenu bar out and
+away from the toolbox and release left button to drop.
+<p><b>2. The Delete Element Tool</b>
+<p><img SRC="gif/del_el.jpg"  align=LEFT>
+<p>This is probably one of the most important tools. You can always
+delete elements that you do not like. There are two ways of doing this.
+Click on the <b>Delete Element</b> tool, then on the outline of the element
+you want to delete. It turns light gray and you are prompted to accept/reject
+delete. Accept delete by pressing the yellow button (#1) or the left mouse
+button; reject delete (i.e. do not delete highlighted element) with the
+red button (#4) or the right mouse button. You can also click on the<C>arrow
+first, then select the element and press the <b>delete element</b> tool
+to delete it, or click on <b>Undo</b> under <b>Edit</b> to reject deletion
+.
+<p><b>3. Changing Element Attributes</b>
+<p><img SRC="gif/chanelem.jpg"  align=RIGHT>There are several different
+ways you can change the active element. Only one way will be presented
+here, you will probably stumble onto others as you go. Always remember
+that your new line or other element is going to have the same line style,
+weight, color and level that you specified for the previous one. Pull out
+the <b>Change Element Attributes</b> dialog box from the <b>Main Tool Box</b>
+(the palette icon). If the active element is set as the example to the
+right, the next thing that you will draw will be a thin, white, solid line,
+and it will go into level, or layer, 3. You can make changes either before
+you start your new element (either in Change Element Attributes or in the
+<b>Primary
+Tool Box</b> chosen from <b>Tools</b> in the Menu Bar at top) or afterwards
+by selecting it, changing the settings in the change element settings box
+and accepting when prompted to do so. The colors might print out differently
+from what you see on the screen! White (0) becomes black. There should
+be a list posted in the lab with the color numbers (the way they print
+out), line types, and line thicknesses.
+<p><b>4. Viewing and Activating Levels</b>
+<p>The <b>View Levels</b> dialog box under <b>Settings|Level|Display</b>
+allows you to select the levels to view. The currently active level will
+be displayed as a black circle, whereas the other visible (but not active!)
+levels are surrounded by a black square. Click on a level number to toggle
+between visible and not visible, double click to activate a level. Watch
+out! -Your changes do not become effective unless you press <b>Apply</b>!
+<p><b>5. The View Control Menu.</b>
+<p><img SRC="gif/viewcon.jpg"  align=LEFT> The <b>View Control Menu</b>
+should appear in the bottom left of the Microstation work area. If it doesn't
+choose Tools from the Menu Bar at top and select <b>View Control</b>. A
+window called 2D View Control will appear.
+<br>You will find different viewing options in this dialog box. Before
+panicking when your drawing looks messed up after you deleted something
+or made other changes, try doing an <b>Update View</b>. Click on the paint
+brush, and the screen area should be refreshed.
+<br>Check the manual for more instructions as to how to use these features.
+<p>
+<hr>
+<p><img SRC="gif/rectangl.jpg"  align=RIGHT>
+<h3>
+<a NAME="four"></a>4. Level 2: Mapframe</h3>
+Since you do not want to trace features in the same level that your picture
+is in, <b>change the active level to 2 </b>by double-clicking on 2 (black
+circle around 2) in the <b>View Levels </b>dialog box, level 1must be visible
+too (black square). Be sure to press<b> Apply!</b> In the Primary Tool
+Box change <b>color to white (0)</b>, <b>style to solid line (0)</b>, <b>weight
+to 3</b>. Select the <b>Rectangle Tool</b> and drag a rectangle around
+the map itself.
+<p>Notice that some lines on the map are thicker than others or dashed
+instead of solid and also the use of different colors. You will see the
+different line weights on the screen, but they may not show up on the printed
+map. With the colors you are limited to numbers 0 to 8 which is the first
+line of the palette that you see when changing colors.
+<p>But, can you see the mapframe you drafted? Because you are drafting
+over a jpeg graphic, this image sometimes makes it difficult to see what
+you have drawn. To see what you have drafted, go to <b>View Levels</b>
+and turn off level 1 (the one containing the jpeg), then use the <b>Update
+View</b> icon to refresh the screen. To complete this exercise you
+will turn level 1 off and on periodically to view your work.
+<br>
+<hr>
+<h3>
+<a NAME="five"></a>5. Level 3: Coastline, Cliffs, Mountains</h3>
+<b>Change the Active Level to 3</b>.
+<br>
+<br>
+<p><img SRC="gif/lincurv.jpg"  align=LEFT>For the COASTLINE up to the cliffs,
+use either the <b>Line tool</b> in the pull-out menu or the <b>Place Point
+or Stream Curve</b>. Change your settings to <b>Color: 0, Style: 0 (solid
+line), Weight: 2, Tool: line or curve</b> and digitize the coastline up
+to the cliffs. To end a line, press the red button (#4) or the right mouse
+button.
+<br>Now digitize the CLIFFS. Remember that, if you are planning on filling
+an object (such as the cliffs) with a color, you need to make it a closed
+polygon feature, i.e. use the <b>Place Shape</b> tool instead of the line
+tool.
+<p><img SRC="gif/polygon.jpg"  align=RIGHT>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Pull out the polygon dialog box from the toolbox and specify the settings
+for the cliffs: <b>Color: 0, Style: 0 (solid line), Weight:</b> does not
+matter, as it is a filled polygon with the outline the same color as the
+fill,<b> Area: Solid, Fill Type: Opaque, Fill Color: 8 (gray), Tool: Place
+Shape</b>. Trace the cliffs and close the polygon by pressing the yellow
+button (#1) or the left mouse button close to the first node of the polygon.
+If your fill does not show up go to <b>Settings|View Attributes</b> and
+click on <b>Fill</b> to make it visible, then press <b>Apply</b>. You might
+have to do a <b>Redraw</b>.
+<p>For the MOUNTAINS change the settings to: <b>Tool: Place Shape, Color:
+0, Style: 0 (solid line), Weight: does not matter, Area: Solid, Fill Type:
+Opaque, Fill Color</b>: a different one for each elevation. Remember that
+your selection of colors is limited to the first line of the color palette.
+<br>
+<hr ALIGN=LEFT SIZE=5 WIDTH="50%">
+<h3>
+Oops, I made a mistake!!!</h3>
+
+<p><br>If you make a mistake while drafting, go immediately to <b>Edit
+| Undo</b> and remove the mistake from your drawing.
+<p>However, if don't realize you've made a mistake until a few steps later,
+you need to delete it using the Delete Element Tool described above.
+<b>Be sure to turn off level 1 (the one containing the jpeg image) using
+the View Levels menu before you select the mistake you want to delete.
+</b>If you don't turn off level 1, you are likely to select and delete
+the jpeg image accidentally! If you accidentally delete the jpeg
+image, just <b>Edit | Undo</b> or reload it into level 1.
+<p>To prevent the accidental selection and deletion of the jpeg image,
+you can also type the command "<b>Lock Level On</b>" in the Microstation
+command line. This command can also be accessed from the menus <b>Settings
+| Locks | Grid</b>. The "Lock Level" command tells Microstation that
+you want to confine your drafting and deletions <b>SOLELY</b> to the active
+level. If "Lock Level Off" is used, you can make changes to <b>any</b>
+visible feature in your design file.
+<br>
+<hr>
+<h3>
+<a NAME="six"></a>6. Level 4: Pond, Lawn, and Chess Field</h3>
+<b>Change Active Level to 4</b>.
+<p>As the mountains and the cliffs the POND is a closed polygon.
+Choose <b>Color: 7, Style: line, Weight: does not matter, Area: solid,
+Fill: opaque</b>. Trace the outline of the pond.
+<p>You will deal with the LAWN later under the Assigning Patterns
+section, as it has no outline.
+<p>The CHESS FIELD is a rectangle with a pattern assigned to it.
+For now just draw the rectangle. Use the settings, <b>Tool: Place Block,
+Color: 0, Weight: 0, Style: solid line, Method: orthogonal, Area: solid,
+Fill type: none</b>.
+<p>
+<hr>
+<center><img SRC="gif/infobar.gif" >
+<br><b>USEFUL MICROSTATION INFO</b></center>
+
+<p><a NAME="pat"></a><b>Assigning patterns</b>
+<p>Assigning patterns involves three separate steps.
+<br>
+<br>
+<ol>
+<li>
+There are several sets of patterns in microstation. To use the patterns
+in one of the sets, you need to attach a cell library. Click on <b>Element|Cells</b>.
+The <b>Cell Library</b> window will appear; select <b>File|Attach</b> to
+open the <b>Attach Cell Library</b> window. From the dialog box select
+<b>areapat.cel</b>
+(a set of many different patterns related to areas). You may need to search
+for the cell library directory using follwing path:
+<i>win32app/ustation/wsmod/default/cell/</i>.
+If clicking on the cell does not open up a list of patterns in the Cell
+Library window, the file may be read only, in which case, you will need
+to <b>make a copy</b> of the ?.cel file to your own directory and reattach
+the <b>copied</b> file.</li>
+
+<br>
+<p>
+<br>
+<br>
+<li>
+View the patterns and select one in the <b>Cell Library</b> window. The
+one you highlight will be displayed in the panel to the right in the Cell
+Library window. The patterns will appear differently depending on the <b>current</b>
+color, line width, and line style settings. For the chess field you want
+the pattern named <b>EARTH</b>. Once you find the pattern to be used, click
+on the <b>Pattern Button</b> at the bottom. This will set the currently
+highlighted pattern as the active pattern to be assigned.</li>
+
+<br>
+<p>
+<br>
+<br>
+<li>
+Now you will actually assign the pattern to the chess field. Make sure
+<b>Level
+4</b> is active, <b>Color: 0, Style: 0, Weight: 0</b>.</li>
+
+<br>
+<p>
+<p><img SRC="gif/pattern.jpg"  align=LEFT>
+<p>Pull the <b>Patterns</b> tool bar off from the main toolbar and click
+on <b>Pattern Area</b>.<img SRC="gif/patarea.jpg" > The name of the pattern
+you want to assign should show up under <b>Pattern Cell</b>, in this case:
+<b>EARTH</b>.
+<b>Scale:
+0.02</b>, <b>Row Spacing: 0</b>, <b>Column Spacing: 0</b>,<b> Angle: 0</b>,
+<b>Method: Element</b>. You will be prompted to identify the element in
+the <b>Command Window</b> ("Identify Element"). Click on the outline of
+the element to fill (chess field rectangle), then inside. The chess field
+should fill with the pattern.
+<p>To delete a pattern, press the delete pattern button (far right) in
+the <b>Patterns</b> tool bar and click on the pattern. The pattern will
+become highlighted (turn gray), then accept the delete pattern with another
+click of button #1 or the left mouse button. Do an <b>Update View</b>.
+<p><img SRC="gif/fences.jpg"  align=RIGHT>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>For the lawn, <b>first</b> draw a fence rectangle (modify if necessary)
+around the area to be filled with grass. Click on the <b>Pattern Area</b>
+tool, <b>Pattern Cell: GRASS</b>, <b>Scale: 0.03</b>, <b>Row Spacing: 0</b>,
+<b>Column
+Spacing: 0</b>, <b>Method: Fence</b>, you are prompted to accept/reject
+fence contents, click somewhere on the screen to start the fill. Delete
+the fence by clicking on the <b>fence tool</b> again. If you have the background
+picture on, the fence outline turns black, turn picture off and do an <b>Update
+View</b>.</ol>
+
+<hr>
+<h3>
+<a NAME="seven"></a>7. Level 5: Buildings</h3>
+Change <b>active level</b> to <b>5</b>.
+<p><img SRC="gif/polygon.jpg"  align=LEFT> The orthogonal polygon tool
+works well for most buildings. Using your first line as a base line it
+automatically gives you right angles. Digitize the outlines of the buildings,
+changing colors and fill types as necessary.
+<p>
+<hr>
+<h3>
+<a NAME="eight"></a>8. Level 6: Scale and North Arrow</h3>
+Change <b>active level</b> to <b>6</b>.
+<p>Using filled or empty circles and rectangles, and lines, draw
+the outlines of the scale and the north arrow.
+<br>
+<br>
+<br>
+<p>
+<hr>
+<h3>
+<a NAME="nine"></a>9. Level 7: Labels</h3>
+Change <b>active level</b> to <b>7</b>.
+<p>
+<hr>
+<center>
+<h1>
+<img SRC="gif/infobar.gif" ></h1></center>
+
+<center><b>USEFUL MICROSTATION INFO</b></center>
+
+<p><a NAME="text"></a><b>Adding text</b>
+<center><img SRC="gif/text.jpg" ></center>
+
+<ul>
+<li>
+<b>Element|Text</b> gives you the <b>Text Dialog</b> window that allows
+you to change the font, size, and layout of your lettering. You get an
+example of what your chosen font looks like in the <b>Justification</b>
+box at the bottom. If you want to see the whole font, click on <b>View</b>.
+By clicking on the dots in the Justification box you can specify the point
+your text string gets attached to. If the <b>Padlock</b> is closed, the
+width of the letters changes automatically as you change the height, if
+you click on it to unlock it, you can change height and width separately.
+Typing in a number in the Slant box gives you italics (negative values
+work too), click on <b>Match</b> to see what they will look like. For the
+labels, set the font to <b>2 - Fancy</b>, lock the <b>Padlock</b>, set
+<b>Height
+to 0:1.0000</b>, click into width box (display will change automatically
+to 0:1.0000), press <b>Enter</b>.</li>
+
+<li>
+To type in text, click on the <b>A</b> in the Main tool box. That opens
+the <b>Text Editor</b>, where you can type in your text, and the <b>Place
+Text</b> window, where general changes can be made rather than opening
+the Text Dialog window from Element|Text. In the Text Editor, if the cursor
+is not blinking, click inside the white text box to activate it. Type some
+text. To start a new line press <b>Enter</b>. If you move the cursor out
+of the text editor now, the string of text should be attached to an X-shaped
+crosshair; clicking will place the text. The string stays attached to the
+crosshair until you select another function. Changing the text will attach
+the new text to the cursor.</li>
+
+<li>
+If weird signs show up in multi-line text (a plus or dots before line breaks)
+go into <b>Settings|View Attributes</b> and click off <b>Text Nodes</b>.</li>
+</ul>
+For <b><i>The Sea</i></b> , type your text into the text editor, check
+what it looks like as you move the cursor out of the box, without clicking,
+move cursor into the <b>Place Text</b> window, <b>unlock the Padlock</b>,
+set <b>Height</b> approximately to <b>0:7.0000</b>, <b>Width </b>to<b>
+0:5.0000</b>, <b>Slant</b> to <b>20</b>, press <b>Enter</b>, move the cursor
+out. The text should have changed to the settings you specified. Place
+it somewhere in the sea for now.
+<p><b>Moving</b> text (or an object in general): Click on the <b>select
+arrow</b>, clicking on the object or string of text and holding down the
+button, drag it to where you want it. Or, select the <b>Move</b> tool<img SRC="gif/move.jpg" >
+from the <b>Manipulate</b> tool menu in the Main tool bar. Click on a feature
+once to pick it up, and click again to place the text.
+<p><b>Rotating </b>text (or any object):
+<p><img SRC="gif/man_el.jpg"  align=RIGHT> Choose <b>Rotate</b> in the
+Manipulate tool menu, select the text, clicking again determines the pivot
+point, enter the rotational angle in the Rotate window (if <b>Method is
+Active Angle</b>), cursor turns into an X and the rotating text is "attached"
+to it. Rotate to desired position and click to place it. Choose another
+tool, e.g. arrow to "unattach" text from cursor. You may want to experiment
+with the different rotational Methods.
+<p>Place the text for the <b>Mountains</b> in the same manner.
+<p><b>Nobody's Pond</b> is a text string placed along a curved line,
+the line is later deleted. Draw a curved line, copy it to get two parallel
+ones, or draw another, and place them in the pond. Type <b>Nobody's</b>
+in the <b>Text Editor</b> window. In the <b>Place Text</b> window, change
+settings to <b>Method: Along Element</b>, <b>Line Spacing: 0:0.5000</b>,
+and press <b>Enter</b>. You are prompted in the Command Window to "Identify
+Element, Text Location", so click on the upper line. Click in the middle
+of the line so that your text will not be truncated. You get two options
+for placing your text: above and below the line. Click on the text string
+above the line to accept this placement.
+<p>You can <b>delete</b> the two lines now. If you want to reposition the
+text inside the pond, you <b>cannot</b> just click and drag, as this placement
+method breaks apart the string of text into separate letters. Select all
+the features by either using the arrow tool and drawing a box around the
+text by holding down the left mouse button or by selecting manually while
+holding the Control key down. Once all the characters of a given string
+of text have been selected, group them by clicking on <b>Edit|Group</b>.
+This combines all selected characters into one group which can easily be
+moved. Once each of the two words in the pond have been grouped and arranged,
+you may want to group the two words together as well, so that both can
+be moved later, as one entire unit.
+<p>
+<hr WIDTH=50%>
+<p>After you have put in all objects and text, it is a good idea to make
+sure that everything is in the right level. Under <b>Settings|Levels|Display</b>,
+turn off all levels but one, press <b>Apply</b> (you might have to do an
+Update View), check if all the visible objects actually <b>belong in this
+level</b> or if <b>anything is missing</b>. If any object has ended up
+in the wrong level (or has the wrong color or line style), <b>Select It</b>,
+<b>Change
+the Settings</b> with the <b>Change Element Attributes</b> tool<img SRC="gif/changatt.jpg" >
+in the <b>Change Attributes</b> tool bar, click to accept the changes.
+Element attributes can also be changed by clicking on <b>Element|Information</b>
+and then selecting the element. You might want to change the look of the
+page frame that came with village.dgn, too.
+<p>
+<hr>
+<h3>
+<a NAME="ten"></a>Level 10: Title, Source, Your Name, Date</h3>
+Change <b>active level</b> to <b>8</b>
+<p>Type in the required information, change size and type of font
+if necessary, and place the text above and below the map.
+<p>
+<hr>
+<p><a NAME="print"></a><b>Printing</b>
+<br>When you are ready to print, <b>draw a fence</b> around the area to
+print. Go to <b>File|Print/Plot</b>. In the <b>Plot</b> window click on
+<b>Entity</b>
+and select <b>Fence</b>. Next, click on <b>Setup|Options</b> and click
+off <b>Plot Border</b>. Also under Setup, you may need to set the printer
+driver; use either <b>hp5xxc.plt</b> or <b>printer.plt</b>. The former
+driver prints to the printer connected to the machine you are currently
+on. If the computer you are on does not have a printer attached to it,
+you cannot use this driver. The latter driver allows for printing to a
+networked printer. Check to make sure your <b>Color Pallette</b> has not
+changed, switching drivers. Lastly, under Setup click on <b>Page and/or
+Layout</b> to change networked printers and a variety of page settings
+and layout characteristics. Do a <b>File|Preview</b> to get a better idea
+what the printout will look like. If you need to make changes to your map,
+press <b>File|Exit</b> to close the Plot window and return to your map,
+otherwise press <b>Plot </b>to start printing.
+<p><a NAME="exit"></a><b>Exiting</b>
+<br>Microstation automatically saves your file at set intervals while you
+are working. Before you leave do a <b>File|Compress Design</b> to "empty
+out the trashcan" (to permanently get rid of everything you have deleted
+before). You may want to <b>File|Save Settings</b> then press <b>File|Exit</b>.
+Microstation saves the most recent changes you made and closes the file.
+The screen looks as when you first opened Microstation.
+<p>
+<hr>
+<h3>
+<a NAME="eleven"></a>11. What to turn in</h3>
+For this exercise you will turn in an exact copy of the original map you
+traced from, printed on an 8.5 by 11 sheet of paper.
+<p>
+<hr>
+<p>Created by Dr. Kenneth E. Foote and Katrin Molch 15 November 1995.
+<br>Modified and updated by Lance Christian 3 May 1997.
+<br>Last revised 2000.3.28. LNC
+</body>
+</html>

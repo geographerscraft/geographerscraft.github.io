@@ -1,0 +1,132 @@
+<HTML>
+<H1>GIS in Archaeology</H1>
+<HR>
+Send comments to Matthew P. Williams, UT Dept. of Anthropology - <I>idig@utxvms.cc.utexas.edu</I><P>
+<HR><P><P>
+<H5>
+<A HREF = "#general">1.  General Information</A><P> 
+<A HREF = "#course">2.  GIS in Archaeology Course</A><P>
+<A HREF = "#list">3.  Course Reading List</A><P> 
+</H5>
+<HR><P><P>
+<H3><A NAME = general>1.  General Information</A></H3>
+It is no secret that archaeologists spend a great deal of time gathering data.  Be it excavating the ancient 
+remains of a long forgotten civilization, recording sites in a rural landscape, or perhaps surveying forest land 
+prior to a timber sale, archaeologists spend countless hours in the field.  What may be surprising, however, is 
+that most archaeologists spend more time manipulating data than they do collecting it.  The reason for this is 
+simple.  In archaeology, the data is everything (or at least all that is left).  The information gleaned from the 
+data is dependent on how it is manipulated.  <P>
+Technological advances have had a profound impact on the way data has been processed, and thus, the 
+amount of information produced.  Since the dawn of the computer age, archaeologists have enjoyed an 
+increase in analytical potential.  The rapid storage, retrieval, and manipulation of data afforded by computers 
+has resulted in analyses that weren't even imagined as late as the 1950s.  Undoubtedly, complex analyses 
+could have been conducted without computers, but the time required made them extremely impractical.  Imagine doing a simple cluster analysis on only two attributes of a scant dozen projectile points.  Even if a 
+calculator were used, it would take hours (perhaps days) to complete.  When complete, it would have to be 
+double checked for errors and plotted by hand.  With a computer, all the required steps could be 
+accomplished in minutes.  <P>
+Like the developments in computer technology, geographic information systems (GIS) provide the 
+archaeologist with a whole new set of tools to further push the envelope of data analysis.  Consider the 
+spatial nature in which archaeological data is gathered.  The precise location of every artifact, ecofact, 
+architectural unit, site, water resource, etc. is carefully calculated and recorded.  Not only can GIS handle 
+such data easily, it enables the archaeologist to combine various types of geographical data (hydrography, 
+elevation, soil content, etc.) to produce large-scale, in-depth analyses which were never before practical.  
+Archaeologists have always been interested in the complex regional questions, such as settlement pattern 
+studies or site catchment analysis, but only recently have they had the tools to give these topics the attention 
+they warrant.<P>
+Often lumped in with GIS, there are several other related computer tools which are proving useful to 
+archaeologists.  These include computer cartography, 3D rendering, and computer animation.  These 
+techniques are especially useful for creating accurate maps and models, allowing the archaeologists to view 
+sites and data in both two and three dimensions.<P>
+For additional information regarding GIS in archaeology, please refer to the <A HREF = "#list">reading 
+list</A>  below.<P>
+<P>
+<H3><A NAME = course>2.  GIS in Archaeology Course</A></H3>
+To introduce students to these valuable analytical tools, The University of Texas at Austin Department of 
+Geography, in conjunction with the Department of Anthropology, offers a course that provides the very 
+latest in information and methodology regarding archaeological applications of GIS.  Students receive hands 
+on training in various GIS and CAD applications, and are encouraged to use data from their own research in 
+some class projects.  A <A HREF = "#list">reading list</A>  for this course can be found below.           <P>
+<P>
+<HR>
+<H3><A NAME = list>3.  Course Reading List</A></H3>
+<B>1.  INTRODUCTION</B><P>
+<B>Kathleen M.S. Allen, Stanton W. Green, and Ezra B.W. Zubrow, eds</B>.  
+<I>Interpreting Space:  GIS and Archaeology</I>.  London:Taylor and Francis, 1990.  (Ch. 1 and table of 
+contents)<P>
+<B>John C. Antenucci <I>et al</B>.</I>  <I>Geographic Information Systems:  A Guide to the 
+Technology</I>.  New York:  Van Nostrand Reinhold, 1991.  (Chs. 1 and 2)<P>
+<B>Harold L. Dibble and Shannon P. McPherron</B>.  On the computerization of archaeological 
+projects.  <I>Journal of Field Archaeology</I> 15 (1988):  431-440.<P>
+Ancient Pompeii culture revealed by GIS.  <I>GIS World</I>, December 1990, 26-31.<P>
+<B>Stefano Bruschini</B>.  Imaging Pompeii.  <I>Archaeology </I>44 (1991) (2):  32-35.<P>
+<B>2.  ARCHAEOLOGICAL ANALYSIS OF SPACIAL DISTRIBUTIONS</B><P>
+<B>Kenneth L. Kvamme</B>.  Geographic information systems in regional archaeological research 
+and data management.  <I>Archaeological Method and Theory</I>, Vol. 1, ed. M.B. Schiffer, 139-203.  
+Tuscon:  University of Arizona Press, 1989.<P>
+<B>Kenneth L. Kvamme</B>.  One-sample tests in regional archaeological analysis:  New possibilities 
+through computer technology.  <I>American Antiquity </I>55 (1990):  367-381.<P>
+<B>Kenneth L. Kvamme</B>.  The use of geographic information systems for modeling 
+archaeological site distributions.  <I>Geographic Informations Systems in Government</I>, Vol. 1, ed. 
+Bruce K. Opitz, 345-362.  Hampton, Virginia:  A. Deepak Publishing, 1986.<P>
+<B>3.  GIS AND DATABASE CONCEPTS</B><P>
+<B>John C. Antenucci <I>et al</B>.</I>  <I>Geographic Information Systems:  A Guide to the 
+Technology</I>.  New York:  Van Nostrand Reinhold, 1991.  (Ch. 5)<P>
+<B>William E. Huxhold</B>.  <I>An introduction to Urban Geographic Information Systems</I>.  
+New York:  Oxford University Press, 1991. (Ch. 2)<P>
+<B>Gail Langran</B>.  <I>Time in Geographic Information Systems.  </I>London:  Taylor and 
+Francis, 1991.  (Ch. 1 and table of contents)<P>
+<B>4.  PRINCIPLES OF CARTOGRAPHIC COMMUNICATION</B><P><B>
+</B><B>Kenneth E. Foote</B>.  Mapping the past:  A survey of microcomputer cartography.  
+<I>Historical Methods</I> 25 (1992):  121-131.<P>
+<B>5.  POTENTIAL APPLICATIONS OF GIS IN ARCHAEOLOGY</B><P>
+<B>David L. Clarke</B>.  Spatial information in archaeology.  <I>Spacial Archaeology</I>, ed. D.L. 
+Clarke, 1-32.  New York:  Academic Press, 1977.<P>
+<B>Jay K. Johnson, Thomas L. Sever, Scott L.H. Madry, and Harry T. Hoff</B>.  Remote 
+sensing and GIS analysis in large scale survey design in north Mississippi.  <I>Southeastern 
+Archaeology</I> 7 (1988):  124-131.<P>
+<B>Kenneth L. Kvamme</B>.  Terrain form analysis of archaeological location through geographic 
+information systems.  <I>Computer Applications and Quantitative Methods in Archaeology</I>, 1991, ed. 
+G. Lock and J. Moffett, 127-136.  Oxford:  BAR International Series 577, 1992.<P>
+<B>David F. Overstreet, Charles R. Smith and Andrew J. Bruzewicz</B>.  The archaeology of 
+lost landscapes - geographic information systems at Coralville Lake, Iowa.  <I>Geographic Information 
+Systems in Government</I>, Vol. 1, ed. Bruce K. Opitz, 363-377.  Hampton, Virginia:  A. Deepak 
+Publishing, 1986.<P>
+<B>6.  SETTLEMENT PATTERN ANALYSIS IN ARCHAEOLOGY</B><P><B>
+</B><B>Jeffery Parsons</B>.  Archaeological settlement patterns.  <I>Annual Review of 
+Anthropology </I>1 (1972):127-150.<P>
+<B>Stephen H. Savage</B>.  Modelling the late archaic social landscape.  <I>Interpreting Space:  GIS 
+and Archaeology</I>.  Kathleen M.S. Allen, Stanton W. Green, and Ezra B.W. Zubrow, eds., 330-355.  
+London:Taylor and Francis, 1990.  <P>
+<B>7.  DATA SOURCES, PREPROCESSING, AND GEOCODING</B><P><B>
+</B><B>Jeffery Star and John Estes</B>.  <I>Geographic Information Systems:  An 
+Introduction.</I>  Englewood Cliffs, New Jersey:  Prentice Hall, 1991.  (Chs. 5 and 6)<P>
+<B>8.  SITE CATCHMENT ANALYSIS IN ARCHAEOLOGY</B><P><B>
+</B><B>Eleazer D. Hunt</B>.  Upgrading site-catchment analyses with the use of GIS:  investigating 
+the settlement patterns of horticulturalists.  <I>World Archaeology</I> 24 (1992) (2):  283-311.<P>
+<B>9.  COORDINATE SYSTEMS AND MAP PROJECTIONS </B><P><B>
+</B><B>William E. Huxhold</B>.  <I>An introduction to Urban Geographic Information 
+Systems</I>.  New York:  Oxford University Press, 1991. (Ch. 6)<P>
+<B>Phillip C. Muehrcke</B>.  <I>Map Use:  Reading-analysis-interpretation.  </I>Madison, 
+Wisconsin:  J.F. Publications, 1986.  (Ch. 7)<P>
+<B>10.  DISTRIBUTION STUDIES IN ARCHAEOLOGY</B><P><B>
+</B><B>Ian Hodder and Clive Orton</B>.  <I>Spacial Analysis in Archaeology</I>.  Cambridge:  
+Caimbridge University Press, 1976.  (Chs. on archaeological distribution maps and the association between 
+distributions)<P>
+<B>11.  ACCURACY OF SPATIAL DATABASES AND MANAGING ERROR</B><P><B>
+</B><B>P.A. Burrough</B>.  <I>Principles of Geographic Information Systems for Land Resources 
+Assessment</I>.  Oxford:  Oxford University Press, 1986.  (Ch. 6)<P>
+<B>Michael Goodchild and Sucharita Gopal, eds</B>.  <I>The Accuracy of Spatial 
+Databases</I>.  Bristol, Pennsylvamia:  Taylor and Francis, 1986.  (browse only)<P>
+<B>12.  SITE-SPECIFIC APPROACHES</B><P>
+<B>Kenneth L. Kvamme</B>.  Determining empirical relationships between the natural environment 
+and prehistoric site locations:  a hunter-gatherer example.  <I>For Concordance in Archaeological Anlysis:  
+Bridging Data Structure, Quantitative Technique, and Theory</I>.  Christopher Carr, ed., 208-238.  
+Kansas City:  Westport Publishers, 1985.<P>
+<B>Jean-Phillipe Rigaud and Jan F. Simek</B>.  Interpreting spatial patterns at the Grotte XV.  
+<I>The Interpretation of Archaeological Spatial Patterning</I>, Ellen M. Kroll and T. Douglas Price, eds., 
+199-219.  New York:  Plenum, 1991.<P>
+<B>13.  PROJECT PLANNING, SUMMARY, AND PROSPECTS</B><P>
+<B>Kathleen M.S. Allen, Stanton W. Green, and Ezra B.W. Zubrow</B>.  Interpreting space.  
+<I>Interpreting Space:  GIS and Archaeology</I>, Kathleen M.S. Allen, Stanton W. Green, and Ezra B.W. 
+Zubrow, eds., 330-355.  London:Taylor and Francis, 1990.  <P>
+</HTML>

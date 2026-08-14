@@ -1,0 +1,178 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="AUTHOR" content="Peter H. Dana">
+   <meta name="OPERATOR" content="Peter H. Dana">
+   <meta name="description" content="Global Positioning System (GPS) Overview">
+   <meta name="keywords" content="GPS, satellite navigation, electronic navigation, time tra><META NAME=">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; U) [Netscape]">
+   <title>Global Positioning System Overview</title>
+</head>
+<body text="#000000" bgcolor="#80FFFF" link="#0000FF" vlink="#800080" alink="#800080">
+<img SRC="gif/gps.gif" height=152 width=314>
+<p>
+<hr>
+<h1>
+<a NAME="Contents"></a>Table of Contents</h1>
+
+<ul>
+<li>
+<a href="gps.html#DODSystem">U. S. Department of Defense Satellite Navigation
+System</a></li>
+
+<ul>
+<li>
+<a href="gps.html#SpaceSeg">Space Segment</a></li>
+
+<li>
+<a href="gps.html#ControlSeg">Control Segment</a></li>
+
+<li>
+<a href="gps.html#UserSeg">User Segment</a></li>
+</ul>
+
+<li>
+<a href="gps.html#FRP">GPS Positioning Services Specified In The Federal
+Radionavigation Plan</a></li>
+
+<ul>
+<li>
+<a href="gps.html#PPS">Precise Positioning Service (PPS)</a></li>
+
+<li>
+<a href="gps.html#SPS">Standard Positioning Service (SPS)</a></li>
+</ul>
+
+<li>
+<a href="gps.html#SVSignals">GPS Satellite Signals</a></li>
+
+<li>
+<a href="gps.html#SVData">GPS Data</a></li>
+
+<li>
+<a href="gps.html#PosandTime">Position and Time from GPS</a></li>
+
+<ul>
+<li>
+<a href="gps.html#CodeTracking">Code Phase Tracking (Navigation)</a></li>
+
+<li>
+<a href="gps.html#PRNav">Pseudo-Range Navigation</a></li>
+
+<li>
+<a href="gps.html#PosVelTime">Receiver Position, Velocity, and Time</a></li>
+
+<li>
+<a href="gps.html#CarrierTracking">Carrier Phase Tracking (Surveying)</a></li>
+</ul>
+
+<li>
+<a href="gps.html#ErrorSources">GPS Error Sources</a></li>
+
+<li>
+<a href="gps.html#Gdop">Geometric Dilution of Precision (GDOP)</a></li>
+
+<li>
+<a href="gps.html#DifTechs">Differential GPS (DGPS) Techniques</a></li>
+
+<ul>
+<li>
+<a href="gps.html#DifNav">Differential Code-Phase Navigation</a></li>
+
+<li>
+<a href="gps.html#DifSurvey">Differential Carrier-Phase Surveying</a></li>
+
+<li>
+<a href="gps.html#COMTime">Common-Mode Time Transfer</a></li>
+
+<li>
+<a href="gps.html#Techniques">GPS Techniques and Project Costs</a></li>
+</ul>
+
+<li>
+<a NAME="Docs"></a>Documents relating to GPS</li>
+
+<ul>
+<li>
+<a href="acronym.html"><img SRC="gif/list.gif" height=20 width=22></a><a href="acronym.html">GPS
+Acronyms</a></li>
+
+<li>
+<a href="foc.txt"><img SRC="gif/list.gif" height=20 width=22></a><a href="foc.txt">Full
+Operational Capability</a></li>
+
+<li>
+<a href="http://www.navcen.uscg.mil/gps/constell.txt"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.navcen.uscg.mil/gps/constell.txt">GPS
+Constellation Status</a></li>
+
+<li>
+<a href="frpgps.html"><img SRC="gif/list.gif" height=20 width=22></a><a href="frpgps.html">Federal
+Radionavigation Plan GPS Statement</a></li>
+</ul>
+
+<li>
+<a NAME="Links"></a>Links to other related information</li>
+
+<ul>
+<li>
+<a href="http://www.cnde.iastate.edu/gps.html"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.cnde.iastate.edu/gps.html">Sam
+Wormley's GPS Page</a></li>
+
+<li>
+<a href="http://www.spatial.maine.edu/~leick/gpshome.htm"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.spatial.maine.edu/~leick/gpshome.htm">Alfred
+Leick's GPS Page</a></li>
+
+<li>
+<a href="http://www.ion.org/"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.ion.org/">The
+Institute of Navigation</a></li>
+
+<li>
+<a href="http://www.navcen.uscg.mil/"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.navcen.uscg.mil/">United
+States Coast Guard Navigation Center</a></li>
+
+<li>
+<a href="http://galaxy.einet.net/editors/john-beadles/introgps.htm"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://galaxy.einet.net/editors/john-beadles/introgps.htm">John
+Beadles' Introduction to GPS Applications</a></li>
+
+<li>
+<a href="http://www.ngs.noaa.gov"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.ngs.noaa.gov">NOAA
+National Geodetic Survey Division Home Page</a></li>
+
+<li>
+<a href="http://www.unavco.ucar.edu"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.unavco.ucar.edu">University
+NAVSTAR Consortium (UNAVCO)</a></li>
+
+<li>
+<a href="gopher://unbmvs1.csd.unb.ca:70/hPUB.CANSPACE.GPS.INTERNET.SERVICES.HTML"><img SRC="gif/html.gif" height=20 width=22></a><a href="gopher://unbmvs1.csd.unb.ca:70/hPUB.CANSPACE.GPS.INTERNET.SERVICES.HTML">University
+of New Brunswick GPS Sources</a></li>
+
+<li>
+<a href="../datum/datum.html" target="_top"><img SRC="gif/html.gif" height=20 width=22></a><a href="../datum/datum.html" target="_top">Geodetic
+Datum Overview, Department of Geography, UC at Boulder</a></li>
+
+<li>
+<a href="../coordsys/coordsys.html" target="_top"><img SRC="gif/html.gif" height=20 width=22></a><a href="../coordsys/coordsys.html" target="_top">Coordinate
+Systems Overview, Department of Geography, UC at Boulder</a></li>
+
+<li>
+<a href="../mapproj/mapproj.html" target="_top"><img SRC="gif/html.gif" height=20 width=22></a><a href="../mapproj/mapproj.html" target="_top">Map
+Projections Overview, Department of Geography, UC at Boulder</a></li>
+
+<li>
+<a href="../../contents.html" target="_top"><img SRC="gif/html.gif" height=20 width=22></a><a href="../../contents.html" target="_top">The
+Geographer's Craft Project, Department of Geography, UC at Boulder</a></li>
+
+<li>
+<a href="http://www.Colorado.EDU/geography/" target="_top"><img SRC="gif/html.gif" height=20 width=22></a><a href="http://www.Colorado.EDU/geography/" target="_top">Home
+Page, Department of Geography, University of Colorado at Boulder</a></li>
+</ul>
+
+<li>
+<a href="#Refs">Reference List</a></li>
+</ul>
+
+<hr WIDTH="100%">
+<br>Last Revised 3/27/00. LNC.
+</body>
+</html>

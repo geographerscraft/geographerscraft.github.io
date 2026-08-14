@@ -1,0 +1,282 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<IMG SRC="http://www.utexas.edu/depts/grg/gif/lines/newlines/redln.gif" >
+
+<P>&nbsp;
+<H2>
+6. Issues of Statistical Generalization</H2>
+<A NAME="6_6.1"></A><B>6.1 The importance of attending to issues of statistical
+generalization</B>
+<BR>&nbsp;
+<BR>&nbsp;
+<UL>When maps are used to display statistical information, cartographers
+take special care to depict as accurately as possible the underlying distribution
+of data. This is a difficult task because the whole point of displaying
+the data cartographically is to generalize the data to facilitate the search
+for spatial patterns. But by generalizing and simplifying the data, the
+cartographer may just as easily obscure subtle gradations in the underlying
+distribution. Therefore, in mapping statistical data, the cartographer
+is always trying to strike a balance between remaining true to the underlying
+data distribution and generalizing the data sufficiently to reveal intrinsic
+spatial patterns.
+
+<P>&nbsp;Although these issues of statistical generalization can be applied
+to data that is to be symbolized by points, lines, and areas, this discussion
+will be developed around the mapping of areas in choropleth maps. This
+is in part because choropleth maps are used so widely, but also because
+they are difficult to execute effectively. This is because choropleth maps
+have an inherent weakness--they involve the aggregation of data within
+areal units that do not correspond exactly with the underlying spatial
+distribution of data. By focusing on choropleth mapping in the following
+examples, some of these weaknesses can be revealed and discussed.</UL>
+<A NAME="6_6.2"></A><B>6.2 What a difference this issue makes to maps</B>
+<UL>To understand the importance of this issue, it is useful to examine
+a set of maps developed from the same dataset using different numbers of
+categories and different ranging methods.
+
+<P>&nbsp;
+<UL><I>A. Comparison of maps using different numbers of categories</I>
+
+<P>&nbsp;These three maps are divided into quantiles of two, five, and
+nine categories, respectively.
+
+<P>&nbsp;</UL>
+</UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/texcateg.gif" >
+<UL>
+<UL>&nbsp;If too few categories are used, the map may obscure the contours
+of the data distribution. Too many categories are just as fruitless and
+equally unlikely to reveal any existing spatial patterns in the dataset.
+Indeed, it is difficult for most map readers to distinguish among more
+than about seven categories. Beyond seven, a map becomes little more than
+an illustrated table. Most statistical maps will use between three and
+seven categories.
+
+<P>&nbsp;<I>B. Comparison of maps using different ranging methods</I>
+
+<P>&nbsp;These three maps each have five ranges of data, but they were
+determined using different methods. The first map uses <I>equal steps</I>,
+the second has <I>user defined ranges</I>, and the third is divided into
+<I>quintiles</I>.</UL>
+</UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/texrange.gif" >
+
+<P>&nbsp;
+<UL>
+<UL>Even though these maps were developed from the <A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/texas.gif">same
+dataset</A>, they seem to convey quite different spatial patterns. Some
+seem to stress the lowest values in the distribution, others the highest.
+The point is that cartographers use different ranging methods to generalize
+different types of data distributions. Each method is suited to a particular
+"shape" distribution. Therefore, the first step in preparing a choropleth
+map is to explore the dataset to come to an understanding of its underlying
+distribution.
+
+<P>&nbsp;</UL>
+</UL>
+<A NAME="6_6.3"></A><B>6.3 Exploring your data and its "shape"</B>
+<UL>You should get to know the shape of any statistical distribution you
+plan to map. Plot a scattergram or histogram of the data and employ basic
+descriptive statistics to explore its distribution. Many automated mapping
+programs provide options which graph data and will automatically calculate
+descriptive statistics like mean, mode, median, range, and standard deviation.
+Take advantage of these options explore your data.
+
+<P>&nbsp;
+<UL>Diagrams of different shapes:
+
+<P>&nbsp;</UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/statshap.gif" >
+<UL>Be aware also that mathematical transformations change the shape of
+a distribution--implying that the ranging method must change also. Shown
+below is a histogram of population growth of Texas counties between 1980
+and 1990. Note that the distribution is J-shaped with a pronounced peak
+on the left--meaning most Texas counties grew very little in this decade.
+However, if this same data is represented as a percentage of 1980 population,
+the histogram looks very different--because even the smallest counties
+did grow substantially in proportion to their 1980 population. Two histograms
+here.</UL>
+<A NAME="6_6.4"></A><B>6.4 Commonly employed ranging methods for assigning
+cutpoints</B>
+<UL>The articles listed below by Michael Coulson (1987), Ian Evans (1977),
+and George Jenks (1963) provide detailed overviews of the ranging methods
+commonly employed by cartographers as well as necessary computational algorithms.
+It is essential that you consult these articles as soon as possible because
+they cover many more techniques than can be discussed here, and in far
+greater detail. The following discussion will simply highlight a few of
+the methods that many computer systems provide as "defaults."
+
+<P>&nbsp;In generalizing statistical distributions, cartographers use the
+term "cutpoint" to refer to the boundaries between categories. All the
+following methods pertain to the calculation or assignment of these cutpoints.
+Remember, all systems of classification depend upon the use of "exhaustive"
+and "mutually exclusive" categories. Exhaustive means that the categories
+classify all values of a given data range--no values within that range
+are omitted from the classification system. Mutually exclusive means that
+any given observation can be placed in one and only one category--data
+categories cannot overlap. Please be sure, if you are using an automated
+mapping system, that the the system does not assign overlapping cutpoints
+automatically when it creates the map legend.
+
+<P>&nbsp;
+<UL><A NAME="6_6.4.a"></A>A. Equal Steps
+
+<P>&nbsp;</UL>
+</UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/texeqst.gif" >
+
+<P>&nbsp;
+<UL>
+<UL>This method takes the difference between the low and high values of
+a distribution and divides this difference into evenly spaced steps. If
+the 0 and 10 were the low and high values of a distribution and you decided
+to divide the data into five categories, the cut-points would be: 0, 2,
+4, 6, 8, and 10.
+
+<P>&nbsp;The method is useful for mapping rectangular distributions. It
+is also useful for exploratory analysis, at times when you wish to develop
+a "feel" for the characteristics of a data distribution.
+
+<P>&nbsp;<A NAME="6_6.4.b"></A>B. Quantiles
+
+<P>&nbsp;</UL>
+</UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/texquant.gif" >
+
+<P>&nbsp;
+<UL>
+<UL>This method arranges your observations from low to high and places
+equal numbers of observations in each category. If your data included one
+hundred observations and you wished to divide the data into five categories
+(quintiles), the lowest twenty observations would be placed in the first
+category, the next twenty in the second, and so forth until the highest
+twenty observations were placed in the last category. The term quartiles
+is used when the data is divided into four categories, quintiles when five
+are used, sextiles for six, septiles for seven, and so forth. Note that
+when data is divided in this way, the cutpoints of the distribution may
+be arranged at irregular intervals along the span of the distribution.
+
+<P>&nbsp;The method is useful for mapping rectangular distributions. It
+is also useful for exploratory analysis, at times when you wish to develop
+a "feel" for the characteristics of a data distribution.
+
+<P>&nbsp;<A NAME="6_6.4.c"></A>C. Percentiles
+
+<P>&nbsp;</UL>
+</UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/texquant.gif" >
+
+<P>&nbsp;
+<UL>
+<UL>This method places equal percentages of the observations in each of
+the categories selected. If you select five categories, twenty percent
+of the observations will placed in each of the categories beginning from
+the smallest value to the largest. The percentile method is equivalent
+to the quantile method described above. The method is useful for mapping
+rectangular distributions. It is also useful for exploratory analysis,
+at times when you wish to develop a "feel" for the characteristics of a
+data distribution.
+
+<P>&nbsp;<A NAME="6_6.4.d"></A>D. Arithmetic Progressions
+
+<P>&nbsp;</UL>
+</UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/arith.gif" >
+
+<P>&nbsp;
+<UL>
+<UL>In this method, the widths of the category intervals are increased
+in size at an arithmetic (that is, additive) rate. If your first category
+is one unit wide and you choose to increment the width one unit at a time,
+the second category would be two units wide, the third three units wide,
+and so forth to the end of the distribution.
+
+<P>&nbsp;This method can be applied effectively to data that is J-shaped
+with a peak at the low end of the distribution.
+
+<P>&nbsp;<A NAME="6_6.4.e"></A>E. Geometric Progressions
+
+<P>&nbsp;In this method, the widths of the category intervals are increased
+in size at a geometric (that is, multiplicative) rate. If your first category
+is 2 units wide, the second would be 2x2 or 4 units wide, the third 2x2x2
+or 8 units wide, and so forth to the end of the distribution.
+
+<P>&nbsp;This method can be applied effectively to data that is J-shaped
+with a peak at the low end of the distribution but with a long "stretch"
+between low and high values.
+
+<P>&nbsp;<A NAME="6_6.4.f"></A>F. Standard Deviation
+
+<P>&nbsp;</UL>
+</UL>
+<IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/stdev.gif" >
+<UL>
+<UL>In this method, the standard deviation of the distribution is used
+to set the cutpoints above and below the average.
+
+<P>&nbsp;This method can be applied to distributions that approximate a
+normal curve.
+
+<P>&nbsp;<A NAME="6_6.4.g"></A>G. Inverse Methods
+
+<P>&nbsp;If your data is J-shaped with a peak at the high end of the distribution,
+the inverses of the arithmetic and geometric progressions can be employed.
+By inverting the cutpoints, the smallest intervals between cutpoints will
+be closest together at the high end of the distribution.
+
+<P>&nbsp;</UL>
+</UL>
+<A NAME="6_6.5"></A><B>6.5 Symbolizing the Category Ranges</B>
+<UL>Once you have divided your data into categories, you must use the visual
+resources at your disposal to symbolize them on the map. Because your interval-ratio
+data have now been ordered into ordinal categories, the idea is to use
+color, value, or pattern to create a visual index between category symbols
+and their value. You can order the symbols using:
+
+<P>&nbsp;
+<UL><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/gif/6_5.gif" >
+
+<P>&nbsp;</UL>
+</UL>
+<A NAME="6_6.6"></A><B>6.6 Statistical annotations are needed for some
+complex datasets</B>
+<UL><B>In some situations, you might find it useful to add statistical
+annotations to your map. These may indicate to the reader the nature of
+the statistical distribution being displayed and the means by which it
+was classified. Sometimes it is sufficient to note some of the descriptive
+statistics for a distribution, such as its range, mean, median, and mode.
+At other times, you may wish to add bar graphs, scattergrams, or other
+statistical diagrams.</B>
+
+<P>
+<HR></UL>
+<B><I>Further Reading</I></B>
+
+<P><B>&nbsp;Coulson, Michael R.C. 1987. In the matter of class intervals
+for choropleth maps: With particular reference to the work of George F.
+Jenks. <I>Cartographica</I> 24 (2): 16-39.</B>
+
+<P><B>&nbsp;Evans, Ian S. 1977. The selection of class intervals. <I>Transactions
+of the Institute of British Geographers New Series</I> 2: 98-124.</B>
+
+<P><B>&nbsp;Jenks, George F. 1963. Generalization in statistical mapping.
+<I>Annals of the Association of American Geographers</I> 53: 15-26.</B>
+
+<P><B>&nbsp;Jenks, George F. and Duane S. Knos. 1961. The Use of Shading
+Patterns in Graded Series. <I>Annals of the Association of American Geographers</I>
+51: 316-334.</B>
+
+<P><B>&nbsp;</B><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/remote/gif/bar2.gif" >
+
+<P><B>&nbsp;<A HREF="http://www.utexas.edu/depts/grg/gcraft/notes/cartocom/section7.html">Go
+on to <I>Problems of Realizing Ideals with Computer Systems</I></A></B>
+
+<P><B>&nbsp;<A HREF="cartocom_ftoc.html#7.0"><IMG SRC="http://www.utexas.edu/depts/grg/gcraft/notes/remote/gif/uparrow.gif" ></A><I><A HREF="cartocom_ftoc.html#7.0">Return
+to Contents</A></I></B></UL>
+
+</BODY>
+</HTML>

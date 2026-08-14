@@ -1,0 +1,186 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Aerial Photography and Remote Sensing</TITLE>
+</HEAD>
+<BODY TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#66CCCC" VLINK="#990066" hr="#999999">
+
+<H1>
+<IMG SRC="http://www.utexas.edu/depts/grg/gif/earthgif.gif" HEIGHT=82 WIDTH=83 ALIGN=LEFT>Aerial
+Photography and Remote Sensing</H1>
+
+<HR>
+<H3>
+Contents</H3>
+
+<UL>
+<LI>
+<A HREF="remote.html#introduction">Introduction</A></LI>
+
+<LI>
+<A HREF="remote.html#foundations">Foundations of Remote Sensing</A></LI>
+
+<UL>
+<LI>
+<A HREF="remote.html#ems">The Electromagnetic Spectrum</A></LI>
+
+<LI>
+<A HREF="remote.html#wavephen">Wave Phenomena Concepts</A></LI>
+
+<LI>
+<A HREF="remote.html#emwave">Electromagnetic Waves</A></LI>
+
+<LI>
+<A HREF="remote.html#wavedesc">Wave Descriptions</A></LI>
+
+<LI>
+<A HREF="remote.html#particle_light">The Particle Nature of Light</A></LI>
+
+<LI>
+<A HREF="remote.html#ir">Infrared Radiation</A></LI>
+
+<LI>
+<A HREF="remote.html#emrad">Sources of Electromagnetic Radiation</A></LI>
+</UL>
+
+<LI>
+<A HREF="remote.html#airphoto">Aerial Photography</A></LI>
+
+<UL>
+<LI>
+<A HREF="remote.html#airintro">Introduction</A></LI>
+
+<LI>
+<A HREF="remote.html#apinterp">Basic Elements of Air Photo Interpretation</A></LI>
+
+<LI>
+<A HREF="remote.html#apadvantage">Advantages of Aerial Photography over
+Ground-Based Observation</A></LI>
+
+<LI>
+<A HREF="remote.html#aptypes">Types of Aerial Photography</A></LI>
+
+<LI>
+<A HREF="remote.html#photogrammetry">Basic Photogrammetry</A></LI>
+
+<LI>
+<A HREF="remote.html#apapps">Applications of Aerial Photography</A></LI>
+
+<LI>
+<A HREF="remote.html#ap_gis">Integration of Aerial Photography into GIS</A></LI>
+</UL>
+
+<LI>
+<A HREF="remote.html#DIP">Digital Image Processing</A></LI>
+
+<UL>
+<LI>
+<A HREF="remote.html#sources">Sources of Digital Data</A></LI>
+
+<LI>
+<A HREF="remote.html#Enhancement">Image Enhancement</A></LI>
+
+<LI>
+<A HREF="remote.html#dataclass">Data Classification</A></LI>
+</UL>
+
+<LI>
+<A HREF="remote.html#satellite">Satellite Imaging</A></LI>
+
+<UL>
+<LI>
+<A HREF="remote.html#satintro">Introduction</A></LI>
+
+<LI>
+<A HREF="remote.html#landsat">Landsat</A></LI>
+
+<LI>
+<A HREF="remote.html#spot">SPOT</A></LI>
+
+<LI>
+<A HREF="remote.html#NOAA">NOAA satellites</A></LI>
+
+<LI>
+<A HREF="remote.html#satapps">Applications of Satellite Imagery</A></LI>
+
+<LI>
+<A HREF="remote.html#sat_GIS">Integration of Satellite Imagery into GIS</A></LI>
+</UL>
+
+<LI>
+<A HREF="remote.html#MTHS">MSS, Thermal, and Hyperspectral Scanning</A></LI>
+
+<UL>
+<LI>
+<A HREF="remote.html#thermal">Thermal Radiation Principles</A></LI>
+
+<LI>
+<A HREF="remote.html#MSS">Multispectral Scanning</A></LI>
+
+<LI>
+<A HREF="remote.html#TSI_interp">Interpreting Thermal Scanning Imagery</A></LI>
+
+<LI>
+<A HREF="remote.html#FLIR">FLIR systems</A></LI>
+
+<LI>
+<A HREF="remote.html#spectrometry">Imaging Spectrometry</A></LI>
+</UL>
+
+<LI>
+<A HREF="remote.html#radar">Radar (Microwave) Scanning</A></LI>
+
+<UL>
+<LI>
+<A HREF="remote.html#SLAR">SLAR</A></LI>
+
+<LI>
+<A HREF="remote.html#LIDAR">LIDAR</A></LI>
+
+<LI>
+<A HREF="remote.html#ERS">ERS Program</A></LI>
+</UL>
+
+<LI>
+<A HREF="remote.html#future">Remote Sensing and GIS</A></LI>
+</UL>
+
+<H3>
+USGS Glossary:</H3>
+
+<UL>
+<UL>
+<LI>
+<A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/a_b">A-B</A></LI>
+
+<LI>
+<A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/c_d">C-D</A></LI>
+
+<LI>
+<A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/e_g">E-G</A></LI>
+
+<LI>
+<A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/h_l">H-L</A></LI>
+
+<LI>
+<A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/m_o">M-O</A></LI>
+
+<LI>
+<A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/p_r">P-R</A></LI>
+
+<LI>
+<A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/s_t">S-T</A></LI>
+
+<LI>
+<A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/u_z">U-Z</A></LI>
+</UL>
+</UL>
+
+<HR>
+
+<P>Last Updated 10/7/97. RRR.
+
+<P>&nbsp;
+</BODY>
+</HTML>

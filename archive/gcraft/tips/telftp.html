@@ -1,0 +1,65 @@
+<HTML>
+<TITLE>ftp and telnet commands</TITLE>
+<H1>File Transfer and Remote Logon: The 
+ftp and telnet Commands </H1>
+<H2>Transferring Files to PC/Windows 
+Computers: ftp </H2>
+	The ftp (file transfer protocol) command is not a Unix command per se, but rather a file transfer 
+command that can be run from any of the laboratory computers over the Internet.  Use ftp if you wish to 
+transfer a file from one of the workstations to a PC for editing or plotting.  The ftp command is 
+particularly handy for files that are too large to move to the PCs using diskettes.  Follow these steps:<P>
+<H3>To copy a file from a Unix workstation to a PC</H3>
+1.	Go to the PC where you would like to use the file.<P>
+2.	Exit Windows, if it is running.<P>
+3.	Use the cd command to change to the directory where you would like to copy the file, c:  root is 
+fine.<P>
+4.	Type the command:   ftp  reunion.grg.utexas.edu  [enter]   Substitute the name of the workstation 
+you use for "reunion.grg.utexas.edu.<P>
+5.	Follow the prompts to logon to your account on the workstation.<P>
+6.	When you are logged on, you can use the ls command to get a listing of files on the workstation  
+if you have forgotten which one you wish to copy. <P>
+7.	Type: binary [enter]<P>
+8.	Type: get austin.dgn [enter]   This would get the file austin.dgn and copy it to the PC.<P>
+9.	Get as many files as you need.<P>
+10.	When you finished, type:  quit [enter]   This will end ftp and return you to the DOS prompt<P>
+Note: If you are in ftp and get lost, type ? for a list of commands, or type quit [enter] to exit and start 
+over.<P>
+<H3>To Copy a File from a PC to a Unix Workstation 
+</H3>
+	Follow the same ten steps as above.  At step 7, substitute "put" for "get."  Put and get are inverse 
+commands.<P>
+<H2>Remote Logon to Any Computer:  telnet 
+and tn3270</H2>
+	You can use the Internet to logon to any remote computer you have permission to use.  There are 
+a variety of commands for making this possible, telnet being the one most commonly employed.<P>
+<H3>1. 	From PCs and Workstations</H3>
+Examples:<P>
+<UL>
+<LI>telnet amana.grg.utexas.edu
+<LI>Allows you to logon to an account on amana.  Once you are logged on  you can use amana, 
+except graphics applications that need amana's screen won't work from a PC.  
+<LI>telnet utcat
+<LI>Allows you to access the General Libraries' utcat
+<LI>tn3270 utxvm.cc.utexas.edu
+<LI>Allows you to logon to the Computation Center's utxvm computer if you have an account there.   
+This is an IBM mainframe for which you need to use a variant of the telnet command, tn3270.
+<LI>telnet  stis.nsf.gov
+<LI>Allows you to logon as "public" to a computer at the headquarters of the National Science 
+Foundation in Arlington, Virginia, to look at program announcements and awards. 
+</UL>
+Note:  To end a telnet or tn3270 session, type logout.<P>
+There are thousands of computers on the Internet that allow you to access them to use public files.  All you 
+need to know are their addresses and access procedure.  If you wish to transfer a file from these 
+computers, use the ftp command.<P>
+<H3>2.	On the UNIX Workstations</H3>
+	On the workstations, apart from telnet and tn3270, there are variety of other options for remote 
+logins including the visit and rlogin commands.  On the Intergraph workstations, the visit command is 
+available from the workstation icon in the lower left corner of the screen. <P>
+<br>
+<br>
+<br>
+Converted on 20 July 1994.  KEF.<P>
+</HTML>
+
+
+

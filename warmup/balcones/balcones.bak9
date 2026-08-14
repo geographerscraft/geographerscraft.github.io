@@ -1,0 +1,595 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; U) [Netscape]">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#333399" vlink="#336666" alink="#000000">
+
+<hr>
+<center><img SRC="gif/titlegifs/titlebar.jpg" >
+<p><img SRC="gif/titlegifs/titlebar.gif" ></center>
+
+<p><i>The materials were developed by Alison Baird, Department of Geography,
+University of Texas at Austin, 1996. You may use these materials for education
+and research, but please cite the Geographer's Craft Project, Department
+of Geography, University of Colorado at Boulder and the author. If you
+have comments or suggestions, please contact: <a href="mailto:k.foote@colorado.edu">k.foote@colorado.edu</a>.&nbsp;
+All commercial rights reserved.</i>
+<p>
+<hr><a NAME="toc"></a>
+<center><img SRC="gif/titlegifs/toc.gif" ></center>
+
+<hr>
+<h4>
+<u><a href="#problem">Research Problem</a></u></h4>
+
+<h4>
+<u><a href="#background">General Background Information</a></u></h4>
+
+<ul>
+<li>
+<a href="#biogrg">Biogeography</a></li>
+
+<ul>
+<li>
+<a href="#themes">Some Themes in Biogeography</a></li>
+</ul>
+
+<li>
+<a href="#hab_frag">Habitat Fragmentation</a></li>
+
+<br>&nbsp;
+<p>&nbsp;
+<ul>
+<li>
+<a href="#human_frag">Human Causes of Habitat Fragmentation</a></li>
+
+<li>
+<a href="#nat_frag">The Role of Natural Disturbance Regimes</a></li>
+
+<li>
+<a href="#species_frag">Effects of Habitat Fragmentation on Species Diversity</a></li>
+
+<br>&nbsp;
+<p>&nbsp;</ul>
+
+<li>
+<a href="#endspp">Endangered Species</a></li>
+
+<br>&nbsp;
+<p>&nbsp;
+<ul>
+<li>
+<a href="#endspp_tx">Endangered Species in Texas</a></li>
+
+<br>&nbsp;
+<p>&nbsp;</ul>
+
+<li>
+<a href="#bioGIS">Biogeography and GIS</a></li>
+
+<li>
+<a href="#bc">Balcones Cayonlands National Wildlife Refuge</a></li>
+
+<br>&nbsp;
+<p>&nbsp;
+<ul>
+<li>
+<a href="#description">Description</a></li>
+
+<li>
+<a href="#flora">Flora</a></li>
+
+<li>
+<a href="#fauna">Fauna</a></li>
+
+<br>&nbsp;
+<p>&nbsp;</ul>
+
+<li>
+<a href="#golden">Golden-cheeked warbler</a></li>
+
+<li>
+<a href="#black">Black-capped vireo</a></li>
+
+<br>&nbsp;
+<p>&nbsp;</ul>
+
+<h4>
+<a href="#project">The Project</a></h4>
+
+<ul>
+<li>
+<a href="#basemap">Creating a Base Map</a></li>
+
+<li>
+<a href="#vegmap">Determining Vegetation Type</a></li>
+
+<li>
+<a href="#canopymap">Determining the Canopy Cover</a></li>
+
+<li>
+<a href="#expected">Determining your "Expected" Results</a></li>
+
+<li>
+<a href="#compare">Comparing the "Expected" Results with the "Actual" Results</a></li>
+
+<li>
+<a href="#handin">What to Hand In</a></li>
+</ul>
+
+<hr>
+<p><a NAME="problem"></a>
+<center><img SRC="gif/problem.gif" ></center>
+
+<p>
+<hr>
+<ul>What is habitat fragmentation and how does it affect endangered species?
+In order to answer, we need to consider our role as geographers within
+the ultimate goal of species conservation. A subset of the discipline,
+biogeography, approaches such questions with an emphasis on the distribution
+of diversity on a variety of scales. We will assume the role of biogeographers
+for this exercise; as such, we will answer this question by identifying
+suitable habitat for endangered species within a study area in Central
+Texas, the Balcones Canyonlands National Wildlife Refuge.
+<p>&nbsp;More specifically, we will using color infra-red (IR) aerial photos
+to identify sites that fit habitat criteria for Golden-cheeked warblers
+and Black-capped vireos. It should be noted that while we cannot address
+<i>all</i> of the biological considerations for habitat preference with
+the given data set, we <i>can </i>identify vegetation types and suitable
+canopy cover for either species. In addition, we will compare our habitat
+assessments with sightings recorded by field technicians with the US Fish
+and Wildlife Service.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></ul>
+
+<hr><a NAME="biogrg"></a>
+<center><img SRC="gif/biogrg.gif" ></center>
+
+<hr>
+<ul>Biogeography is a subset of geography that deals with the distribution
+of plants and animals over the earth's surface and the processes which
+affect this distribution. A biogeographer approaches these processes on
+a variety of scales, from global to local. For instance, we can consider
+the effects of global climatic regimes (such as temperature, light, moisture
+and wind) on the worldwide distribution of vegetation or, alternately,
+we can examine these same factors found within a micro-environment, such
+as a desert spring. However, biogeographers examine more than just climate
+regimes; they also consider the influence of geomorphic factors, soil sciences,
+and ecosystem processes. Admittedly, each of these sub-fields is a discipline
+within itself. Biogeographers tend to specialize in one or more of these
+subjects, for each is rich in uncertainty and complexity. For our exercise,
+we will be "specialists" in the realm of ecological processes.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></ul>
+
+<hr><a NAME="themes"></a><img SRC="gif/themes.gif" >
+<hr>
+<ul>Ecological processes are amazingly complex. These concepts involve
+interactions between species, like the familiar "food-chain" theories,
+but also incorporate communal, symbiotic, competitive and predator/prey
+relationships. These relationships can occur amongst members of the same
+species or between groups of different species that interact within biotic
+communities. In addition, we can examine the interactions between organisms
+and several inorganic factors: water, temperature, altitude, and so on.
+While these are all important ecological considerations, they do not even
+approach the complications that arise when we think about the influence
+of humans on the natural world.
+<p>&nbsp;We modify habitat. To some extent, this alteration may not be
+harmful to other species. However, if carried out at an unsustainable rate,
+habitat modification can jeopardize the well-being of untold numbers of
+species and communities. Because human-caused habitat alteration is rooted
+in our resource use, biogeographers are often called in to the politcal
+and economic realm. The role of a biogeographer in this case is in environmental
+management: how best to retain sufficient habitat for species while allowing
+adequate use of resources to sustain our own species? This is the question
+that faces anyone or any group that attempts to establish reserves or refuges
+for various organisms. Indeed, this is the consideration facing the Refuge
+in this exercise. We will examine the results of fragmentation on the habitat
+for endangered species.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></ul>
+
+<hr><a NAME="hab_frag"></a>
+<center><img SRC="gif/hab_frag.gif" ></center>
+
+<hr>
+<ul><a href="habitat/habitat.html"><img SRC="gif/habitats.gif" ></a> The
+term "habitat fragmentation" indicates an overall decrease of some habitat
+type or the partitioning of habitat into smaller, more isolated parcels.
+Fragmentation is a complex process that we most often associate with human
+settlement patterns: road-building, clearing of land for agriculture and
+grazing, and urban encroachment. The following diagram is a typical illustration
+of the destruction of forest as a consequence encroaching human settlement.
+Notice that, rather than a landscape of total ecological destruction, the
+forested habitat is instead reduced to a small patchwork of remaining forest.
+<br>&nbsp;
+<br>&nbsp;</ul>
+
+<hr><a NAME="human_frag"></a><img SRC="gif/hu_frag.gif" >
+<hr>
+<ul><a href="diagram/diagram.html"><img SRC="gif/frags.gif"  align=LEFT></a>
+The most prevalent cause of habitat fragmentation has more to do with human
+consumption of resources than natural disturbance regimes. Our consumption
+of resources has risen as human populations have grown. Inversely, our
+efficiency of resource use has decreased. The result has been increasing
+exploitation of our natural resources. Through our manipulation of ecosystems,
+we have fragmented or completely lost vital habitat for untold numbers
+of species.
+<br>&nbsp;
+<br>&nbsp;</ul>
+
+<hr><a NAME="nat_frag"></a><img SRC="gif/nat_frag.gif" >
+<hr>
+<ul>It should be noted that habitat fragmentation is not purely anthropomorphic
+in origin. Most ecosystems are periodically subject to alteration by fire,
+flood, wind and landslides. The effects of these disturbances may seem
+disastrous ecologically, but it is important to remember that these ecosystems
+evolved in the presence of these disturbances. Thus, they are adapted to
+disturbance and, in fact, may even rely on these processes for rejuvenation.
+Frequent disturbance is a stabilizing element in many ecosystems.
+<br>&nbsp;
+<br>&nbsp;</ul>
+
+<hr><a NAME="species_frag"></a><img SRC="gif/spp_frag.gif" >
+<hr>
+<ul>The effects of anthropogenic habitat loss or degradation on the numbers
+and types of species in an ecosystem are still unfolding. Some species
+are able to survive in a mosaic of human land uses. Others may colonise
+nearby suitable habitat. Certain species may persist in the leftover fragments,
+provided that these patches are large enough or that there are "corridors"
+of habitat between patches through which species can travel. If the habitat
+continues to be degraded or destroyed, the end result could be the extinction
+of species.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></ul>
+
+<hr><a NAME="endspp"></a>
+<center><img SRC="gif/endspp.gif" ></center>
+
+<hr>
+<ul>There are two definitions of endangered species: one biological and
+one legal. Biologically, an endangered species is one that, under current
+conditions, cannot maintain a viable population and will therefore go extinct.
+Extinction can occur <i>locally</i>, with other populations of the species
+existing elsewhere, or <i>globally</i> as the last surviving members of
+a species. Legally, an endangered species is one which is listed under
+the <a href="http://www.fws.gov/~r9endspp/esa.html">Endangered Species
+Act (1973)</a> (ESA) as in danger of extinction "as a consequence of economic
+growth and development" despite "adequate concern and conservation." The
+difference between the two definitions is slight, but significant. Legal
+attention has the advantage of legal protection of the species from further
+modification of the environment. For more information on the Endangered
+Species Act itself or the applications of the ESA, please consult the on-line
+texts listed below:</ul>
+
+<ul>
+<li>
+The full on-line text of the <a href="http://www.fws.gov/~r9endspp/esa.html">Endangered
+Species Act (1973)</a></li>
+
+<li>
+The <a href="http://www.fws.gov/~r9endspp/endspp.html">US Fish and Wildlife
+Endangered Species Program</a> provides links to further information on
+the Endangered Species Act, Listed and Candidate Species (including recovery
+plans and a review of Category 1 and Category 2 species as of August 31,
+1995) and a copy of the May/June 1995 <i>Endangered Species Bulletin</i>.
+This page also has a <u>very</u> useful link to the University of Michigan's
+<i>Endangered Species Update</i>.</li>
+
+<br>&nbsp;
+<p>&nbsp;
+<li>
+The<a href="http://earth1.epa.gov/EPA-SPECIES/">Environmental Protection
+Agency Federal Register of Endangered Species</a> access Notices (provided
+by the US Fish and Wildlife Service) of Receipt of Applications for permits
+to "conduct certain activities" with endangered species.</li>
+
+<br>&nbsp;
+<p>&nbsp;
+<li>
+<a href="http://www.fws.gov/help/hotlist.html">Other Sites for Natural
+Resource and Environmental Information</a> is a list of links is provided
+by Dr. Alan Fisher, the National Data Administrator for the US Fish and
+Wildlife Service.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></li>
+</ul>
+
+<hr><a NAME="endspp_tx"></a><img SRC="gif/spp_tx.gif" >
+<hr>
+<ul>There are 78 state and federally listed endangered species in Texas.
+Two of these, the <a href="#golden">Golden-cheeked warbler</a> and the
+<a href="#black">Black-capped vireo</a>, will be the subject of this exercise.
+For more information on endangered and threatened species in Texas, please
+refer to the sources below:</ul>
+
+<ul>
+<li>
+<a href="http://www.tpwd.state.tx.us/nature/endang/endang.htm">Current
+endangered species listings in Texas</a> provided by the Texas Parks and
+Wildlife Department.</li>
+
+<br>&nbsp;
+<p>&nbsp;
+<li>
+<a href="http://sturgeon.irm1.r2.fws.gov/news-rel/index.html">New Releases</a>
+issued by Region 2 (Southwest region) of the US Fish and Wildlife Service.
+This includes the text for a recent<a href="http://sturgeon.irm1.r2.fws.gov/news-rel/bccp-nr.txt">
+Plan Permitting Develpment in Black-Capped Vireo and Golden-Cheeked Warbler
+Habitat</a>&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></li>
+</ul>
+
+<hr><a NAME="bioGIS"></a>
+<center><img SRC="gif/biogis.gif" ></center>
+
+<hr>
+<ul>With the introduction of <a href="http://info.er.usgs.gov/research/gis/title.html">GIS</a>
+to the field of biogeography, we have commandeered a powerful key to understanding
+the natural world. Given the pertinent field data, we can display the distribution
+of biological elements over any given area. By applying the distribution
+of species and their habitats to a graphic format, we can easily and quickly
+define those areas which can be targeted for preservation, restoration,
+limited uses or further study. This technique now is being used nationwide
+in the <a href="http://www.nr.usu.edu/gap/wm.html">Gap Analysis Project</a>
+and by various environmental managers who are attempting to secure the
+future of endangered species. Used alone or in conjuction with other quantitative
+techniques, such as modeling, GIS is steadily increasing our capacity for
+ecological understanding.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></ul>
+
+<hr><a NAME="bc"></a>
+<center><img SRC="gif/balcone.gif" ></center>
+
+<hr>
+<ul><a href="texasmap/texasmap.html"><img SRC="gif/balcons.gif"  align=RIGHT></a></ul>
+<a NAME="description"></a>
+<ul>The Balcones Canyonlands is an ecologically diverse belt through Central
+Texas distinguished by steep, wooded canyons and streams along the eastern
+and southern regions of the Edwards Plateau. The Canyonlands support a
+great number and variety of species, many of which are integral members
+of unique biological communities. Small, localized habitats play a major
+role in this region's diversity; for example, there are 64 species of cave
+fauna within a single cave in western Travis County--this is the highest
+diversity of cave fauna found within the southwestern United States.</ul>
+
+<ul>The Balcones Canyonlands National Wildlife Refuge is located in the
+Post Oak Ridge section of the Edwards Plateau. The Refuge was established
+in 1991 under the authority of the Endangered Species Act (1973), the Fish
+and Wildlife Act (1956, as amended) and the Land and Water Conservation
+Fund Act (1965, as amended). The proposed boundaries of the Refuge encompass
+41,000 acres in Travis, Williamson and Burnet Counties. At present, the
+US Fish and Wildlife Service has acquired approximately 14,000 acres in
+western Travis County.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></ul>
+
+<hr><a NAME="flora"></a><img SRC="gif/flora.gif" >
+<hr>
+<ul>The Post Oak Ridge segment of the Edwards Plateau includes at least
+1,500 plant species and over 120 native tree species. This number includes
+several species of endemic plants, 22 endangered plant species and several
+unique vegetation communities. Because this region is at the junction of
+the Edwards Plateau and the Lampasas Cut Plain physiographic sections,
+there is a diverse arrangement of hydrologic, geologic and climatic features
+that "blend", resulting in an unusual mosaic of species. The vegetation
+types can range from eastern deciduous trees to both Rocky Mountain species
+and Mexican neotropical species. More commonly, the vegetation communities
+found here include oak-juniper woodlands, post-oak-grassland savannas,
+mesic deciduous forests, stream bottom riparian forests, low shrub communities
+and communities of smallish plants (such as mosses) found in and around
+springs and seeps.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></ul>
+
+<hr><a NAME="fauna"></a><img SRC="gif/fauna.gif" >
+<hr>
+<ul>The Balcones Canyonlands support at least 375 species of birds, one-third
+of which nest in this region. 110 of these species are neotropical migrants
+(birds that migrate between northern breeding grounds and wintering grounds
+in Central and South America). Within this region, there is habitat for
+55 species of mammals (including 9 neotropical migratory bat species),
+70 species of reptiles and 80 species of fish. At least two of the above
+mentioned species are listed with the US Fish and Wildlife Service as "endangered"
+species under Endangered Species Act.&nbsp;<a href="#toc"><img SRC="gif/arrow.gif"  align=RIGHT></a></ul>
+
+<hr><a NAME="golden"></a>
+<center><img SRC="gif/gold.gif" ></center>
+
+<hr>
+<p><a href="warbler/warbler.html"><img SRC="gif/goldens.gif"  align=RIGHT></a>
+<ul>
+<li>
+Range: The golden-cheeked warbler <i>(Dendroica chrysoparia)</i> is a neotropical
+migrant. They arrive in our area sometime in March from their wintering
+grounds in Central America and they leave Texas by mid-July. Their only
+known nesting habitat occurs exclusively in the oak-juniper woodlands of
+Central Texas. The golden-cheeked warbler needs older stands of forest
+with a dense canopy cover of at least 70%. The diet of both the adults
+and young include insects and caterpillars found in oak and juniper trees.</li>
+
+<p><br>The main threat for the survival of this species is habitat modification.
+Encroaching urbanization and the clearing of land for grazing stock have
+decreased the number of viable nesting areas. In addition, the golden-cheeked
+warbler can be a victim of nest parasitism by the brown-headed cowbird,
+a species that prefers disturbed habitats.</ul>
+
+<hr><a NAME="black"></a>
+<center><img SRC="gif/blck.gif" ></center>
+
+<hr>
+<ul><a href="vireo/vireo.html"><img SRC="gif/blacks.gif"  align=RIGHT></a>
+The black-capped vireo <i>(Vireo atricapillus)</i> is also a neotropical
+migrant, with wintering grounds on the Pacific coast of Mexico. They used
+to nest from northern Mexico up through Kansas, but now the vireo is only
+seen as far north as Oklahoma. The black-capped vireo seem to prefer a
+semi-open habitat of dense trees; they build their nests at a very low
+height.
+<p>There are approximately 1500 breeding vireo pairs remaining. Their main
+threat to survival is habitat modification. The brushlands they need for
+nesting are often cleared for grazing and it is thought that grazing itself
+can keep the vegetation from regenerating. In addition, the black-capped
+vireo can be a victim of nest parasitism by the brown-headed cowbird, a
+species which prefers disturbed habitats.</ul>
+
+<hr><a NAME="project"></a>
+<center>
+<hr><img SRC="gif/titlegifs/project.gif" ></center>
+In this Project you will interpret some general vegetation characteristics
+from remotely sensed material. Using this information plus your knowledge
+of habitat requirements for the Golden-cheeked warbler and the Black-capped
+vireo, you will be able to predict the occurrence of these endangered species
+within the Eckhardt tract of the Balcones Canyonlands National Wildlife
+Refuge. You will then compare your estimates to records of actual sightings
+of these birds. The final product will be a report detailing this process
+and your results. There are five main steps in this project that lead up
+to your report:
+<ul>
+<li>
+Creating a base map</li>
+
+<li>
+Determining Vegetation Type</li>
+
+<li>
+Determining Canopy Cover</li>
+
+<li>
+Determining Suitable Habitat for the Golden-cheeked Warbler and the Black-capped
+Vireo</li>
+
+<li>
+Comparison of Expected Results with Actual Sightings</li>
+
+<li>
+The Report</li>
+</ul>
+
+<hr><a NAME="basemap"></a><img SRC="gif/titlegifs/basemap.gif" >
+<hr>
+<p>Since the Eckhardt tract is located in two counties, you will need to:
+<br>&nbsp;
+<br>&nbsp;
+<ul>
+<li>
+Download two county files in .dgn format from the Texas Natural Resources
+Information Systems <a href="ftp://www.tnris.state.tx.us/pub/GIS/highway/counties_dgn">server</a>.</li>
+
+<li>
+Merge these files in Microstation</li>
+
+<li>
+Using the portion of the USGS 1:24 000 topo sheet that is provided, digitize
+the boundary of the Eckhardt tract.</li>
+
+<br>&nbsp;
+<p>&nbsp;</ul>
+
+<hr><a NAME="vegmap"></a><img SRC="gif/titlegifs/vegtype.gif" >
+<hr>
+<p>There are several general types of vegetation communities within the
+Eckhardt tract which are distinguishable from one another in the infra-red
+(IR) photographs. You will need to consult both the March and September
+photos to check your assessment. The vegetation types you will be using
+are given below with a brief explanation of their physical characteristics
+and their appearance in remotely sensed material.
+<ul>
+<li>
+<b>Grassland</b>--no trees and, therefore, no shadows. The grasslands will
+probably appear bluish/greenish in the winter or spring; yellow during
+the summer and early fall.</li>
+
+<br>&nbsp;
+<p>&nbsp;
+<li>
+<b>Savannah</b>--very widely scattered trees in a grassland; very low %
+canopy cover.</li>
+
+<br>&nbsp;
+<p>&nbsp;
+<li>
+<b>Shinnery</b>--a very dense thicket or shrubbery that is typically not
+very tall. The predominant component of these on the Eckhardt tract is
+red oak. A shinnery isn't really a "woodland" or a forest; to make your
+way through one, you'd need a good machete. The % canopy cover appears
+to be very high because the ground is covered with vegetation, but that
+is misleading since the vegetation itself does not reach a great height.
+Because of this, a shinnery is considered to have a "semi-open" canopy.
+Thus, the distinctive mark of a shinnery in aerial photos is that it will
+appear very "flat" and will cast no shadow.</li>
+
+<li>
+<b>Oak/Juniper Woodland</b>--a mixture of juniper and various species of
+oaks, including post oak, live oak, red oak and others. In the March 1995
+aerial photos, the juniper are evident by their deep red color, which indicates
+that they are photosynthesizing at that time of year. The "red" junipers
+contrast nicely with the dull greens of the oaks (which are not photosynthesizing
+yet). Notice the difference in colors between the September 1993 photos
+and the March 1995 photos...can you guess why all of the vegetation is
+red in September?</li>
+
+<br>&nbsp;
+<p>&nbsp;
+<li>
+<b>Cactus Patch</b>--a mixture of prickly pear cactus and grassland. In
+the March 1995 aerial photos, the prickly pear look like dark speckles
+across a relatively open field. HINT: Look in the southern grasslands of
+the Eckhardt tract.</li>
+
+<br>&nbsp;
+<p>&nbsp;</ul>
+
+<hr><a NAME="canopymap"></a><img SRC="gif/titlegifs/canopy.gif" >
+<hr>
+<p>To determine the percentage canopy cover of any given area in this exercise,
+you will need a clear, plastic sheet that has a "dot grid." Lay this grid
+over the aerial photo (this is why it should be clear) and determine what
+percentage of each box is covered with trees, or vegetation of significant
+height. For example, a grassland will have a value close to 0% , while
+a savanna will have slightly more. You'll have the "eye" this percentage;
+exact mathematical calculations are not necessary. This figure is the "percentage
+canopy cover".
+<p>In order to display your calculations, you will probably want to lump
+the percentages into a category, such as "0%-20%" or "50-75%." Divide the
+Eckhardt tract into the resulting categories (use polygons). Try to avoid
+being <i>too</i> detailed--this map should only illustrate the general
+variation of canopy cover across the tract. HINT: Based on what is written
+in the vegetation section above, you might question the % canopy cover
+you measure for a shinnery. You may choose to set off these "special" areas
+with an asterisk or a footenote explaining why you measurements of canopy
+cover might be suspect.
+<p>
+<hr><a NAME="expected"></a><img SRC="gif/titlegifs/expected.gif" >
+<p>
+<hr>If you were to send a technician into the Eckhardt tract to look for
+the golden-cheeked warbler and the black-capped vireo, in which direction
+would you send them? Where on the tract would you expect to find these
+two species? For this part of the exercise, you will need:
+<ul>
+<li>
+Your Vegetation Map</li>
+
+<li>
+Your Map of Canopy Cover</li>
+</ul>
+Using the habitat requirements listed <a href="#golden">earlier in this
+exercise </a>plus the information you illustrated in these two maps, identify
+those areas where you would expect to find these species.
+<p><a NAME="compare"></a>
+<hr><img SRC="gif/titlegifs/compare.gif" >
+<p>
+<hr>Towards the last week of the exercise (after you have completed your
+"expected" results) you will be given the results of your field technician's
+observations. Digitize the "actual" results for both the black-capped vireo
+and the golden-cheeked warbler into your Microstation file. Compare the
+"results" to the "actual." How close were you?&nbsp;<a NAME="handin"></a>
+<hr><img SRC="gif/titlegifs/report.gif" >
+<hr>You do not need to hand in a digital copy of your maps, so you will
+have to determine your own guidelines for the organization of your file
+(colors, levels, etc.) in Microstation.
+<p>You will be handing in a report, similar to that which you compiled
+for the Texas Election Campaign Project. This report, however, is a professional
+assessment of your work in locating two endangered species on a section
+of the Refuge. The beginning of this report should contain a brief, to-the-point
+executive summary of your work <i>and</i> a summary map. The rest of your
+report should be a presentation of your methodology, results and some discussion.
+Include whatever maps you feel are necessary to show the different elements
+of your project, but please limit these to a reasonable number (up to 3
+or 4). You will be graded solely on this report (including the maps) so
+make sure it is representative of your effort.&nbsp;
+<hr>
+<hr><i>Created 13 November 1995. ALB.</i>
+<br><i>Last updated 25 January 2000. LNC.</i>
+<p>&nbsp;* A great deal of the materials for this exercise were provided
+by US Fish and Wildlife; many thanks for their generosity and extra special
+thanks to Dr. Chuck Sexton. <i>---alb</i>
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

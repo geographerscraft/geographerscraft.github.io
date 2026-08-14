@@ -1,0 +1,251 @@
+<HTML>
+<TITLE>Essential DOS Commands</TITLE>
+<H1>Essential DOS Commands and 
+Concepts</H1>
+<UL>
+<LI><A HREF = "#backup">Backup Files</A> 
+<LI><A HREF = "#changedrive">Change the Default Drive</A> 
+<LI><A HREF = "#chdir">CHDIR (CD) Change Directory Command</A> 
+<LI><A HREF = "#copy">COPY Command</A> 
+<LI><A HREF = "#dir">DIR (Directory) Command</A> 
+<LI><A HREF = "#erase">ERASE Command</A> 
+<LI><A HREF = "#filenaming">File-Naming Conventions</A> 
+<LI><A HREF = "#format">FORMAT Command </A> 
+<LI><A HREF = "#mkdir">MKDIR (MD) Make Directory Command</A> 
+<LI><A HREF = "#reboot">Rebooting the computer (Ctrl-Alt-Del)</A> 
+<LI><A HREF = "#rename">RENAME (REN) Command</A> 
+<LI><A HREF = "#rmdir">RMDIR (RD) Remove Directory Command</A> 
+<LI><A HREF = "#ctrlbrk">Stop Execution (Ctrl-Break)</A> 
+</UL>
+<H2>Introduction</H2>
+     DOS (an acronym for Disk Operation System) is a tool which allows you to control the operation of the 
+IBM PC.  DOS is <I>software</I> which was <I>written</I> to control <I>hardware</I>.  IDRISI, 
+Atlas*GIS, Microstation, AutoCAD, CPS/PC, and ARC/INFO are, in turn, application software which 
+run under  DOS. By this we mean that, although IDRISI, Atlas*GIS, Microstation, AutoCAD, CPS/PC, 
+and ARC/INFO were written to accomplish a single task or application (in this case manipulation of 
+spatially related data), they must use DOS to pursue its work.<P>
+     DOS can be used for a wide range of tasks far beyond the requirements of this class.  You will be able 
+to manage well if you master only a small subset of DOS commands and functions.  These relate almost 
+exclusively to file and directory management and are introduced in this handout.<P>
+     This tip sheet assumes that you have learned how to turn on the PCs as they are configured in room 
+230 and that you have familiarized yourself with their keyboards (no small task in itself).  It also assumes 
+that you understand the meaning of the concept of a <I>file</I> and the elements of a file specification 
+(drive, filename, and extension).  The microcomputers you will be using are equipped with two 
+<I>floppy</I> disk drives.  The A-drive is the 3.5" (1.44MB) drive and the B-drive is the 5.25" (360KB) 
+drive.  The microcomputers also contain a C-drive, a hard disk drive of 130MB or 200MB capacity.<P>
+     You will quickly find that the best way to learn how to use a computer is through experimentation.  
+That is, once you have learned a command, try some variations until they don't work, then start over.  
+Often there are five or six ways for you to accomplish a particular task.  Usually, I will introduce you to 
+only one, leaving it up to you to discover the rest.  Don't hesitate to consult the DOS Reference Manual; 
+copies can be found on the bookcase in room 230.  Finally, don't be unduly disturbed by error messages.  
+With computers, one of the best ways to learn is by making mistakes.<P>
+     Most of the common DOS commands you need to use for this class (copy, rename, delete) are available 
+to you in Windows through the Filemanager icon.  And, since you can move back and forth between DOS 
+and Windows, it doesn't matter which option you employ.  Some commands are faster in invoke in 
+Windows, some in DOS.  If you haven't worked with Windows previously, go to the Windows tutorials in 
+the help area.<P>
+<H2><A NAME = backup>Backup Files</A></H2>
+     It is possible to lose files by mistake, although the more you practice the less likely it becomes.  For 
+your own peace of mind, it is good practice to make backup copies of your most valuable files on a 
+separate diskette.   Store your backup disk in a safe place and don't carry it through a metal detector.  Use 
+the COPY command to create the backup.<P>
+     There is no need to backup every file you create, only the ones in which you've invested much work.  
+Also, prune your backup diskette every week or two using the ERASE command.  Backup files which 
+have been made redundant by subsequent additions will simply create clutter on your backup diskette.  An 
+effective file naming convention is essential to keeping track of your backups.<P>
+<H2><A NAME = changedrive>Change the Default Drive</A></H2>
+     To change the default drive, simply type the letter of the your choice.  The new default will be listed in 
+subsequent DOS prompts.<P>
+Example:<P>
+<UL>
+<LI>C&gt  A:  [enter]
+<LI>Changes the default drive from C to A.
+<LI>A&gt  C:  [enter]
+<LI>Changes the default drive from A to C.
+</UL>
+[enter] means that you must press the Enter Key before the format command will <I>execute</I>.   
+[Enter] is required after any DOS command, it is assumed in all commands found below.     <P>
+<H2><A NAME = chdir>CHDIR (CD)  Change Directory Command</A></H2>
+     Once you have located the directory you want, you may move from directory to directory using the CD 
+command (change directory)<P>
+Example:<P>
+<UL>
+<LI>C&gt  cd furniture
+<LI>Moves you to the directory called 'FURNITURE'
+<LI>C&gt  cd \furniture\chairs
+<LI>Moves you to the directory called 'CHAIRS' under the directory called 'FURNITURE'.
+<LI>C&gt  cd ..
+<LI>Moves you up one level in the path.
+<LI>C&gt  cd \
+<LI>Takes you back to the root directory (c: in this case).
+</UL>
+<H2><A NAME = copy>COPY Command</A></H2>
+     The COPY command can be used both to copy files from disk to disk or to create a second copy of a 
+file on a single disk.  (There are many more uses of the COPY command, but only the basic operation is 
+discussed here.)<P>
+Example:<P>
+<UL>
+<LI>C&gt  copy c:kermit.exe a:
+<LI>Copies the file 'KERMIT.EXE' from the C drive to the A drive and gives it the same name.
+<LI>C&gt  copy a:brazil1.dat b:\south\brazil2.dat
+<LI>Creates a copy of 'BRAZIL1.DAT' from drive A on drive B, putting it in the 'SOUTH' 
+subdirectory and renaming it 'BRAZIL2.DAT'.
+</UL>
+     The key to use this command correctly is to remember that the first file specified after the COPY 
+command is the <I>source</I> file, the second is the <I>target</I>:ehp1 file.  The <I>source</I> is the 
+file to be copied.  The <I>target</I> will be the location and name of the new file.  If the file name and 
+extension are omitted after the target's drive specification, the new file will have exactly the same name as 
+the source file.<P>
+Example:<P>
+<UL>
+<LI>C&gt  copy a:myfile.txt b:
+<LI>C&gt  copy c:command.com b:com.com
+<LI>C&gt  copy b:golly.gee a:whao.boy
+<LI>C&gt  copy command.* a:
+<LI>C&gt  copy a:mymap.dwg c:\maps
+</UL>
+Note: it is always good practice to us the complete file specifications for both source and target files,  Be 
+very sure of yourself before you accept defaults or employ wild-card characters.  Otherwise you may end 
+up with some interesting results.  Incomplete or incorrect source names may result in errors, such as the 
+command: copy edlin a:myomy.bat.  Try it and see what happens.<P>
+<H2><A NAME = dir>DIR (Directory)  Command</A></H2>
+     The DIRECTORY command lists the names and sizes of all files located on a particular disk.<P>
+Example:<P>
+<UL>
+<LI>C&gt  dir a:
+<LI>Shows directory of drive A
+<LI>C&gt  dir b:
+<LI>Shows directory of drive B
+<LI>C&gt  dir \agis
+<LI>Shows files in a subdirectory on drive C (default)
+<LI>C&gt  dir
+<LI>Shows directory of drive C
+<LI>C&gt  dir /w
+<LI>Shows directory in wide format, as opposed to a vertical listing.
+</UL>
+     All the files are listed at the screen, you can stop the display by typing CTRL-BREAK. If you ask for a 
+directory on the A or B drives, be sure there is a diskette in the drive and that the diskette has been 
+formatted. If the drive is empty, or if the diskette is unformatted, the DOS will respond with an <I>error 
+message</I>.<P>
+<H3>DIR Options</H3>
+     Two little characters, '*' and '?', will make your life with computers much easier.  Their use is 
+illustrated below.<P>
+Example:<P>
+<UL>
+<LI>C&gt  dir a:*.ex
+<LI>Lists all files on the A drive with an extension of 'EXE'.
+<LI>C&gt  dir b:kermit.*
+<LI>Lists all files on the B drive with a filename of 'KERMIT'.
+</UL>
+     The asterisk is a wild-card character which allows the user to enter only a limited part of a file 
+specification to find a file.  It is useful when you wish to locate a group of files with the same filename or 
+the same extension.  On other occasions you may have forgotten part of a file specification.  You can use 
+'*' in place of the parts of the specification you have forgotten.  Similarly, '?' permits wild-card searches 
+keyed to single characters.<P>
+Example:<P>
+<UL>
+<LI>C&gt  dir a:labe?.com
+<LI>Lists all five-letter files with the first four letters 'LABE' and an extension of 'COM'.
+<LI>C&gt  dir b:format.c??
+<LI>Lists all files with a filename of 'FORMAT' and an extension beginning with 'C'.
+</UL>
+Wild-card characters can be used in combination.<P>
+Example:<P>
+<UL>
+<LI>C&gt dir a:labe?.*
+<LI>Lists all five-letter files with the first four letters 'LABE' and any extension.
+<LI>C&gt dir c:*.ex?
+<LI>Lists all files with an extension beginning with 'EX'.
+</UL>
+     Experiment with '*' and '?' to improve your ability to find files quickly.  These wild-card characters can 
+also be used with several other DOS commands.<P>
+<H2><A NAME = erase>ERASE Command</A></H2>
+     The ERASE command deletes specified files.<P>
+Example:<P>
+<UL>
+<LI>C&gt  erase a:myfile.txt
+<LI>Erases the file MYFILE.TXT from the diskette in the A drive.  If no drive specification is 
+entered, the system looks to delete the specified file form drive C (in this case).
+</UL>
+IMPORTANT WARNING: This command is easy to use, but it is the most dangerous one you will 
+encounter in DOS (apart form FORMAT).  If you aren't careful, you may delete a file which you--or 
+someone else--needs.  And, unless you have saved a backup of that file, the erased file is gone for good.  
+For this reason it is good practice to use only complete file specifications with the ERASE command (and 
+to keep backups of your most valuable files).  As a safety precaution, never use the wild-card characters '*' 
+and '?' in ERASE commands.<P>
+BEWARE: I will rescind your laboratory privileges for a full week if you ever knowingly use either the 
+command: erase c:*.*, or the command: erase *.*.  Guess what happens?<P>
+<H2><A NAME = filenaming>File-Naming Conventions</A></H2>
+     Careful file naming can save time.  Always choose names which provide a clue to the file's contents.  If 
+you are working with a series of related files, use a number somewhere in the name to indicate which 
+version you have created.  This applies only to the filename parameter; most of the file extension 
+parameters you will be using are predetermined (or <I>reserved</I> by DOS for certain types of file).<P>
+Example:<P>
+<UL>
+<LI>WORLD.DAT
+<LI>An ATLAS*GRAPHICS file containing data for a world map.  The DAT extension is required 
+by ATLAS*GRAPHICS.
+<LI>BRAZIL.BNB
+<LI>A boundary file of Brazil in binary form.
+<LI>BRIT1.DAT
+<LI>BRIT2.DAT
+<LI>BRIT3.DAT
+<LI>Three versions of a data file for a map of Britain.
+</UL>
+<H2><A NAME = format>FORMAT Command </A></H2>
+     You must format new disks before using them on the IBM computers. The format command checks a 
+diskette for flaws and creates a <I>directory</I> where all the names of the diskette's files will be 
+stored.<P>
+Example:<P>
+<UL>
+<LI>C&gt  format a:  
+<LI>Formats the diskette in the A drive.
+<LI>C&gt  format b:  
+</UL>
+After entering this command, follow the instructions on the screen.  When the FORMAT operation is 
+complete, the system will ask if you wish to FORMAT more diskettes.  If you are working with only one 
+diskette, answer <B>N</B> (No) and carry on with you work.  If you wish to FORMAT several diskettes, 
+answer <B>Y</B> (Yes) until you have finished formatting all your diskettes.<P>
+     BEWARE: Executing the format command with a diskette which already contains files will result in 
+the deletion of all the contents of the entire disk.  It is best to execute the format command only on new 
+diskettes.  If you format an old diskette make sure it contains nothing you wish to save.<P>
+<H2><A NAME = mkdir>MKDIR (MD) Make Directory Command</A></H2>
+     This command creates a new directory.<P>
+Example:<P>
+<UL>
+<LI>C&gt  mkdir mine
+<LI>Creates a directory called 'MINE'
+</UL>
+<H2><A NAME = reboot>Rebooting the computer (Ctrl-Alt-Del)</A></H2>
+     In some cases, when all attempts to recover from a barrage of error messages fails, as a last resort you 
+can reboot the computer.  To do this, you press, all at once, the control, alternate and delete.<P>
+BEWARE: If you re-boot, you may loose some of your work--any data active in RAM which has not yet 
+been saved to disk.<P>
+<H2><A NAME = rename>RENAME (REN) Command</A></H2>
+     The RENAME command permits users to change the name of a file without making a copy of it.<P>
+Example:<P>
+<UL>
+<LI>C&gt  ren a:goofy.txt pluto.txt
+<LI>Changes the name of 'GOOFY.TXT' on the A drive to 'PLUTO.TXT'.
+</UL>
+     This command is very simple to use, just remember two points: the file name and extension must be 
+complete for the source file and no drive specification is given for the target.  Renaming can only occur on 
+a single disk drive (otherwise COPY must be used).<P>
+<H2><A NAME = rmdir>RMDIR (RD)  Remove Directory Command</A></H2>
+     This command removes a directory.  It is only possible to execute this command if the directory you 
+wish to remove is empty.<P>
+Example:<P>
+<UL>
+<LI>C&gt  rd mine
+<LI>Removes directory called 'MINE'.
+</UL>
+<H2><A NAME = ctrlbrk>Stop Execution (Ctrl-Break</A>)</H2>
+     If you wish to stop the computer in the midst of executing the current command, you may use the key 
+sequence Ctrl-Break.  Ctrl-Break does not always work with non-DOS commands.  Some software 
+packages block its action in certain situations, but it is worth trying before you re-boot.<P>
+<br>
+<br>
+<br>
+Converted 20 July 1994.  KEF.<P>
+<P>
+</HTML>

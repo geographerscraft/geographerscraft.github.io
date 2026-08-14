@@ -1,0 +1,258 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.6 [en] (WinNT; I) [Netscape]">
+   <title>Cartographic Communication</title>
+</head>
+<body bgcolor="#FFFFFF">
+<img SRC="gif/cartoco2.gif">
+<p>
+<hr>
+<h2>
+<a NAME="contents"></a>Contents</h2>
+<a NAME="1.0"></a><b>1. <a href="cartocom.html#1.0">The Value of Maps</a></b>
+
+<ul><a NAME="1.1"></a>1.1 <a href="cartocom.html#1_1.1">To record and store
+information</a>
+<p><a NAME="1.2"></a>1.2 <a href="cartocom.html#1_1.2">To analyze locational
+distributions and spatial patterns</a>
+<p><a NAME="1.3"></a>1.3 <a href="cartocom.html#1_1.3">To present information
+and communicate findings</a></ul>
+<a NAME="2.0"></a><b>2. <a href="section2.html">Cartography
+as Communication</a></b>
+
+
+<ul><a NAME="2.1"></a>2.1 <a href="section2.html#2_2.1">Cartography
+is closely related to graphical communication.</a>
+<p><a NAME="2.2"></a>2.2 <a href="section2.html#2_2.2">Maps
+are symbolic abstractions of reality.</a>
+
+</ul>
+<a NAME="3.0"></a><b>3. <a href="section3.html">What
+Is a Good Map?</a></b>
+
+
+<ul><a NAME="3.1"></a>3.1 <a href="section3.html#3_3.1">What
+is the goal of the map?</a>
+<p><a NAME="3.2"></a>3.2 <a href="section3.html#3_3.2">Who
+will read the map?</a>
+<p><a NAME="3.3"></a>3.3 <a href="section3.html#3_3.3">Where
+will the map be used?</a>
+<p><a NAME="3.4"></a>3.4 <a href="section3.html#3_3.4">What
+data are available for the map composition?</a>
+<p><a NAME="3.5"></a>3.5 <a href="section3.html#3_3.5">What
+resources are available (time and equipment)?</a>
+
+</ul>
+<a NAME="4.0"></a><b>4. <a href="section4.html">Basic
+Elements of Map Composition</a></b><P>
+
+
+<ul><a NAME="4.1"></a>4.1 <a href="section4.html#4_4.1">Format
+of the final product</a>
+<p><a NAME="4.2"></a>4.2 <a href="section4.html#4_4.2">Issues
+of generalization, simplification, and abstraction</a>
+<p><a NAME="4.3"></a>4.3 <a href="section4.html#4_4.3">Basic
+map elements</a><P>
+
+
+<ul><a NAME="4.3.a"></a>A. <a href="elements.html#4_4.3.a">Elements
+found on virtually all maps:</a>
+
+
+<ul><a href="elements.html#4_4.3.a.1">1.
+distance or scale</a>
+<p>&nbsp;<a href="elements.html#4_4.3.a.2">2.
+direction</a>
+<p>&nbsp;<a href="elements.html#4_4.3.a.3">3.
+legend</a>
+<p>&nbsp;<a href="elements.html#4_4.3.a.4">4.
+sources of information/method of processing</a>
+
+</ul>
+<P>
+<a NAME="4.3.b"></a>B. <a href="elements.html#4_4.3.b">Elements
+that are sensitive to context:</a>
+
+
+<ul><a href="elements.html#4_4.3.b.1">1.
+title</a>
+<p>&nbsp;<a href="elements.html#4_4.3.b.2">2.
+projection</a>
+<p>&nbsp;<a href="elements.html#4_4.3.b.3">3.
+cartographer</a>
+<p>&nbsp;<a href="elements.html#4_4.3.b.4">4.
+date of production</a>
+
+</ul>
+<P>
+<a NAME="4.3.c"></a>C. <a href="elements.html#4_4.3.c">Elements
+used selectively to assist effective communication:</a>
+
+
+<ul><a href="elements.html#4_4.3.c.1">1.
+neatlines</a>
+<p>&nbsp;<a href="elements.html#4_4.3.c.2">2.
+locator maps</a>
+<p>&nbsp;<a href="elements.html#4_4.3.c.3">3.
+inset maps</a>
+<p>&nbsp;<a href="elements.html#4_4.3.c.4">4.
+index maps</a>
+
+</ul>
+</ul>
+<P>
+<a NAME="4.4"></a>4.4 <a href="section4.html#4_4.4">Elements
+are balanced within the visual hierarchy and frame of the map.</a>
+<p><a NAME="4.5"></a>4.5 <a href="section4.html#4_4.5">Experiment
+with map layouts.</a>
+<p><a NAME="4.6"></a>4.6 <a href="section4.html#4_4.6">There
+should be a defensible reason for each element placed on a map.</a>
+<p><a NAME="4.7"></a>4.7 <a href="section4.html#4_4.7">Less
+is more.</a>
+
+</ul>
+<a NAME="5.0"></a><b>5. <a href="section5.html">The
+Cartographer's Palette: The Semiotics of Cartography</a></b>
+
+
+<ul><a NAME="5.1"></a>5.1 <a href="section5.html#5_5.1">The
+range of visual resources</a>
+
+
+<ul><a href="gif/visres.gif"><img SRC="gif/gif.gif"></a>hue,
+size, shape, value, texture, orientation</ul>
+<P>
+<a NAME="5.2"></a>5.2 <a href="section5.html#5_5.2">Strategies
+of symbolization</a>
+
+
+<ul><a NAME="5.2.a"></a>a. <a href="section5.html#5_5.2.a">nominal
+data</a>
+
+
+<ul><a href="gif/nompoint.gif"><img SRC="gif/gif.gif">Points</a> <a href="gif/nomline.gif"><img SRC="gif/gif.gif">Lines</a> <a href="gif/nomareas.gif"><img SRC="gif/gif.gif"></a></a><a href="gif/nomareas.gif">Areas</a></ul>
+<a NAME="5.2.b"></a>b. <a href="section5.html#5_5.2.b">ordinal
+data</a>
+
+
+<ul><a href="gif/ordpoint.gif"><img SRC="gif/gif.gif"></a> <a href="gif/ordpoint.gif">Points<a href="gif/ordline.gif"><img SRC="gif/gif.gif"></a></a><a href="gif/ordline.gif">Lines<a href="gif/ordarea.gif"><img SRC="gif/gif.gif"></a></a><a href="gif/ordarea.gif">Areas</a></ul>
+<a NAME="5.2.c"></a>c. <a href="section5.html#5_5.2.c">interval
+data</a>
+<p><a NAME="5.2.d"></a>d. <a href="section5.html#5_5.2.d">ratio
+data</a>
+
+
+<ul><a href="gif/ration.gif"><img SRC="gif/gif.gif"></a><a href="gif/ration.gif">Points
+and areas&nbsp;<a href="gif/ratiol.gif"><img SRC="gif/gif.gif"></a></a><a href="gif/ratiol.gif">Lines</a></ul>
+</ul>
+<P>
+<a NAME="5.3"></a>5.3 <a href="section5.html#5_5.3">Typography
+and lettering</a>
+
+
+<ul><a NAME="5.3.a"></a>a. <a href="section5.html#5_5.3.a">content</a>
+<p><a NAME="5.3.b"></a>b. <a href="section5.html#5_5.3.b">form</a>
+
+</ul>
+<P>
+<a NAME="5.4"></a>5.4 <a href="section5.html#5_5.4">Foreground-background
+(figure-ground) relationships</a>
+<p><a NAME="5.5"></a>5.5 <a href="section5.html#5_5.5">Highlighting
+the theme</a>
+
+</ul>
+<a NAME="6.0"></a><b>6. <a href="section6.html">Issues
+of Statistical Generalization</a></b>
+
+
+<ul><a NAME="6.1"></a>6.1 <a href="section6.html#6_6.1">The
+importance of issues of statistical generalization</a>
+<p><a NAME="6.2"></a>6.2 <a href="section6.html#6_6.2">Importance
+to cartography</a>
+
+
+<ul><a href="gif/texcateg.gif"><img SRC="gif/gif.gif"></a><i>Comparison
+of maps using different numbers of categories</i>
+<p><a href="gif/texrange.gif"><img SRC="gif/gif.gif"></a><i>Comparison
+of maps using different ranging methods</i>
+
+</ul>
+<P>
+<a NAME="6.3"></a>6.3 <a href="section6.html#6_6.3">Exploring
+the data and its "shape"</a>
+<p><a NAME="6.4"></a>6.4 <a href="section6.html#6_6.4">Commonly
+employed ranging methods</a>
+
+
+<ul><a NAME="6.4.a"></a>a. <a href="section6.html#6_6.4.a">equal
+steps</a>
+<p><a NAME="6.4.b"></a>b. <a href="section6.html#6_6.4.b">quantiles</a>
+<p><a NAME="6.4.c"></a>c. <a href="section6.html#6_6.4.c">percentiles</a>
+<p><a NAME="6.4.d"></a>d. <a href="section6.html#6_6.4.d">arithmetic
+progressions</a>
+<p><a NAME="6.4.e"></a>e. <a href="section6.html#6_6.4.e">geometric
+progressions</a>
+<p><a NAME="6.4.f"></a>f. <a href="section6.html#6_6.4.f">standard
+deviation</a>
+<p><a NAME="6.4.g"></a>g. <a href="section6.html#6_6.4.g">inverse
+methods</a>
+
+</ul>
+<P>
+<a NAME="6.5"></a>6.5 <a href="section6.html#6_6.5">Symbolizing
+the category ranges</a>
+<ul><a NAME="6.5.a"></a>a. <a href="section6.html#6_6.5a">gray
+scale</a>
+<p><a NAME="6.5.b"></a>b. <a href="section6.html#6_6.5a">pattern
+or fill</a>
+<p><a NAME="6.5.c"></a>c. <a href="section6.html#6_6.5a">hue</a>
+<p><a NAME="6.5.d"></a>d. <a href="section6.html#6_6.5a">intensity</a>
+
+</ul>
+<P>
+<a NAME="6.6"></a>6.6 <a href="section6.html#6_6.6">Statistical
+annotations may be needed for some complex datasets</a>
+
+</ul>
+<a NAME="7.0"></a><b>7. <a href="section7.html">Problems
+of Realizing Ideals with Computer Systems</a></b>
+
+
+<ul><a NAME="7.1"></a>7.1 <a href="section7.html#7_7.1">Systems
+vary greatly in their strengths and weaknesses: Be aware of both.</a>
+<p><a NAME="7.2"></a>7.2 <a href="section7.html#7_7.2">Consider
+availability of needed functions and ease of use.</a>
+<p><a NAME="7.3"></a>7.3 <a href="section7.html#7_7.3">Be
+aware of the problems of designing for particular output devices.</a>
+<p><a NAME="7.4"></a>7.4 <a href="section7.html#7_7.4">Experimentation
+and multiple iterations are often required.</a>
+<p><a NAME="7.5"></a>7.5 <a href="section7.html#7_7.5">Never
+Trust Defaults!</a>
+<p><a href="gif/lago.gif"><img SRC="gif/gif.gif"></a><i><a href="gif/lago.gif">    "default"
+map   <a href="gif/lago2.gif"><img SRC="gif/gif.gif"></a></a><a href="gif/lago2.gif">  same
+map, better format</a></i>
+
+</ul>
+<a NAME="8.0"></a><b>8. <a href="section8.html">Into
+the Future</a></b>
+
+<ul><a NAME="8.1"></a>8.1 <a href="section8.html#8_8.1">Toward
+the virtual map</a>
+<p><a NAME="8.2"></a>8.2 <a href="section8.html#8_8.2">Animation
+and other new dimensions</a>
+</ul>
+<a href="http://ellesmere.ccm.emr.ca/naismap/naismap.html"><img SRC="gif/html.gif"></a> <a href="http://ellesmere.ccm.emr.ca/naismap/naismap.html">National Atlas of Canada</a>
+<p>&nbsp;<b>9. <a href="../../exam/carto/carto.html">Examination
+and Study Questions</a></b>
+<p>
+<hr WIDTH="100%">
+<p>&nbsp;<a href="http://www.utexas.edu/depts/grg/forms/comments.html">Comments</a>
+| <a href="http://www.utexas.edu/depts/grg/main.html">Geography Home
+Page</a> | <a href="../../contents.html">The
+Geographer's Craft</a> | <a href="http://www.utexas.edu/depts/grg/virtdept/contents.html">The
+Virtual Department</a>
+<p>Revised 4 Oct 99. LNC
+</body>
+</html>

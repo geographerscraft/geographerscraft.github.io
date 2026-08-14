@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (WinNT; I) [Netscape]">
+   <META NAME="Author" CONTENT="Trey Rhodes">
+   <TITLE>Full TOC</TITLE>
+</HEAD>
+<BODY TEXT="#008F93" BGCOLOR="#FFFFFF">
+
+<CENTER>
+<H1>
+Project Planning and Lifecycle</H1></CENTER>
+
+<HR>
+
+<P>Full Table of Contents:
+
+<P>&nbsp;
+<BR>&nbsp;1. <A HREF="lifecycl.html#1.0" TARGET="pages">The Importance
+of Project Planning</A>
+
+<P>&nbsp;2. <A HREF="lifecycl.html#2.0" TARGET="pages">The Value of a Problem-solving
+Approach</A>
+
+<P>&nbsp;3. <A HREF="lifecycl.html#3.0" TARGET="pages">The Project Lifecycle:
+An Overview</A>
+
+<P>&nbsp;4. <A HREF="lifecycl.html#4.0" TARGET="pages">Key Aspects of the
+Project Lifecycle</A>
+
+<P>&nbsp;
+<UL>&nbsp;4.1 <A HREF="lifecycl.html#4.1" TARGET="pages">Setting goals
+and estimating costs</A>
+
+<P>&nbsp;4.2 <A HREF="lifecycl.html#4.2" TARGET="pages">The functional
+requirements study</A>
+
+<P>&nbsp;4.3 <A HREF="lifecycl.html#4.3" TARGET="pages">The creation of
+a prototype</A>
+
+<P>&nbsp;</UL>
+&nbsp;5. <A HREF="lifecycl.html#5.0" TARGET="pages">System Selection as
+a Compromise</A>
+
+<P>&nbsp;6. <A HREF="lifecycl.html#6.0" TARGET="pages">Planning Schedules
+and the Scope of Prototype and Pilot Projects</A>
+
+<P>&nbsp;7. <A HREF="lifecycl.html#7.0" TARGET="pages">Applying the Insights
+of Project Lifecycle to Research Projects</A>
+
+<P>&nbsp;8. <A HREF="lifecycl.html#8.0" TARGET="pages">Other Planning and
+Database Issues</A>
+
+<P>&nbsp;
+<UL>&nbsp;8.1 <A HREF="lifecycl.html#8.1" TARGET="pages">Security</A>
+
+<P>&nbsp;8.2 <A HREF="lifecycl.html#8.2" TARGET="pages">Documentation</A>
+
+<P>&nbsp;8.3 <A HREF="lifecycl.html#8.3" TARGET="pages">Data Integrity
+and Accuracy</A>
+
+<P>&nbsp;8.4 <A HREF="lifecycl.html#8.4" TARGET="pages">Synchronization
+of Usage</A>
+
+<P>&nbsp;8.5 <A HREF="lifecycl.html#8.5" TARGET="pages">Update Responsibility</A>
+
+<P>&nbsp;8.6 <A HREF="lifecycl.html#8.6" TARGET="pages">Minimization of
+Redundancy</A>
+
+<P>&nbsp;8.7 <A HREF="lifecycl.html#8.7" TARGET="pages">Data Independence
+and Upgrade Paths</A>
+
+<P>&nbsp;</UL>
+&nbsp; 9. <A HREF="lifecycl.html#9.0" TARGET="pages">Required Reading</A>
+
+<P>10. <A HREF="lifecycl.html#10" TARGET="pages">References and Further
+Reading</A>
+
+<P>&nbsp;
+<HR>
+<BR>Last revised on 25 Sep 1997. RRR.
+
+<P>&nbsp;
+</BODY>
+</HTML>

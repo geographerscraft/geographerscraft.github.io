@@ -1,0 +1,718 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>ATLAS*GIS and METAPONTO  Exercise 2</TITLE>
+</HEAD>
+<BODY>
+
+<H2>
+ATLAS*GIS and METAPONTO Exercise 2</H2>
+This page is available in a <A HREF="meta2_f.html" target="_top">framed
+version</A>.&nbsp; For convenience, a <A HREF="meta2_ftoc.html" target="_top">Full
+Table of Contents</A> is provided.
+<BR>&nbsp;
+<H3>
+<A NAME="Introduction"></A>Introduction</H3>
+In this exercise you will continue with your analysis of the Metaponto
+dataset. Since AtlasGIS continually updates the Geo files, you might want
+to start with a new floppy and freshly unzipped Metaponto files. To begin,
+start Atlas GIS and load both your Geo files and Attribute tables from
+your diskette. These are the LAGO files. Load using <B>File | Open. </B>When
+loading the Attribute table, indicate that you want to link the table to
+the Allsites layer of the Geo file. <U>Note:</U> Please take a look at
+the last page of this exercise first. The "What to hand in" section may
+influence your approach to it.
+
+<P>&nbsp;
+<H3>
+<A NAME="Additional Attribute Data"></A>1. Creating Additional Attribute
+Data Fields</H3>
+Let's say you would like to create a new variable so that you can recode
+some of the information in the Attribute table. In this case, you would
+like to create a variable called PHASE that will recode the fifteen AGE
+codes to five PHASE codes for further analysis.
+
+<P>&nbsp;
+
+<P>Choose <B>Table | Define Columns. </B><U>Hint:</U> This command is also
+available on the Button Bar. This will open the Tables dialog box, where
+you only have one table linked to Geo file by the Allsites layer. Selecting
+this will open the Define Columns dialog box, wherein a spreadsheet appears
+showing the present database structure. Here, the columns of your database
+are the rows on the left hand side. Examine the various columns. While
+a new column can be added anywhere in the spreadsheet using the Insert
+button to the right of the dialog box, this time you will use the mouse
+to move to the last column (row) at the bottom of the spreadsheet. AtlasGIS
+has already started the column, you need to provide a name and alter the
+other information, as necessary. Now, to define a column for PHASE, fill
+in the fields as follows:
+
+<P>&nbsp;
+<UL>
+<LI>
+Field Name = <B>PHASE</B></LI>
+
+<LI>
+Type = <B>Number</B></LI>
+</UL>
+<U>Note:</U> Clicking on the Type field will bring up a list of options.
+
+<P>&nbsp;
+<UL>
+<LI>
+Size = <B>1</B></LI>
+
+<LI>
+Dec = <B>0</B></LI>
+
+<LI>
+Description = <B>Settlement</B> <B>Phase</B></LI>
+
+<LI>
+Visible = <B>Yes</B></LI>
+
+<LI>
+Anchor = <B>Yes</B></LI>
+
+<LI>
+Width = <B>7</B></LI>
+
+<LI>
+Leave the other fields set to the default.</LI>
+</UL>
+The above settings create a new column in the Attribute table named PHASE,
+which will contain a single one-digit number. No decimal points will be
+included. The number will be visible in the Attribute table, and will be
+anchored so that it always appears on the screen no matter where you scroll
+in the spreadsheet. The width specifies the number of columns Atlas*GIS
+will use to display the variable in the table. Seven columns will permit
+us to read the variable name, PHASE, with space to spare. The description
+will appear on the top left of the screen when the data field is highlighted.
+
+<P>&nbsp;
+
+<P>Click on <B>OK </B>when finished with this form. When asked whether
+to restructure the database, click on <B>OK. </B>Choose <B>Window | New
+Table Window </B>, then in the Window Layer dialog box, select Allsites
+to see the new field. Hint: Button Bar. Your new field will appear as a
+new column heading without data below it.
+
+<P>&nbsp;
+<H3>
+<A NAME="Recoding by Expression"></A>2. Recoding Data by Expression</H3>
+After creating a column in the spreadsheet for a new variable, you will
+wish to fill it with new values, by row, for each site. In this case, AtlasGIS
+can do the dirty work for you by using a mathematical expression. Go to
+<B>Table | Calculate Column</B>. A Calculate Column dialog box appears.
+Fill this in as follows:
+
+<P>&nbsp;
+<UL>
+<LI>
+Table = <B>Allsites</B></LI>
+
+<LI>
+Column to Fill = <B>PHASE</B></LI>
+
+<LI>
+Expression = <B>IIF( AGE = 1,1,PHASE)</B></LI>
+</UL>
+When you select the Expression field, the Expression Builder dialog box
+appears. You have used this before to select variable type. Now, you can
+select from the listings of Functions and Operators to help insert the
+above expression. Some of the expression must be typed in. The whole expression
+may be typed in, but be careful about the spaces. This version of the software
+is sensitive to them, and the expression builder properly inserts them.
+When you are finished, you can click on the <B>Verify</B> button to have
+the program check to see if it is a valid expression.
+
+<P>Click <B>OK</B> when you are finished. IIF is a "function" that evaluates
+an "expression" (in this case AGE=l). If the expression is true, Atlas*GIS
+places the value "1" in the new column of the spreadsheet under PHASE.
+If the expression is false, Atlas*GIS keeps the original value of PHASE
+in the column.
+
+<P>&nbsp;
+
+<P>You have recoded only one value of AGE. Now you must repeat the previous
+step four more times, each time with a different IIF statement. Again,
+go to <B>Table | Calculate Column. </B>This time, fill this in as follows:
+
+<P>&nbsp;
+<UL>
+<LI>
+Table = <B>Allsites</B></LI>
+
+<LI>
+Column to Fill = <B>PHASE</B></LI>
+
+<LI>
+Expression =<B> IIF(AGE > l .AND. AGE &lt; 7,2,PHASE)</B></LI>
+
+<LI>
+Add Row for Each Map Feature = <B>Off</B></LI>
+</UL>
+This expression can be read as follows: "if the value of AGE is greater
+than 1 and less than 7 (i.e. 2-6) then make the variable PHASE=2, otherwise
+leave the value of PHASE unchanged." Click <B>OK</B>.
+
+<P>Now, repeat this step for each of the following expressions to complete
+the remainder of the recoding: <B>IIF(AGE > 6 .AND. AGE &lt; 11,3,PHASE)</B>,
+<B>IIF(AGE > 10 .AND. AGE &lt; 15,4,PHASE)</B>, and <B>IIF(AGE = 15,5,PHASE)</B>.
+<H3>
+<A NAME="Map of PHASE"></A>3. Creating a Thematic Map of PHASE</H3>
+Now you will create a thematic map of PHASE using the steps outlined in
+the previous Metaponto exercise. Indeed, this new map should be identical
+to the one you plotted for the last exercise. When you go into the <B>Map
+| Layers and Themes </B>menus, choose <B>Allsites</B> as the layer, PHASE
+as the variable expression. You will want to use the Ranged Symbol method
+of symbolization with a "List of Values" and five categories. Pick symbol
+styles so that pre-Greek and post-Greek settlements use the same color
+by different symbols, and so the three phases of Greek settlement use the
+same symbol, but in three different colors.
+
+<P>&nbsp;
+<H3>
+<A NAME="Tombs by PHASE"></A>4. Examining Tombs by PHASE</H3>
+Now that we have recoded AGE into the PHASE variable, let's consider the
+number and distribution of tombs by this new variable. Let's go about this
+analysis in three steps, one for each phase of Greek settlement. We'll
+ignore pre- Greek and post-Greek periods.
+
+<P>&nbsp;
+
+<P>First, <B>Query | Select by Value. </B>In the Select by Value dialog
+box that appears, highlight <B>Allsites</B> in the Layer subpanel, select
+the <B>Replace Selected</B> option in Selection Results subpanel, and select
+the <B>By Expression</B> option in the Select subpanel. Click on <B>Expression</B>
+in the subpanel and the Expression Builder dialog box appears. Specify:
+<B>PHASE = 2 .AND. TYPE = 2.</B> This condition will search for tombs (TYPE=2)
+in the first period of Greek settlement (PHASE=2). Click on <B>OK</B>,
+then click <B>OK</B> again to leave the Expression Builder. Click on <B>OK</B>
+one more time to see the highlighted results.
+
+<P>Once you have examined this map, click outside the map area to clear
+your selections. (You don't want these selections to interfere with your
+subsequent searches.)
+
+<P>&nbsp;
+
+<P>Second, <B>Query | Select by Value. </B>Select <B>Allsites</B> as the
+layer, but this time specify the Expression as: <B>PHASE = 3 .AND. TYPE
+= 2</B>. Examine the results.
+
+<P>&nbsp;
+
+<P>Once you have examined this map, deselect the features<B>.</B>
+
+<P>&nbsp;
+
+<P>Third, <B>Query | Select by Value. </B>Select <B>Allsite</B> as the
+layer, but specify the Expression as: <B>PHASE = 4 .AND. TYPE = 2</B>.
+Examine the results.
+
+<P>&nbsp;
+
+<P>Is there a trend in the number of tombs by settlement phase? After you
+have considered this issue, deselect the features.
+
+<P>&nbsp;
+<H3>
+<A NAME="PHASE and TYPE"></A>5. PHASE and TYPE: A Bivariate Relationship</H3>
+Let's use Atlas*GIS to consider a couple of bivariate relationships, first
+between PHASE and TYPE. That is, we wish to examine the relationship between
+settlement phase and the distribution of farms and tombs.
+
+<P>&nbsp;
+
+<P>Choose <B>Map | Layers and Themes. </B>Make sure that the Allsites layer
+is chosen, and the Theme option is selected. This time, however, click
+on the <B>Two Variable</B> box to turn it On. For <B>Variable 1</B>, click
+on Expression and choose<B> PHASE</B> as the variable, and select <B>Ranged
+Symbol</B> as Map Type. For the <B>Variable 2</B>, pick <B>TYPE</B> as
+the variable, and <B>Ranged Symbol</B> as the Map Type.
+
+<P>&nbsp;
+
+<P>In the <B>Variable 1</B> subpanel, click on <B>Ranges</B>. In the Ranged
+Symbol subpanel, specify the method as <B>List of Values</B> and <B>5</B>
+as the Number of Ranges. Then, <B>Calculate</B>. Move down to the spreadsheet
+and edit the Values to <B>1</B>,<B> 2</B>,<B> 3</B>,<B> 4</B>,<B> 5</B>,
+respectively, for the five Ranges of PHASE. After <B>Calculate</B>, click
+on <B>OK</B>. We wish to ignore pre-Greek and post-Greek sites. Do this
+by indicating the <B>Blank</B> symbol for a pattern for both pre-Greek
+and post-Greek sites, then assign a different symbol shape to each of the
+three phases of Greek settlement (Values 2, 3, 4), say an open triangle,
+an open circle, and an open square. After clicking <B>OK</B>, click on
+the <B>Ranges</B> button in the <B>Variable 2</B> subpanel.
+
+<P>In regard to the Ranging <B>Method</B>, for TYPE you should specify
+<B>List of Values</B> and <B>5</B> for the Number of Ranges. <B>Calculate</B>,
+then move down to the spreadsheet to edit the <B>Values</B> menu to <B>0</B>,
+<B>1</B>, <B>2,</B> <B>3</B>, <B>4</B>. We wish to ignore all sites that
+aren't either farms (TYPE=1) or tombs (TYPE=2). Do this by choosing the
+Clear color, which is the box with an X in the Color Dialog box, for the
+0, 3, 4, Out of Range, and Missing ranges. For farms (value 1), choose
+red as the color. For tombs (value 2), choose black as the color. Use 10
+as the symbol size for both farms and tombs. Now, go back and view your
+map.
+
+<P>Remember, you'll have to edit the page elements to produce an acceptable
+map. Remember the steps you used in Exercise 1 to move, resize, and edit
+page elements. Be sure to turn on the Thematic Legend-2 (and turn off the
+Layer Legend) and edit the Thematic-Legend-2 (including the legend descriptions).
+
+<P>Interpret the map. What does it demonstrate about the relationship of
+farms and tombs during the three phases of Greek settlement? If you can
+improve the readability of the symbols, go back to the previous menus and
+make adjustments of shape, size, and color.
+
+<P>&nbsp;
+
+<P>Create a Project file here so that you can return to this step later
+for further work and for plotting the map.
+
+<P>&nbsp;
+<H3>
+<A NAME="PHASE and ELEV"></A>6. PHASE and ELEV (Elevation): Another Bivariate
+Relationship</H3>
+Now consider the relationship between PHASE and site elevation (ELEV) in
+the same way. We are interested with whether the farms moved up-slope or
+downslope during the three phases of Greek settlement. Use the same procedure
+for creating a bivariate map that you used in the previous step. For PHASE
+you can use the same settings you employed in the previous map. However,
+for the Ranging Method of the ELEV variable, use Continuous and 2 Number
+of Ranges. Set 0 and 88 as the Min and Max values for Range 1. Set 89 and
+122 as the Min and Max values for Range 2. These values are taken from
+the Statistics subpanel. The Maximum Elevation of a site in the Allsites
+layer is 122 and the Average Elevation is 87.69, which we are using as
+a breakpoint between the two ranges.
+
+<P>&nbsp;
+
+<P>Remember, you'll have to edit the map elements to produce an acceptable
+map. Remember the steps you used in Exercise 1 to move, resize, and edit
+map elements. Be sure to turn on the Thematic Legend-2 (and turn off the
+Layer Legend) and edit the Thematic-Legend-2 (including the legend descriptions).
+
+<P>&nbsp;
+
+<P>Create a Project file here so that you can return to this step later
+for further work and for plotting the map.
+
+<P>&nbsp;
+<H3>
+<A NAME="Layers by PHASE"></A>7. Creating New Layers by PHASE</H3>
+Now let's create separate map layers for sites of each PHASE. That is,
+let's divide the sites recorded in the Allsites layer by PHASE and then
+copy them into three separate layers for further independent analysis.
+In this procedure, a separate database table will also be created and attached
+their respective layers for following steps in this exercise.
+
+<P>&nbsp;
+
+<P>First, <B>Query | Select by Value. </B>In the Select by Value subpanel,
+pick <B>Allsites</B> as the layer, <B>By Value </B>in the<B> </B>Select<B>
+</B>subpanel, and <B>Replace Selected </B>in the Selection Results subpanel.
+Then, select <B>PHASE</B> as the Column and <B>2</B> as the Value. When
+you are finished, highlighted on the map are all the sites of PHASE=2.
+
+<P>&nbsp;
+
+<P>Now let's copy them to their own layer, to be called PHASE2. Go to <B>Map
+| Combine | By Value</B>. In the Combine By Value dialog box, under the
+Combine Feature From subpanel, choose <B>Allsites</B> as the<B> </B>Layer
+and <B>ID</B> as the Grouping Expression. Turn the Combine Non-Touching
+button <B>Off </B>and the Use Selected<B> </B>button<B> On</B>. In the
+Copy Results To subpanel, hit on the <B>New Layer</B> button. Select <B>Point
+</B>for Layer Type, <B>Lago.agf</B> for the File Name, then enter <B>PHASE2</B>
+for the name of the New Layer, and<B> Phase 2 sites</B> for the Layer Description.
+Click on <B>OK</B>. Then click on<B> OK</B> again. A warning will appear
+stating "The Output Layer has no Database Table", at which time you should
+just click on <B>OK</B>. When this step is finished processing, you won't
+see a change on the screen since the newly copied features are right on
+top of their counterparts in the Allsites layer, but you can change this
+later.
+
+<P>&nbsp;
+
+<P>Now, you will remedy the warning you just received. Each layer in a
+map can have a database table attached to it and, up to this point, only
+the Allsites layer has one. Using the Query and Map | Combine commands
+creates a subset of the geographic elements, which were copied to another
+layer, but during this process a subset of the database table was also
+created. Now, you will save this subset down as a separate database table
+and attach it to the PHASE2 layer. Go to <B>File | Save As</B>. When the
+Save As dialog box appears, make sure the <B>A: drive</B> is selected and
+the <B>File To Save</B> is set to the <B>LAGO.dbf</B>. This may be somewhat
+confusing, but you are not going to save this down to the LAGO.dbf, you
+will save it as <B>PHASE2.dbf</B> which you will indicate under <B>File
+Name</B>. Set the<B> Selected Features or Rows Only</B> to <B>On</B> and
+<B>Use New File</B> to <B>Off</B>. Click on <B>OK</B>. Now, go to <B>File
+| Open</B> and select <B>PHASE2.dbf</B>, which will bring up the Table
+Link dialog box. Choose <B>Links To Geo</B>, <B>PHASE2</B> as the layer,
+and<B> ID</B> as the Key Column. Click on <B>OK</B>.
+
+<P>Second, repeat the procedure for PHASE 3 sites. <B>Query | Select by
+Value. </B>In the Select by Value subpanel, pick <B>Allsites</B> as the
+layer, <B>By Value </B>in the<B> </B>Select<B> </B>subpanel, and <B>Replace
+Selected </B>in the Selection Results subpanel. Then, select <B>PHASE</B>
+as the Column and <B>3</B> as the Value. When you are finished, displayed
+on the screen are all the sites of PHASE=3.
+
+<P>&nbsp;
+
+<P>Copy them to their own layer, to be called PHASE3. Go to <B>Map | Combine
+| By Value</B>. In the Combine By Value dialog box, under the Combine Feature
+From subpanel, choose <B>Allsites</B> as the<B> </B>Layer and <B>ID</B>
+as the Grouping Expression. Turn the Combine Non-Touching button <B>Off
+</B>and the Use Selected<B> </B>button<B> On</B>. In the Copy Results To
+subpanel, hit on the <B>New Layer</B> button. Select <B>Point </B>for Layer
+Type, <B>Lago.agf</B> for the File Name, then enter <B>PHASE3</B> for the
+name of the New Layer, and<B> Phase 3 sites</B> for the Layer Description.
+Click on <B>OK</B>. Then click on<B> OK</B> again. A warning will appear
+stating "The Output Layer has no Database Table", click on <B>OK</B>.
+
+<P>Again, you will save down the subset of the database table and attach
+it to the PHASE3 layer. Go to <B>File | Save As</B>. When the Save As dialog
+box appears, make sure the <B>A: drive</B> is selected and the <B>File
+To Save</B> is set to the <B>LAGO.dbf</B>. This may be somewhat confusing,
+but you are not going to save this down to the LAGO.dbf, you will save
+it as <B>PHASE3.dbf</B> which you will indicate under <B>File Name</B>.
+Set the<B> Selected Features or Rows Only</B> to <B>On</B> and <B>Use New
+File</B> to <B>Off</B>. Click on <B>OK</B>. Now, go to <B>File | Open</B>
+and select <B>PHASE3.dbf</B>, which will bring up the Table Link dialog
+box. Choose <B>Links To Geo</B>, <B>PHASE3</B> as the layer, and<B> ID</B>
+as the Key Column. Click on <B>OK</B>.
+
+<P>Third, repeat the procedure for PHASE 4 sites. <B>Query | Select by
+Value. </B>In the Select by Value subpanel, pick <B>Allsites</B> as the
+layer, <B>By Value </B>in the<B> </B>Select<B> </B>subpanel, and <B>Replace
+Selected </B>in the Selection Results subpanel. Then, select <B>PHASE</B>
+as the Column and <B>4</B> as the Value. When you are finished, displayed
+on the screen are all the sites of PHASE=4.
+
+<P>&nbsp;
+
+<P>Now let's copy them to their own layer, to be called PHASE4. Go to <B>Map
+| Combine | By Value</B>. In the Combine By Value dialog box, under the
+Combine Feature From subpanel, choose <B>Allsites</B> as the<B> </B>Layer
+and <B>ID</B> as the Grouping Expression. Turn the Combine Non-Touching
+button <B>Off </B>and the Use Selected<B> </B>button<B> On</B>. In the
+Copy Results To subpanel, hit on the <B>New Layer</B> button. Select <B>Point
+</B>for Layer Type, <B>Lago.agf</B> for the File Name, then enter <B>Phase4</B>
+for the name of the New Layer, and<B> Phase 4 sites</B> for the Layer Description.
+Click on <B>OK</B>. Then click on<B> OK</B> again. A warning will appear
+stating "The Output Layer has no Database Table", click on <B>OK</B>.
+
+<P>Finally, save the subset down as a separate database table and attach
+it to the PHASE4 layer. Go to <B>File | Save As</B>. When the Save As dialog
+box appears, make sure the <B>A: drive</B> is selected and the <B>File
+To Save</B> is set to the <B>LAGO.dbf</B>. This may be somewhat confusing,
+but you are not going to save this down to the LAGO.dbf, you will save
+it as <B>PHASE4.dbf</B> which you will indicate under <B>File Name</B>.
+Set the<B> Selected Features or Rows Only</B> to <B>On</B> and <B>Use New
+File</B> to <B>Off</B>. then click on <B>OK</B>. Now, go to <B>File | Open</B>
+and select <B>PHASE4.dbf</B>, which will bring up the Table Link dialog
+box. Choose <B>Links To Geo</B>, <B>PHASE4</B> as the layer, and<B> ID</B>
+as the Key Column. Click on <B>OK</B>.
+
+<P>You have now created three new layers in your geographic file with their
+own separate database tables. You can't see them well since they overlay
+the Allsites features. Go to <B>Map | Layers &amp; Themes </B>and turn
+"Off' Allsites. Then turn "On" each of the new layers one at the time and
+return to the map after each change to see what each layer looks like.
+Use the <B>Window | New Table Window</B> command to see the individual
+database tables.
+
+<P>&nbsp;
+<H3>
+<A NAME="Streams by PHASE"></A>8. Proximity to Streams by PHASE</H3>
+Now that we have separated the sites by PHASE, we wish to consider their
+proximity to streams in the three periods of Greek settlement. That is,
+through time, were the sites established closer or further away from the
+streams? There may or may not be any significant relationship between streams
+and settlement locations at the time when these settlements were occupied.
+The tools used in this part of the exercise, however, could be used to
+examine all sorts of proximity relationships, such as the numbers of sites
+within some distance of sites presumed to be economically, politically,
+or religiously important. Again, we will move through this analysis in
+three identical steps, one step for each phase.
+
+<P>&nbsp;
+
+<P>First, let's consider this proximity relationship for PHASE=2. Go to
+<B>Map | Layers &amp; Themes </B>and turn off Allsites, PHASE3, and PHASE4.
+Turn on PHASE2. <B>Redraw. </B>Then go to <B>Query | Select by Location
+| Near</B>. The Select by Location - Near dialog box appears. In the Select
+Features From subpanel, choose <B>PHASE2</B>. In the Selection Options
+subpanel, choose Select Features Closer Than and enter <B>100</B> meters,
+and turn <B>Off</B> the Use Distance to Region Centroid. In the Located
+Near Features From subpanel, select <B>Streams </B>and turn <B>Off </B>the
+<B>Selected Features Only </B>option and the <B>Deselect When Done</B>
+option. In the Selection Results subpanel, choose <B>Replace Selected</B>.
+<B>OK</B>. <U>Note:</U> If the entire map seems to have been selected,
+return to Query | Select by Location | Near and check to see if both the
+PHASE2 and Transect layers have been selected. If so, then click on the
+Transect layer to deselect it, then continue. To see the database information
+of the selected features, go to <B>Window | New Statistics Window</B> and
+select <B>PHASE2</B>. Record the Count information.
+
+<P>&nbsp;
+
+<P>Now, <B>Query | Select by Layer. </B>Choose <B>PHASE2</B> as the Layer
+Name. and select the <B>Toggle </B>option. Then click on <B>OK</B>. The
+"toggle" option inverts your selections for a given layer. The first map
+showed sites within 100 meters of streams. This second map shows sites
+beyond 100 meters of streams. <B>Window | New Statistics Window </B>to
+find out how many sites are beyond 100 meters of streams. Compare the numbers
+you have recorded for sites within 100 meters of streams to calculate the
+proportion of sites with 100 meters of streams.
+
+<P>Second, consider proximity in relationship to PHASE=3. Go to <B>Map
+| Layers &amp; Themes </B>and turn off PHASE2. Turn on PHASE3. <B>Redraw.
+</B>Then go to <B>Query | Select by Location | Near</B>. The Select by
+Location - Near dialog box appears. In the Select Features From subpanel,
+choose <B>PHASE3</B>. In the Selection Options subpanel, choose Select
+Features Closer Than and enter <B>100</B> meters, and turn <B>Off</B> the
+Use Distance to Region Centroid. In the Located Near Features From subpanel,
+select <B>Streams </B>and turn <B>Off </B>the <B>Selected Features Only
+</B>option and the <B>Deselect When Done</B> option. In the Selection Results
+subpanel, choose <B>Replace Selected</B>. <B>Redraw</B>, if necessary.
+To see the database information of the selected features, go to <B>Window
+| New Statistics Window</B> and select <B>PHASE3</B>. This time instead
+of recording the information, click on the <B>Freeze</B> button. This will
+freeze this information, so that you may select other features and compare
+the information without writing it down.
+
+<P>Now, <B>Query | Select by Layer. </B>Choose <B>PHASE3</B> as the Layer
+Name. and select the <B>Toggle </B>option, <B>OK</B>. Again, the first
+map showed sites within 100 meters of streams. This second map shows sites
+beyond 100 meters of streams. <B>Window | New Statistics Window </B>to
+find out how many sites are beyond 100 meters of streams. Compare the numbers
+with those for sites within 100 meters of streams to calculate the proportion
+of sites with 100 meters of streams.
+
+<P>Finally, consider proximity in relationship to PHASE=4. Go to <B>Map
+| Layers &amp; Themes </B>and turn off PHASE3. Turn on PHASE4. <B>Redraw.
+Query | Select by Location | Near</B>. Choose <B>PHASE4,</B> <B>100</B>
+meters, <B>Off,</B> <B>Streams, Off, Off, Replace Selected</B>. <B>Redraw</B>,
+if necessary. Go to <B>Window | New Statistics Window</B> and select <B>PHASE4</B>.
+Click on the <B>Freeze</B> button.
+
+<P>Then, <B>Query | Select by Layer. </B>Choose <B>PHASE4</B> as the Layer
+Name. and select the <B>Toggle </B>option, <B>OK</B>. Go to <B>Window |
+New Statistics Window </B>to find out how many sites are beyond 100 meters
+of streams. Compare the numbers with those for sites within 100 meters
+of streams to calculate the proportion of sites with 100 meters of streams.
+<H3>
+<A NAME="Using Buffers"></A>9. Using Buffers to Measure Proximity to Division
+Lines</H3>
+The division lines in your file may be the remains of a very early land
+survey system that may have been used by the settlers to align roads and
+plat farms. It would be interesting to investigate the association of division
+lines with the archeological finds by PHASE. This time we will use a different
+method to assess proximity, by means of "buffers" around the division lines.
+Two steps are involved in making a comparision of this kind: 1) create
+buffer zones adjacent to all division lines in the study area; and 2) use
+this zone to select sites in each PHASE layer.
+
+<P>&nbsp;
+
+<P>To create the buffer, go to<B> Map | Create Buffers. </B>In the Create
+Buffer dialog box, use the following values:
+
+<P>&nbsp;
+
+<P><B>Create Buffers Around Features In</B> subpanel:
+
+<P>&nbsp;
+<UL>
+<LI>
+Layer = <B>Division</B></LI>
+
+<LI>
+Selected Features = <B>Off</B></LI>
+</UL>
+<B>Buffer Options</B> subpanel:
+
+<P>&nbsp;
+<UL>
+<LI>
+Distance = <B>50 </B>Since the map is measured in meters, this will create
+a 50 meter buffer on either side of the division lines, for a total width
+of 100 meters.</LI>
+
+<LI>
+Rounding Resolution =<B> 10</B> Copy Buffers To:</LI>
+</UL>
+<B>Copy Buffers To</B> subpanel:
+
+<P>&nbsp;
+<UL>
+<LI>
+New Layer</LI>
+</UL>
+The New Layer dialog box will appear, then use the following values:
+
+<P>&nbsp;
+<UL>
+<LI>
+Layer Type = <B>Region</B></LI>
+
+<LI>
+File Name = <B>LAGO.AGF</B></LI>
+
+<LI>
+Layer Name = <B>DBuffer50</B></LI>
+
+<LI>
+Layer Description = <B>Buffer around division lines (50 M)</B></LI>
+</UL>
+Click on <B>OK</B>, then <B>OK</B> again.
+
+<P>The buffering operation takes a few moments. You have now created 100-meter
+wide zones around all division lines in the study area. The zones are stored
+in their own layer, which you created and named DBuffer5O. Now we want
+to use these zones to pick out sites that are close to division lines in
+each of the PHASE layers.
+
+<P>&nbsp;
+
+<P>To accomplish this task for PHASE2, go to <B>Map | Layers &amp; Themes,
+</B>turn off Allsites and turn on PHASE2. <B>OK. </B>Next, go to <B>Query
+| Select by Location | Touching. </B>This allows you to select features
+touching other features, in this case sites touched by the division line
+buffer zones. The settings in the dialog box should be set as follows:
+
+<P><B>Select Features From</B> subpanel:
+
+<P>&nbsp;
+<UL>
+<LI>
+Layer = <B>PHASE2</B></LI>
+</UL>
+<B>Select Options</B> subpanel:
+
+<P>&nbsp;
+<UL>
+<LI>
+Select Touching Features =<B> On</B></LI>
+</UL>
+<B>Touching Features From</B> subpanel:
+
+<P>&nbsp;
+<UL>
+<LI>
+Layer = DBuffer50</LI>
+
+<LI>
+Selected Features Only = Off</LI>
+
+<LI>
+Deselect When Done = Off</LI>
+</UL>
+<B>Selection Results</B> subpanel:
+
+<P>&nbsp;
+<UL>
+<LI>
+Replace Selected = <B>On</B></LI>
+</UL>
+Click on<B> OK. </B>How many sites were selected?<B></B>
+
+<P>Now <B>Query | Select by Layer </B>and specify <B>PHASE2</B>, then <B>Toggle.
+</B>Bring up a <B>New Statistics Window </B>to count the number of PHASE2
+sites that are not touching the division line buffers. What is the proportion
+of touching to non-touching sites in PHASE2.
+
+<P><U>Note:</U> If the entire map seems to have been selected, return to
+Query | Select by Location | Near and check to see if both the PHASE2 and
+Transect layers have been selected. If so, then click on the Transect layer
+to deselect it, then continue.
+
+<P>&nbsp;
+
+<P>For PHASE3, go to <B>Map | Layers &amp; Legends, </B>turn off PHASE2
+and turn on PHASE3. <B>Redraw. </B>Go to <B>Query | Select by Location
+| Touching. </B>This allows you to select features touching other features,
+in this case sites touched by the division line buffer zones. The settings
+in the dialog box should be set as was done previously, except that you
+should indicate <B>PHASE3</B> as the layer to <B>Select Features From</B>.
+
+<P>Again, <B>Query | Select by Layer,</B> specify <B>PHASE3</B>, then <B>Toggle.
+</B>Bring up a <B>New Statistics Window </B>to count the number of PHASE3
+sites that are not touching the division line buffers. What is the proportion
+of touching to non-touching sites in PHASE3.
+
+<P>For PHASE4, go to <B>Map | Layers &amp; Legends, </B>turn off PHASE3
+and turn on PHASE4. <B>Redraw. </B>Go to <B>Query | Select by Location
+| Touching. </B>This allows you to select features touching other features,
+in this case sites touched by the division line buffer zones. The settings
+in the dialog box should be set as was done previously, except that you
+should indicate <B>PHASE4</B> as the layer to <B>Select Features From</B>.
+
+<P>Again, <B>Query | Select by Layer,</B> specify <B>PHASE4</B>, then <B>Toggle.
+</B>Bring up a <B>New Statistics Window </B>to count the number of PHASE4
+sites that are not touching the division line buffers. What is the proportion
+of touching to non-touching sites in PHASE4.
+
+<P>Does there appear to be a clear relationships between division lines
+and sites in any of the three periods of Greek settlement?
+
+<P>&nbsp;
+
+<P><A NAME="Division Lines"></A><B>10.</B> <B>Tombs and Division Lines</B>
+
+<P>&nbsp;
+
+<P>Perhaps it would be better to refine the previous analysis. Considering
+the relationship of division lines to all archeological remains in the
+study area may be too coarse a method of analysis. Any possible relationship
+between, say, farms and division lines or tombs and division lines might
+be lost by including all TYPES of site in analysis.
+
+<P>&nbsp;
+
+<P>Refine your analysis to consider the relationship between division lines
+and farms and division lines and tombs in the Allsites, PHASE2, PHASE3,
+and PHASE4 layers. Use the techniques previously introduced to develop
+your own analytical strategy.
+
+<P>&nbsp;
+
+<P><A NAME="Clean-up"></A><B>11.</B> <B>Clean-up</B>
+
+<P>&nbsp;
+
+<P>Before you leave Atlas*GIS, always make sure you have created mapfiles
+as needed so you can return to the different parts of your work. Be sure
+to close your Geo and Attribute Table files.
+
+<P>&nbsp;
+
+<P><A NAME="Hand In"></A><B>12. What to Hand In</B>
+
+<P>&nbsp;
+
+<P>For this exercise, please hand in:
+
+<P>&nbsp;
+<OL>
+<LI>
+A complete, plotted map of the relationship between PHASE and TYPE.</LI>
+
+<LI>
+A complete, plotted map of the relationship between ELEVATION and PHASE.</LI>
+
+<LI>
+A brief written analysis (which may include maps) of the relationships
+of PHASEand TYPE, ELEV and PHASE, and of the relationship of division lines
+to farms and tombs.</LI>
+</OL>
+
+<HR WIDTH="100%">
+<BR>Last Revised 1/20/98.RRR.
+</BODY>
+</HTML>

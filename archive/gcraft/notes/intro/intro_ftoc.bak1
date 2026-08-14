@@ -1,0 +1,196 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Geographic Information Systems as an Integrating Technology</TITLE>
+</HEAD>
+<BODY>
+
+<H1>
+Geographic Information Systems as an Integrating Technology: Context, Concepts,
+and Definitions</H1>
+
+<HR>
+<ADDRESS>
+<I>You may use these materials for study, research, or education, but please
+acknowledge their source and authors: Kenneth E. Foote and Margaret Lynch,
+The Geographer's Craft Project, Department of Geography, University of
+Texas at Austin. If you have comments or suggestions, please contact: k.foote@mail.utexas.edu
+. All commercial rights reserved.</I></ADDRESS>
+
+
+<P>
+<HR>
+<H1>
+<I>Table of Contents</I></H1>
+<I>&nbsp;1. <A HREF="intro.html#Info">Information Technologies in Geography</A></I>
+<UL>
+<LI>
+<I><A HREF="intro.html#Disc">Discipline-Specific Tools</A></I></LI>
+</UL>
+
+<OL>
+<LI>
+<I>Cartography and computer-assisted drafting</I></LI>
+
+<LI>
+<I>Photogrammetry and remote sensing</I></LI>
+
+<LI>
+<I>Spatial statistics</I></LI>
+
+<LI>
+<I>Geographic information systems (GIS)</I></LI>
+</OL>
+
+<UL>
+<LI>
+<I><A HREF="intro.html#Gen">General</A></I></LI>
+</UL>
+
+<OL>
+<LI>
+<I>Communication and collaboration</I></LI>
+
+<LI>
+<I>Access to library and research materials and sources</I></LI>
+
+<LI>
+<I>Publication and dissemination</I></LI>
+</OL>
+<I>&nbsp;2. <A HREF="intro.html#Cour">The Course of Technological Innovation</A></I>
+<OL>
+<LI>
+<I><A HREF="intro.html#Init">Initiation</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#Init">Contagion</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#Init">Coordination</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#Init">Integration</A></I></LI>
+</OL>
+<I>&nbsp;3. <A HREF="intro.html#GIS">GIS as an Integrating Technology</A></I>
+
+<P><I>&nbsp;4. <A HREF="intro.html#Geog">Geographic Information Systems:
+A Generic Definition</A></I>
+<UL>
+<LI>
+<I>&nbsp;</I> <I>A Comprehensive GIS Requires:</I></LI>
+</UL>
+
+<OL>
+<LI>
+<I><A HREF="intro.html#D1">Data input</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#D1">Data storage</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#D1">Data transformation</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#D1">Data reporting</A></I></LI>
+</OL>
+
+<UL>
+<LI>
+<I><A HREF="intro.html#3">Three Observations</A> About GIS:</I></LI>
+</UL>
+
+<OL>
+<LI>
+<I>Information is linked to a spatial reference</I></LI>
+
+<LI>
+<I>Integration of technologies</I></LI>
+
+<LI>
+<I>GIS is a process</I></LI>
+</OL>
+<I>&nbsp;5. <A HREF="intro.html#Other">Other Definitions</A></I>
+<UL>
+<LI>
+<I><A HREF="intro.html#Hux">William Huxhold's</A> definition</I></LI>
+
+<LI>
+<I><A HREF="intro.html#Tomlin">C. Dana Tomlin's</A> definition</I></LI>
+
+<LI>
+<I><A HREF="intro.html#Star">Jeffrey Star and John Estes's</A> definition</I></LI>
+
+<LI>
+<I><A HREF="intro.html#ARC">ARC/INFO's</A> definition</I></LI>
+
+<LI>
+<I>The <A HREF="intro.html#USGS">USGS's</A> definition</I></LI>
+</UL>
+<I>&nbsp;6. <A HREF="intro.html#Rela">Related Terms: Acronyms, Synonyms,
+and More</A></I>
+<UL>
+<LI>
+<I><A HREF="intro.html#Wide">Some Widely Used Terms</A></I></LI>
+</UL>
+
+<UL>
+<UL>
+<LI>
+<I><A HREF="intro.html#AM">AM/FM</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#CAD">CAD</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#Multi">Multipurpose Cadastre</A></I></LI>
+</UL>
+</UL>
+<I>&nbsp;7. <A HREF="intro.html#View">The GIS View of the World</A></I>
+<UL>
+<LI>
+<A HREF="#gif1"><IMG SRC="gif/gif.gif" ></A><I> <A HREF="intro.html#gif1">Layers</A></I></LI>
+
+<LI>
+<A HREF="#gif2"><IMG SRC="gif/gif.gif" ></A><I> <A HREF="intro.html#gif2">One
+Location</A></I></LI>
+
+<LI>
+<A HREF="#gif3"><IMG SRC="gif/gif.gif" ></A><I> <A HREF="intro.html#gif3">Map
+Algebra</A></I></LI>
+</UL>
+<I>&nbsp;8. <A HREF="intro.html#Appeal">The Appeal and Potential of GIS</A></I>
+<UL>
+<LI>
+<A HREF="#gif4"><IMG SRC="gif/gif.gif" ></A><I> <A HREF="intro.html#gif4">GIS
+Database</A></I></LI>
+</UL>
+<I>&nbsp;9. <A HREF="intro.html#Appli">Application Areas</A></I>
+<UL>
+<LI>
+<I><A HREF="intro.html#NRM">Natural Resource Management</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#FM">Facilities Management</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#LM">Land Management</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#SN">Street Networks</A></I></LI>
+
+<LI>
+<I><A HREF="intro.html#Uses">Some Innovative Uses</A></I></LI>
+</UL>
+<I>10. <A HREF="intro.html#Many">Many Software Systems Support GIS Decision-Making</A></I>
+
+<P><I>&nbsp;11. <A HREF="http://www.utexas.edu/depts/grg/gcraft/exam/concepts/concepts.html">Examination
+and Study Questions</A></I>
+
+<P>
+<HR WIDTH="100%">
+<BR><I>&nbsp; Last revised 25 September 1997. RRR.</I>
+
+<P><I>&nbsp;</I>
+</BODY>
+</HTML>

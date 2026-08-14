@@ -1,0 +1,170 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (WinNT; I) [Netscape]">
+   <TITLE>Data Sources for GIS</TITLE>
+</HEAD>
+<BODY>
+<IMG SRC="gif/topo1.gif" HEIGHT=130 WIDTH=105 ALIGN=BOTTOM>
+<H1>
+<A NAME="top"></A>Data Sources for GIS</H1>
+
+<ADDRESS>
+These materials are under development. You may use them, but please acknowledge
+their source and authors: Kenneth E. Foote and Margaret Lynch, The Geographer's
+Craft Project, Department of Geography, University of Texas at Austin.
+If you have comments or suggestions, please contact: <A HREF="mailto: k.foote@mail.utexas.edu">k.foote@mail.utexas.edu</A>.
+All commercial rights reserved.</ADDRESS>
+
+
+<P><IMG SRC="gif/grnln.gif" HEIGHT=7 WIDTH=881>
+<H1>
+Contents</H1>
+
+<H2>
+1.<A HREF="sources.html#quest"> A Question of Range and Change: Key Issues</A></H2>
+
+<UL>&nbsp;<A HREF="sources.html#range">Systems Employ a Wide Range of Data</A>
+<UL>
+<LI>
+&nbsp;<A HREF="html/srp.html">The
+Salt River Project</A></LI>
+</UL>
+&nbsp;<A HREF="sources.html#change">Tremendous Change is Occurring</A></UL>
+
+<H2>
+2.<A HREF="sources.html#common"> Common Data Types and Producers</A></H2>
+
+<UL>&nbsp;<A HREF="sources.html#public">Public Suppliers</A>
+<UL>
+<LI>
+Federal Sources</LI>
+
+<UL>
+<LI>
+&nbsp;<A HREF="http://www.fgdc.gov/FGDP/title.html" "http://www.fgdc.gov/FGDP/title.html">Manual
+of Federal Geographic Data Products</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://www.usgs.gov/pubprod/index.html">USGS Data Sources</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://www.census.gov">Bureau of the Census</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://www.nasa.gov/">NASA</A></LI>
+</UL>
+
+<LI>
+State Sources</LI>
+
+<UL>
+<LI>
+&nbsp;<A HREF="http://www.tnris.state.tx.us/">Texas Natural Resources Information
+System</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://nris.msl.mt.gov/nris/nris.html">Montana Natural Resources
+Information System</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://cgia.cgia.state.nc.us/">North Carolina Center for
+Geographic Information and Analysis</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://dpagr6.state.ut.us/">Utah Automated Geographic Reference Center</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://www.state.tx.us/agency/agencies.html">Index of Texas
+State Agencies</A></LI>
+
+<UL>
+<LI>
+&nbsp;<A HREF="http://www.nri.state.tx.us/nri/">General Land Office's:
+Texas Coastal Natural Resources Inventory Program</A></LI>
+
+<LI>
+&nbsp;<A HREF="ftp://ftp.tnris.state.tx.us/pub/GIS/highway/">Texas Department
+of Transportation's County Maps</A></LI>
+</UL>
+
+<LI>
+City Sources</LI>
+
+<UL>
+<LI>
+&nbsp;<A HREF="http://www.ci.austin.tx.us/">Austin</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://www.boco.co.gov/gislu">Boulder, Land Use Dept.</A></LI>
+</UL>
+</UL>
+&nbsp;<A HREF="sources.html#priv">Private Suppliers</A></UL>
+</UL>
+
+<H2>
+3.<A HREF="sources.html#coping"> Coping with the Digital Revolution</A></H2>
+
+<UL>
+<UL>&nbsp;<A HREF="sources.html#prog">Progress of the Revolution</A>
+
+<P>&nbsp;<A HREF="sources.html#comm">Common Digital Formats</A>
+<UL>
+<LI>
+&nbsp;<A HREF="http://www.census.gov/tiger/">Census Bureau TIGER Files</A></LI>
+
+<LI>
+&nbsp;<A HREF="http://edcwww.cr.usgs.gov/glis/hyper/guide/100kdlg">Digital
+Line Graphs</A> (DLGs)</LI>
+
+<LI>
+&nbsp;<A HREF="http://edcwww.cr.usgs.gov/glis/hyper/guide/1_dgr_dem">Digital
+Elevation Models</A> (DEMs)</LI>
+
+<LI>
+&nbsp;<A HREF="http://edcwww.cr.usgs.gov/webglis">Digital Orthophoto Quadrangles</A>
+(DOQs)</LI>
+
+<LI>
+&nbsp;<A HREF="http://mcmcweb.er.usgs.gov/sdts/">Spatial Data Transfer
+Standard</A> (SDTS)</LI>
+</UL>
+</UL>
+</UL>
+
+<H2>
+4.<A HREF="sources.html#loc"> Locating Digital Sources</A></H2>
+
+<UL>
+<UL>&nbsp;<A HREF="sources.html#conv">Conventional Public Sources</A>
+
+<P>&nbsp;<A HREF="sources.html#inter">The Internet and Worldwide Web</A>
+<UL>
+<LI>
+&nbsp;<A HREF="http://www.utexas.edu/depts/grg/virtdept/resources/data/data.htm">The
+Geographer's Craft's Own Index of Data Sources</A></LI>
+</UL>
+&nbsp;<A HREF="sources.html#csources">Commercial Sources</A></UL>
+</UL>
+
+<H2>
+5.<A HREF="sources.html#what"> What to Look For and When to Quit</A></H2>
+
+<UL>
+<UL>&nbsp;<A HREF="sources.html#chec">Checking on Pedigree and Quality</A>
+<UL>
+<LI>
+<A HREF="sources.html#if">If documentation is limited</A></LI>
+</UL>
+&nbsp;<A HREF="sources.html#cope">Coping with Data Availability and Differing
+File Formats</A></UL>
+</UL>
+
+<H2>
+6.<A HREF="../../exam/data/data.html">
+Examination and Study Questions</A></H2>
+
+<HR>Last revised 7 October 99. LNC.
+</BODY>
+</HTML>
+

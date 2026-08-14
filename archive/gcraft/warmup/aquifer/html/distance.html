@@ -1,0 +1,45 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Lance Christian">
+   <meta name="GENERATOR" content="Mozilla/4.61 [en] (WinNT; I) [Netscape]">
+   <title>Calculation of Distance Represented by Degrees of Latitude and Longitude</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#993366" vlink="#000099" alink="#006600">
+
+<center>
+<h3>
+Calculation of Distance Represented by Degrees of Latitude and Longitude</h3></center>
+<P><BR>
+<b><font size=-1>Longitude (X axis value):</font></b>
+<center><font size=-1>Length of 1 degree of Longitude = cosine (latitude)
+* length of degree (miles) at equator</font>
+<br><font size=-1>1&deg; Longitude = cos (33.1519) * 69.172 mi = 57.912
+miles * 5280 feet <b>&middot;</b> mile<sup>-1</sup> = 305,775 ft</font></center>
+
+<p><font size=-1>we only want a fraction of the total 1 degree:</font><font size=-1></font>
+<center>
+<p><font size=-1>&nbsp;305,775 ft <b>&middot;</b> 1&deg; of longitude<sup>-1</sup>
+* 0.4292&deg; longitude on map (difference between X minimum and maximum
+in Grid Info...) =</font>
+<br><font size=-1>= 131,239 ft along bottom latitude</font></center>
+<font size=-1>This is the X value = <b>131,239 ft</b></font>
+<p>
+<hr SIZE=3 WIDTH="70%">
+<p><b><font size=-1>Latitude (Y axis value):</font></b>
+<p><font size=-1>Degrees of Latitude vary from polar flattening, but only
+by 0.7 miles (1.13 km). Since this value is neglible, you can ignore the
+effects of flattening to obtain the length of 1 degree of latitude (<font color="#FF0000">http://www.ncgia.ucsb.edu/education/curricula/giscc/units/u014/u014_f.html</font>).</font>
+<p><font size=-1>for example:</font>
+<center><font size=-1>length of 1&deg; of latitude = 1&deg; * 69.172 miles
+= 69.172 miles</font>
+<br><font size=-1>69.172 miles * 5280 ft <b>&middot;</b> mile<sup>-1</sup>
+= 365, 228 ft <b>&middot;</b> 1&deg; of latitude<sup>-1</sup></font>
+<br><font size=-1>365,228 ft <b>&middot;</b> 1&deg; of latitude<sup>-1</sup>
+* 0.2112&deg; of latitude on map (difference between Y min. and max. in
+Grid Info...) =</font>
+<br><font size=-1>= 77,136 ft</font></center>
+<font size=-1>This the Y value = <b>77,136 ft</b></font>
+</body>
+</html>

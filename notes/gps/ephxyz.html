@@ -1,0 +1,177 @@
+<HTML>
+<TITLE>GPS Satellite Ephemeris Parameters to XYZ Code</TITLE>
+<H1>GPS Satellite Ephemeris Parameters to XYZ Code</H1>
+<ADDRESS>04/26/95</ADDRESS><P>
+<ADDRESS>Peter H. Dana</ADDRESS><P>
+<ADDRESS>Department of Geography, University of Texas at Austin</ADDRESS><P>
+<ADDRESS>Send mail to: <A HREF=mailto:pdana@mail.utexas.edu>pdana@mail.utexas.edu</A></ADDRESS><P>
+<H3>GPS Satellite XYZ Position from Ephemeris Parameters</H3>
+<H2>Please use this code at your own risk. This code is provided for those who are curious about GPS algorithms. Please do not use this code for navigation. Code for a navigation receiver should contain safeguards against out-of-tolerance parameters and arguments and be the result of a careful software development program.</H2>
+<H3>The Ephemeris data structure is defined at the end of this page. The GPS Time structure keeps GPS Time as Weeks and Seconds (from Jan. 5 midnight/Jan. 6 morning of 1980.) Note that this code calls a routine kepler() to solve Kepler's equation for mean anomaly by iteration. This module is printed here after the end of the ephxyz() routine. WEEK and HALFWEEK are constants in seconds (604800 and 302400). OMEGA_DOT_E is the WGS-84 Value of the Earth's Rotation Rate (7.2921151467 E-05 rads/sec). In the computation of the relativistic correction (svs->rel, used in the SV clock correction algorithm) C is the speed of light (2.99792458E+08 m/s) and F is a constant (4.442807633E-10) based on the value MU (3.986005 E14 m^3/s^2) the WGS-84 Earths Universal Graviational Constant and C (F=-2(MU)^.5/C^2).</H3>
+<P><P>
+<hr>
+<P>
+/* ephxyz.cpp */<P>
+/* xyz and relativistic correction from ephemeris data */<P>
+/* ************************************ */<P>
+/* Peter H. Dana  */<P>
+/* POB 1297                           */<P>
+/* Georgetown, TX 78627  */<P>
+/* ************************************ */<P>
+#include "gsinclud.h"<P>
+int ephxyz(ephemeris,gpstime,svs)<P>
+struct ephemeris_struct *ephemeris; /* pointer to ephemeris */<P>
+struct gpstime_struct *gpstime; /* pointer to gps time */<P>
+struct sv_struct *svs; /* pointer to svs */<P>
+<P>
+{<P>
+/* ecef xyz from icd-gps-200 */<P>
+/* !!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */<P>
+/* ! this software assumes that all semicircle parameters ! */<P>
+/* ! have been converted to radians.                      ! */<P>
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */<P>
+<P>
+double n0; /* computed mean motion */<P>
+double n; /* corrected mean motion */<P>
+double tk; /* time from ephemeris reference epoch */<P>
+double mk; /* mean anomaly */<P>
+double ek; /* eccentric anomaly */<P>
+double vk; /* true anomaly */<P>
+double pk; /* argument of latitude */<P>
+double sin2pk; /* sin 2*pk */<P>
+double cos2pk; /* cos 2*pk */<P>
+double uk; /* corrected agument of latitude */<P>
+double duk; /* latitude correction */<P>
+double drk; /* radius correction */<P>
+double dik; /* inclination correction */<P>
+double rk; /* corrected radius */<P>
+double ik; /* corrected inclination */<P>
+double xkp; /* x position in orbital plane */<P>
+double ykp; /* y position in orbital plane */<P>
+double ok; /* corrected longitude of ascending node */<P>
+double sinok; /* sin of ok */<P>
+double cosok; /* cos of ok */<P>
+double ykpcosik; /* ykp * cos (ik) */<P>
+double sinvk; /* sin (vk) */<P>
+double cosvk; /* cos (vk) */<P>
+double sinek; /* sin (ek) */<P>
+double cosek; /* cos (ek) */<P>
+<P>
+/* *********** */<P>
+svs->id=ephemeris->id;<P>
+n0=sqrt(MU/pow(ephemeris->sqrta,6.0)); /* computed mean motion */<P>
+tk=gpstime->seconds-ephemeris->toe; /* time from ephemeris epoch */<P>
+if (tk>HALFWEEK) tk-=WEEK;<P>
+if(tk<-HALFWEEK) tk+=WEEK;<P>
+n=n0+ephemeris->dn;                     /* corrected mean motion */<P>
+mk=ephemeris->ma+n*tk; /* mean anomaly */<P>
+kepler(&mk,&ephemeris->ecc,&ek);        /* kepler's equation for eccentric anomaly */<P>
+cosek=cos(ek);<P>
+sinek=sin(ek);<P>
+cosvk=(cosek-ephemeris->ecc);<P>
+sinvk=sqrt(1.0-ephemeris->ecc*ephemeris->ecc)*sinek;<P>
+vk=atan2(sinvk,cosvk); /* true anomaly */<P>
+if (vk<0.0) vk+=2*PI;<P>
+pk=vk+ephemeris->aop; /* argument of latitude */<P>
+sin2pk=sin(2.0*pk);<P>
+cos2pk=cos(2.0*pk);<P>
+duk=ephemeris->cus*sin2pk+ephemeris->cuc*cos2pk; /* argument of latitude correction */<P>
+drk=ephemeris->crc*cos2pk+ephemeris->crs*sin2pk; /* radius correction */<P>
+dik=ephemeris->cic*cos2pk+ephemeris->cis*sin2pk; /* correction to inclination */<P>
+uk=pk+duk; /* latitude */<P>
+rk=ephemeris->sqrta*ephemeris->sqrta*(1.0-ephemeris->ecc*cosek)+drk; /* corrcted radius */<P>
+ik=ephemeris->oinc+dik+ephemeris->idot*tk; /* corrected inclination */<P>
+xkp=rk*cos(uk); /* x in orbital plane */<P>
+ykp=rk*sin(uk); /* y in orbital plane */<P>
+ok=ephemeris->omega0+(ephemeris->omegadot-OMEGA_DOT_E)*tk-OMEGA_DOT_E*<P>
+ephemeris->toe;  /* longitude of ascending node */<P>
+ykpcosik=ykp*cos(ik);<P>
+sinok=sin(ok);<P>
+cosok=cos(ok);<P>
+<P>
+/* sv xyz */<P>
+svs->xyz.x=xkp*cosok-ykpcosik*sinok;<P>
+svs->xyz.y=xkp*sinok+ykpcosik*cosok;<P>
+svs->xyz.z=ykp*sin(ik);<P>
+<P>
+/*  sv relativistic correction in meters */<P>
+svs->rel=C*F*ephemeris->sqrta*ephemeris->ecc*sinek;<P>
+<P>
+/* set time tag */<P>
+svs->iode=ephemeris->iode2;<P>
+return(1);<P>
+} /* module end */<P>
+<P><P>
+<hr>
+<P>
+<H3>Kepler's Eccentric Anomaly </H3>
+<P><P>
+<hr>
+<P>
+/* kepler.cpp */<P>
+#include "gsinclud.h"<P>
+kepler(mk,ecc,ek)<P>
+double *mk;<P>
+double *ecc;<P>
+double *ek;<P>
+/* keplers eccentric anomaly */<P>
+{<P>
+/* iteration with wegstein's accelerator */<P>
+<P>
+double x;<P>
+double y;<P>
+double x1,y1,x2;<P>
+<P>
+int i;<P>
+<P>
+<P>
+x=*mk;<P>
+y=*mk-(x-*ecc*sin(x));<P>
+x1=x;<P>
+x=y;<P>
+<P>
+for(i=0;i<16;i++){<P>
+<P>
+ x2=x1;<P>
+ x1=x;<P>
+ y1=y;<P>
+ y=*mk-(x-*ecc*sin(x));<P>
+ if(fabs(y-y1)<1.0E-15) break;<P>
+ x=(x2*y-x*y1)/(y-y1);<P>
+} /* for iterations */<P>
+*ek=x;<P>
+}/* program done */<P>
+<P><P>
+<hr>
+<P>
+<H3>Ephemeris Data Structure </H3>
+<P><P>
+<hr>
+<P>
+/* ephemeris structure */<P>
+struct ephemeris_struct {<P>
+ int id;   /* sv id PRN code */<P>
+ double ma;  /* mean anomaly radians */<P>
+ double dn;  /* mean motion difference */<P>
+ double ecc;  /* eccentricity */<P>
+ double sqrta;  /* square root of semi-major axis */<P>
+ double omega0; /* longitude of ascending node */<P>
+ double oinc;  /* oribtal inclination */<P>
+ double aop;  /* angle of perigee */<P>
+ double omegadot; /* rate of right ascension */<P>
+ double idot;  /* rate of inclination angle */<P>
+ double cuc;  /* cosine correction to latitude */<P>
+ double cus;  /* sine correction to latitude */<P>
+ double crc;  /* cosine correction to radius */<P>
+ double crs;  /* sine correction to radius */<P>
+ double cic;  /* cosine correction to inclination */<P>
+ double cis;  /* sine correction to inclination */<P>
+ long toe;  /* reference time ephemeris */<P>
+ long iode2;  /* subframe 2 issue of data ephemeris */<P>
+ long iode3;  /* subframe  3 issue of data ephemeris */<P>
+};<P>
+<hr>
+<P><P>
+<hr>
+<hr>
+</HTML>

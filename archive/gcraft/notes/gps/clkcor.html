@@ -1,0 +1,46 @@
+<HTML>
+<TITLE>GPS Satellite Clock Parameters to Clock Correction Code</TITLE>
+<H1>GPS Satellite Clock Parameters to Clock Correction Code</H1>
+<ADDRESS>04/20/95</ADDRESS><P>
+<ADDRESS>Peter H. Dana</ADDRESS><P>
+<ADDRESS>Department of Geography, University of Texas at Austin</ADDRESS><P>
+<ADDRESS>Send mail to: <A HREF=mailto:pdana@mail.utexas.edu>pdana@mail.utexas.edu</A></ADDRESS><P>
+<H3>GPS Satellite Clock Correction from Clock Correction Parameters</H3>
+<H2>Please use this code at your own risk. This code is provided for those who are curious about GPS algorithms. Please do not use this code for navigation. Code for a navigation receiver should contain safeguards against out-of-tolerance parameters and arguments and be the result of a careful software development program.</H2>
+<H3>SV Clock and GPS Time stuctures are easy to figure out. GPS Time is kept as Weeks and Seconds (from Jan. 5 midnight/Jan. 6 morning of 1980.)<H3>
+
+<P><P>
+<hr>
+<P>
+<P>
+/* clkcor */<P>
+#include "gsinclud.h"<P>
+/*  sv clock correction in seconds */<P>
+/* ************************************ */<P>
+/* Peter H. Dana 			*/<P>
+/* POB 1297                          	*/<P>
+/* Georgetown, TX 78627 		*/<P>
+/* ************************************ */<P>
+<P>
+clkcor(svclock,gpstime,predict)<P>
+<P>
+struct svclock_struct *svclock;<P>
+struct gpstime_struct *gpstime;<P>
+struct predict_struct *predict;<P>
+<P>
+{<P>
+<P>
+double dt;<P>
+double dtsv;<P>
+<P>
+dt=gpstime->seconds-svclock->toc;<P>
+dtsv=svclock->af0+svclock->af1*(dt)+svclock->af2*dt*dt-svclock->tgd;<P>
+predict->svclk=-dtsv*C;<P>
+<P>
+}/* end of program */<P>
+<P>
+<P><P>
+<hr>
+<hr>
+</HTML>
+

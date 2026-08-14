@@ -1,0 +1,97 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="AUTHOR" content="Peter H. Dana">
+   <meta name="OPERATOR" content="Peter H. Dana">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; U) [Netscape]">
+   <title>Geodetic Datum Overview</title>
+</head>
+<body text="#000000" bgcolor="#80FFFF" link="#0000FF" vlink="#800080" alink="#800080">
+<img SRC="gif/gd.gif" >
+<br>
+<hr WIDTH="100%">
+<h3>
+<a NAME="Contents"></a>Table of Contents</h3>
+
+<ul>
+<li>
+<a href="datum.html#Intro">Introduction to Geodetic Datums</a></li>
+
+<li>
+<a href="datum.html#FigEarth">The Figure of the Earth</a></li>
+
+<ul>
+<li>
+<a href="datum.html#GeoMods">Geometric Models</a></li>
+
+<li>
+<a href="datum.html#RefEll">Reference Ellipsoids</a></li>
+
+<li>
+<a href="datum.html#GCoords">Global Coordinate Systems</a></li>
+
+<ul>
+<li>
+<a href="datum.html#LatLonHgt">Latitude, Longitude, and Height</a></li>
+
+<li>
+<a href="datum.html#ECEFXYZ">Earth Centered, Earth Fixed X, Y, Z</a></li>
+</ul>
+
+<li>
+<a href="datum.html#ESurfs">Earth Surfaces</a></li>
+</ul>
+
+<li>
+<a href="datum.html#GeoDat">Geodetic Datums</a></li>
+
+<ul>
+<li>
+<a href="datum.html#DTypes">Datum Types</a></li>
+
+<li>
+<a href="datum.html#DUse">Datums in Use</a></li>
+
+<li>
+<a href="datum.html#DShifts">Datum Shifts</a></li>
+
+<li>
+<a href="datum.html#DConv">Datum Conversions</a></li>
+</ul>
+
+<li>
+<a NAME="Links"></a>Links to other related information</li>
+
+<ul>
+<li>
+<a href="http://164.214.2.59/nimahome.html"><img SRC="gif/html.gif" ></a><a href="http://164.214.2.59/nimahome.html">National
+Imagery and Mapping Agency</a></li>
+
+<li>
+<a href="http://www.ngs.noaa.gov/GEOID/geoid.html"><img SRC="gif/html.gif" ></a><a href="http://www.ngs.noaa.gov/GEOID/geoid.html">National
+Geodetic Survey Geoid-96 Page</a></li>
+
+<li>
+<a href="../gps/gps.html"><img SRC="gif/html.gif" ></a><a href="../gps/gps.html">GPS
+Overview, Department of Geography, University of Colorado at Boulder</a></li>
+
+<li>
+<a href="../coordsys/coordsys.html"><img SRC="gif/html.gif" ></a><a href="../coordsys/coordsys.html">Coordinate
+Systems Overview, Department of Geography, University of Colorado at Boulder</a></li>
+
+<li>
+<a href="../mapproj/mapproj.html"><img SRC="gif/html.gif" ></a><a href="../mapproj/mapproj.html">Map
+Projection Overview, Department of Geography, University of Colorado at
+Boulder</a></li>
+
+<li>
+<a href="http://www.Colorado.EDU/geography/"><img SRC="gif/html.gif" ></a><a href="http://www.Colorado.EDU/geography/">Home
+Page, Department of Geography, University of Colorado at Boulder</a></li>
+</ul>
+</ul>
+
+<hr>
+<br>Last Revised October 12, 1999. LNC.
+</body>
+</html>

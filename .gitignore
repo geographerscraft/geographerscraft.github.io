@@ -1,0 +1,22 @@
+# Environment and Secret Protection
+*.env
+*.key
+*.token
+*.json
+*token*
+*.log
+
+# Personal email / scratch correspondence
+emails/
+scratch/
+.agents/
+.system_generated/
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,583 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en]C-DIAL  (Win95; U) [Netscape]">
+   <TITLE>Aerial Photography and Remote Sensing</TITLE>
+</HEAD>
+<BODY TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#66CCCC" VLINK="#FFFFFF" hr="#999999">
+
+<H1>
+<IMG SRC="gif/earthgif.gif" HEIGHT=82 WIDTH=83 ALIGN=LEFT>Aerial
+Photography and Remote Sensing</H1>
+
+
+<P>
+
+<P>This document is in the <I>very</I> early stages of development, and
+all links may not be available at all times. Links will be added as they
+are completed. Please send comments and suggestions to Shannon Crum at
+<A HREF="mailto: shannon.crum@mail.utexas.edu">shannon.crum@mail.utexas.edu</A>.
+
+<P>This page is available in a <A HREF="remote_f.html" target="_top">framed
+version</A>. For convenience, a <A HREF="remote_ftoc.html">Full Table
+of Contents</A> is provided.
+
+<P>
+<HR>
+<BR><A NAME="introduction"></A><B><FONT SIZE=+2>Introduction</FONT></B>
+<UL>This unit introduces basic concepts of remote sensing of the environment.
+It is intended to provide you with the background information necessary
+to successfully use remotely sensed imagery in conjunction with GIS technology
+to answer questions about the world in which we live.
+<BR>
+<BR>
+
+<P>In recent years, technological advances have changed the way geographic
+analyses are done. Increasingly, computers are used to automate aspects
+of cartography and remote sensing, producing data that are easily integrated
+into a GIS.
+
+<P>Many GIS systems have the capability of incorporating aerial photography,
+satellite data, and radar imagery into their data layers. The process is
+simple, as images may be scanned or read off a data tape. However, to use
+this technology effectively, it is important to know the strengths and
+limitations of remotely sensed data, and to understand which types of imagery
+are suited to particular projects. This unit was developed with these concerns
+in mind. The information and exercises contained within it are intended
+to familiarize you with the interface between remote sensing and GIS.
+<BR>
+<BR></UL>
+
+<HR>
+<H2>
+<IMG SRC="gif/redball.gif" ><A NAME="foundations"></A>Foundations of Remote
+Sensing</H2>
+
+<UL><A HREF="gif/emspect.gif"><IMG SRC="gif/gif.gif" ></A><A NAME="ems"></A><B>The
+Electromagnetic Spectrum</B>
+
+<P>The USGS defines the electromagnetic spectrum in the following manner:
+"Electromagnetic radiation is energy propagated through space between electric
+and magnetic fields. The electromagnetic spectrum is the extent of that
+energy ranging from cosmic rays, gamma rays, X-rays to ultraviolet, visible,
+and infrared radiation including microwave energy."
+
+<P><B>Electromagnetic Waves</B>
+
+<P>Electromagnetic waves may be classified by <A HREF="gif/em2.gif">FREQUENCY</A>
+or <A HREF="gif/em1.gif">WAVELENGTH,</A> and the velocity of ALL electromagnetic
+waves is equal to the speed of light, which we (along with Einstein) will
+refer to as <A HREF="gif/c.gif">c</A>.
+<BR>
+<BR>
+
+<P><A HREF="gif/em3.gif"><IMG SRC="gif/gif.gif" ></A><A HREF="gif/em3.gif">Wavelength
+and Frequency of common EM waves</A>
+
+<P><A HREF="gif/wavephen.gif"><IMG SRC="gif/gif.gif" ></A><A NAME="wavephen"></A><B>Wave
+Phenomena Concepts</B>
+
+<P>Electromagnetic waves are <I>radiated</I> through space. When
+the energy encounters an object, even a very tiny one like a molecule of
+air, one of three reactions occurs. The radiation will either be reflected
+off the object, absorbed by the object, of transmitted through the object.
+The total amount of radiation that strikes an object is referred to as
+the <I>incident radiation</I>, and is equal to:
+
+<P><B>reflected radiation + absorbed radiation + transmitted radiation</B>
+
+<P>In remote sensing, we are largely concerned with REFLECTED RADIATION.
+This is the radiation that causes our eyes to see colors, causes infrared
+film to record vegetation, and allows radar images of the earth to be created.
+
+<P><A HREF="gif/amplitud.gif"><IMG SRC="gif/gif.gif" ></A><A NAME="emwave"></A><B>Amplitude
+and Wavelength</B>
+
+<P><A HREF="gif/emwave1.gif"><IMG SRC="gif/gif.gif" ></A><A NAME="wavedesc"></A><B>Wave
+Descriptions</B>
+<BR>
+<BR>
+
+<P>The electric field and the magnetic field are important concepts that
+can be used to mathematically describe the physical effects of electromagnetic
+waves.
+
+<P>The electric field vibrates in a direction transverse (i.e. perpendicular)
+to the direction of travel of the electromagnetic wave.
+
+<P>The magnetic field vibrates in a direction transverse to the direction
+of the em wave AND transverse to the electric field.
+
+<P>POLARIZATION: Polarization is defined by the orientation of the
+electrical field E. It is usually described in terms of HORIZONTAL POLARIZATION
+and VERTICAL POLARIZATION. Polarization is most important when discussing
+RADAR applications of remote sensing.
+
+<P><A NAME="particle_light"></A><B>The Particle Nature of Light</B>
+
+<P><A NAME="ir"></A><B>Infrared Radiation</B>
+
+<P><A NAME="emrad"></A><B>Sources of Electromagnetic Radiation</B>
+<BR></UL>
+
+<HR>
+<H2>
+<IMG SRC="gif/purpleball.gif" ><A NAME="airphoto"></A>Aerial Photography</H2>
+
+<UL><A NAME="airintro"></A>Introduction
+
+<P>Aerial photography has two uses that are of interest within the
+context of this course: (1) Cartographers and planners take detailed measurements
+from aerial photos in the preparation of maps. (2) Trained interpreters
+utilize arial photos to determine land-use and environmental conditions,
+among other things.
+
+<P>Although both maps and aerial photos present a "bird's-eye" view
+of the earth, aerial photographs are NOT maps. Maps are orthogonal representations
+of the earth's surface, meaning that they are directionally and geometrically
+accurate (at least within the limitations imposed by projecting a 3-dimensional
+object onto 2 dimensions). Aerial photos, on the other hand, display a
+high degree of radial distortion. That is, the topography is distorted,
+and until corrections are made for the distortion, measurements made from
+a photograph are not accurate. Nevertheless, aerial photographs are a powerful
+tool for studying the earth's environment.
+
+<P>Because most GISs can correct for radial distortion, aerial photographs
+are an excellent data source for many types of projects, especially those
+that require spatial data from the same location at periodic intervals
+over a length of time. Typical applications include land-use surveys and
+habitat analysis.
+
+<P>This unit discusses benefits of aerial photography, applications,
+the different types of photography, and the integration of aerial photographs
+into GISs.
+
+<P>
+<HR><A NAME="apinterp"></A><B>Basic Elements of Air Photo Interpretation</B>
+
+<P>Novice photo interpreters often encounter difficulties when presented
+with their first aerial photograph. Aerial photographs are different from
+"regular" photos in at least three important ways:
+<BR>
+<BR>
+<UL>
+<LI>
+objects are portrayed from an overhead (and unfamiliar) position.</LI>
+
+<LI>
+very often, infrared wavelengths are recorded, and</LI>
+
+<LI>
+photos are taken at scales most people are unaccustomed to seeing</LI>
+</UL>
+These "basic elements" can aid in identifying objects on aerial photographs.
+<BR>
+<BR>
+<UL>
+<LI>
+<B>Tone</B> (also called Hue or Color) -- Tone refers to the relative brightness
+or color of elements on a photograph. It is, perhaps, the most basic of
+the interpretive elements because without tonal differences none of the
+other elements could be discerned.</LI>
+
+<LI>
+<B>Size</B> -- The size of objects must be considered in the context of
+the scale of a photograph. The scale will help you determine if an object
+is a stock pond or Lake Minnetonka.</LI>
+
+<LI>
+<B>Shape</B> -- refers to the general outline of objects. Regular geometric
+shapes are usually indicators of human presence and use. Some objects can
+be identified almost solely on the basis of their shapes.</LI>
+
+<UL>
+<LI>
+the Pentagon Building</LI>
+
+<LI>
+(American) football fields</LI>
+
+<LI>
+cloverleaf highway interchanges</LI>
+</UL>
+
+<LI>
+<B>Texture</B> -- The impression of "smoothness" or "roughness" of image
+features is caused by the frequency of change of tone in photographs. It
+is produced by a set of features too small to identify individually. Grass,
+cement, and water generally appear "smooth", while a forest canopy may
+appear "rough".</LI>
+
+<LI>
+<B>Pattern</B> <I>(spatial arrangement)</I> -- The patterns formed by objects
+in a photo can be diagnostic. Consider the difference between (1) the random
+pattern formed by an unmanaged area of trees and (2) the evenly spaced
+rows formed by an orchard.</LI>
+
+<LI>
+<B>Shadow</B> -- Shadows aid interpreters in determining the height of
+objects in aerial photographs. However, they also obscure objects lying
+within them.</LI>
+
+<LI>
+<B>Site</B> -- refers to topographic or geographic location. This characteristic
+of photographs is especially important in identifying vegetation types
+and landforms. For example, large circular depressions in the ground are
+readily identified as sinkholes in central Florida, where the bedrock consists
+of limestone. This identification would make little sense, however, if
+the site were underlain by granite.</LI>
+
+<LI>
+<B>Association</B> -- Some objects are always found <I>in association with
+</I>other objects. The context of an object can provide insight into what
+it is. For instance, a nuclear power plant is not (generally) going to
+be found in the midst of single-family housing.
+<HR></LI>
+
+<BR>
+
+<P><A NAME="apadvantage"></A><B>Advantages of Aerial Photography over Ground-Based
+Observation</B>
+<BR>
+<BR>
+<UL>
+<LI>
+Aerial photography offers an improved vantage point.</LI>
+
+<LI>
+Aerial photography has the capability to stop action.</LI>
+
+<LI>
+It provides a permanent recording.</LI>
+
+<LI>
+It has broader spectral sensitivity than the human eye.</LI>
+
+<LI>
+It has better spatial resolution and geometric fidelity than many ground-based
+sensing methods.</LI>
+</UL>
+</UL>
+<A NAME="aptypes"></A><B>Types of Aerial Photography</B>
+<BR>
+<BR>
+<UL><B>Black and White</B>
+
+<P><A HREF="gif/austin.jpg"><IMG SRC="gif/gif.gif" ></A>Austin, Texas
+
+<P><A HREF="gif/hidalgo.jpg"><IMG SRC="gif/gif.gif" ></A>Hidalgo County,
+Texas
+
+<P><B>Color</B>
+
+<P><B>Color Infrared</B>
+
+<P>In 1903 or 1904 the first reliable black and white infrared film
+was developed in Germany. The film emulsion was adjusted slightly from
+regular film to be sensitive to wavelengths of energy just slightly longer
+than red light and just beyond the range of the human eye. By the 1930s,
+black and white IR films were being used for landform studies, and from
+1930 to 1932 the National Geographic Society sponsored a series of IR photographs
+taken from hot air balloons.
+
+<P>Throughout the 1930s and 1940s, the military was hard at work
+developing color infrared film, eager to exploit it for surveillance. By
+the early 1940s the military was successful in its attempts. It developed
+a film that was able to distinguish camouflaged equipment from surrounding
+vegetation. Within months, however, an IR reflecting paint was developed
+for use on military vehicles, effectively making IR film technology useless
+to the military. So, they dropped it.
+
+<P>The scientific community, however, has made continuous use of the film
+technology.
+
+<P>Color infrared film is often called "false-color" film. Objects
+that are normally red appear green, green objects (except vegetation) appear
+blue, and "infrared" objects, which normally are not seen at all, appear
+red.
+
+<P>The primary use of color infrared photography is vegetation studies.
+This is because healthy green vegetation is a very strong reflector of
+infrared radiation and appears bright red on color infrared photographs.
+
+<P><I>more to come</I>
+<BR>
+<BR></UL>
+<A NAME="photogrammetry"></A>Basic Photogrammetry
+<HR><A NAME="apapps"></A><B>Applications of Aerial Photography</B>
+<BR>
+<BR>
+<UL>Introduction: The Scope of Air Photography
+
+<P>Land-Use Planning and Mapping
+
+<P>Geologic Mapping
+
+<P>Archaeology
+
+<P>Species Habitat Mapping</UL>
+<A NAME="ap_gis"></A>Integration of Aerial Photography into GIS</UL>
+
+<HR>
+<H2>
+<IMG SRC="gif/yellowball.gif" ><A NAME="DIP"></A>Digital Image Processing</H2>
+<B>Why Process Remotely Sensed Data Digitally?</B>
+
+<P>Humans are adept at visually interpreting data. We can distinguish
+millions of colors, several shades of gray, and have a demonstrated ability
+to identify water, vegetation, and urban forms on several types of imagery.
+Why try to expand on this?
+<BR>
+<BR>
+<UL>
+<LI>
+(1) There are limits to a person's ability to distinguish small differences
+in color. We are especially limited in our resolution of shades of gray.
+If data are collected using 256 shades of gray, but an analyst can only
+distinguish 8-10 (optimistically) of them, a great deal of information
+is potentially lost. The human interpreter is outpaced by the precision
+of the data. Computers, however, have no trouble distinguishing 256 shades
+of gray. Each one is individually recognizable. And, the analyst has control
+over the conputer's presentation of the data. She can group it any way
+she pleases, extract a portion of it, or display it in false color. Data
+sets can also be combined, compared, and contrasted with more ease and
+precision (not to mention speed) than if the task were left to humans alone.</LI>
+
+<LI>
+(2) Human interpretations are highly subjective, hence, not perfectly repeatable.
+Conversely, results generated by computer--even when erroneous--are usually
+repeatable.</LI>
+
+<LI>
+(3) When very large amounts of data are involved (a series of photos of
+an orange grove taken at 5 day intervals over an entire growing season)
+the computer may be better suited to managing the large body of detailed
+(and tedious) data.</LI>
+</UL>
+The processes of manual image interpretation and digital image interpretation
+are similar in many ways. The goals of analysis are often the same, though
+the routes may vary.
+
+<P><A NAME="sources"></A>Sources of Digital Data
+
+<P><A NAME="Enhancement"></A>Image Enhancement
+
+<P><A NAME="dataclass"></A>Data Classification
+
+<P>
+<HR>
+<H2>
+<IMG SRC="gif/redball.gif" ><A NAME="satellite"></A>Satellite Imaging</H2>
+<A NAME="satintro"></A>Introduction
+
+<P><A NAME="landsat"></A><B>Landsat</B>
+<BR>
+<BR>
+
+<P><A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/h_l#landsat">LANDSAT</A>
+refers to a series of satellites put into orbit around the earth to collect
+environmental data about the earth's surface. The LANDSAT program was initiated
+by the U.S. Department of Interior and NASA under the name ERTS, an acronym
+which stands for Earth Resources Technology Satellites. ERTS-1 was launched
+on July 23, 1972, and was the first unmanned satellite designed solely
+to acquire earth resources data on a systematic, repetitive, multispectral
+basis. Just before the launch of the second ERTS satellite, NASA announced
+it was changing the program designation to LANDSAT, and that the data acquired
+through the LANDSAT program would be complemented by the planned SEASAT
+oceanographic observation satellite program. ERTS-1 was retroactively named
+LANDSAT-1, and all subsequent satellites in the program have carried the
+LANDSAT designation. Over time, the sensors carried by the LANDSAT satellites
+have varied as technologies improved and certain types of data proved more
+useful than others. The table which follows outlines the sensors onboard
+each satellite, their launch dates, and the dates they were decommissioned.
+
+<P><A HREF="gif/landsat2.gif"><IMG SRC="gif/gif.gif" ></A><I>Table 1</I>
+<BR>
+<BR>
+
+<P>The various Landsats have had Multispectral Scanners <A HREF="http://sun1.cr.usgs.gov/glis/hyper/guide/landsat">(MSS)<A HREF="http://sun1.cr.usgs.gov/glis/hyper/guide/landsat"><IMG SRC="gif/list.gif" ></A></A>,
+Return Beam Vidicon (RBV) scanners, and Thematic Mapper <A HREF="http://sun1.cr.usgs.gov/glis/hyper/guide/landsat_tm">(TM)<A HREF="http://sun1.cr.usgs.gov/glis/hyper/guide/landsat_tm"><IMG SRC="gif/list.gif" ></A></A>
+scanners. Each type has its own spectral range and spatial resolution.
+
+<P><B>Interpreting Landsat Data</B>
+
+<P>The images discussed in this section are the property of the University
+of California, Santa Barbara. Click <I><A HREF="http://ice.ucdavis.edu/Center_for_Ecological_Health_Research/San_Francisco_Bay-Delta_Model.html">here</A></I>
+to get to the Center for Ecological Health Research Home Page, then click
+on the image indicated below, then <I>back up to this page with the image
+still visible</I> to read the discussion that pertains to the image. Detailed
+explanations of the images will be added soon.
+<BR>
+<BR>
+<UL>
+<LI>
+Click on the first image, labeled "California". This is a false color image
+that has been processed by computer.</LI>
+
+<LI>
+Now, close the image of California and return to the CEHR Home Page. Click
+on the third image, labeled "San Francisco Bay Delta, Northern California".
+<I>more to come</I></LI>
+</UL>
+
+<HR><A HREF="http://sun1.cr.usgs.gov/glis/hyper/guide/spot"><IMG SRC="gif/list.gif" ></A><A NAME="spot"></A>SPOT
+
+<P><A HREF="http://sun1.cr.usgs.gov/glis/hyper/guide/avhrr"><IMG SRC="gif/list.gif" ></A><A NAME="NOAA"></A>NOAA
+AVHRR
+
+<P><A HREF="NOAA_GOES.HTML"><IMG SRC="gif/list.gif" ></A>NOAA Geostationary
+and Polar Orbiting Satellites
+
+<P><A HREF="http://osdacces.nesdis.noaa.gov/goes.htm"><IMG SRC="gif/list.gif"></A><A HREF="gif/goes_graphic.gif"><IMG SRC="gif/gif.gif" ></A>NOAA
+GOES mission overview and history. The GOES graphic was prepared by the
+NASA <A HREF="http://www.gsfc.nasa.gov/GSFC_homepage.html">Goddard Space
+Flight Center</A>, which provides additional information about the GOES
+project.
+
+<P><A HREF="gif/goes_vis.gif"><IMG SRC="gif/gif.gif" ></A>The first visible
+GOES-8 image. Look carefully and you can make out Baja California on the
+lower left and Lake Michigan on the upper right.
+
+<P><A NAME="satapps"></A>Applications of Satellite Imagery
+
+<P><A NAME="sat_GIS"></A>Integration of Satellite Imagery into GIS
+
+<P>
+<HR><I>Further Reading</I>
+
+<P>Bauer, M.E., T.E. Burk, A.R. Ek, P.R. Coppin, S.D. Lime, T.A.
+Walsh, D.K. Walters, W. Befort, and D.F. Heinzen. <A HREF="http://dendron.forestry.umn.edu:70/0/nasaPaper/paper.html#TC">Satellite
+Inventory of Minnesota Forest Resources.</A> <I>Photogrammetric Engineering
+and Remote Sensing,</I> in press.
+
+<P>
+<HR>
+<H2>
+<IMG SRC="gif/blueball.gif" ><A NAME="MTHS"></A>MSS, Thermal, and Hyperspectral
+Scanning</H2>
+<A NAME="thermal"></A><B>Thermal Radiation Principles</B>
+
+<P><A HREF="http://sun1.cr.usgs.gov/glis/hyper/glossary/s_t#thermalir">Thermal
+infrared</A> radiation refers to electromagnetic waves with a wavelength
+of between 3.5 and 20 micrometers. Most remote sensing applications make
+use of the 8 to 13 micrometer range. The main difference between THERMAL
+infrared and the infrared discussed above is that thermal infrared is <I>emitted</I>
+energy, whereas the near infrared (photographic infrared) is <I>reflected</I>
+energy.
+
+<P><A NAME="MSS"></A>Multispectral Scanning
+
+<P><A NAME="TSI_interp"></A>Interpreting Thermal Scanning Imagery
+
+<P><B>Limitations of Thermal Infrared Imaging</B>
+
+<P>There are some limitations of thermal imagery you should be aware
+of if you plan to use it in your GIS:
+<UL>
+<LI>
+It is very expensive.</LI>
+
+<LI>
+Most thermal imaging systems have very strict operational parameters. For
+example, the detector must be kept extremely cold during use.</LI>
+
+<LI>
+Thermal infrared imaging systems are notoriously difficult to calibrate.</LI>
+
+<LI>
+The data collected has extensive processing requirements. A PC isn't going
+to cut it.</LI>
+
+<LI>
+Thermal images can be quite difficult to interpret when compared with other
+types of imagery.</LI>
+
+<LI>
+Thermal imagery is NOT geometrically correct.</LI>
+
+<LI>
+Thermal images of water measure only the very top layer of the water. They
+tell you nothing of the water's characteristics below the top few micrometers.</LI>
+</UL>
+<A NAME="FLIR"></A>FLIR systems
+
+<P><A NAME="spectrometry"></A>Imaging Spectrometry
+
+<P>
+<HR>
+<H2>
+<A NAME="radar"></A>Radar (Microwave) Scanning</H2>
+Introduction:
+
+<P><A NAME="SLAR"></A>SLAR
+
+<P><A NAME="LIDAR"></A>LIDAR
+
+<P><A NAME="ERS"></A>ERS Program
+
+<P><B>Radar Images</B>
+
+<P>The following radar images come from sites all over the world. The files
+at NASA's Jet Propulsion Laboratory have explanations accompanying the
+images.
+
+<P><A HREF="oetztal2.html"><IMG SRC="gif/gif.gif" ></A><A HREF="oetztal2.html"><IMG SRC="gif/list.gif" ></A><B>Spaceborne
+Synthetic Aperture Radar</B>, Oetxal, Austria. This file was created by
+NASA's Jet Propulsion Laboratory in Pasadena, CA.
+
+<P>
+<HR><A NAME="future"></A>
+<H2>
+Remote Sensing and GIS</H2>
+To sum up, remotely sensed images have a number of features which make
+them ideal GIS data sources.
+<UL>
+<LI>
+Remote sensing provides a regional view.</LI>
+
+<BR>
+
+<P>
+<LI>
+Remote sensing provides repetitive looks at the same area.</LI>
+
+<BR>
+
+<P>
+<LI>
+Remote sensors "see" over a broader portion of the spectrum than the human
+eye.</LI>
+
+<BR>
+
+<P>
+<LI>
+Sensors can focus in on a very specific bandwidth in an image.</LI>
+
+<BR>
+
+<P>
+<LI>
+They can also look at a number of bandwidths simultaneously.</LI>
+
+<BR>
+
+<P>
+<LI>
+Remote sensors often record signals electronically and provide geo-referenced,
+digital, data.</LI>
+
+<BR>
+
+<P>
+<LI>
+Some remote sensors operate in all seasons, at night, and in bad weather.</LI>
+</UL>
+
+<HR>
+
+<P>Last updated 2000.2.6. LNC.
+<BR>
+<BR>
+</BODY>
+</HTML>

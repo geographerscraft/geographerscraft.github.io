@@ -1,0 +1,54 @@
+                   GPS CONSTELLATION HISTORY AND STATUS
+                        (STATUS AS OF 01 SEP 96)
+
+NAVSTAR#  SVN/PRN  LAUNCH   SLOT  OPERATIONAL  NAV    REASON FOR  MONTHS
+                                               LOST   FAILURE     OPERATIONAL
+
+I-1        1 / 4   22FEB78   **    29MAR78   25JAN80  CLOCK        21.9
+I-2        2 / 7   13MAY78   **    14JUL78   30JUL80  CLOCK        25.5   
+I-3        3 / 6   06OCT78   **    09NOV78   19APR92  CLOCK       161.3
+I-4        4 / 8   11DEC78   **    08JAN79   27OCT86  CLOCK        93.6 
+I-5        5 / 5   09FEB80   **    27FEB80   28NOV83  WHEEL        45  
+I-6        6 / 9   26APR80   **    16MAY80   10DEC90  WHEEL       126.8 
+I-7        7 /     18DEC81   **                       BOOSTER       0
+I-8        8 / 11  14JUL83   **    10AUG83   04MAY93  EPS DEGR.   116.8
+I-9        9 / 13  13JUN84   **    19JUL84   28FEB94  CLOCK       115.2
+I-10      10 / 12  08SEP84   **    03OCT84   18NOV95  CLOCK       133.5
+I-11      11 /  3  09OCT85   **    30OCT85   27FEB94  TT&C         99.9
+   TOTAL BLOCK I SATELLITE YEARS ON ORBIT = 78.29 YEARS
+   AVERAGE OPERATING LIFE TO DATE         =  7.12 YEARS
+     (INCLUDING BOOSTER FAILURE)
+
+II-1      14 / 14  14FEB89   E1    14APR89   OPERATING             88.6
+II-2      13 /  2  10JUN89   B3    12JUL89   OPERATING             85.7
+II-3      16 / 16  17AUG89   E5    13SEP89   OPERATING             83.6
+II-4      19 / 19  21OCT89   A4    14NOV89   OPERATING             81.6
+II-5      17 / 17  11DEC89   D3    11JAN90   OPERATING             79.7
+II-6      18 / 18  24JAN90   F3    14FEB90   OPERATING             78.6
+II-7      20 / 20  25MAR90   B2    19APR90    10MAY96              76.4
+II-8      21 / 21  02AUG90   E2    31AUG90   OPERATING             72
+II-9      15 / 15  01OCT90   D2    20OCT90   OPERATING             70.4
+IIA-10    23 / 23  26NOV90   E4    10DEC90   OPERATING             68.7
+IIA-11    24 / 24  03JUL91   D1    30AUG91   OPERATING             60
+IIA-12    25 / 25  23FEB92   A2    24MAR92   OPERATING             53.2
+IIA-13    28 / 28  10APR92   C5    25APR92   OPERATING             52.2
+IIA-14    26 / 26  07JUL92   F2    23JUL92   OPERATING             49.3
+IIA-15    27 / 27  09SEP92   A3    30SEP92   OPERATING             47
+IIA-16    32 / 32  22NOV92   F1    11DEC92   OPERATING             44.7
+IIA-17    29 / 29  18DEC92   F4    05JAN93   OPERATING             43.9
+IIA-18    22 / 22  03FEB93   B1    04APR93   OPERATING             40.9
+IIA-19    31 / 31  30MAR93   C3    13APR93   OPERATING             40.6
+IIA-20    37 /  7  13MAY93   C4    12JUN93   OPERATING             38.6
+IIA-21    39 /  9  26JUN93   A1    21JUL93   OPERATING             37.3
+IIA-22    35 /  5  30AUG93   B4    20SEP93   OPERATING             35.4
+IIA-23    34 /  4  26OCT93   D4    01DEC93   OPERATING             33
+IIA-24    36 /  6  10MAR94   C1    28MAR94   OPERATING             29.1
+IIA-25    33 /  3  28MAR96   C2    09APR96   OPERATING              4.6
+IIA-26    40 / 10  16JUL96   E3    15AUG96   OPERATING              0.4
+
+   TOTAL BLOCK II/IIA SATELLITE YEARS ON ORBIT = 115.68 YEARS   
+   AVERAGE OPERATING LIFE TO DATE              =  4.63 YEARS
+
+
+   
+   

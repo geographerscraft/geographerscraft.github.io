@@ -1,0 +1,121 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.6 [en] (Win95; I) [Netscape]">
+   <title>Favorite Place </title>
+</head>
+<body>
+
+<h1>
+Your Favorite Place in Texas</h1>
+Prepare a map of your favorite place in Texas, but use as a base one of
+the digital county maps prepared by Texas Department of Transportation
+(TxDOT) and available in the Internet. You may select any sort of place--your
+home, a park, or place you like to visit. Your task is to prepare a complete
+thematic map of this place <b>and</b> its surrounding area.
+<p>Excellent digital maps are now available in the Internet and this exercise
+will allow you to examine some of the best that are available for Texas.
+Drafting the map will also give you more practice with Microstation, particularly
+the editing functions. You will also learn how to use reference files.
+The following instructions will guide your through the steps of the exercise,
+whereas particular commands will be introduced in class and lab.
+<br>&nbsp;
+<br>&nbsp;
+<h2>
+Here we go...</h2>
+
+<hr>
+<h3>
+1. Download a Digital County File from the Texas National Resources Information
+System (TNRIS) fileserver</h3>
+Decide on the place you wish to map and identify the county in which it
+is located. The size of the area you wish to map may be small (your neighborhood)
+or large (Big Bend National Park).&nbsp; The TxDOT files are digitized
+from 24:000 scale maps and contain a considerable range of information,
+including federal, state, county, and city roads and water features. However,
+if you select too small an area, the map will be sparsely detailed. I wouldn't
+suggest mapping an area of less than about 0.5-1.0 square mile. It is no
+problem if the area you wish to map spans two or three counties, though
+this means that you will have to download more than one TxDOT file and
+merge them.
+<br>&nbsp;
+<ul>
+<li>
+Browse to <a href="ftp://www.tnris.state.tx.us/pub/GIS/highway/counties_dgn/">ftp://www.tnris.state.tx.us/pub/GIS/highway/counties_dgn/</a></li>
+
+<li>
+Read the file named "txdot_cnty_codes.txt" to find the ID number for the
+county you wish to use</li>
+
+<li>
+Make a copy and also read the file "readme_dgn.txt".&nbsp; This tells you
+how the data in the county files is organized.</li>
+
+<li>
+Copy the zipped copy of the county you need. Travis County is, for example,
+file "227urban.zip"</li>
+
+<li>
+Upzip the county file in its own directory.&nbsp; Many of the zip files
+contain more than one .dgn file.</li>
+</ul>
+You may want to move the file to the hard drive or a ZIP dirve first since
+some of the files are larger than the capacity of a 1.44MB floppy.
+<p>Incidentally, if your map theme spans two or more counties, the .dgn
+files can be merged in Microstation, or they can be displayed in "tiled"
+form.
+<p>Note: While you are out on the TNRIS fileserver you might enjoy browsing
+around to see what other date they archive. You can access this data directly
+with ftp or you may wish to browse using the <a href="http://www.tnris.state.tx.us/index.htm">TNRIS</a>
+Navigator (<a href="ftp://www.tnris.state.tx.us/pub/GIS/">TNRIS FTP Site</a>).
+<p>
+<hr>
+<h3>
+2. Chop Your Area Out of the County Map</h3>
+Use a fence to outline the area of interest. Set the fence options to Clip-Void
+and then Delete everything outside the fence. (After you have performed
+the delete, I would recommend changing Clip-Void back to Inside. The Clip-Void
+option is very dangerous to leave activated, for obvious reasons.)
+<p>
+<hr>
+<h3>
+3. Edit the Area of Interest</h3>
+The TxDOT file is your basemap, but you will have to edit it in a number
+of ways.
+<p>Change the color numbers of features to fit the color palette of our
+printers. The TxDOT files were created with other screens and printers
+in mind.
+<p>Change line types and line weights to fit the needs of your map. Again,
+the line types and weights were selected to meet the needs of TxDOT. You
+may have to change them.
+<p>Clean and edit features. You may also with to clean and improve other
+features in your map, particularly city streets.
+<p>
+<hr>
+<h3>
+4. Add Any Additional Detail by Freehand or from Registered Maps and Photographs</h3>
+If your favorite place is a building, park, or some other features that
+does not appear in the digital file, you'll have to draft it into the file.
+You can draft these features freehand and lift the detail from other maps
+and photographs by registering them to your digital file.
+<p>
+<hr>
+<h3>
+5. Create Your Final Map Layout and Add Other Necessary Elements</h3>
+You need to complete your map by adding a neatline, title, scale, north
+arrow, annotations (if needed), legend (if needed), name, and date. Remember,
+you will be plotting to 8.5x11 inch paper. In drawing your scale, remember
+that the digital files are in feet. You can use the Precision Input menu
+to draw the scale bar to an exact length.
+<p>
+<hr>
+<h3>
+6. What to Hand In</h3>
+Please submit this an 8.5x11" paper map.
+<p>
+<hr>Last revised 2000.1.23.&nbsp; k.foote@mail.utexas.edu
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>
