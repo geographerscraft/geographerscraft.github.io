@@ -18,7 +18,7 @@ The complete, authentic 1990s digital archive is hosted and publicly accessible 
 
 ## 📖 About The Geographer's Craft
 
-Initiated in 1992 at the **University of Texas at Austin** with support from the **National Science Foundation (NSF)**, *The Geographer's Craft* was an innovative project that helped define web-based geographic education. Created by **Dr. Kenneth E. Foote** and **Dr. Peter H. Dana** ([www.pdana.com](https://www.pdana.com/)), the project provided free, hypermedia learning materials and problem-based laboratory exercises in GIScience, GPS, cartography, map projections, coordinate systems, and error management.
+Initiated in 1992 at the [Department of Geography and the Environment, University of Texas at Austin](https://liberalarts.utexas.edu/geography/) with support from the **National Science Foundation (NSF)**, *The Geographer's Craft* was an innovative project that helped define web-based geographic education. Created by **Dr. Kenneth E. Foote** and **Dr. Peter H. Dana** ([www.pdana.com](https://www.pdana.com/)), the project provided free, hypermedia learning materials and problem-based laboratory exercises in GIScience, GPS, cartography, map projections, coordinate systems, and error management.
 
 ### Key Contributions & Historical Significance
 - **Pioneering Open Educational Resource (OER):** One of the very first comprehensive online curricula in geography and spatial science, used by universities worldwide throughout the 1990s and 2000s.
@@ -33,15 +33,15 @@ Initiated in 1992 at the **University of Texas at Austin** with support from the
 
 1. **[NSF Award #9250310](https://www.nsf.gov/awardsearch/showAward?AWD_ID=9250310)** (1992–1994)  
    *The Geographer's Craft: A New Model for Teaching Geographical Methods in the Undergraduate Curriculum*  
-   **PI:** Kenneth E. Foote • **Institution:** University of Texas at Austin
+   **PI:** Kenneth E. Foote • **Institution:** [University of Texas at Austin](https://liberalarts.utexas.edu/geography/)
 
 2. **[NSF Award #9354476](https://www.nsf.gov/awardsearch/showAward?AWD_ID=9354476)** (1993–1996)  
    *The Geographer's Craft: Hypermedia Material for Teaching Geographical Techniques in the Liberal Arts Curriculum*  
-   **PI:** Kenneth E. Foote • **Institution:** University of Texas at Austin
+   **PI:** Kenneth E. Foote • **Institution:** [University of Texas at Austin](https://liberalarts.utexas.edu/geography/)
 
 3. **[NSF Award #9554947](https://www.nsf.gov/awardsearch/showAward?AWD_ID=9554947)** (1996–1999)  
    *The Geography Virtual Department: Building and Linking Geography Curricula Nationally Using the Internet and Worldwide Web*  
-   **PI:** Kenneth E. Foote • **Institution:** University of Texas at Austin
+   **PI:** Kenneth E. Foote • **Institution:** [University of Texas at Austin](https://liberalarts.utexas.edu/geography/)
 
 ---
 
@@ -67,9 +67,9 @@ All legacy hypermedia modules are preserved with exact 1:1 fidelity:
 
 ## 🏛️ Preservation Timeline
 
-- **1990s (Inception & Active Development):** Initiated by Ken Foote and Peter Dana at the Department of Geography, University of Texas at Austin (`www.utexas.edu`).
-- **1999–2002 (CU Boulder Era):** Project relocated to the University of Colorado Boulder (`www.colorado.edu`) under Ken Foote's leadership.
-- **2013–2024 (UConn Era):** Hosted at the University of Connecticut (`uconn.edu`).
+- **1990s (Inception & Active Development):** Initiated by Ken Foote and Peter Dana at the [Department of Geography, University of Texas at Austin](https://liberalarts.utexas.edu/geography/) (`www.utexas.edu`).
+- **1999–2002 (CU Boulder Era):** Project relocated to the [University of Colorado Boulder Department of Geography](https://www.colorado.edu/geography/) (`www.colorado.edu`) under Ken Foote's leadership.
+- **2013–2024 (UConn Era):** Hosted at the [University of Connecticut](https://uconn.edu/) (`uconn.edu`).
 - **2026 (Open Access Preservation):** [Dr. Moulay Anwar Sounny-Slitine](https://sounny.com/) (former TA under Peter Dana for the project) coordinated with Ken Foote and Peter Dana to migrate and preserve the complete archive on GitHub Pages as a permanent Open Educational Resource for the international GIScience community.
 
 ---
