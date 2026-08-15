@@ -56,3 +56,10 @@ As one of the world's first open educational resources (OER) on the World Wide W
 ---
 
 *Released under [CC BY-NC 4.0](https://github.com/geographerscraft/geographerscraft.github.io/blob/main/LICENSE.md). Maintained by the GIScience community.*
+
+
+## 📂 Organization Repositories
+
+* 🌐 [`geographerscraft.github.io`](https://github.com/geographerscraft/geographerscraft.github.io) — The primary, authenticated, and fully preserved active-learning curriculum & web textbook.
+* 📚 [`papers`](https://github.com/geographerscraft/papers) — Archival repository of peer-reviewed journal papers, conference proceedings, and foundational literature.
+* 🏢 [`.github`](https://github.com/geographerscraft/.github) — Organization profile, public documentation, and global community metadata.
