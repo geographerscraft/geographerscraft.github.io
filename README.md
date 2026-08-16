@@ -5,15 +5,18 @@
 [![NSF Funded](https://img.shields.io/badge/NSF-Grant%20Supported-orange.svg?style=flat-square)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=9354476)
 [![GitHub Organization](https://img.shields.io/badge/GitHub-geographerscraft-black.svg?style=flat-square)](https://github.com/geographerscraft)
 [![Wikidata: Q141069817](https://img.shields.io/badge/Wikidata-Q141069817-006699.svg?style=flat-square&logo=wikidata)](https://www.wikidata.org/wiki/Q141069817)
+[![Wikipedia: The Geographer's Craft](https://img.shields.io/badge/Wikipedia-The%20Geographer's%20Craft-000000.svg?style=flat-square&logo=wikipedia)](https://en.wikipedia.org/wiki/The_Geographer%27s_Craft)
 
 > **Preserving one of the world's first web-based electronic textbooks and laboratory curricula in Geographic Information Science (GIScience), GPS, and spatial techniques.**
 
 ---
 
-## 🌐 Live Website
+## 🌐 Live Website & Encyclopedia
 
-The complete, authentic 1990s digital archive is hosted and publicly accessible at:  
-👉 **[https://geographerscraft.github.io](https://geographerscraft.github.io)**
+- 🌐 **Live Website Archive:** [https://geographerscraft.github.io](https://geographerscraft.github.io)
+- 📖 **Wikipedia Article:** [The Geographer's Craft](https://en.wikipedia.org/wiki/The_Geographer%27s_Craft)
+- 🗄️ **Wikidata Knowledge Graph:** [Q141069817](https://www.wikidata.org/wiki/Q141069817)
+- 📚 **Academic Literature Archive:** [geographerscraft/papers](https://github.com/geographerscraft/papers)
 
 ---
 

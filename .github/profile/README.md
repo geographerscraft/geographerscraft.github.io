@@ -6,10 +6,11 @@
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](https://github.com/geographerscraft/geographerscraft.github.io/blob/main/LICENSE.md)
 [![NSF Funded](https://img.shields.io/badge/NSF-Grant%20Supported-orange.svg?style=for-the-badge)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=9354476)
 [![Wikidata: Q141069817](https://img.shields.io/badge/Wikidata-Q141069817-006699.svg?style=for-the-badge&logo=wikidata)](https://www.wikidata.org/wiki/Q141069817)
+[![Wikipedia: The Geographer's Craft](https://img.shields.io/badge/Wikipedia-The%20Geographer's%20Craft-000000.svg?style=for-the-badge&logo=wikipedia)](https://en.wikipedia.org/wiki/The_Geographer%27s_Craft)
 
 **Preserving the pioneering 1990s web-based electronic textbook & laboratory curriculum in GIScience, GPS, cartography, and spatial techniques.**
 
-[🌐 Explore Live Site](https://geographerscraft.github.io/) • [📂 Core Repository](https://github.com/geographerscraft/geographerscraft.github.io) • [📜 License & Attribution](https://github.com/geographerscraft/geographerscraft.github.io/blob/main/LICENSE.md)
+[🌐 Explore Live Site](https://geographerscraft.github.io/) • [📖 Wikipedia Article](https://en.wikipedia.org/wiki/The_Geographer%27s_Craft) • [📂 Core Repository](https://github.com/geographerscraft/geographerscraft.github.io) • [📜 License & Attribution](https://github.com/geographerscraft/geographerscraft.github.io/blob/main/LICENSE.md)
 
 </div>
 
